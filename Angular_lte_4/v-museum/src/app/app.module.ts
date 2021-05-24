@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppMuseumIntroComponent } from './app-museum-intro/app-museum-intro.component';
 import { SideNavBarComponent } from './components/side-nav-bar/side-nav-bar.component';
 
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +13,8 @@ import { SideNavBarComponent } from './components/side-nav-bar/side-nav-bar.comp
     SideNavBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   // bootstrap: [AppComponent]

@@ -1,5 +1,29 @@
 # AuthDemo
 
+
+Auth POC -
+State as of May 13 2021 middle of day
+- three users authentication using jwt token admin / non admin
+- menu login / admin / logout
+TODO - A
+- final two lectures of Mosh on basic authentication and authorization
+- fill admin page orders 
+---- app will be like the class
+TODO - B
+add roles
+admin - only to update users
+itemAdmin - maintain items
+user  only products
+
+New user JSON
+{ 
+    name:
+    email:
+    userId:
+    password:
+    admin:
+    role:
+}
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
 ## Development server

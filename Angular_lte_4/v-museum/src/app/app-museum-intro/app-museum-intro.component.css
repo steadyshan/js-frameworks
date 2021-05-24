@@ -7,12 +7,7 @@
     border: 4px inset brown ;
     border-radius: 7px;
 }
-.right-nav {
-    float:right; 
-    width:15%; 
-    height:100%; 
-    padding:10px; 
-    background-color: aliceblue;
-    border: 4px outset darkblue ;
-    border-radius: 7px;
+H1 {
+    color:blue;
+    font-style:italics;
 }

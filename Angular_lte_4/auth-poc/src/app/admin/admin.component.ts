@@ -1,4 +1,5 @@
 import { OrderService } from './../services/order.service';
+import { AuthService } from './../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class AdminComponent implements OnInit {
   orders: any[];
 
-  constructor(private orderService: OrderService) { }
+  constructor(private orderService: OrderService, private authService: AuthService) { }
 
   ngOnInit() {
     this.orderService.getOrders()
