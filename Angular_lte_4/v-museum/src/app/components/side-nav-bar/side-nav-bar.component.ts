@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SideNavBarComponent implements OnInit {
   private userNotLoggedIn:boolean;
   private  _userId:string ;
+  private menus:any[] = [
+    {path: '/', label:'Home page', param:[]}
+  ]
   get userId():string {
     return this._userId;
   } 
@@ -23,6 +26,24 @@ export class SideNavBarComponent implements OnInit {
   }
   navigateStoragelogin() {
     localStorage.setItem('userId',this.userId);
+    this.menus = [ {path: '/', label:'Home page', param:[]}];
+    if (this.userId === 'steadyshan' || this.userId === 'songads') {
+      this.menus.push({path: '/content-manage', label:'Manage Content', param:[]})
+    }
+    for (let i = 0; i < 5 ; i++){
+      this.menus.push({path: 'view', label:'View', param:[i]})
+    }
+    // hard code 
+    /*
+     <ul>
+      <li> <a routerLink="/view/1">Theme1</a></li>
+      <li> <a routerLink="/view/2">Theme2</a></li>
+      <li> <a routerLink="/view/3">Theme3</a></li>
+      <li> <a routerLink="/view/4">Theme4</a></li>
+      <li> <a routerLink="/">Home</a></li>
+      <li> <a routerLink="content-manage">Content Management</a></li>
+    </ul>
+    */
     this.userNotLoggedIn = false ;
     
   }
