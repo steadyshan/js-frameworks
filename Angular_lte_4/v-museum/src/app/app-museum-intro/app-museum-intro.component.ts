@@ -15,8 +15,11 @@ export class AppMuseumIntroComponent implements OnInit {
       <p style='margin-bottom:10px;'> * This is a sampler</p>
     `;
    }
-
+  get showRegister() : boolean {
+    return localStorage.getItem('userRegister') === null ; 
+  }
   ngOnInit() {
+    
   }
 
 }

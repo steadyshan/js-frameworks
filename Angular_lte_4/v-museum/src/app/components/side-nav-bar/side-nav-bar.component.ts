@@ -21,12 +21,16 @@ export class SideNavBarComponent implements OnInit {
 
   ngOnInit() {
   }
-  login() {
+  navigateStoragelogin() {
     localStorage.setItem('userId',this.userId);
     this.userNotLoggedIn = false ;
+    
   }
-  logout() {
+  navigateStoragelogout() {
     localStorage.removeItem('userId');
     this.userNotLoggedIn = true ;
+  }
+  navigateStorageRegisterUser() {
+    localStorage.setItem('userRegister','true'); 
   }
 }
