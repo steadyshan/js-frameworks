@@ -12,12 +12,36 @@
     </p>
     <ul id='top'>
     <li><a href='#basics'>Basics, install, new project</a></li>
+    <li><a href='#buildingBlocks'>Building Blocks in an Angular app Source code</a></li>
+
+    <li><a href='#componentLifeCycle'>Component Life Cycle</a></li>
+    
 </ul>
 
-    <div id='basics'><h4>Basics, install, new project (all on command line )</h4>
+    <div id='basics'><h3>Basics, install, new project (all on command line )</h3>
 
         <ul>
             <li>npm install -g @angular/cli </li>
+            <li>change to specific angular vesion - 1 : npm uninstall -g @angular/cli </li>
+            <li>change to specific angular vesion - 2 : npm install -g @angular/cli@<em>wished.version.here</em></li>
+            <li>create and run app 1 : ng new <em>desired name of app</em> </li>
+            <li>create and run app 2 : cd <em>desired name of app</em> </li>
+            <li>create and run app 3 : ng serve </li>
+            <li>build </li>
+            <li>npm install -g @angular/cli </li>
+        </ul>
+    </div>
+    <div id='buildingBlocks'><h3>Building Blocks in an Angular app Source code</h3>
+
+        <ul>
+            <li><h4>Components</h4>
+                <ul>
+                    <li> Create new component<br><strong>ng g c <em>component name</em></strong><br/>
+                        creates a folder <em>component name</em>4 files 
+                        <p></p>--flat </li>
+                </ul>
+                <a href='#top'>Back to Top</a>
+        </li>
             <li>change to specific angular vesion - 2 : npm uninstall -g @angular/cli </li>
             <li>change to specific angular vesion - 1 : npm install -g @angular/cli@<em>wished.version.here</em></li>
             <li>create and run app 1 : ng new <em>desired name of app</em> </li>
@@ -25,8 +49,24 @@
             <li>create and run app 3 : ng serve </li>
             <li>build </li>
             <li>npm install -g @angular/cli </li>
-            <li><a href='#top'>Back to Top</a></li>
         </ul>
+        <a href='#top'>Back to Top</a>
+    </div>
+    <div id='componentLifeCycle'><h3>Component Life Cycle</h3>
+        in Sequence (the '..init' hooks occur ONLY during initial creation)
+        <ul>
+            <li>Constructor - class instantiation - use ONLY for initialization of class and sub class fields
+            <li>ngOnChanges - any data bound input changes</li>
+            <li>ngOnInit - initialize the directive or component<em>Called once, after 1st ngOnChanges</em></li>
+            <li>ngDoCheck - </li>
+            <li>ngAfterContentInit<em>Called once, after 1st ngDoCheck</em> </li>
+            <li>ngAfterContentChecked </li>
+            <li>ngAfterViewtInit<em>Called once, after 1st ngDoCheck</em> </li>
+            <li>ngAfterViewtChecked </li>
+            <li>ngOnDestroy</li>
+        </ul>
+
+        <a href='#top'>Back to Top</a>
     </div>
 </body>
 </html>
