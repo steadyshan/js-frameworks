@@ -12,6 +12,7 @@ import { MenuItemsComponent } from './components/menu-items/menu-items.component
 import { registerModuleFactory } from '@angular/core/src/linker/ng_module_factory_loader';
 import { ViewerComponent } from './components/viewer/viewer.component';
 import { ContentManagementComponent } from './components/admin/content-management/content-management.component';
+import { CategoriesService } from './services/categories.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,7 @@ import { ContentManagementComponent } from './components/admin/content-managemen
   {path: 'view/:theme', component: ViewerComponent },
   {path: 'content-manage', component: ContentManagementComponent }])
   ],
-  providers: [],
+  providers: [CategoriesService],
   bootstrap: [AppComponent]
   // bootstrap: [AppMuseumIntroComponent]
 })

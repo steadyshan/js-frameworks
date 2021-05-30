@@ -1,3 +1,9 @@
-<p>
-  viewer works!
-</p>
+ 
+<div>
+  <span id='thumbnails' *ngFor="let source of imageList">
+    <img src={{source}}  (click)='showFullSize(source)'/>
+  </span>
+</div>
+<div id='larger'>
+  <img src={{currentImage}}>
+</div>

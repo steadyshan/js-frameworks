@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { CategoriesService } from '../../services/categories.service';
 @Component({
   selector: 'app-side-nav-bar',
   templateUrl: './side-nav-bar.component.html',
@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SideNavBarComponent implements OnInit {
   private userNotLoggedIn:boolean;
   private  _userId:string ;
+  private _categories:string[]
   private menus:any[] = [
     {path: '/', label:'Home page', param:[]}
   ]
@@ -17,9 +18,10 @@ export class SideNavBarComponent implements OnInit {
   set userId(val :string) {
     this._userId = val;
   } 
-  constructor() { 
+  constructor(categoryServices: CategoriesService) { 
     this._userId = localStorage.getItem('userId') ;
     this.userNotLoggedIn = localStorage.getItem('userId') === null;
+    this._categories = categoryServices.Categories;
   }
 
   ngOnInit() {
@@ -30,8 +32,8 @@ export class SideNavBarComponent implements OnInit {
     if (this.userId === 'steadyshan' || this.userId === 'songads') {
       this.menus.push({path: '/content-manage', label:'Manage Content', param:[]})
     }
-    for (let i = 0; i < 5 ; i++){
-      this.menus.push({path: 'view', label:'View', param:[i]})
+    for (let i = 0; i < this._categories.length ; i++){
+      this.menus.push({path: 'view', label:`${this._categories[i]}`, param:[i]})
     }
     // hard code 
     /*
