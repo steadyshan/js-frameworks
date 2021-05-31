@@ -24,7 +24,16 @@ Roles will be (1)
 ## Notes
 1 This is a 'no backend' app. User info will be stored in the browser cache (localstorage)
 
+#Log and Targets
+May 30 2021
+1 Code and looks cleanup. remove stray messages on UI. styling
+2 Code error - use local storage to store menus DONE
+3.Use parameters from routing (see Mosh lectures)
+3 Automatic read of images from folder - no hard code (later, since there will be write up)
 
+* Mock service for menus and for users 
+* Role Based Menus
+* Proper authentication - once logged out only landing page to show
 ## Development server
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.10.

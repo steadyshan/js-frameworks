@@ -18,7 +18,7 @@
     <ul>
       <li *ngFor="let link of menus">
         <a *ngIf="link.param.length===0" routerLink="{{link.path}}">{{link.label}}</a>
-        <a *ngIf="link.param.length > 0" [routerLink]="['view',link.param[0]]">{{link.label}}{{link.param[0]}}</a>
+        <a *ngIf="link.param.length > 0" [routerLink]="['view',link.param]">{{link.label}}</a>
       </li>
     </ul>
     

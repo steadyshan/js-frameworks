@@ -11,8 +11,7 @@ export class AppMuseumIntroComponent implements OnInit {
   constructor() {
     this.introContent = `
        <H1>Welcome to my Art Presentation * </H1>
-       < 
-      <p style='margin-bottom:10px;'> * This is a sampler</p>
+       <p style='margin-bottom:10px;'> * This is a sampler</p>
     `;
    }
   get showRegister() : boolean {
