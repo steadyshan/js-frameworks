@@ -1,6 +1,6 @@
  
 <div>
-  <span id='thumbnails' *ngFor="let source of imageList">
+  <span id='thumbnails' *ngFor="let source of selectedImageList">
     <img src={{source}} (click)='showFullSize(source)'alt={{source.substring(35)}}x/>
   </span>
 </div>
