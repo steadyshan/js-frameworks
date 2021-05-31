@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MockStringBundlerHost } from '../../../../node_modules_1/@angular/tsc-wrapped/test/bundler_spec';
+// import * as fs from 'fs';
+// import { MockStringBundlerHost } from '../../../../node_modules_1/@angular/tsc-wrapped/test/bundler_spec';
 /* interface DataDetail {
   fileName:string;
   type:string;// 'img'
@@ -27,6 +28,7 @@ export class ViewerComponent implements OnInit {
 
   ngOnInit() {
     this.activatedRoute.paramMap.subscribe(params=> { console.log(JSON.stringify(params))});
+    
   }
 
   showFullSize(source:string) {

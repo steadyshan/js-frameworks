@@ -26,10 +26,10 @@ Roles will be (1)
 
 #Log and Targets
 May 30 2021
-1 Code and looks cleanup. remove stray messages on UI. styling
-2 Code error - use local storage to store menus DONE
-3.Use parameters from routing (see Mosh lectures)
-3 Automatic read of images from folder - no hard code (later, since there will be write up)
+1 Code and looks cleanup. remove stray messages on UI. styling WIP
+2 Code error - use local storage to store menus **DONE**
+3.Use parameters from routing (see Mosh lectures) WIP. Implementation ongoing
+3 --Automatic read of images from folder - no hard code (later, since there will be write up) -- Not feasible
 
 * Mock service for menus and for users 
 * Role Based Menus
