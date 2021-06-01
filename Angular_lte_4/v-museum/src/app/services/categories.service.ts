@@ -14,7 +14,7 @@ export class CategoriesService {
       { label: 'Sketch', key:'starters-x'},
       { label: 'Starter', key:'starters'},
       { label: 'Transport', key:'starters2'},
-      { label: 'Air', key:'planes'},
+      { label: 'Air', key:'photo-planes'},
       { label: 'Rail', key:'trains'},
       { label: 'Sea', key:'ships'},{ label: 'Automobiles', key:'cars'},
       

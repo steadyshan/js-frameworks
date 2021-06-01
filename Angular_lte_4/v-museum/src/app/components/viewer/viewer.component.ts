@@ -39,7 +39,11 @@ export class ViewerComponent implements OnInit {
           this.selectedImageList = [];
           foundList[0]
               .files
-              .forEach( fileData => this.selectedImageList.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, title: fileData.description }));
+              .forEach( fileData => {
+                fileData.fullFileName? 
+                  this.selectedImageList.push({ image: `${fileData.fullFileName}`, title: fileData.description }):
+                  this.selectedImageList.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, title: fileData.description });
+              });
           }
           this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
