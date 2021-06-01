@@ -1,3 +1,4 @@
+import { allImageList } from './data/image.list';
 import { CompileMetadataResolver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
@@ -15,100 +16,11 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./viewer.component.css']
 })
 export class ViewerComponent implements OnInit {
-  imageListX:string[] = [
-    `assets/all-images/starters/intro-Ganesh.jpg`,
-    `assets/all-images/starters/Aumkar-Ganesh-sept-2020-final.jpeg`,
-    `assets/all-images/starters/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`,
-    `assets/all-images/starters/unsignedShivVeena12272020.jpeg`,
-    `assets/all-images/starters/ShreeSiddhivinayakQ42020.jpeg`
-
-
-  ];
-  selectedImageList:string[] = [ `assets/all-images-demo/starters/su-30-1.jpeg`,
-  `assets/all-images-demo/starters/train1.jpeg`,
-  `assets/all-images-demo/starters/boat1.jpeg`,
-  `assets/all-images-demo/starters/car1.jpeg`,
-  `assets/all-images-demo/starters/dc-10-1.jpeg`,
-  `assets/all-images-demo/starters/train2.jpeg`,
-  `assets/all-images-demo/starters/ship1.jpeg`,
-  `assets/all-images-demo/starters/car2.jpeg`,];
-  imageList2:any[] = [
-   { 
-    folder:'starters',
-    files: [`su-30-1.jpeg`,
-            `train1.jpeg`,
-            `boat1.jpeg`,
-            `car1.jpeg`,
-            `dc-10-1.jpeg`,
-            `train2.jpeg`,
-            `ship1.jpeg`,
-            `car2.jpeg`,
-          ]
-   }, { 
-    folder:'planes',
-    files: [`su-30-1.jpeg`,
-    `dc-10-1.jpeg`,
-          ]
-   },{ 
-    folder:'trains',
-    files: [`train1.jpeg`,
-    `train2.jpeg`]
-   }, { 
-    folder:'ships',
-    files: [`boat1.jpeg`,
-            `ship1.jpeg`,
-          ]
-   }, { 
-    folder:'cars',
-    files: [`car1.jpeg`,
-            `car2.jpeg`,
-          ]
-   },
-
-  ];
-  imageList:any[] = [
-    { 
-     folder:'starters',
-     files: [`intro-Ganesh.jpg`,
-             `Aumkar-Ganesh-sept-2020-final.jpeg`,
-             `AumGaShivParKashiVishwCTLightNov172020Final.jpeg`,
-             `unsignedShivVeena12272020.jpeg`,
-             `ShreeSiddhivinayakQ42020.jpeg`,
-           ]
-    },{ 
-      folder:'starters-2',
-      files: [`su-30-1.jpeg`,
-              `train1.jpeg`,
-              `boat1.jpeg`,
-              `car1.jpeg`,
-              `dc-10-1.jpeg`,
-              `train2.jpeg`,
-              `ship1.jpeg`,
-              `car2.jpeg`,
-            ]
-     }, { 
-     folder:'planes',
-     files: [`su-30-1.jpeg`,
-     `dc-10-1.jpeg`,
-           ]
-    },{ 
-     folder:'trains',
-     files: [`train1.jpeg`,
-     `train2.jpeg`]
-    }, { 
-     folder:'ships',
-     files: [`boat1.jpeg`,
-             `ship1.jpeg`,
-           ]
-    }, { 
-     folder:'cars',
-     files: [`car1.jpeg`,
-             `car2.jpeg`,
-           ]
-    },
- 
-   ];
+  selectedImageList:any[] = [ ];
   currentImage =  this.selectedImageList[0]; // `assets/all-images-demo/starters/su-30-1.jpeg`;
+  themeHeader:string ='';
+  themeSummary:string = '';
+  currentIndex:number = 0 ;
   constructor(private activatedRoute:ActivatedRoute) { }
 
   ngOnInit() {
@@ -116,21 +28,43 @@ export class ViewerComponent implements OnInit {
     let foundList:any = null ;
     this.activatedRoute.paramMap.subscribe(param => 
       { 
-        themed = param; console.log(themed.params.theme);
-        foundList = this.imageList.filter(x => x.folder === themed.params.theme.toString());
+        themed = param; console.log(param.get('theme'));
+        foundList = allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
         if (foundList !== null && foundList.length > 0) {
           let foundFolder = foundList[0].folder;
+          this.themeHeader = '';
+          this.themeSummary = '';
+          if(foundList[0].theme) this.themeHeader = foundList[0].theme; 
+          if(foundList[0].themeSummary) this.themeSummary = foundList[0].themeSummary; 
           this.selectedImageList = [];
           foundList[0]
               .files
-              .forEach( fileName => this.selectedImageList.push(`assets/all-images/${foundFolder}/${fileName}`));
+              .forEach( fileData => this.selectedImageList.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, title: fileData.description }));
           }
+          this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
+          
       });
     
   
   }
+  prevImage() {
+    this.currentIndex-- ;
+    if (   this.currentIndex < 0 ) {
+      this.currentIndex = this.selectedImageList.length -1;
+   
+    }
 
+    this.currentImage = this.selectedImageList[this.currentIndex];
+  }
+  nextImage() {
+    this.currentIndex++ ;
+    if (this.currentIndex >= this.selectedImageList.length ) {
+      this.currentIndex = 0;
+    }
+
+    this.currentImage = this.selectedImageList[this.currentIndex];
+  }
   showFullSize(source:string) {
     this.currentImage = source;
   }

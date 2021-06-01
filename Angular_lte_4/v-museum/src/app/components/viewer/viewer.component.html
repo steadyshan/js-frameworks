@@ -1,9 +1,20 @@
  
 <div>
   <span id='thumbnails' *ngFor="let source of selectedImageList">
-    <img src={{source}} (click)='showFullSize(source)'alt={{source.substring(35)}}x/>
+    
+    <img src={{source.image}} (click)='showFullSize(source)' title={{source.title}}/> 
+    <!--alt={{source.fileName.substring(35)}}x/-->
   </span>
 </div>
-<div id='larger'>
-  <img src={{currentImage}} alt={{currentImage.substring(35)}}x>
+<h5 *ngIf="themeHeader !== ''">{{themeHeader}} </h5>
+<div *ngIf="themeSummary !== ''" [innerHTML]="themeSummary">
+  
+</div><button  (click)='prevImage()' title='next'
+        classs="default primary"><<</button>
+        <button  (click)='nextImage()' title='next'
+        classs="default primary">>></button>
+<br/>
+<div  id='larger'>
+  <div  id='larger'><img src={{currentImage.image}} /> </div>
+  <div style='float:left;margin-left:5px;border:2px inset goldenrod;'><span [innerHTML]="currentImage.title"></span></div>
 </div>

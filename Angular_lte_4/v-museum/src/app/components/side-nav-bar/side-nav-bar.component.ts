@@ -44,7 +44,7 @@ export class SideNavBarComponent implements OnInit {
     for (let i = 0; i < this._categories.length ; i++){
       this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key})
     }
-    alert(JSON.stringify(this.menus));
+    // alert(JSON.stringify(this.menus));
     localStorage.setItem('userMenu', JSON.stringify(this.menus));
     this.userNotLoggedIn = false ;
     
