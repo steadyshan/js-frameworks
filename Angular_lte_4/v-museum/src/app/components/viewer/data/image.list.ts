@@ -10,6 +10,13 @@ interface PicDescr {
        themeSummary?:string;
        files:PicDescr[];
    }
+   enum PicsIndex  {
+       aumkarGaneshSept2020Final,
+       AumGaShivParKashiVishwCTLightNov172020Final,
+       unsignedShivVeena12272020,
+       ShreeSiddhivinayakQ42020,
+       DeviMaaMay13182021,
+   };
    const bulkImageList:PicDescr[] = [
        {  
            fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
@@ -23,6 +30,14 @@ interface PicDescr {
               {  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
               description: 
                'test' },
+
+               { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, description: 'test' },
+               { fullFileName: 
+                     `assets/all-images/religion/devi/DeviMaaMay13-18-2021.jpeg`, 
+                     description: `<p>An 'unplanned' sketch:<br/>
+                                 One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg. </p>
+                                 <p>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.
+                                 <em>(Sometimes I keep a good handle on dates)</em></p> ` }
    ]
    export const allImageList:ImageElement[]  =  [
        { 
@@ -39,17 +54,11 @@ interface PicDescr {
         `,
         files: [{  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
                    description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
-                bulkImageList[0],
-                bulkImageList[1],
-                bulkImageList[2],
-               
-                { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, description: 'test' },
-                { fullFileName: 
-                       `assets/all-images/religion/devi/DeviMaaMay13-18-2021.jpeg`, 
-                       description: `<p>An 'unplanned' sketch:<br/>
-                                   One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg. </p>
-                                   <p>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.
-                                   <em>(Sometimes I keep a good handle on dates)</em></p> ` },
+                bulkImageList[PicsIndex.aumkarGaneshSept2020Final],
+                bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
+                bulkImageList[PicsIndex.unsignedShivVeena12272020],
+                bulkImageList[PicsIndex.ShreeSiddhivinayakQ42020],      
+                bulkImageList[PicsIndex.DeviMaaMay13182021],,
               ]
        },
        { 
