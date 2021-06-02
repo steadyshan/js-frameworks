@@ -5,11 +5,24 @@ div {
     background-color: beige;
     width:auto;
 }
+div:first-of-type {
+    max-width:84%;
+}
+#summaryDiv {
+    background-color: blanchedalmond;
+    max-width: 84%;
+    border:inset sandybrown 4px;
 
+    padding:10px;
+    color: #9529;
+    font-weight: 600;
+    font-style: italic;
+}
 #thumbnails {
     float: inline-end;
     padding:0;
     border:none;
+    width:250px;
     background-color: beige;
     width:auto;
 }

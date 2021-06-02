@@ -11,13 +11,23 @@ export class CategoriesService {
   constructor() { }
   get Categories(): ParamElement[] {
     return [
-      { label: 'Sketch', key:'starters-x'},
+      { label: 'Journey overview', key:'starters-x'},
+      { label: 'Journey overview', key:'starters-x'},
+      { label: 'Shree Ganesh', key:'shree-ganesh'},
+      { label: 'Goddesses', key:'devi'},
+      { label: 'Mahadev', key:'mahadev'},
+      { label: 'Mahadev and Family', key:'trains'},
+      { label: 'Sea', key:'ships'},{ label: 'Automobiles', key:'cars'},
+      
+
+       { label: 'Specials', key:'specials'},
+      /*
       { label: 'Starter', key:'starters'},
       { label: 'Transport', key:'starters2'},
       { label: 'Air', key:'photo-planes'},
       { label: 'Rail', key:'trains'},
       { label: 'Sea', key:'ships'},{ label: 'Automobiles', key:'cars'},
-      
+      */
 
        { label: 'Specials', key:'specials'},
             ];/*return [
