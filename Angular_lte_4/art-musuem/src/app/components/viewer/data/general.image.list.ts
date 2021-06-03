@@ -1,15 +1,5 @@
-export interface PicDescr {
-       fullFileName?:string;
-       fileName?:string;
-       description:string;
-       title?:string;
-   }
-export   interface ImageElement {
-       folder:string;
-       theme?:string;
-       themeSummary?:string;
-       files:any[];
-   }
+
+import { PicDescr, ImageElement } from './image.list'
    enum PicsIndex  {
        aumkarGaneshSept2020Final,
        AumGaShivParKashiVishwCTLightNov172020Final,
@@ -18,11 +8,12 @@ export   interface ImageElement {
        DeviMaaMay13182021,
        MixGenPlaneSept2020,
    };
-   const bulkImageList:PicDescr[] = [
+   export class GeneralImageList {
+    bulkImageList:PicDescr[] = [
        {  
            fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
            description: `
-              <p>One of my first 'properly, patiently' drawn sketches, Sept 2020</p>
+              <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
               ` }, 
            {  fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
               description: 
@@ -49,10 +40,10 @@ export   interface ImageElement {
                         <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
                         <li>Had a DC-10, Boeing 777-X and 737 (note radar hump before tail) in mind, so.. merged them into this</li></ul> ` },
    ]
-   export const allImageList:ImageElement[]  =  [
+   public allImageList:ImageElement[]  =  [
        { 
         folder:'starters-x',
-        theme:'INTRODUCING IT: A Journey',
+        theme:'INTRODUCTION: A Journey',
         themeSummary:
         `
          <p>This page attempts to capture points in my journey from third quarter 2020, when I started sketching, 
@@ -62,14 +53,25 @@ export   interface ImageElement {
           and the Goddesses. Structures. Famous personalities. so on...</p>
           <p> Hope you like these and get some pleasure out of watching, just as I have gotten a joy of drawing and sharing..</p> 
         `,
-        files: [bulkImageList[PicsIndex.ShreeSiddhivinayakQ42020],   
-                bulkImageList[PicsIndex.MixGenPlaneSept2020],
+        files: [
+                this.bulkImageList[PicsIndex.ShreeSiddhivinayakQ42020],   
+                this.bulkImageList[PicsIndex.MixGenPlaneSept2020],
                 {  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
                    description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
-                bulkImageList[PicsIndex.aumkarGaneshSept2020Final],
-                bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
-                bulkImageList[PicsIndex.unsignedShivVeena12272020],
-                bulkImageList[PicsIndex.DeviMaaMay13182021],{  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarsimhaJayanti526_fn_6022021.jpeg`, 
+                this.bulkImageList[PicsIndex.aumkarGaneshSept2020Final],
+                {  
+                        fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-sept-29-2020.jpeg`, 
+                        description: `
+                        <ul>
+                        <li>Sept 29 2020, inspired by my engineering mate Shankar Mahadevan</li>
+                        <li>He has somehow sung lot of SHree Ganesh Songs</li>
+                        <li>Words in Devanagiri 'Sur Niragas Ho' literally mean 'Let the tune be innocent'</li>
+                        <li>These words are the opening line in the 1st song of the movie version of 'Katyar Kaljat Ghusali'</li>
+                        </ul>
+                        ` },
+                this.bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
+                this.bulkImageList[PicsIndex.unsignedShivVeena12272020],
+                this.bulkImageList[PicsIndex.DeviMaaMay13182021],{  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarsimhaJayanti526_fn_6022021.jpeg`, 
                 description: `<ul>
                                 <li><strong>LATEST UPDATED (June 2 2021)</strong></li>
                                 <li>Shree Narsimha Jayanti was May 26, when I release the first iteration (see the section on Vishnu)</li>
@@ -97,18 +99,19 @@ export   interface ImageElement {
               theme:'Durga, Laxmi, Saraswati and Avatars',
               themeSummary:
               ``,
-              files: [  bulkImageList[PicsIndex.DeviMaaMay13182021], ]
+              files: [  this.bulkImageList[PicsIndex.DeviMaaMay13182021], ]
              },
              { 
                  folder:'mahadev',
                  theme:'Lord Shiva',
                  themeSummary:
                  ``,
-                 files: [ bulkImageList[PicsIndex.unsignedShivVeena12272020],
+                 files: [ this.bulkImageList[PicsIndex.unsignedShivVeena12272020],
                        ]
                 },{ 
          folder:'mahadev-family',
-         files: [bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
+         files: [
+                    this.bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
                ]
         }, { 
             folder:'laxmi-vishnu-hanuman',
@@ -140,7 +143,7 @@ export   interface ImageElement {
         },{ 
         folder:'planes',
         files: [
-            bulkImageList[PicsIndex.MixGenPlaneSept2020],
+            this.bulkImageList[PicsIndex.MixGenPlaneSept2020],
             { fullFileName: 
                 `assets/all-images/planes/planes_firefightdc10-sept-2020.jpeg`, 
                 description: `<ul><li>Generic DC-10 firefighter attempt  Sept 10  2020</li></ul> ` },
@@ -173,3 +176,5 @@ export   interface ImageElement {
        },
     
       ];
+    }
+   

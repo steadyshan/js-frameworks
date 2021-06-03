@@ -1,4 +1,6 @@
-import { allImageList } from './data/image.list';
+import { GaneshImageList } from './data/ganesh.image.list';
+import { GeneralImageList } from './data/general.image.list';
+import { allImageList, ImageElement } from './data/image.list';
 import { CompileMetadataResolver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
@@ -10,12 +12,15 @@ import { ActivatedRoute } from '@angular/router';
   folder:string;
 }
 */
+
 @Component({
   selector: 'app-viewer',
   templateUrl: './viewer.component.html',
   styleUrls: ['./viewer.component.css']
 })
 export class ViewerComponent implements OnInit {
+  allImageList:ImageElement[] = [];
+  genImageList:any = null ;
   selectedImageList:any[] = [ ];
   currentImage =  this.selectedImageList[0]; // `assets/all-images-demo/starters/su-30-1.jpeg`;
   themeHeader:string ='';
@@ -25,11 +30,21 @@ export class ViewerComponent implements OnInit {
 
   ngOnInit() {
     let themed:any = null ;
-    let foundList:any = null ;
+    let foundList:ImageElement[] = [] ;
     this.activatedRoute.paramMap.subscribe(param => 
       { 
         themed = param; console.log(param.get('theme'));
-        foundList = allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
+        let strParam = (param.get('theme'));
+        switch(strParam) {
+          case 'starters-x': this.genImageList = new GeneralImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'shree-ganesh': this.genImageList = new GaneshImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          default: this.allImageList = allImageList ; break;
+        }
+        foundList = this.allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
         if (foundList !== null && foundList.length > 0) {
           let foundFolder = foundList[0].folder;
           this.themeHeader = '';

@@ -6,14 +6,14 @@ div {
     width:auto;
 }
 div:first-of-type {
-    max-width:84%;
+    max-width:80%;
 }
 h5 {
     margin:2px;
 }
 #summaryDiv {
     background-color: blanchedalmond;
-    max-width: 84%;
+    width: 80%;
     border:inset sandybrown 4px;
     height:auto;
     overflow:auto;
@@ -35,6 +35,7 @@ h5 {
     max-height: 50px;
 }
 #larger {
+    width: 75%;
     float:left;
 }
 #larger > img {
