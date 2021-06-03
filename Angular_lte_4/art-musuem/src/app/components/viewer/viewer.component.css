@@ -1,0 +1,45 @@
+div {
+    float: inline-end;
+    padding:2px;
+    border:3px outset gray;
+    background-color: beige;
+    width:auto;
+}
+div:first-of-type {
+    max-width:84%;
+}
+h5 {
+    margin:2px;
+}
+#summaryDiv {
+    background-color: blanchedalmond;
+    max-width: 84%;
+    border:inset sandybrown 4px;
+    height:auto;
+    overflow:auto;
+    max-height:100px;
+    color: #9529;
+    font-weight: 600;
+    font-style: italic;
+}
+#thumbnails {
+    float: inline-end;
+    padding:0;
+    border:none;
+    width:250px;
+    background-color: beige;
+    width:auto;
+}
+#thumbnails > img {
+    max-width: 200px;
+    max-height: 50px;
+}
+#larger {
+    float:left;
+}
+#larger > img {
+
+    max-width: 700px;
+    max-height: 700px;
+
+}

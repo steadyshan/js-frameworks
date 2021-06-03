@@ -1,0 +1,11 @@
+
+.right-nav {
+    float:right; 
+    width:15%; 
+    height:100%; 
+    min-height:480px;
+    padding:10px; 
+    background-color: aliceblue;
+    border: 4px outset darkblue ;
+    border-radius: 7px;
+}
