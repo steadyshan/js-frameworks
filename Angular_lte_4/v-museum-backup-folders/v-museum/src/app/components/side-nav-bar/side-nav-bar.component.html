@@ -1,0 +1,29 @@
+
+  <div class="right-nav">
+    <div *ngIf="userNotLoggedIn; else elseBlock">
+      <input type='text' placeholder='User Name' [(ngModel)]="userId">
+      <input type='password' placeholder='password'>
+      <input type='button' value='login' (click)='navigateStoragelogin()'>
+      <ul>
+        <li> <a routerLink="/register">Register</a></li>
+        <li> <a routerLink="/">Home</a></li>
+      </ul>
+    <input type='button' value='Register' (click)='navigateStorageRegisterUser()'>
+    
+
+    </div>
+    <ng-template #elseBlock>
+    <div>  
+    Welcome {{userId}}
+    <ul>
+      <li *ngFor="let link of menus">
+        <a *ngIf="link.param.length===0" routerLink="{{link.path}}">{{link.label}}</a>
+        <a *ngIf="link.param.length > 0" [routerLink]="['view',link.param]">{{link.label}}</a>
+      </li>
+    </ul>
+    
+      <input type='button' value='logout' (click)='navigateStoragelogout()'>
+      
+    </div>
+        </ng-template>
+  </div>

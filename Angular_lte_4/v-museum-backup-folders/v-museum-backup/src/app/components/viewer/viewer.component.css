@@ -1,0 +1,24 @@
+div {
+    float: inline-end;
+    padding:2px;
+    border:3px outset gray;
+    background-color: beige;
+    width:auto;
+}
+
+#thumbnails {
+    float: inline-end;
+    padding:0;
+    border:none;
+    background-color: beige;
+    width:auto;
+}
+#thumbnails > img {
+    max-width: 200px;
+    max-height: 50px;
+}
+#larger > img {
+
+    max-width: 600px;
+    max-height: 600px;
+}

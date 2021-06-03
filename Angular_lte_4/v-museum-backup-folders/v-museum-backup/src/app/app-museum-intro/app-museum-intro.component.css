@@ -1,0 +1,13 @@
+.main-content {
+    float:left; 
+    width:84%; 
+    height:100%; 
+    padding:10px; 
+    background-color: beige;
+    border: 4px inset brown ;
+    border-radius: 7px;
+}
+H1 {
+    color:blue;
+    font-style:italics;
+}
