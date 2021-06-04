@@ -17,6 +17,8 @@ export class CategoriesService {
       { label: 'Mahadev', key:'mahadev'},
       { label: 'Mahadev and Family', key:'mahadev-family'},
       { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', key:'laxmi-vishnu-hanuman'},
+      { label: 'Satgurus of Lord Datta Lineage', key:'dattavatar'},
+      { label: 'Shirdi Sai Q1 Q2 2021', key:'shirdi-sai-q1-q2-2021'},
       { label: 'Aircraft', key:'planes'},
       
       /*

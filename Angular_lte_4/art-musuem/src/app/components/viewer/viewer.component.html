@@ -12,12 +12,14 @@
   <div *ngIf="themeSummary !== ''" 
       style='border:none;background-color: inherit; padding: 0; margin:0;' [innerHTML]="themeSummary">
   </div>
-</div>
+</div><button  (click)='prevImage()' title='next'
+class="responser"><<</button>
+<button  (click)='nextImage()' title='next'
+class="responser">>></button>
+<button  (click)='ActualSize = !ActualSize' title='next'
+class="responser">toggle actual size</button>
 <div  id='larger'>
-  <img src={{currentImage.image}} /> 
+  <!-- --><img id="actualSize"  src={{currentImage.image}} *ngIf="ActualSize.toString() === 'true'"/> 
+  <img id="smallerSize" src={{currentImage.image}} *ngIf="ActualSize.toString() === 'false'" /> 
   <div style='float:left;margin-left:5px;border:2px inset goldenrod;max-width: 300px;'><span [innerHTML]="currentImage.title"></span></div>
 </div>
-<button  (click)='prevImage()' title='next'
-        classs="default primary"><<</button>
-        <button  (click)='nextImage()' title='next'
-        classs="default primary">>></button>

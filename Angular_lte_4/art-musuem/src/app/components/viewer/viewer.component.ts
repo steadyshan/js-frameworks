@@ -1,9 +1,12 @@
 import { GaneshImageList } from './data/ganesh.image.list';
+import { DattavatarImageList } from './data/dattavatar.image.list';
+import { ShirdiSaiQ1Q22021ImageList} from './data/shirdi-sai-q2-2020.list';
 import { GeneralImageList } from './data/general.image.list';
 import { allImageList, ImageElement } from './data/image.list';
 import { CompileMetadataResolver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { from } from 'rxjs';
 // import * as fs from 'fs';
 // import { MockStringBundlerHost } from '../../../../node_modules_1/@angular/tsc-wrapped/test/bundler_spec';
 /* interface DataDetail {
@@ -26,8 +29,14 @@ export class ViewerComponent implements OnInit {
   themeHeader:string ='';
   themeSummary:string = '';
   currentIndex:number = 0 ;
+  _actualSize:boolean = false;
   constructor(private activatedRoute:ActivatedRoute) { }
-
+  get ActualSize():boolean {
+    return this._actualSize;
+  }
+  set ActualSize(val:boolean) {
+    this._actualSize = val ;
+  }
   ngOnInit() {
     let themed:any = null ;
     let foundList:ImageElement[] = [] ;
@@ -40,6 +49,12 @@ export class ViewerComponent implements OnInit {
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'shree-ganesh': this.genImageList = new GaneshImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'dattavatar': this.genImageList = new DattavatarImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           default: this.allImageList = allImageList ; break;
