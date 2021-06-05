@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > It's (intended to be) a generic simple image display single page app, started around 1st week of June 2021 to showcase my sketches, and to be able to deploy to Google's Firebase Hosting  
 Started originally on Angular 2 (4), I ran in
 
-[The website in cuurent state](https://art-is-worship.web.app/)
+[The website in cuurent state ('open in new tab')](https://art-is-worship.web.app/)
 
 ## Development server
 
