@@ -26,16 +26,27 @@ export class ViewerComponent implements OnInit {
   genImageList:any = null ;
   selectedImageList:any[] = [ ];
   currentImage =  this.selectedImageList[0]; // `assets/all-images-demo/starters/su-30-1.jpeg`;
+  iterationIndex = 0;
   themeHeader:string ='';
   themeSummary:string = '';
   currentIndex:number = 0 ;
   _actualSize:boolean = false;
+  _iterations:boolean = false ;
   constructor(private activatedRoute:ActivatedRoute) { }
   get ActualSize():boolean {
     return this._actualSize;
   }
   set ActualSize(val:boolean) {
     this._actualSize = val ;
+  }
+  get Iterations():boolean {
+    return this._iterations;
+  }
+  set Iterations(val:boolean) {
+    this._iterations = val ;
+  }
+  get CurrentImage(): string {
+    return JSON.stringify(this.currentImage);
   }
   ngOnInit() {
     let themed:any = null ;
@@ -71,12 +82,24 @@ export class ViewerComponent implements OnInit {
               .files
               .forEach( (fileData:any) => {
                 fileData.fullFileName? 
-                  this.selectedImageList.push({ image: `${fileData.fullFileName}`, title: fileData.description }):
-                  this.selectedImageList.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, title: fileData.description });
+                  this.selectedImageList.push({ 
+                    image: `${fileData.fullFileName}`, 
+                    title: fileData.description,
+                    iterations: fileData.iterations? fileData.iterations:[],
+                    iterationIndex:0 }):
+                  this.selectedImageList.push({ 
+                    image: `assets/all-images/${foundFolder}/${fileData.fileName}`, 
+                    title: fileData.description,
+                    iterations: fileData.iterations? fileData.iterations:[],
+                    iterationIndex:0 
+                   });
               });
           }
           this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
+          if (this.currentImage.iterations.length > 0) {
+            this.currentImage.iterations.unshift(this.currentImage.image );
+          }
           
       });
     
@@ -97,6 +120,12 @@ export class ViewerComponent implements OnInit {
     }
 
     this.currentImage = this.selectedImageList[this.currentIndex];
+  }
+  navigatedIteration() {
+    this.currentImage.iterationIndex++;
+    if (this.currentImage.iterationIndex > (this.currentImage.iterations.length -1))
+      this.currentImage.iterationIndex = 0;
+    this.currentImage.inage =  this.currentImage.iterations[this.currentImage.iterationIndex].fullFileName;
   }
   nextImage() {
     this.currentIndex++ ;

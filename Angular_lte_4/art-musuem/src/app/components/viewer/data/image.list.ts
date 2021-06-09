@@ -3,6 +3,7 @@ export interface PicDescr {
        fileName?:string;
        description:string;
        title?:string;
+       iterations?:PicDescr[];
    }
 export   interface ImageElement {
        folder:string;

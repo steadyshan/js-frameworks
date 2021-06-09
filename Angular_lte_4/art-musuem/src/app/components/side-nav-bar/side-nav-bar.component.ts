@@ -1,5 +1,8 @@
+import { Router } from '@angular/router';
 /*eslint-disable */
+import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { NumberLiteralType } from 'typescript';
 import { CategoriesService } from '../../services/categories.service';
 interface ParamElement {
   label:string;
@@ -12,6 +15,7 @@ interface ParamElement {
 })
 export class SideNavBarComponent implements OnInit {
   userNotLoggedIn:boolean;
+  smallScreenIndex:number = 0;
   private  _userId:string = '';
   private _categories:any;
   private menus:any[] = [
@@ -26,7 +30,7 @@ export class SideNavBarComponent implements OnInit {
   set userId(val :string) {
     this._userId = val;
   } 
-  constructor(private categoryServices: CategoriesService) { 
+  constructor(private categoryServices: CategoriesService, private router: Router) { 
     let  a:any  = ''; //
     a = localStorage.getItem('userId');
     if (a)this._userId = a;
@@ -55,6 +59,38 @@ export class SideNavBarComponent implements OnInit {
     localStorage.setItem('userMenu', JSON.stringify(this.menus));
     this.userNotLoggedIn = false ;
     
+  }
+  setMenuIndex(factor:number) {
+    this.smallScreenIndex += factor;
+    if(this.smallScreenIndex < 1) {
+      this.smallScreenIndex = this.Menus.length - 1;
+    } else if (this.smallScreenIndex === this.menus.length) {
+      this.smallScreenIndex = 1;
+    }
+    //if(this.smallScreenIndex === 0 ? factor < 0 
+    const route = this.smallScreenIndex > 0 ?  '/view' : '/';
+    const params = this.smallScreenIndex > 0 ?  this.menus[this.smallScreenIndex].param : '';
+    this.router.navigate([route, params]).then( (e) => {
+      if (e) {
+        console.log("Navigation is successful!");
+      } else {
+        console.log("Navigation has failed!");
+      }
+    });
+    // alert(JSON.stringify(this.menus[this.smallScreenIndex].param));
+    // this.router.navigate(['view'], { queryParams: { key: 'starters-x' } });
+      
+  }
+  getMenuIndex(factor:number):number {
+    this.smallScreenIndex += factor;
+    if(this.smallScreenIndex < 0) {
+      this.smallScreenIndex = this.Menus.length - 1;
+    } else if (this.smallScreenIndex === this.menus.length) {
+      this.smallScreenIndex = 0;
+    }
+    alert(JSON.stringify(this.menus[this.smallScreenIndex].param));
+   return this.smallScreenIndex;
+      
   }
   navigateStoragelogout() {
     localStorage.removeItem('userId');

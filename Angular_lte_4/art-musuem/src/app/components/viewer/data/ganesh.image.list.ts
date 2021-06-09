@@ -52,25 +52,40 @@ public allImageList:ImageElement[]  =  [
                     fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
                     description: `
                     <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
-                    ` },
-                    {  
-                        fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-sept-29-2020.jpeg`, 
-                        description: `
-                        <ul>
-                        <li>Sept 29 2020, inspired by my engineering mate Shankar Mahadevan</li>
-                        <li>He has somehow sung lot of SHree Ganesh Songs</li>
-                        <li>Words in Devanagiri 'Sur Niragas Ho' literally mean 'Let the tune be innocent'</li>
-                        <li>These words are the opening line in the 1st song of the movie version of 'Katyar Kaljat Ghusali'</li>
-                        <li>I revisited this sketch, adding more detail -- see next </li>
-                        </ul>
-                        ` },
+                    `,
+                iterations:[
+                    
+                    { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
+                    description: `
+                    <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
+                    `}, { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020.jpeg`, 
+                    description: `
+                    <ul><li>Initial sketch, Sept 2020</li></ul>
+                    `},
+                ] },
                         {  
                             fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-Nov2-2020FINAL.jpeg`, 
                             description: `
                             <ul>
                             <li>  revisited this sketch, adding more detail -- see prev </li>
                             </ul>
-                            ` },
+                            `,
+                            iterations:[  
+                                { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-Nov2-2020FINAL.jpeg`, 
+                            description: `<ul>
+                            <li>Nov 2 2020, Final version .. inspired by my engineering mate Shankar Mahadevan</li>
+                            <li>He has somehow sung lot of SHree Ganesh Songs</li>
+                            <li>Words in Devanagiri 'Sur Niragas Ho' literally mean 'Let the tune be innocent'</li>
+                            <li>These words are the opening line in the 1st song of the movie version of 'Katyar Kaljat Ghusali'</li>
+                            <li>Click 'itertion' to see the previous version </li>
+                            <li>I revisited this sketch, adding more detail -- see next </li>
+                            </ul>
+                            `},
+                                { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-sept-29-2020.jpeg`, 
+                            description: `<ul>
+                            <li>Sept 29 2020 Initial version - click iterations to go back </li>
+                            </ul>
+                            `}], },
                     { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
                     description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch' },
               ]
