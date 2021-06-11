@@ -28,7 +28,15 @@ public allImageList:ImageElement[]  =  [
                             <li> With Covid, very relevant </li>
                             <li><em>
                             (I drew this initially with Baba having angry face, then on suggest changed to current expression  - I may post the other version later)
-                            </em></li></ul>` 
+                            </em></li></ul>` ,
+                    iterations:[
+                        {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaGrindingWheatQ1Q2021.jpg`, 
+                            description: `<ul><li> 1st Chapter Sai Satcharit Theme - Baba grinding wheat which He used to sprinkle on the perimeters of Shirdi to ward of Cholera epidemic</li>
+                            <li> With Covid, very relevant </li>
+                            <li><em> See the earlier iteration - I drew this initially with Baba having angry face, then on suggest changed to current expression</em></li></ul>` },
+                            {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaGrindingWheatMarch42021-1.jpeg`, 
+                            description: `<ul><li>InitiaL iteration - see Baba's expression - this was intended as an anger at the pandemic /li></ul>` },
+                    ]
                     
                     },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaMakingPrasadQ1Q22021.jpg`, 
                 description: `<b>Theme from a chapter in Sai Satcharita where Baba used to make two kinds of prasad - one with and one without meat</b>` 
@@ -90,6 +98,18 @@ public allImageList:ImageElement[]  =  [
                     <li>Baba sketch based off one of the three templates I created, this is Milpitas Temple Baba portrait.</li>
                     <li>Probably April 29 2021</li></ul>
                    ` } ,  {  
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFaceTemplate05082021.jpeg`, 
+                    description: `
+                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                        <li>Baba sketch based off one of the three templates I created, this is Milpitas Temple Baba portrait.</li>
+                        <li>Probably the Thursday before or after May 8 2021</li></ul>
+                       ` } ,  {  
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiTemplateKhanderaya-May2021-Sai.jpeg`, 
+                    description: `
+                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                        <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
+                        <li>Probably April 29 2021</li></ul>
+                       ` } , {  
                     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05202021_full.jpeg`, 
                     description: `
                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>
@@ -101,9 +121,57 @@ public allImageList:ImageElement[]  =  [
                        <li>Based of one of the three templates I created, this is Milpitas Temple Baba with night robes..</li>
                        <li>June 3 2021 - big idol head scarf was light almost light green, shawl is red, </li>
                        <li>small idol light creamish robes</li></ul>
-                       ` }
-                
-                    
+                       `,
+                    iterations:[{  
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-June3-2021.jpeg`, 
+                        description: `
+                           <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                           <li>Based of one of the three templates I created, this is Milpitas Temple Baba with night robes..</li>
+                           <li>June 3 2021 - big idol head scarf was light almost light green, shawl is red, </li>
+                           <li>small idol light creamish robes</li>
+                           <li> <em>Having saved the initial pencil strokes after tracing from the template, click 'iterations' to see the start</em></ul>
+                           `,} ,
+                           {
+                           fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-June3-2021-start.jpeg`,
+                           description: `
+                           <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                           <li>The starting point of thus 'templatized' sketch.</li>
+                           <li> A technique we used in Engineering Drawing</li>
+                           <li>Place of original over  a backlit glass (I used a monitor/display with a white screen) giving a 
+                           transcluceny</li>
+                           <li>Place thh canvass - blank paper - over this and trace out the basic outlinez</li>
+                           <li>I trace only the bare minimum 'frame' then fill in details anew to make the sketch different
+                            See the Sai portraits earlier</li></ul>
+                           `,}
+
+
+
+                    ] },,
+                    {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-with-throne-June6-8-2021-shared.jpeg`, 
+                    description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
+                 iterations:[
+                     { 
+                         fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-with-throne-June6-8-2021-shared.jpeg`,
+                         description: `<ul><li>With Covid going on Baba at Milpitas is rarely seen with the 'simhasana' throne..</li>
+                         <li>This is an attempt to capture how this looks - June 6-8 2021 </li></ul>`,
+                  },{ 
+                         fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-with-throne-June6-8-2021-v2.jpeg`,
+                         description: '<ul><li>Before finger refinements</li></ul>'},
+                         { 
+                            fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-with-throne-June6-8-2021-start.jpeg`,
+                            description: '<ul><li>initial iteration</li></ul>'}
+                     ] }, {  
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/General-Baba-on-Stone-June-4-5-2021-v2.jpeg`, 
+                        description: '<ul><li>General Baba sketch - 1st week June 2021 - most likely will add more and refine..</li> </ul>',
+                        iterations:[
+                            { fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/General-Baba-on-Stone-June-4-5-2021-v2.jpeg`, 
+                        description: '<ul><li>General Baba sketch - 1st week June 2021 - most likely will add more and refine..</li></ul>',
+                        },
+                        { 
+                            fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/General-Baba-on-Stone-June-4-5-2021-v1.jpeg`, 
+                            description: '<ul><li>General Baba sketch - 1st iteration</li> </ul>',
+                        }]
+                     }
               ]
        }
  

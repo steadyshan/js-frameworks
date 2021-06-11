@@ -1,6 +1,10 @@
+import { LatestUploadsImageList } from './data/latest-uploads.list';
+import { LabeledStatement } from 'typescript';
 import { GaneshImageList } from './data/ganesh.image.list';
+import { SwamiSamarthaImageList } from './data/swami-samartha.image.list'
 import { DattavatarImageList } from './data/dattavatar.image.list';
 import { ShirdiSaiQ1Q22021ImageList} from './data/shirdi-sai-q2-2020.list';
+import { TrainImageList } from './data/trains.list'
 import { GeneralImageList } from './data/general.image.list';
 import { allImageList, ImageElement } from './data/image.list';
 import { CompileMetadataResolver } from '@angular/compiler';
@@ -55,7 +59,11 @@ export class ViewerComponent implements OnInit {
       { 
         themed = param; console.log(param.get('theme'));
         let strParam = (param.get('theme'));
+        this.genImageList =  null;
         switch(strParam) {
+          case 'latest-uploads': this.genImageList = new LatestUploadsImageList();
+                                 this.allImageList = this.genImageList.allImageList ;
+                                 break;
           case 'starters-x': this.genImageList = new GeneralImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
@@ -63,6 +71,12 @@ export class ViewerComponent implements OnInit {
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'dattavatar': this.genImageList = new DattavatarImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'swami-samartha': this.genImageList = new SwamiSamarthaImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'trains': this.genImageList = new TrainImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
@@ -97,7 +111,7 @@ export class ViewerComponent implements OnInit {
           }
           this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
-          if (this.currentImage.iterations.length > 0) {
+          if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
             this.currentImage.iterations.unshift(this.currentImage.image );
           }
           

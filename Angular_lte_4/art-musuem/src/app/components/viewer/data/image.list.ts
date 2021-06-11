@@ -105,7 +105,14 @@ export   interface ImageElement {
                  theme:'Lord Shiva',
                  themeSummary:
                  ``,
-                 files: [ bulkImageList[PicsIndex.unsignedShivVeena12272020],
+                 files: [ bulkImageList[PicsIndex.unsignedShivVeena12272020]
+                 ,  {  
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiTemplateKhanderaya-May2021-Sai.jpeg`, 
+                    description: `
+                        <ul>
+                        <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
+                        <li>Probably April 29 2021</li></ul>
+                       ` }
                        ]
                 },{ 
          folder:'mahadev-family',

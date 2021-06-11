@@ -18,6 +18,7 @@
 <button  (click)='ActualSize = !ActualSize' title='next' class="btn btn-primary responser">toggle size</button>
 <button  *ngIf="currentImage.iterations.length > 0" (click)='navigatedIteration()' title='next' class="btn btn-primary responser">Iterations</button>
 <div  id='larger'  *ngIf="currentImage.iterations.length === 0"> 
+  
   <!-- --><img id="actualSize"  src={{currentImage.image}} *ngIf="ActualSize.toString() === 'true'"/> 
   <img id="smallerSize" src={{currentImage.image}} *ngIf="ActualSize.toString() === 'false'" /> 
   <div style='float:left;margin-left:5px;border:2px inset goldenrod;max-width: 300px;'>
@@ -26,7 +27,7 @@
   
 </div>
 <div  id='larger'  *ngIf="currentImage.iterations.length > 0"> 
-  <!-- --><img id="actualSize"  src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} *ngIf="ActualSize.toString() === 'true'"/> 
+   <!-- --><img id="actualSize"  src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} *ngIf="ActualSize.toString() === 'true'"/> 
   <!--img id="smallerSize" src={{currentImage.image}} *ngIf="ActualSize.toString() === 'false'" /--> 
     
     <img id="smallerSize" src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} /> 
