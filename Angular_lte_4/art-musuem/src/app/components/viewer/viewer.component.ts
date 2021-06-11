@@ -1,4 +1,6 @@
+import { MahadevImageList } from './data/mahadev.image.list';
 import { LatestUploadsImageList } from './data/latest-uploads.list';
+import { PlanesImageList } from './data//planes.image.list';
 import { LabeledStatement } from 'typescript';
 import { GaneshImageList } from './data/ganesh.image.list';
 import { SwamiSamarthaImageList } from './data/swami-samartha.image.list'
@@ -27,6 +29,7 @@ import { from } from 'rxjs';
 })
 export class ViewerComponent implements OnInit {
   allImageList:ImageElement[] = [];
+  sortThumbnails:string = '';
   genImageList:any = null ;
   selectedImageList:any[] = [ ];
   currentImage =  this.selectedImageList[0]; // `assets/all-images-demo/starters/su-30-1.jpeg`;
@@ -70,12 +73,18 @@ export class ViewerComponent implements OnInit {
           case 'shree-ganesh': this.genImageList = new GaneshImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
+          case 'mahadev': this.genImageList = new MahadevImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
           case 'dattavatar': this.genImageList = new DattavatarImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'swami-samartha': this.genImageList = new SwamiSamarthaImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
+          case 'planes':  this.genImageList = new PlanesImageList();  
+          this.allImageList = this.genImageList.allImageList ;
+          break;        
           case 'trains': this.genImageList = new TrainImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
@@ -118,6 +127,19 @@ export class ViewerComponent implements OnInit {
       });
     
   
+  }
+  toggleSort(){
+    // let tempList = JSON.parse(JSON.stringify(this.selectedImageList)
+    let downCount = JSON.parse(JSON.stringify(this.selectedImageList));
+    this.selectedImageList = [];
+    for (let m of downCount){
+      this.selectedImageList.unshift(m);
+    }
+    this.currentIndex = 0;
+          this.currentImage = this.selectedImageList[0];
+          if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
+            this.currentImage.iterations.unshift(this.currentImage.image );
+          }
   }
   headerStyle():any {
      let currentHeight = '40px';

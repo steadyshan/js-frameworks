@@ -47,7 +47,10 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
             theme:'SHree Swami Samartha',
             themeSummary:
             `Swami Samartha the 4th Avatar of Shree Dattatreya (sequence include Lord Datta himself). `,
-            files: [ {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
+            files: [
+                {  
+                    fullFileName: `assets/all-images/religion/swami-samartha/Swami-april28-2021.jpg`, 
+                    description: `<ul><li>Typical Swami image</li></ul>`}, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
             description: `<ul>
                     <li> Attempt to capture Swami's face as per tyhe pictures in the 'Matth' at Shivaji Park, Dadar, Mumbai</li>
                     <li> June 8-9 2021</li>

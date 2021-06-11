@@ -1,14 +1,8 @@
 
 import { PicDescr, ImageElement } from './image.list'
-enum PicsIndex  {
-    aumkarGaneshSept2020Final,
-    AumGaShivParKashiVishwCTLightNov172020Final,
-    unsignedShivVeena12272020,
-    ShreeSiddhivinayakQ42020,
-    DeviMaaMay13182021,
-    MixGenPlaneSept2020,
-};
+
 export class GaneshImageList {
+ sort: string = 'asc'
  bulkImageList:PicDescr[] = [
     {  
         fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
@@ -46,7 +40,9 @@ public allImageList:ImageElement[]  =  [
         theme:'Shree Ganesh',
         themeSummary:
         ``,
-        files: [{  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
+        files: [{fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
+        description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
+        {  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
                    description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
                 {  
                     fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
@@ -88,6 +84,31 @@ public allImageList:ImageElement[]  =  [
                             `}], },
                     { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
                     description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch' },
+                    { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshRadioZTueFeb232021.jpeg`, 
+                    description: `<ul>
+                            <li>Based off of the idol of Ganeshotsav Bay Area. Organized primarily by Radio Zindagi and some Bay Area personalities like Amit and Renuka Inamdar</li>
+                            <li>This is a 15 foot idol which is sort of permanent 
+                            (no physical 'visarjan'<br/> 
+                                the idol is dismantled after the utsav and reassembled next year's utsav, with different clothes ).</li>
+                            <li>Based off of the idol of the famous Mumbai Lalbaug festivak deity 'Lalbaugcha Raja', the Bay Area Utsav was started in 2015.</li>
+                            <li>Sketch drawn Feb 23 2021 - I classify this as 'WIP' and hope to return to complete it.</li>
+                            <li><em> One benefit of this website is a realization that this is a good handle of re-discovering unfinished work</em></li>
+                            </ul>`
+                     },
+                    { fullFileName: `assets/all-images/religion/shree-ganesh/DictationOfMahabharatMarch092021.jpeg`, 
+                    description: `<ul>
+                    <li>Attempt to depict a famous secene related to Mahabharat</li>
+                    <li>Lord Brahma recommended Shree Ganesh to Sage Vyas for putting pen and paper to the Latter's Magnificent Poem</li>
+                    <li>Shree Ganesh agreed on the pre-condition that the moment His pen required to pause, He would stop writing; 
+                        that there should should be no gap, no interrupt</li>
+                    <li>The wily Sage put a counter condition that Ganesh ji should write only after He understood the meaning</li>
+                    <li>So the dictation began and legend has it that the Sage packed so much meaning and depth into the narration that 'even 
+                    the omniscient Ganesh has to pause and think to interpret what He was writing'.</li>
+                    <li> This gave the Sage time to compose while the God of Wisdom understood and wrote</li>
+                    <li>Sketch drawn Marh 8-9 2021. Like the Bay Area GAnesh sketch designated as 'WIP'; even more so </li>
+                    </ul>`},
+                    // DictationOfMahabharatMarch092021.jpeg
+                    // DictationOfMahabharatMarch092021.jpeg
               ]
        }
  

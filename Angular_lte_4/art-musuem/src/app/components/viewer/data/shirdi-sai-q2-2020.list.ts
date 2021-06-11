@@ -44,7 +44,9 @@ public allImageList:ImageElement[]  =  [
                     },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba4VdeKamadhenuQ1Q22021.jpg`, 
                     description: `<ul><li> Lord Dattatreya is depicted with 4 dogs depicting 4 vedas and a cow - Kamadhenu, so adapted for Baba here.. </li> </ul>` 
                         
-                        },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaCLoseDevotees.jpg`, 
+                        },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiShyamKaran.jpg`,
+                        description: `<ul><li> Baba with ShyamKaran, His horse friend</li></ul>`},
+                        {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaCLoseDevotees.jpg`, 
                         description: `<ul><li> Baba sharing Chillum with close devotees - attempt to show Shama, Hemadpant and a couple of others </li></ul>` 
                             
                             },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05272021_all.jpeg`, 
@@ -59,7 +61,21 @@ public allImageList:ImageElement[]  =  [
                 description: `<ul><li><strong> Milpitas CA Temple Sai</strong> - well, sort of </li>
                         <li>Inspired by the importance of Ramnavmi and the Muslim 'urus' in Shirdi and the celebrations at Milpitas Temple..</li>
                         <li>Baba showing 'chandan' hand prints - ritual at Milpitas on Ramnavmi - to Hanuman, Shree Ram, Sita maa, and shree Laxmam </li>
-                        <li><em>(Laxman had gone for coffee break when I drew this initially - then added Him later - hope to post that version ;) ;) !!! )</em></li> </ul>` 
+                        <li><em>(Laxman had gone for coffee break when I drew this initially - then added Him later - hope to post that version ;) ;) !!! )</em></li> </ul>`,
+                        iterations: [
+                            { 
+                                fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaRamNavmi2021.jpg`, 
+                                description: `<ul><li><strong> Milpitas CA Temple Sai</strong> - well, sort of </li>
+                                <li>Inspired by the importance of Ramnavmi and the Muslim 'urus' in Shirdi and the celebrations at Milpitas Temple..</li>
+                                <li>Baba showing 'chandan' hand prints - ritual at Milpitas on Ramnavmi - to Hanuman, Shree Ram, Sita maa, and shree Laxmam </li>
+                                <li><em>(Laxman had gone for coffee break when I drew this initially - see iteration ;) ;) !!! )</em></li> </ul>`},
+                                { 
+                                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaRamNavmi2021-2.jpg`, 
+                                    description: `<ul><li><strong> Milpitas CA Temple Sai</strong> - well, sort of </li>
+                                    <li>Baba with Shree Ram and associates - Laxman is away having coffee - will be back for next.. !!</li> </ul>`}
+                                
+
+                        ] 
                     
                     }, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFaceTemplate4152021.jpg`, 
             description: `<ul>

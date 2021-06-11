@@ -116,7 +116,34 @@ export   interface ImageElement {
                        ]
                 },{ 
          folder:'mahadev-family',
-         files: [bulkImageList[PicsIndex.AumGaShivParKashiVishwCTLightNov172020Final],
+         files: [
+            {  fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
+               description: 
+               `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citylight, Mumbai
+               <br/>Nov 17 2020`},
+            {  
+             fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/MahadevParvatiDanceFeb142021.jpeg`, 
+                description: `<ul>
+                                        <li>The first of sketches of a favorite theme of mine dancing Mahadev and consort (Sati/ Parvati)</li>
+                                        <li>Drawn and shared by St. Valentine's day 2021 - this is based off of the colors serial 'Devo ke Dev Mahadev;'</li>
+                                        <li>Mohit Raina and Sonarika Bhadoria</li>
+                                </ul>`,
+                },
+                {  
+                 fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/MahadevParvatiDanceMarch112021Shivratri.jpeg`, 
+                    description: `<ul>
+                                            <li>Another dancing poses Mahadev and consort (Sati/ Parvati)</li>
+                                            <li>Search and found pics of two dancers in this pose and drew with Mahadev and Parvati </li>
+                                            <li>Around Shivratri - March 11 2021 (Attempt to sketch Mt Kailash in the background)</li>
+                                    </ul>`,
+                    },
+                    {  
+                     fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/GaneshMahadevParvatiMarch122021Shivratri+1.jpeg`, 
+                        description: `<ul>
+                                        <li>Inspired by the Laxmi Narayan sketch </li>
+                                        <li>Around Shivratri - March 11 2021 (Attempt to sketch Mt Kailash in the background)</li>
+                                        </ul>`,
+                        }
                ]
         }, { 
             folder:'laxmi-vishnu-hanuman',
