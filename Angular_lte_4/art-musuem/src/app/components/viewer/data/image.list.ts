@@ -138,6 +138,14 @@ export   interface ImageElement {
                                     </ul>`,
                     },
                     {  
+                     fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/MahadevParvatiDancePoseQ1Q22021i.jpg`, 
+                     description: `<ul>
+                                             <li>Another dancing poses Mahadev and consort (Sati/ Parvati)</li>
+                                             <li>Like the neighbor, searched and found pics of two dancers in this pose and drew with Mahadev and Parvati </li>
+                                             <li>After March 11 2021 but by Q2 2021</li>
+                                     </ul>`,
+                     },
+                    {  
                      fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/GaneshMahadevParvatiMarch122021Shivratri+1.jpeg`, 
                         description: `<ul>
                                         <li>Inspired by the Laxmi Narayan sketch </li>

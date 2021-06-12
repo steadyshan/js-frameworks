@@ -47,6 +47,7 @@ export class SideNavBarComponent implements OnInit {
   }
   navigateStoragelogin() {
     this._categories = (this.categoryServices.Categories);
+    console.log(`${this._categories}`)
     localStorage.setItem('userId',this.userId);
     this.menus = [ {path: '/', label:'Home page', param:[]}];
     if (this.userId === 'steadyshan' || this.userId === 'songads') {

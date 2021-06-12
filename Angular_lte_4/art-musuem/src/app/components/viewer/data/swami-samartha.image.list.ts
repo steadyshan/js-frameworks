@@ -50,7 +50,18 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
             files: [
                 {  
                     fullFileName: `assets/all-images/religion/swami-samartha/Swami-april28-2021.jpg`, 
-                    description: `<ul><li>Typical Swami image</li></ul>`}, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
+                    description: `<ul><li>Typical Swami image</li></ul>`}, 
+                    
+                {  
+                    fullFileName: `assets/all-images/religion/swami-samartha/SwamiSamarthaDeviMarch082021.jpeg`,
+                    description: `<ul><li>Swami's Devi Roop sketched 1st week March 2021</li></ul>`  
+                }, 
+                    
+                {  
+                    fullFileName: `assets/all-images/religion/swami-samartha/SwamiSamarthaKhanderayaMarch12021Shivratri+1.jpeg`,
+                    description: `<ul><li>Swami's KHandoba Roop sketched around Shivratri - March 2021</li></ul>`  
+                },
+                     {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
             description: `<ul>
                     <li> Attempt to capture Swami's face as per tyhe pictures in the 'Matth' at Shivaji Park, Dadar, Mumbai</li>
                     <li> June 8-9 2021</li>
@@ -65,7 +76,7 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
                             fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021.jpeg`,
                             description: '<ul><li>initial iteration</li></ul>'},
                         ] },
-                   
+                        // SwamiSamarthaKhanderayaMarch12021Shivratri+1
                   ]
            }
      

@@ -22,6 +22,7 @@ export class CategoriesService {
       { label: 'Satgurus of Lord Datta Lineage', key:'dattavatar', roles:['relgion','all']},
       { label: 'Shree Swami Samartha', key:'swami-samartha', roles:['relgion','all']},
       { label: 'Shirdi Sai Q1 Q2 2021', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
+      { label: 'People and Places', key:'people-places', roles:['nonLiving','all']},
       { label: 'Rail', key:'trains', roles:['nonLiving','all']},
       { label: 'Aircraft', key:'planes', roles:['nonLiving','all']},
       { label: 'Ships and Cars', key:'planes', roles:['nonLiving','all']},

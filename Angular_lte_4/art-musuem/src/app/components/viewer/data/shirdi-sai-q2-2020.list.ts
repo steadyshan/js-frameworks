@@ -126,11 +126,6 @@ public allImageList:ImageElement[]  =  [
                         <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
                         <li>Probably April 29 2021</li></ul>
                        ` } , {  
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05202021_full.jpeg`, 
-                    description: `
-                       <ul><li><strong> Milpitas CA Temple Sai</strong></li>
-                       <li>May 20, 2021</li></ul>
-                       ` }, {  
                     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-June3-2021.jpeg`, 
                     description: `
                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>
@@ -162,7 +157,13 @@ public allImageList:ImageElement[]  =  [
 
 
 
-                    ] },,
+                    ] }, {  
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05202021_full.jpeg`, 
+                        description: `
+                           <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                           <li>May 20, 2021</li>
+                           <li><em>(This was pushed here so one can get a back to back view of Baba with throne (immediate neighbor) and without (this)</em></li></ul>
+                           ` },
                     {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-with-throne-June6-8-2021-shared.jpeg`, 
                     description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
                  iterations:[

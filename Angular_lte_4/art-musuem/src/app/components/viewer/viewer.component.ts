@@ -1,4 +1,5 @@
 import { MahadevImageList } from './data/mahadev.image.list';
+import { PeoplePlacesImageList } from './data/people-places.image.list';
 import { LatestUploadsImageList } from './data/latest-uploads.list';
 import { PlanesImageList } from './data//planes.image.list';
 import { LabeledStatement } from 'typescript';
@@ -63,6 +64,7 @@ export class ViewerComponent implements OnInit {
         themed = param; console.log(param.get('theme'));
         let strParam = (param.get('theme'));
         this.genImageList =  null;
+        console.log(themed);
         switch(strParam) {
           case 'latest-uploads': this.genImageList = new LatestUploadsImageList();
                                  this.allImageList = this.genImageList.allImageList ;
@@ -89,6 +91,9 @@ export class ViewerComponent implements OnInit {
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'people-places': this.genImageList = new PeoplePlacesImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           default: this.allImageList = allImageList ; break;
