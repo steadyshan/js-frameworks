@@ -1,3 +1,4 @@
+import { DeviImageList } from './data/devi.image.list';
 import { MahadevImageList } from './data/mahadev.image.list';
 import { PeoplePlacesImageList } from './data/people-places.image.list';
 import { LatestUploadsImageList } from './data/latest-uploads.list';
@@ -76,6 +77,9 @@ export class ViewerComponent implements OnInit {
           case 'shree-ganesh': this.genImageList = new GaneshImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
+          case 'devi': this.genImageList = new DeviImageList();
+          this.allImageList = this.genImageList.allImageList ;
+          break;
           case 'mahadev': this.genImageList = new MahadevImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
