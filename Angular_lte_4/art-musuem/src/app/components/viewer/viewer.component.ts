@@ -29,6 +29,7 @@ import { from } from 'rxjs';
   styleUrls: ['./viewer.component.css']
 })
 export class ViewerComponent implements OnInit {
+  iterativeText = 'ITERATIONS';
   allImageList:ImageElement[] = [];
   sortThumbnails:string = '';
   genImageList:any = null ;
@@ -111,6 +112,7 @@ export class ViewerComponent implements OnInit {
               .forEach( (fileData:any) => {
                 fileData.fullFileName? 
                   this.selectedImageList.push({ 
+                    iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
                     image: `${fileData.fullFileName}`, 
                     title: fileData.description,
                     iterations: fileData.iterations? fileData.iterations:[],
@@ -126,7 +128,9 @@ export class ViewerComponent implements OnInit {
           this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
           if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
-            this.currentImage.iterations.unshift(this.currentImage.image );
+            //this.currentImage.iterations.unshift(this.currentImage.image );
+            this.currentImage.iterationIndex = 0;
+          
           }
           
       });
@@ -143,7 +147,8 @@ export class ViewerComponent implements OnInit {
     this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
           if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
-            this.currentImage.iterations.unshift(this.currentImage.image );
+            // this.currentImage.iterations.unshift(this.currentImage.image );
+            this.currentImage.iterationIndex = 0;
           }
   }
   headerStyle():any {
@@ -161,6 +166,7 @@ export class ViewerComponent implements OnInit {
     }
 
     this.currentImage = this.selectedImageList[this.currentIndex];
+    this.currentImage.iterationIndex = 0;
   }
   navigatedIteration() {
     this.currentImage.iterationIndex++;
@@ -175,9 +181,19 @@ export class ViewerComponent implements OnInit {
     }
 
     this.currentImage = this.selectedImageList[this.currentIndex];
+    this.currentImage.iterationIndex = 0;
   }
   showFullSize(source:string) {
+    if (this.currentImage.iterativeText) {
+      this.iterativeText = this.currentImage.iterativeText;
+    } else {
+      this.iterativeText = 'Iterations';
+    }
     this.currentImage = source;
+
+    this.currentImage.iterationIndex = 0;
+    console.log (JSON.stringify(this.currentImage));
+    
   }
 
 }

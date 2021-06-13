@@ -16,7 +16,9 @@
 <button  (click)='prevImage()' title='prev' class="btn btn-secondary responser" ><<</button>
 <button  (click)='nextImage()' title='next' class="btn btn-secondary responser"  >>></button>
 <button  (click)='ActualSize = !ActualSize' title='next' class="btn btn-primary responser">toggle size</button>
-<button  *ngIf="currentImage.iterations.length > 0" (click)='navigatedIteration()' title='next' class="btn btn-primary responser">Iterations</button>
+<!-- 
+  <button  *ngIf="currentImage.iterations.length > 0" (click)='navigatedIteration()' title='next' class="btn btn-primary responser">Iterations</button>
+-->
 <button  (click)='toggleSort()' title='next' class="btn btn-primary responser">Toggle Order</button>
 <div  id='larger'  *ngIf="currentImage.iterations.length === 0"> 
   
@@ -31,10 +33,14 @@
    <!-- --><img id="actualSize"  src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} *ngIf="ActualSize.toString() === 'true'"/> 
   <!--img id="smallerSize" src={{currentImage.image}} *ngIf="ActualSize.toString() === 'false'" /--> 
     
-    <img id="smallerSize" src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} /> 
+    <img id="smallerSize" src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}}  *ngIf="ActualSize.toString() === 'false'"/> 
     <!--alt={{source.fileName.substring(35)}}x/-->
    <div style='float:left;margin-left:5px;border:2px inset goldenrod;max-width: 300px;'>
-    <span [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></span>
+    <button  *ngIf="currentImage.iterations.length > 0"
+      (click)='navigatedIteration()' 
+      title='next' class="btn btn-primary responser" style='max-width:105px;'>Iterations</button> * 
+      <br/><span [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></span>
+      * <em>Click the button on top in this div to see versions or components of the main sketch</em>
+
   </div>
-  
 </div>

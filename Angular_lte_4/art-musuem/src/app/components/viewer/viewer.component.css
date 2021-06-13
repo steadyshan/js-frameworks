@@ -11,6 +11,9 @@ div:first-of-type {
 h5 {
     margin:2px;
 }
+#smallList {
+    border:2px solid red;
+}
 #summaryDiv {
     background-color: blanchedalmond;
     width: 80%;

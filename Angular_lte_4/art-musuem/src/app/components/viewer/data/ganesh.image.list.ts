@@ -39,9 +39,35 @@ public allImageList:ImageElement[]  =  [
         folder:'shree-ganesh',
         theme:'Shree Ganesh',
         themeSummary:
-        ``,
+        `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [{fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
-        description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
+        description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
+        iterations:[  
+            { fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
+        description: `<ul>
+                      <li><strong>Ashtavinayak Ganesh's</strong><br/>
+                           Top to bottom,  L to R:<br/>
+                           <ul>
+                            <li>Shree Moreshwar</li>
+                            <li>Shree Siddhivinayak</li>
+                            <li>Shree Ballaleshwar</li>
+                            <li>Shree WardaVinayak</li>
+                            <li>Shree Chintamani</li>
+                            <li>Shree Girijatmaja</li>
+                            <li>Shree Vigneshwar</li>
+                            <li>Shree Mahaganapati</li>
+                           </ul>
+                      </li>
+                      <li>Inspired to try color pencils </li>
+                      <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
+                      <li>Approx March 31 2021</li></ul>`},
+                      { fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-bw.jpeg`, 
+        description: `<ul>
+                      <li><strong>Ashtavinayak Ganesh's B/W</strong><br/> </li>
+                      <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
+                      <li>Approx March 31 2021</li></ul>`}
+                    ]
+        },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
                    description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
                 {  
