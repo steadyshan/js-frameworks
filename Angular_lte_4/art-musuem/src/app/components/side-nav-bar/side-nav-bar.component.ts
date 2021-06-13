@@ -17,6 +17,7 @@ export class SideNavBarComponent implements OnInit {
   userNotLoggedIn:boolean;
   smallScreenIndex:number = 0;
   private  _userId:string = '';
+  private  _password:string = '';
   private _categories:any;
   private menus:any[] = [
     {path: '/', label:'Home page', param:[]}
@@ -29,6 +30,12 @@ export class SideNavBarComponent implements OnInit {
   } 
   set userId(val :string) {
     this._userId = val;
+  } 
+  get password():string {
+    return this._password? this._password : '';
+  } 
+  set password(val :string) {
+    this._password = val;
   } 
   constructor(private categoryServices: CategoriesService, private router: Router) { 
     let  a:any  = ''; //
@@ -49,6 +56,7 @@ export class SideNavBarComponent implements OnInit {
     this._categories = (this.categoryServices.Categories);
     console.log(`${this._categories}`)
     localStorage.setItem('userId',this.userId);
+    localStorage.setItem('password',this.password);
     this.menus = [ {path: '/', label:'Home page', param:[]}];
     if (this.userId === 'steadyshan' || this.userId === 'songads') {
       this.menus.push({path: '/content-manage', label:'Manage Content', param:[]})
@@ -96,6 +104,7 @@ export class SideNavBarComponent implements OnInit {
   navigateStoragelogout() {
     localStorage.removeItem('userId');
     localStorage.removeItem('userMenu');
+    this.router.navigate(['']);
     this.userNotLoggedIn = true ;
   }
   navigateStorageRegisterUser() {
