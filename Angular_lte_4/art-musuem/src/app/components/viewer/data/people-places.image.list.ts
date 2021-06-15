@@ -35,6 +35,19 @@ export class PeoplePlacesImageList {
                                  {fullFileName: `assets/all-images/people-places/UnsignedPortraitPtBhimsenJoshiJan242021.jpeg`, 
                                  description: `<ul><li>Close up/li></ul>`}
                               ] },
+                              {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-3.jpeg`, 
+                              description: '<p>Maharaj on horseback attempt based on Masunda Lake, Thane statue</p>',
+                   iterations:[
+                      {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-3.jpeg`, 
+                      description: `<ul><li>June 13-14 2021 - photo posted on my RAIT group by Vinu, another Bhimsen Fan</li>
+                                        <li>Inspired to sketch</li></ul>`},
+                 
+                      {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-2.jpeg`, 
+                      description: `<ul><li>June 13-14 2021 - interim</li></ul>`},
+                 
+                      {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-start.jpeg`, 
+                      description: `<ul><li>June 13-14 2021 - start</li></ul>`}
+                   ] },
 {fullFileName: `assets/all-images/people-places/UnsignedWIPActressNutanAttemptJan2021.jpeg`, 
              description: '<p>Attempt to sketch Nutan Jan 2021</p>' },
 {fullFileName: `assets/all-images/people-places/UnsignedWIPBalasaheb_NetajiJan232021.jpeg`, 

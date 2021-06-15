@@ -52,7 +52,20 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
                     <li> Attempt to capture Swami's face as per tyhe pictures in the 'Matth' at Shivaji Park, Dadar, Mumbai</li>
                     <li> June 8-9 2021</li>
                              </ul>`,
-       },{  fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021-v2.jpeg`, 
+       },
+       {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-3.jpeg`, 
+       description: '<p>Maharaj on horseback attempt based on Masunda Lake, Thane statue</p>',
+iterations:[
+{fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-3.jpeg`, 
+description: `<ul><li>June 13-14 2021 - photo posted on my RAIT group by Vinu, another Bhimsen Fan</li>
+                 <li>Inspired to sketch</li></ul>`},
+
+{fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-2.jpeg`, 
+description: `<ul><li>June 13-14 2021 - interim</li></ul>`},
+
+{fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-start.jpeg`, 
+description: `<ul><li>June 13-14 2021 - start</li></ul>`}
+] },{  fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021-v2.jpeg`, 
                        description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
                     iterations:[
                         { 
