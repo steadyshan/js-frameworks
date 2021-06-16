@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 import {Router, RouterModule } from '@angular/router';
 import { RegisterAddUserComponent } from './components/admin/register-add-user/register-add-user.component';
 import { MenuItemsComponent } from './components/menu-items/menu-items.component';
-import { ViewerComponent } from './components/viewer/viewer.component';
+// import { ViewerComponent } from './components/viewer/viewer.component';
 import { ContentManagementComponent } from './components/admin/content-management/content-management.component';
 import { CategoriesService } from './services/categories.service';
 @NgModule({
@@ -22,7 +22,7 @@ import { CategoriesService } from './services/categories.service';
     SideNavBarComponent,
     RegisterAddUserComponent,
     MenuItemsComponent,
-    ViewerComponent,
+    // ViewerComponent,
     RegularViewerComponent,
     UnpluggedViewerComponent,
     ContentManagementComponent

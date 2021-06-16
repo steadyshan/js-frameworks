@@ -19,8 +19,8 @@ export class SideNavBarComponent implements OnInit {
   private  _userId:string = '';
   private  _password:string = '';
   private _categories:any;
-  private _unplugged: boolean = false ;
-  private _viewLink:string = `/view`;
+  private _unplugged: boolean = true ;
+  private _viewLink:string = `/unplugged-view`;
   unpluggedSet() {
     this._unplugged = true ;
   }
@@ -118,6 +118,8 @@ export class SideNavBarComponent implements OnInit {
     localStorage.removeItem('userMenu');
     this.router.navigate(['']);
     this.userNotLoggedIn = true ;
+    this._unplugged  = false ;
+    this._viewLink  = `/view`;
   }
   navigateStorageRegisterUser() {
     localStorage.setItem('userRegister','true'); 

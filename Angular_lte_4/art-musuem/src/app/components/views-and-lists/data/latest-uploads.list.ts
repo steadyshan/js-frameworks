@@ -47,7 +47,28 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             theme:'Latest Uploads',
             themeSummary:
             `Showing latest uploads over a week`,
-            files: [ {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
+            files: [ {  
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
+                description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
+                iterations:[ {
+                    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
+                    description: `<ul>
+                    <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                    <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                    <li>June 15 2021</li></ul>`
+                },  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-2.jpeg`, 
+                description: `<ul>
+                <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                <li>June 15 2021</li></ul>`
+            },   { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-1.jpeg`, 
+            description: `<ul>
+            <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+            <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+            <li>June 15 2021</li></ul>`
+        },
+                ],
+        },{  fullFileName: `assets/all-images/religion/swami-samartha/SwamiDadarMathJubne8-9-2021.jpeg`, 
             description: `<ul>
                     <li> Attempt to capture Swami's face as per tyhe pictures in the 'Matth' at Shivaji Park, Dadar, Mumbai</li>
                     <li> June 8-9 2021</li>

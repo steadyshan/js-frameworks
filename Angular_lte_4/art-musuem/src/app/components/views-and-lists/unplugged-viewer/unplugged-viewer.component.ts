@@ -1,16 +1,16 @@
-import { DeviImageList } from '../views-and-lists/data/devi.image.list';
-import { MahadevImageList } from './data/mahadev.image.list';
-import { PeoplePlacesImageList } from './data/people-places.image.list';
-import { LatestUploadsImageList } from './data/latest-uploads.list';
-import { PlanesImageList } from './data//planes.image.list';
-import { LabeledStatement } from 'typescript';
-import { GaneshImageList } from './data/ganesh.image.list';
-import { SwamiSamarthaImageList } from './data/swami-samartha.image.list'
-import { DattavatarImageList } from './data/dattavatar.image.list';
-import { ShirdiSaiQ1Q22021ImageList} from './data/shirdi-sai-q2-2020.list';
-import { TrainImageList } from './data/trains.list'
-import { GeneralImageList } from './data/general.image.list';
-import { allImageList, ImageElement } from './data/image.list';
+import { ImageDataService } from './../../../services/image-data.service';
+import { DeviImageList } from '../data/devi.image.list';
+import { MahadevImageList } from '../data/mahadev.image.list';
+import { PeoplePlacesImageList } from '../data/people-places.image.list';
+import { LatestUploadsImageList } from '../data/latest-uploads.list';
+import { PlanesImageList } from '../data/planes.image.list';
+import { GaneshImageList } from '../data/ganesh.image.list';
+import { SwamiSamarthaImageList } from '../data/swami-samartha.image.list'
+import { DattavatarImageList } from '../data/dattavatar.image.list';
+import { ShirdiSaiQ1Q22021ImageList} from '../data/shirdi-sai-q2-2020.list';
+import { TrainImageList } from '../data/trains.list'
+import { GeneralImageList } from '../data/general.image.list';
+import { allImageList, ImageElement } from '../data/image.list';
 import { CompileMetadataResolver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
@@ -25,16 +25,17 @@ import { from } from 'rxjs';
 */
 
 @Component({
-  selector: 'app-viewer',
-  templateUrl: './viewer.component.html',
-  styleUrls: ['./viewer.component.css']
+  selector: 'app-unplugged-viewer',
+  templateUrl: './unplugged-viewer.component.html',
+  styleUrls: ['./unplugged-viewer.component.css']
 })
-export class ViewerComponent implements OnInit {
+export class UnpluggedViewerComponent implements OnInit {
   iterativeText = 'ITERATIONS';
   allImageList:ImageElement[] = [];
   sortThumbnails:string = '';
   genImageList:any = null ;
   selectedImageList:any[] = [ ];
+  imageGroups:any[] = [];
   currentImage =  this.selectedImageList[0]; // `assets/all-images-demo/starters/su-30-1.jpeg`;
   iterationIndex = 0;
   themeHeader:string ='';
@@ -57,6 +58,10 @@ export class ViewerComponent implements OnInit {
   }
   get CurrentImage(): string {
     return JSON.stringify(this.currentImage);
+  }
+  
+  groupImages() {
+
   }
   ngOnInit() {
     let themed:any = null ;
@@ -111,9 +116,21 @@ export class ViewerComponent implements OnInit {
           if(foundList[0].theme) this.themeHeader = foundList[0].theme; 
           if(foundList[0].themeSummary) this.themeSummary = foundList[0].themeSummary; 
           this.selectedImageList = [];
+          this.imageGroups = [];
           foundList[0]
               .files
               .forEach( (fileData:any) => {
+                let groupImages:string[] = [] ;
+                if(fileData.iterations !== undefined && fileData.iterations.length > 0) {
+                  fileData.iterations.forEach((element:any) => {
+                    groupImages.push(element.fullFileName);
+                  });
+                } else {
+                  fileData.fullFileName? 
+                    groupImages.push(fileData.fullFileName): 
+                    groupImages.push(`assets/all-images/${foundFolder}/${fileData.fileName}`);
+                }
+                this.imageGroups.push({ imageList:groupImages} );
                 fileData.fullFileName? 
                   this.selectedImageList.push({ 
                     iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
@@ -140,64 +157,6 @@ export class ViewerComponent implements OnInit {
       });
     
   
-  }
-  toggleSort(){
-    // let tempList = JSON.parse(JSON.stringify(this.selectedImageList)
-    let downCount = JSON.parse(JSON.stringify(this.selectedImageList));
-    this.selectedImageList = [];
-    for (let m of downCount){
-      this.selectedImageList.unshift(m);
-    }
-    this.currentIndex = 0;
-          this.currentImage = this.selectedImageList[0];
-          if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
-            // this.currentImage.iterations.unshift(this.currentImage.image );
-            this.currentImage.iterationIndex = 0;
-          }
-  }
-  headerStyle():any {
-     let currentHeight = '40px';
-     let paddinghTop = '-5px';
-     if (this.themeSummary !== '')
-        currentHeight = '100px';
-     return  { height:  currentHeight, 'padding-top': paddinghTop } ;
-  }
-  prevImage() {
-    this.currentIndex-- ;
-    if (   this.currentIndex < 0 ) {
-      this.currentIndex = this.selectedImageList.length -1;
-   
-    }
-
-    this.currentImage = this.selectedImageList[this.currentIndex];
-    this.currentImage.iterationIndex = 0;
-  }
-  navigatedIteration() {
-    this.currentImage.iterationIndex++;
-    if (this.currentImage.iterationIndex > (this.currentImage.iterations.length -1))
-      this.currentImage.iterationIndex = 0;
-    this.currentImage.inage =  this.currentImage.iterations[this.currentImage.iterationIndex].fullFileName;
-  }
-  nextImage() {
-    this.currentIndex++ ;
-    if (this.currentIndex >= this.selectedImageList.length ) {
-      this.currentIndex = 0;
-    }
-
-    this.currentImage = this.selectedImageList[this.currentIndex];
-    this.currentImage.iterationIndex = 0;
-  }
-  showFullSize(source:string) {
-    if (this.currentImage.iterativeText) {
-      this.iterativeText = this.currentImage.iterativeText;
-    } else {
-      this.iterativeText = 'Iterations';
-    }
-    this.currentImage = source;
-
-    this.currentImage.iterationIndex = 0;
-    console.log (JSON.stringify(this.currentImage));
-    
   }
 
 }

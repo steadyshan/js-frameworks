@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViewerComponent } from './viewer.component';
+import { UnpluggedViewerComponent } from './unplugged-viewer.component';
 
-describe('ViewerComponent', () => {
-  let component: ViewerComponent;
-  let fixture: ComponentFixture<ViewerComponent>;
+describe('UnpluggedViewerComponent', () => {
+  let component: UnpluggedViewerComponent;
+  let fixture: ComponentFixture<UnpluggedViewerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ViewerComponent ]
+      declarations: [ UnpluggedViewerComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ViewerComponent);
+    fixture = TestBed.createComponent(UnpluggedViewerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

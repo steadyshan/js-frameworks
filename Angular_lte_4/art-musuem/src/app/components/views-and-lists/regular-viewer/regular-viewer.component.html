@@ -1,7 +1,6 @@
  
 <div>
   <span id='thumbnails' *ngFor="let source of selectedImageList">
-    
     <img src={{source.image}} (click)='showFullSize(source)' title={{source.title}}/> 
     <!--alt={{source.fileName.substring(35)}}x/-->
   </span>
@@ -13,7 +12,7 @@
       style='border:none;background-color: inherit; padding: 0; margin:0;' [innerHTML]="themeSummary">
   </div>
 </div>
-<button  (click)='prevImage()' title='prev' class="btn btn-secondary responser" ><<</button>
+<button  (click)='prevImage()' title='previous' class="btn btn-secondary responser" ><<</button>
 <button  (click)='nextImage()' title='next' class="btn btn-secondary responser"  >>></button>
 <button  (click)='ActualSize = !ActualSize' title='next' class="btn btn-primary responser">toggle size</button>
 <!-- 

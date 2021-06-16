@@ -67,9 +67,31 @@ public allImageList:ImageElement[]  =  [
                       <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
                       <li>Approx March 31 2021</li></ul>`}
                     ]
+        },{  
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
+                description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
+                iterations:[ {
+                    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
+                    description: `<ul>
+                    <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                    <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                    <li>June 15 2021</li></ul>`
+                },  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-2.jpeg`, 
+                description: `<ul>
+                <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                <li>June 15 2021</li></ul>`
+            },   { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-1.jpeg`, 
+            description: `<ul>
+            <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+            <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+            <li>June 15 2021</li></ul>`
         },
+                ],
+        },
+        
         {  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
-                   description: '<p>Quick Sketch Memorial Day weekend 2021</p>' },
+                   description: '<p>Quick Sketch Memorial Day weekend 2020</p>' },
                 {  
                     fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
                     description: `
