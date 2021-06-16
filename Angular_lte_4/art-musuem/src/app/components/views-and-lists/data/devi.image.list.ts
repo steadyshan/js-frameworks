@@ -10,7 +10,16 @@ public allImageList:ImageElement[]  =  [
         theme:'Durga, Laxmi, Saraswati and Avatars',
     themeSummary:
     ``,
-    files: [   { fullFileName: 
+    files: [  ,
+      { fullFileName: 
+          `assets/all-images/religion/devi/EkviraAai-Q12021-1.jpg`, 
+          description: `<ul><li>Our Family 'Kukdaivat' - Shree Ekvira Aai</li>
+          <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across end 2020-start 2021</li></ul> ` },
+          { fullFileName: 
+            `assets/all-images/religion/devi/ThreeDevisMahalaxmiTempleQ12021-1.jpg`, 
+            description: `<ul><li>Mahalaxmi Temple Mumnbai </li>
+            <li>Mahakali, Mahalaxmi, Mahasaraswati -  Sketched  start 2021</li></ul> ` },
+           { fullFileName: 
         `assets/all-images/religion/devi/navratri-2020/NavDurgaNavratri2020.png`, 
         description: `<ul><li>An 'unplanned' sketch:</li>
         <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>

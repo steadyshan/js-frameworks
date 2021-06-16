@@ -19,8 +19,8 @@ export class SideNavBarComponent implements OnInit {
   private  _userId:string = '';
   private  _password:string = '';
   private _categories:any;
-  private _unplugged: boolean = true ;
-  private _viewLink:string = `/unplugged-view`;
+  private _unplugged: boolean = false ;
+  private _viewLink:string = `/view`;
   unpluggedSet() {
     this._unplugged = true ;
   }
