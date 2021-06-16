@@ -19,9 +19,17 @@ export class SideNavBarComponent implements OnInit {
   private  _userId:string = '';
   private  _password:string = '';
   private _categories:any;
+  private _unplugged: boolean = false ;
+  private _viewLink:string = `/view`;
+  unpluggedSet() {
+    this._unplugged = true ;
+  }
   private menus:any[] = [
     {path: '/', label:'Home page', param:[]}
   ]
+  get ViewLink():string {
+    return this._viewLink;
+  }
   get Menus():any[] {
     return this.menus;
   }
@@ -61,8 +69,11 @@ export class SideNavBarComponent implements OnInit {
     if (this.userId === 'steadyshan' || this.userId === 'songads') {
       this.menus.push({path: '/content-manage', label:'Manage Content', param:[]})
     }
+    this._viewLink = this._unplugged === true ? `/unplugged-view` : `/view`;
     for (let i = 0; i < this._categories.length ; i++){
-      this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key})
+      //this._unplugged === true ?
+      this.menus.push({path: this._viewLink, label:`${this._categories[i].label}`, param:this._categories[i].key}) ;
+      // this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key});
     }
     // alert(JSON.stringify(this.menus));
     localStorage.setItem('userMenu', JSON.stringify(this.menus));
@@ -76,8 +87,9 @@ export class SideNavBarComponent implements OnInit {
     } else if (this.smallScreenIndex === this.menus.length) {
       this.smallScreenIndex = 1;
     }
+    let viewLink = this._unplugged === true ? `/unplugged-view` : `/view`;
     //if(this.smallScreenIndex === 0 ? factor < 0 
-    const route = this.smallScreenIndex > 0 ?  '/view' : '/';
+    const route = this.smallScreenIndex > 0 ?  viewLink : '/' ;//'/view' : '/';
     const params = this.smallScreenIndex > 0 ?  this.menus[this.smallScreenIndex].param : '';
     this.router.navigate([route, params]).then( (e) => {
       if (e) {

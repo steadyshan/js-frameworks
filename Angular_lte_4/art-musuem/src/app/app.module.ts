@@ -1,3 +1,5 @@
+import { RegularViewerComponent } from './components/views-and-lists/regular-viewer/regular-viewer.component';
+import { UnpluggedViewerComponent } from './components/views-and-lists/unplugged-viewer/unplugged-viewer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -21,6 +23,8 @@ import { CategoriesService } from './services/categories.service';
     RegisterAddUserComponent,
     MenuItemsComponent,
     ViewerComponent,
+    RegularViewerComponent,
+    UnpluggedViewerComponent,
     ContentManagementComponent
   ],
   imports: [
@@ -29,7 +33,8 @@ import { CategoriesService } from './services/categories.service';
    FormsModule,
     RouterModule.forRoot([{path:'', component:AppMuseumIntroComponent},
     {path:'register', component:RegisterAddUserComponent},
-    {path: 'view/:theme', component: ViewerComponent },
+    {path: 'view/:theme', component: RegularViewerComponent },
+    {path: 'unplugged-view/:theme', component: UnpluggedViewerComponent },
     {path: 'content-manage', component: ContentManagementComponent }])
     ],
     providers: [CategoriesService],
