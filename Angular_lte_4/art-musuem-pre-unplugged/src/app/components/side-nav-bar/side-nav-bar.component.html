@@ -1,0 +1,50 @@
+
+  <div class="right-nav">
+    <div *ngIf="userNotLoggedIn; else elseBlock">
+      <input type='text' placeholder='User Name' [(ngModel)]="userId">
+      <input type='password' placeholder='password' [(ngModel)]="password">
+      <input type='button' value='login' (click)='navigateStoragelogin()'>
+      <ul>
+        <!--li> <a routerLink="/register">Register</a></li-->
+        <li> <a routerLink="/">Home</a></li>
+      </ul>
+    <!--input type='button' value='Register' (click)='navigateStorageRegisterUser()'-->
+    
+
+    </div>
+    <ng-template #elseBlock>
+    <div>  
+    Welcome {{userId}}
+    <div id='largeScreenMenus'>
+      <ul>
+          <li *ngFor="let link of Menus">
+            <a *ngIf="link.param.length===0" routerLink="{{link.path}}">{{link.label}}</a>
+            <a *ngIf="link.param.length > 0" [routerLink]="['view',link.param]">{{link.label}}</a>
+          </li>
+      </ul>
+    </div>
+    <div id='smallScreenMenus'>
+      <div class="container" style="width:100%;">
+        <div class="row"  style="width:100%;">
+          <a  routerLink="{{Menus[0].path}}">Home Page</a> 
+        </div>
+        <!--input type='button' value=' << ' (click)='setMenuIndex(-1)'-->
+        <!--a *ngIf="smallScreenIndex===0" routerLink="{{Menus[0].path}}"--> 
+        <div class="row"   style="width:100%; padding: 0; margin:0;">
+          <div class="col-sm tl">
+            <button class="btn btn-secondary" (click)='setMenuIndex(-1)'><<</button>
+          </div>
+          <div class="col-sm tc">
+        <!--a *ngIf="smallScreenIndex > 0" [routerLink]="['view',Menus[smallScreenIndex].param]"-->{{Menus[smallScreenIndex].label}}<!--/a--> </div>
+          <div class="col-sm tr">
+            <button class="btn btn-secondary" (click)='setMenuIndex(1)'>>></button>
+          </div>  
+        </div> 
+      </div>
+    </div>
+    
+      <input type='button' value='logout' (click)='navigateStoragelogout()'>
+      
+    </div>
+        </ng-template>
+  </div>
