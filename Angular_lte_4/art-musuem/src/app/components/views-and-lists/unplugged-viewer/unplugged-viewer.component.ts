@@ -1,7 +1,8 @@
 import { ImageDataService } from './../../../services/image-data.service';
 import { DeviImageList } from '../data/devi.image.list';
 import { MahadevImageList } from '../data/mahadev.image.list';
-import { PeoplePlacesImageList } from '../data/people-places.image.list';
+import { PeopleImageList } from '../data/people.image.list';
+import { PlacesScenesObjectsImageList} from '../data/places-scenes-objects.image.list';
 import { LatestUploadsImageList } from '../data/latest-uploads.list';
 import { PlanesImageList } from '../data/planes.image.list';
 import { GaneshImageList } from '../data/ganesh.image.list';
@@ -103,7 +104,10 @@ export class UnpluggedViewerComponent implements OnInit {
           case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
-          case 'people-places': this.genImageList = new PeoplePlacesImageList();
+          case 'people-places': this.genImageList = new PeopleImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'places-scenes-objects': this.genImageList = new PlacesScenesObjectsImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           default: this.allImageList = allImageList ; break;
@@ -120,15 +124,17 @@ export class UnpluggedViewerComponent implements OnInit {
           foundList[0]
               .files
               .forEach( (fileData:any) => {
-                let groupImages:string[] = [] ;
+                let groupImages:any[] = [] ;
                 if(fileData.iterations !== undefined && fileData.iterations.length > 0) {
                   fileData.iterations.forEach((element:any) => {
-                    groupImages.push(element.fullFileName);
+                    groupImages.push({ image: element.fullFileName, description: element.description});
                   });
                 } else {
                   fileData.fullFileName? 
-                    groupImages.push(fileData.fullFileName): 
-                    groupImages.push(`assets/all-images/${foundFolder}/${fileData.fileName}`);
+                    groupImages.push({ image: fileData.fullFileName, 
+                      description: fileData.description}): 
+                    groupImages.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, 
+                          description: fileData.description});
                 }
                 this.imageGroups.push({ imageList:groupImages} );
                 fileData.fullFileName? 

@@ -1,11 +1,16 @@
 import { PicDescr, ImageElement } from './image.list'
 
-export class PeoplePlacesImageList {
+export class PeopleImageList {
     sort: string = 'asc'
     public allImageList:ImageElement[]  =  [
-        { 
+       /*
+      /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/people-places/
+/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/people-places/
+/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/people-places/MalcolmM04192021.jpg
+/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/people-places/ */
+              { 
              folder:'people-places',
-             theme:'Famous Persons, Themes, places, landmarks',
+             theme:'Famous Persons',
              themeSummary:
              ``,
              files: [
@@ -48,10 +53,18 @@ export class PeoplePlacesImageList {
                       {fullFileName: `assets/all-images/people-places/PtBhimsenJoshi06142021-start.jpeg`, 
                       description: `<ul><li>June 13-14 2021 - start</li></ul>`}
                    ] },
-{fullFileName: `assets/all-images/people-places/UnsignedWIPActressNutanAttemptJan2021.jpeg`, 
-             description: '<p>Attempt to sketch Nutan Jan 2021</p>' },
-{fullFileName: `assets/all-images/people-places/UnsignedWIPBalasaheb_NetajiJan232021.jpeg`, 
-             description: '<p>Bal Thackeray and Netaji attempt - their birth anniv Jan 23 2021</p>' }
+                   {fullFileName: `assets/all-images/people-places/PtJiQ12021.jpg`, 
+             description: `<ul><li>BHARAT RATNA Pt. Bhimsen Joshi 'practise' sketch before the one on Jan 24</li>` },
+                   {fullFileName: `assets/all-images/people-places/UnsignedWIPActressNutanAttemptJan2021.jpeg`, 
+                   description: '<p>Attempt to sketch Nutan Jan 2021</p>' },
+                   {fullFileName: `assets/all-images/people-places/UnsignedWIPBalasaheb_NetajiJan232021.jpeg`, 
+             description: '<p>Bal Thackeray and Netaji attempt - their birth anniv Jan 23 2021</p>' },,
+                          {fullFileName: `assets/all-images/people-places/JohnLennon.jpg`, 
+                                       description: '<p>Quick Lennon sketch <em>Think</em> Q1 2021</p>' },
+                                       {fullFileName: `assets/all-images/people-places/Freddy.jpg`, 
+                                                    description: '<p>Quick Freddy Mercury sketch <em>Think</em> Q1 2021</p>' },
+                                                    {fullFileName: `assets/all-images/people-places/MalcolmM04192021.jpg`, 
+                                                                 description: '<p>Badly drawn Malcolm Marshal sketch April 18 2021 - his birthday/p>' }
              ]
           },
      ]

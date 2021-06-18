@@ -130,7 +130,11 @@ provides luxury facilities for low income people (This scenario is completely fi
                                  in the far end, is an old DC electric loco WCM* waiting to be taken to a Rail museum - attached to a diesel shunter </li></ul>`},
                     {   fullFileName:`assets/all-images/trains/trains-delhi-agra-taj-exp-steam-sept2020.jpeg`, 
                     description: '<ul><li>Pre </li></ul>'}
-                ]},
+                ]},{   
+                    fullFileName:`assets/all-images/trains/LatestSteamSceneQ2_2021.jpg`, 
+                    description: `<ul><li>This is where my drawing of trains has reached Q2 2021 - lot of emphasis on shading and surroundings</li>
+                    <li>Have a couple of iterations which I feel will be worth posting</li> </ul>`,
+            }
                 
             ]
     }, { 

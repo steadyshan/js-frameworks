@@ -68,9 +68,15 @@ public allImageList:ImageElement[]  =  [
                       <li>Approx March 31 2021</li></ul>`}
                     ]
         },{  
-                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
-                iterations:[ {
+                iterations:[  {
+                    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
+                    description: `<ul>
+                    <li> (update 06-18-2021 AM)</li><li>Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                    <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                    <li>June 15 2021</li></ul>`
+                },{
                     fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-3.jpeg`, 
                     description: `<ul>
                     <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
@@ -155,10 +161,24 @@ public allImageList:ImageElement[]  =  [
                     <li> This gave the Sage time to compose while the God of Wisdom understood and wrote</li>
                     <li>Sketch drawn Marh 8-9 2021. Like the Bay Area GAnesh sketch designated as 'WIP'; even more so </li>
                     </ul>`},
+                    {  
+                        fullFileName: `assets/all-images/religion/shree-ganesh/GeneralGaneshSnap.jpeg`,
+                        description: '<p>Quick Sketch Q1 2021 trying out shading pencils</p>',
+                    },
+                    
+       {  
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshKaliTandav_Pandemic04292021.jpeg`, 
+        description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
+        iterations:[  {
+            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshKaliTandav_Pandemic04292021.jpeg`, 
+            description: `<ul>
+            <li> My thoughts on COVID - April 29 2021</li></ul>`
+        },]}
                     // DictationOfMahabharatMarch092021.jpeg
                     // DictationOfMahabharatMarch092021.jpeg
               ]
-       }
+       }, 
+       // GaneshKaliTandav_Pandemic04292021.jpeg
  
    ];
  }

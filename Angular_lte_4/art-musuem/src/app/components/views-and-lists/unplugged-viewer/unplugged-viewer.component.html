@@ -1,8 +1,11 @@
  
 <div id='larger'   style='border:3px outset gray; padding: 5px 0;'   *ngFor="let imageGroup of imageGroups">
     
-  <img *ngFor = "let grpImag of imageGroup.imageList" 
-    style='width:100%; height:auto;' src={{grpImag}}  /> 
+  <div *ngFor = "let grpImag of imageGroup.imageList">
+    <img  
+    style='width:100%; height:auto;' src={{grpImag.image}}  />
+    <span [innerHTML]="grpImag.description"></span>
+  </div>
   <!--alt={{source.fileName.substring(35)}}x/-->
 </div>
 <!--div  id='larger'  *ngFor="let source of selectedImageList">

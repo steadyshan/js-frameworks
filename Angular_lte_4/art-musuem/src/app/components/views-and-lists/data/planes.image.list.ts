@@ -13,7 +13,7 @@ export class PlanesImageList {
  public allImageList:ImageElement[]  =  [
     { 
         folder:'planes',
-        theme:'Sketches of Aircraft',
+        theme:'Sketches of Aircraft. Ships and Cars are also part of this, since at this point (June 18 2021) I dont have so many of the latter',
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. It `,
         files: [
             { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
@@ -51,6 +51,14 @@ export class PlanesImageList {
                 `assets/all-images/planes/su-30-a-1.jpeg`, 
                 description: `<ul><li>..Switching to Q2 2021, and attempts to draw contemprary aircraft</li>
                 <li>Attempted Su 30</li>
+                            </ul> `,
+               
+
+            },
+            {
+                    fullFileName: 
+                `assets/all-images/ships/SailingShipPreQ302020.jpg`, 
+                description: `<ul><li>Another of my favorite themes as a kid, a full sailed sailing ship - sketch before Qe3 2020</li>
                             </ul> `,
                
 

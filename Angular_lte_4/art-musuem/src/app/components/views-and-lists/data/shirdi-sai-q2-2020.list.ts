@@ -49,7 +49,10 @@ public allImageList:ImageElement[]  =  [
                         {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaCLoseDevotees.jpg`, 
                         description: `<ul><li> Baba sharing Chillum with close devotees - attempt to show Shama, Hemadpant and a couple of others </li></ul>` 
                             
-                            },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05272021_all.jpeg`, 
+                            },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaMeditateQ1-Q2-2021.jpeg`, 
+                            description: `<ul><li> Q1-Q2 2021 - based on Dwarkamai theme</li> </ul>` 
+                                
+                                },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasBaba05272021_all.jpeg`, 
             description: `<ul><li><strong> Milpitas CA Temple Sai</strong></li>
                     <li>Attempt to sketch Ganesh and all of Baba's representations in the Milpitas Temple, except the palkhi and grand portrait at the entrance</li>
                     <li>Left: Shree Ganesh and Chavadi Baba, Right main hall Main idol (top) and small idol, and center Dwarkamai painting.</li>
@@ -77,13 +80,20 @@ public allImageList:ImageElement[]  =  [
 
                         ] 
                     
-                    }, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFaceTemplate4152021.jpg`, 
+                    },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFaceTemplate4152021.jpg`, 
             description: `<ul>
             <li><strong> Milpitas CA Temple Sai</strong></li>
             <li>Based off of Shirdi Sai Temple Milpitas, CA main idol face, I use this as a 'template' to draw Baba's face with different 'decorations'</li>
                     <li>April 15 2021</li> </ul>` 
                 
-                },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFullTemplateQ22021.jpg`, 
+                }, {  
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiMilpitasFace_Template06172021.jpeg`, 
+                description: `<ul>
+                <li><strong> Milpitas CA Temple Sai</strong></li>
+                <li>Based off of Shirdi Sai Temple Milpitas, CA main idol face, new 'template' to draw Baba's face with different 'decorations'</li>
+                        <li>June 17 2021</li> </ul>` 
+                    
+                 },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/MilpitasMainBabaFullTemplateQ22021.jpg`, 
                 description: `<ul>
                 <li><strong> Milpitas CA Temple Sai</strong></li>
                 <li>Like the previous, based off of Shirdi Sai Temple Milpitas, CA main idol face, I use this as a 'template' to draw Baba's face with different 'decorations'</li>
