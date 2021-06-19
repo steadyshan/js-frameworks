@@ -62,6 +62,27 @@ export class PlanesImageList {
                             </ul> `,
                
 
+            },
+            {
+                    fullFileName: 
+                `assets/all-images/ships/SilveGhostQ1Q22021.jpg`, 
+                description: `<ul><li>Around start 2021 - venturing into very rarely visited theme - automobiles * </li>
+                                  <li>Appropriate to start this with an attempt at a Rolls - the Silver Ghost
+                            </ul> 
+                            <br/>* Though I've drawn tanks as a kid`,
+               
+
+            },
+            {
+                    fullFileName: 
+                `assets/all-images/ships/ProwlerWIPMay2021.jpg`, 
+                description: `<ul><li>A friend of mine bought one of these way back in 2000 - plymouth prowler</li>
+                                 <li>Remember his 3 year (then) daughet calling it a 'monster'</li>
+                                 <li>(also remember the price gouging of the dealer)</li>
+                                 <li>WIP - well, um - technically</li>
+                            </ul> `,
+               
+
             }
          ]
         }

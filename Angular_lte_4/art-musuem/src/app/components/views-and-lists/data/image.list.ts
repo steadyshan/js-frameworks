@@ -168,15 +168,29 @@ export   interface ImageElement {
                                                         <li><strong>LATEST UPDATED (June 2 2021)</strong></li>
                                                         <li>Shree Narsimha Jayanti was May 26, when I release the first iteration (next sketch)</li>
                                                         <li>The earlier Laxmi Narayan I must have taken at least a month. This was a week (with the 1st one taking a day)</li>
+                                                        </ul>`,
+                           iterations:[
+                              {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarsimhaJayanti526_fn_6022021.jpeg`, 
+                                        description: `<ul>
+                                                        <li><strong>LATEST UPDATED (June 2 2021)</strong></li>
+                                                        <li>Shree Narsimha Jayanti was May 26, when I release the first iteration (next sketch)</li>
+                                                        <li>The earlier Laxmi Narayan I must have taken at least a month. This was a week (with the 1st one taking a day)</li>
                                                         </ul>`},
-                    {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/NarsimhaJayantiMay25-2021-almost-done.jpeg`, 
+                                                        {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/NarsimhaJayantiMay25-2021-almost-done.jpeg`, 
                                                         description: `<ul>
                                                                         <li>Released May 25 2021</li>
                                                                         </ul>`},
+                           ]},
+                                                        
+                    
+                  {  
+                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/ShreeRamShivlingRamnavmi2021.jpg`, 
+                     description: `<ul><li>Sketched for RamNavmi April 21 2021</li></ul>`},
                     {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/ShreeRamRamNavmi042212021.jpeg`, 
                                                                                                             description: `<ul>
                                                                                                                             <li>Sketched for RamNavmi April 21 2021</li>
                                                                                                                             </ul>`},
+                    {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/HanumanOct2020.jpg`, description: 'Theoretically WIP - Oct 2020'},
                            {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/BalHanumanp-hanumanjnti04272021.jpeg`, 
                                 description: `<ul><li>.... AND HANUMAN JAYANTI following,  April 27 2021</li></ul>`}
                   ]
