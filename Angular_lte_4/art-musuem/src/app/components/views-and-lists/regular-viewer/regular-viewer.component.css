@@ -6,7 +6,7 @@ div {
     width:auto;
 }
 div:first-of-type {
-    max-width:80%;
+    max-width:100%;
 }
 h5 {
     margin:2px;
@@ -18,12 +18,18 @@ h5 {
     background-color: blanchedalmond;
     width: 80%;
     border:inset sandybrown 4px;
+    font-style: normal;
     height:auto;
     overflow:auto;
-    max-height:100px;
+    max-height:200px;
     color: #9529;
     font-weight: 600;
     font-style: italic;
+}
+#summaryspan{
+    font-style: normal;
+    width:100%;
+    background-color: white;
 }
 #thumbnails {
     float: inline-end;

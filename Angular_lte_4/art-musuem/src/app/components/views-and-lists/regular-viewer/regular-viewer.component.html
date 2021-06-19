@@ -8,8 +8,10 @@
 
 <div id="summaryDiv" *ngIf="themeSummary !== ''|| themeHeader !== ''" [ngStyle]="headerStyle()" >
   <h5 *ngIf="themeHeader !== ''" style='font-size: larger;font-weight: 700;'>{{themeHeader}}</h5>
-  <div *ngIf="themeSummary !== ''" 
-      style='border:none;background-color: inherit; padding: 0; margin:0;' [innerHTML]="themeSummary">
+  <div *ngIf="themeSummary !== ''" style='font-size: normal;font-weight: 400;width:100%;'>
+     <span id="summaryspan" 
+          style='border:none;background-color: inherit; padding: 0; margin:0;width: 100%;' [innerHTML]="themeSummary">
+      </span> 
   </div>
 </div>
 <button  (click)='prevImage()' title='previous' class="btn btn-secondary responser" ><<</button>
