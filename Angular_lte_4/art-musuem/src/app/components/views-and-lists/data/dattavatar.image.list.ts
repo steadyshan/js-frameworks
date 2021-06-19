@@ -97,6 +97,11 @@ public allImageList:ImageElement[]  =  [
                     <li> Guru Gobind Singh Dec 31 2020 (Jayanti)</li>
                     </ul>
                     ` },
+                    { fullFileName: `assets/all-images/religion/dattavatar/SaiSwamiApril2021.jpg`,  description:  `
+                    <ul>
+                    <li> Sometime April May 2021</li>
+                    </ul>
+                    ` }
               ]
        }
  
