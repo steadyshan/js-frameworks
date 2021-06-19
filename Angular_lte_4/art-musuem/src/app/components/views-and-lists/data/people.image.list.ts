@@ -86,14 +86,58 @@ export class PeopleImageList {
                           </ul>` 
          },
          {
+            fullFileName: `assets/all-images/people-places/UnsignedWIPBalasaheb_NetajiJan232021.jpeg`, 
+            description: '<p>Bal Thackeray and Netaji attempt - their birth anniv Jan 23 2021</p>' 
+         }, //
+         {
+            fullFileName: `assets/all-images/people-places/LataYoungOct2020.jpg`, 
+            description: `<ul>
+                           <li><em>This sketch is sooo inaccurate that I almost passed sharing it)</em></li>
+                           <li>Lata Mangeshkar as a girl - sketched around Sept-Oct 2020</li>
+                           </ul>` 
+         },
+         {
+            fullFileName: `assets/all-images/people-places/BigBOct2020.jpg`, 
+            description: `<ul>
+                           <li>Haiiin Haaainin. Ye Kya baat hui na bhai?></li>
+                           <li>Big B attempt - Oct 2020</li>
+                           </ul>` 
+         }, //BigBOct2020
+         {
             fullFileName: `assets/all-images/people-places/UnsignedWIPActressNutanAttemptJan2021.jpeg`, 
             description: '<p>Attempt to sketch Nutan Jan 2021</p>' 
          },
-         {fullFileName: `assets/all-images/people-places/UnsignedWIPBalasaheb_NetajiJan232021.jpeg`, 
-             description: '<p>Bal Thackeray and Netaji attempt - their birth anniv Jan 23 2021</p>' },,
-                          {fullFileName: `assets/all-images/people-places/JohnLennon.jpg`, 
-                                       description: '<p>Quick Lennon sketch <em>Think</em> Q1 2021</p>' },
-                                       {fullFileName: `assets/all-images/people-places/Freddy.jpg`, 
+         {
+            fullFileName: `assets/all-images/people-places/ConneryOct312020.jpg`, 
+            description: 
+                        `<ul>
+                           <li> The original James Bond, Mallone the Cop as I have seen Sir Sean</li>
+                           <li> Miss you Connery</li>
+                           <li> Sketched the time of his passing away Oct 31 2020</li>
+                        </ul>` 
+         },
+         {
+            fullFileName: `assets/all-images/people-places/AndersonOct2020.jpg`, 
+            description: 
+                        `<ul>
+                           <li> Another very very talented personage from the 'Isles, also very much alive *</li>
+                           <li> Tull is always been a favorite of mine</li>
+                           <li> Ian Anderson if you please.. (Oct 2020)</li></ul>
+                            * watched live streaming of 50th anniversary of 'Aqualung' in March (?) 2021` 
+         },
+         {
+            fullFileName: `assets/all-images/people-places/VanHalenOct62020.jpg`, 
+            description: 
+                        `<ul>
+                           <li> Another sad demise in a list of sad demises this time</li>
+                           <li> Diddnt listen to much Van Halen, but liked very much what I heard</li></ul>` 
+         },
+         {
+            fullFileName: `assets/all-images/people-places/JohnLennon.jpg`, 
+            description: '<p>Quick Lennon sketch <em>Think</em> Q1 2021</p>' 
+         },
+         {
+            fullFileName: `assets/all-images/people-places/Freddy.jpg`, 
                                                     description: '<p>Quick Freddy Mercury sketch <em>Think</em> Q1 2021</p>' },
                                                     {fullFileName: `assets/all-images/people-places/MalcolmM04192021.jpg`, 
                                                                  description: '<p>Badly drawn Malcolm Marshal sketch April 18 2021 - his birthday/p>' }
@@ -102,7 +146,7 @@ export class PeopleImageList {
      ]
 
  /*
- VanHalenOct62020.jpg
+ .jpg
  AndersonOct2020.jpg
  BigBOct2020.jpg
  ConneryOct312020.jpg
