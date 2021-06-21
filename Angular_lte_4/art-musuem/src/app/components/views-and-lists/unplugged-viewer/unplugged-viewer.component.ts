@@ -1,8 +1,10 @@
 import { ImageDataService } from './../../../services/image-data.service';
 import { DeviImageList } from '../data/devi.image.list';
 import { MahadevImageList } from '../data/mahadev.image.list';
+import { LaxmiVishnuHanumanList} from '../data/laxmi-vishnu-hanuman.list';
 import { PeopleImageList } from '../data/people.image.list';
 import { PlacesScenesObjectsImageList} from '../data/places-scenes-objects.image.list';
+import { ThemesMisc } from '../data/themes-misc.list';
 import { LatestUploadsImageList } from '../data/latest-uploads.list';
 import { PlanesImageList } from '../data/planes.image.list';
 import { GaneshImageList } from '../data/ganesh.image.list';
@@ -89,6 +91,9 @@ export class UnpluggedViewerComponent implements OnInit {
           case 'mahadev': this.genImageList = new MahadevImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
+          case 'laxmi-vishnu-hanuman': this.genImageList = new LaxmiVishnuHanumanList();
+                               this.allImageList = this.genImageList.allImageList ;
+                               break;
           case 'dattavatar': this.genImageList = new DattavatarImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
@@ -108,6 +113,9 @@ export class UnpluggedViewerComponent implements OnInit {
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'places-scenes-objects': this.genImageList = new PlacesScenesObjectsImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
+          case 'themes-misc': this.genImageList = new ThemesMisc();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           default: this.allImageList = allImageList ; break;

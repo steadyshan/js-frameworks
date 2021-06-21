@@ -24,6 +24,7 @@ export class CategoriesService {
       { label: 'Shirdi Sai Q1 Q2 2021', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
       { label: 'People', key:'people-places', roles:['nonLiving','all']},
       { label: 'Places, Scenes and Objects', key:'places-scenes-objects', roles:['nonLiving','all']},
+      { label: 'Misc, Themes', key:'themes-misc', roles:['nonLiving','all']},
       { label: 'Rail', key:'trains', roles:['nonLiving','all']},
       { label: 'Aircraft, Ships and Cars', key:'planes', roles:['nonLiving','all']},
      
