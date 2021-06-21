@@ -13,8 +13,9 @@ export class PlanesImageList {
  public allImageList:ImageElement[]  =  [
     { 
         folder:'planes',
-        theme:'Sketches of Aircraft. Ships and Cars are also part of this, since at this point (June 18 2021) I dont have so many of the latter',
-        themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. It `,
+        theme:'Sketches of Aircraft. Ships and Cars* ',
+        themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
+                       * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
             { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
             description: `<ul><li>The One that started it ALL!!</li>
@@ -83,7 +84,29 @@ export class PlanesImageList {
                             </ul> `,
                
 
-            }
+            },
+            {
+                    fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-2.jpeg`, 
+                    description: `<ul><li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
+                                     <li>Had this car since Feb 2011 (see date sketched) and the car is still 'maska'</li>
+                                     <li>Very very work in progress, June 21 2021 (note Summer Solstice)</li>
+                                </ul> `,
+                  iterations:[
+                      {   fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-2.jpeg`, 
+                      description: `<ul><li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
+                                       <li>Had this car since Feb 2011 (see date sketched) and the car is still a beast but 
+                                       rides like 'maska'(butter)</li>
+                                       <li>Very very work in progress, June 21 2021 (note Summer Solstice)</li>
+                                       <li>Wheel rerfesh from prev iteration</li>
+                                  </ul> `,},
+                      {   fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-1.jpeg`, 
+                      description: `<ul><li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
+                                       <li>Had this car since Feb 2011 (see date sketched) and the car is still 'maska'</li>
+                                       <li>Very very work in progress, June 21 2021 (note Summer Solstice)</li>
+                                  </ul> `,}
+                  ] 
+    
+            },
          ]
         }
         ]
