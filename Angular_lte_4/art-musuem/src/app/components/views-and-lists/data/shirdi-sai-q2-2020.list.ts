@@ -135,7 +135,13 @@ public allImageList:ImageElement[]  =  [
                         <ul><li><strong> Milpitas CA Temple Sai</strong></li>
                         <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
                         <li>Probably April 29 2021</li></ul>
-                       ` } , {  
+                       ` } ,   {  
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-main-small-blue-Q2-2021.jpg`, 
+                        description: `
+                            <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                            <li>Using color pencils</li>
+                            <li>Probably Q2 s 2021</li></ul>
+                           ` } , {  
                     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-June3-2021.jpeg`, 
                     description: `
                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>

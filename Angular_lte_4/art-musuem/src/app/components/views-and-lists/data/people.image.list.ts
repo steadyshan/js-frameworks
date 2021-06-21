@@ -22,10 +22,18 @@ export class PeopleImageList {
                           </ul>`
          },
          {
-            fullFileName: `assets/all-images/people-places/ShivbaHorseTithiJayanti_wip_03_31_2021-color.jpg`, 
+            fullFileName: `assets/all-images/people-places/ShivbaHorseTithiJayanti_wip_03_31_2021-color2.jpg`, 
             description: '<p> Maharaj on horseback attempt based on Masunda Lake, Thane statue</p>',
             iterations:[ 
-                  {
+               {
+                  fullFileName: `assets/all-images/people-places/ShivbaHorseTithiJayanti_wip_03_31_2021-color2.jpg`, 
+                  description: `<ul
+                                 <li>Maharaj on horseback </li>
+                                 <li>Attempt based on Masunda Lake, Thane statue.</li>
+                                 <li>Color pencil attempt - Shiv jayanti 3/31/2021</li>
+                                 <li><em>(Still WIP technically)</em></li>
+                                </ul>`
+               }, {
                      fullFileName: `assets/all-images/people-places/ShivbaHorseTithiJayanti_wip_03_31_2021-color.jpg`, 
                      description: `<ul
                                     <li>Maharaj on horseback </li>

@@ -66,7 +66,17 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
                     <li> Attempt to capture Swami's face as per tyhe pictures in the 'Matth' at Shivaji Park, Dadar, Mumbai</li>
                     <li> June 8-9 2021</li>
                              </ul>`,
-       },{  fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021-v2.jpeg`, 
+       }, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamicolorQ1Q2_2021.jpg`, 
+       description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
+    iterations:[
+        { 
+            fullFileName: `assets/all-images/religion/swami-samartha/SwamicolorQ1Q2_2021.jpg`,
+            description: '<ul><li>Using color pencils approx Q1 - Q2 2021 - more Q1</li></ul>',
+     },{ 
+            fullFileName: `assets/all-images/religion/swami-samartha/SwamicolorQ1Q2_2021-adj1.png`,
+            description: '<ul><li>95% height adjusted - Mac paintbrush </li><li>Using color pencils approx Q1 - Q2 2021 - more Q1</li></ul>'},
+        ] },// SwamicolorQ1Q2_2021-adj1.png
+       {  fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021-v2.jpeg`, 
                        description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
                     iterations:[
                         { 

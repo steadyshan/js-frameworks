@@ -65,12 +65,25 @@ export class MahadevImageList {
                  <li>Feb 2 2021</li>
                </ul>`
     },  {  
+      fullFileName: `assets/all-images/religion/mahadev/Mahadev-color-Q1.jpg`, 
+      description: 
+         `<ul>
+           <li>Q1 2021 - color </li>
+         </ul>`
+}, {  
             fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiTemplateKhanderaya-May2021-Sai.jpeg`, 
             description: `
                 <ul>
                 <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
                 <li>Probably April 29 2021</li></ul>
-               ` }
+               ` }, {  
+                fullFileName: `assets/all-images/religion/mahadev/GeneralShivlingRamNavmi2021.jpg`, 
+                description: 
+                   `<ul>
+                     <li>Searching a theme for Ramnavmi 2021, I had contemplated the one of Shree Ram doing abhishek</li>
+                     <li>This was a practice one .. </li>
+                   </ul>`
+        }
          ]
         }
         ]
