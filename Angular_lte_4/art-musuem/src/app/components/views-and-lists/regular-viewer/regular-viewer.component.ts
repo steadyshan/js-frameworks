@@ -1,23 +1,13 @@
-import { DeviImageList } from '../data/devi.image.list';
-import { MahadevImageList } from '../data/mahadev.image.list';
-import { LaxmiVishnuHanumanList} from '../data/laxmi-vishnu-hanuman.list';
-import { PeopleImageList } from '../data/people.image.list';
-import { PlacesScenesObjectsImageList} from '../data/places-scenes-objects.image.list';
-import { ThemesMisc } from '../data/themes-misc.list';
-import { LatestUploadsImageList } from '../data/latest-uploads.list';
-import { PlanesImageList } from '../data/planes.image.list';
-import { LabeledStatement } from 'typescript';
-import { GaneshImageList } from '../data/ganesh.image.list';
-import { SwamiSamarthaImageList } from '../data/swami-samartha.image.list'
-import { DattavatarImageList } from '../data/dattavatar.image.list';
-import { ShirdiSaiQ1Q22021ImageList} from '../data/shirdi-sai-q2-2020.list';
-import { TrainImageList } from '../data/trains.list'
-import { GeneralImageList } from '../data/general.image.list';
-import { allImageList, ImageElement } from '../data/image.list';
-import { CompileMetadataResolver } from '@angular/compiler';
+import { ImageElement } from '../data/image.list';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { from } from 'rxjs';
+// #### All data content imported shifted to list-funnel service .. 
+// scroll down for commented imports and old version of ng-init
+// This is a convenience
+// Else everytime a new list is created, adding the import and entry to the switch statement 
+// in all the viewer components - currently two ,
+// later on we can add specific exclude criteria as a param to pass to the service
+import { ListFunnelService  } from '../../../services/list-funnel.service';
 // import * as fs from 'fs';
 // import { MockStringBundlerHost } from '../../../../node_modules_1/@angular/tsc-wrapped/test/bundler_spec';
 /* interface DataDetail {
@@ -45,7 +35,7 @@ export class RegularViewerComponent implements OnInit {
   currentIndex:number = 0 ;
   _actualSize:boolean = false;
   _iterations:boolean = false ;
-  constructor(private activatedRoute:ActivatedRoute) { }
+  constructor(private activatedRoute:ActivatedRoute, private listFunnelService: ListFunnelService) { }
   get ActualSize():boolean {
     return this._actualSize;
   }
@@ -62,6 +52,74 @@ export class RegularViewerComponent implements OnInit {
     return JSON.stringify(this.currentImage);
   }
   ngOnInit() {
+    let themed:any = null ;
+    let foundList:ImageElement[] = [] ;
+    this.activatedRoute.paramMap.subscribe(param => 
+      { 
+        themed = param; console.log(param.get('theme'));
+        let strParam = (param.get('theme'));
+        this.genImageList =  null;
+        console.log(themed);
+        const dataReturned = this.listFunnelService.loadSelectedContent(strParam);
+        this.genImageList = dataReturned.gen ; 
+        this.allImageList = this.genImageList.allImageList;
+        foundList = this.allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
+        if (foundList !== null && foundList.length > 0) {
+          let foundFolder = foundList[0].folder;
+          this.themeHeader = '';
+          this.themeSummary = '';
+          if(foundList[0].theme) this.themeHeader = foundList[0].theme; 
+          if(foundList[0].themeSummary) this.themeSummary = foundList[0].themeSummary; 
+          this.selectedImageList = [];
+          foundList[0]
+              .files
+              .forEach( (fileData:any) => {
+                fileData.fullFileName? 
+                  this.selectedImageList.push({ 
+                    iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
+                    image: `${fileData.fullFileName}`, 
+                    title: fileData.description,
+                    iterations: fileData.iterations? fileData.iterations:[],
+                    iterationIndex:0 }):
+                  this.selectedImageList.push({ 
+                    image: `assets/all-images/${foundFolder}/${fileData.fileName}`, 
+                    title: fileData.description,
+                    iterations: fileData.iterations? fileData.iterations:[],
+                    iterationIndex:0 
+                   });
+              });
+          }
+          this.currentIndex = 0;
+          this.currentImage = this.selectedImageList[0];
+          if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
+            //this.currentImage.iterations.unshift(this.currentImage.image );
+            this.currentImage.iterationIndex = 0;
+          
+          }
+          
+      });
+    
+  
+  }
+  /*
+#### All data content imported shifted to list-funnel service .. 
+// scroll down for commented imports and old version of ng-init
+ import { DeviImageList } from '../data/devi.image.list';
+import { MahadevImageList } from '../data/mahadev.image.list';
+import { LaxmiVishnuHanumanList} from '../data/laxmi-vishnu-hanuman.list';
+import { PeopleImageList } from '../data/people.image.list';
+import { PlacesScenesObjectsImageList} from '../data/places-scenes-objects.image.list';
+import { ThemesMisc } from '../data/themes-misc.list';
+import { LatestUploadsImageList } from '../data/latest-uploads.list';
+import { PlanesImageList } from '../data/planes.image.list';
+import { GaneshImageList } from '../data/ganesh.image.list';
+import { SwamiSamarthaImageList } from '../data/swami-samartha.image.list'
+import { DattavatarImageList } from '../data/dattavatar.image.list';
+import { ShirdiSaiQ1Q22021ImageList} from '../data/shirdi-sai-q2-2020.list';
+import { TrainImageList } from '../data/trains.list'
+import { allImageList, ImageElement } from '../data/image.list';
+import { GeneralImageList } from '../data/general.image.list';
+  ngOnInitPreFunnel() {
     let themed:any = null ;
     let foundList:ImageElement[] = [] ;
     this.activatedRoute.paramMap.subscribe(param => 
@@ -153,6 +211,7 @@ export class RegularViewerComponent implements OnInit {
     
   
   }
+  */
   toggleSort(){
     // let tempList = JSON.parse(JSON.stringify(this.selectedImageList)
     let downCount = JSON.parse(JSON.stringify(this.selectedImageList));

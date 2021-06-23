@@ -86,12 +86,21 @@ export class PlanesImageList {
 
             },
             {
-                    fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-2.jpeg`, 
+                    fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-3-scene.jpeg`, 
                     description: `<ul><li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
                                      <li>Had this car since Feb 2011 (see date sketched) and the car is still 'maska'</li>
                                      <li>Very very work in progress, June 21 2021 (note Summer Solstice)</li>
                                 </ul> `,
                   iterations:[
+                    {   
+                        fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-3-scene.jpeg`, 
+                        description: `<ul><li>Refresh - added  the background June 23</li>
+                                     <li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
+                                     <li>Had this car since Feb 2011 (see date sketched) and the car is still a beast but 
+                                     rides like 'maska'(butter)</li>
+                                     <li>Very very work in progress, June 21 2021 (note Summer Solstice)</li>
+                                     <li>Wheel rerfesh from prev iteration</li>
+                                </ul> `,},
                       {   fullFileName:  `assets/all-images/ships/OurAcuraJune21-2021-2.jpeg`, 
                       description: `<ul><li>A most fascinating car - attempt to draw 2011 Acura TL (tech package)</li>
                                        <li>Had this car since Feb 2011 (see date sketched) and the car is still a beast but 
