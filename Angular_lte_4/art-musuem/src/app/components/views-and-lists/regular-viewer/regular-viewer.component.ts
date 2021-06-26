@@ -78,7 +78,8 @@ export class RegularViewerComponent implements OnInit {
                   this.selectedImageList.push({ 
                     iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
                     image: `${fileData.fullFileName}`, 
-                    title: fileData.description,
+                    thumbnail: `${fileData.thumbnail? fileData.thumbnail: ''}`,
+                    title: `${fileData.title? fileData.title: fileData.description}`,
                     iterations: fileData.iterations? fileData.iterations:[],
                     iterationIndex:0 }):
                   this.selectedImageList.push({ 

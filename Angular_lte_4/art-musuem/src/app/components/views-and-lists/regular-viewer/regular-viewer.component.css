@@ -8,6 +8,14 @@ div {
 div:first-of-type {
     max-width:100%;
 }
+#thumb-text {
+    font-size: x-small;
+    color:darkblue;
+    background-color:aliceblue;
+    width: 50px;
+    padding: 15px 2px;
+    border:2px gray outset;
+}
 h5 {
     margin:2px;
 }

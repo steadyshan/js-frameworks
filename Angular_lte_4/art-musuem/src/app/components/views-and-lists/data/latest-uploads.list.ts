@@ -46,8 +46,66 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             folder:'latest-uploads',
             theme:'Latest Uploads',
             themeSummary:
-            `Showing latest uploads over a week`,
-            files: [ {  
+            `Showing latest uploads and updates over a week`,
+            files: [  {  
+                fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
+                thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
+                title: 'About Shree Ganesh and Ashtavinayaks',
+                description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
+                iterations:[ {
+                    fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
+                    special:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
+                    description: ` <section id="about-text">
+                    <article>
+                        <strong>Ganesha (/ɡəˈneɪʃə/; Sanskrit: गणेश, Gaṇeśa; )</strong>, also known as <em>Ganapati</em> and <em>Vinayaka</em>, is one of the best-known and most worshipped deities in the Hindu pantheon.[2] <br />&nbsp;His image is found throughout India, Sri Lanka and Nepal.[3] Hindu sects worship him regardless of affiliations.[4] Devotion to Ganesha is widely diffused and extends to Jains and Buddhists.[5]
+
+                        Although he is known by many attributes, Ganesha's elephant head makes him easy to identify.[6] Ganesha is widely revered as the remover of obstacles,[7] the patron of arts and sciences and the deva of intellect and wisdom.[8] As the god of beginnings, he is honoured at the start of rituals and ceremonies. Ganesha is also invoked as patron of letters and learning during writing sessions.[9][10] Several texts relate mythological anecdotes associated with his birth and exploits and explain his distinct iconography.
+
+                        Ganesha emerged as a distinct deity in the 4th and 5th centuries CE, during the Gupta Period, although he inherited traits from Vedic and pre-Vedic precursors.[11] He was formally included among the five primary deities of Smartism (a Hindu denomination) in the 9th century. A sect of devotees called the Ganapatya arose, who identified Ganesha as the supreme deity.[12] The principal scriptures dedicated to Ganesha are the Ganesha Purana, the Mudgala Purana, and the Ganapati Atharvashirsa.
+                    </article>
+                </section>`
+                },{
+                    fullFileName: `assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`, 
+                    description: `<section id="content-text"  style="font-size: x-small;color:red;">
+                    <article>
+                        <p>There are many important and famous places of Lord Ganesha all over the world. Among these some places are more powerful & important than the others. There are eight such powerful places, which are called as Ashtavinayaka. These eight place are in India in the state of Maharashtra. A lot of importance is given to these places in India and in Hindu religion. The incarnation stories of these Ganesha’s are ancient, the places are also ancient. Some of the temples are built recently. Among these, few are rebuilt in Madhavrao Peshwa’s period. The idols of Ashtavinayaka are self-existent. They are installed in the temples as they were found. Each idol is an incarnation of Lord Ganesha. There are some mythological stories giving the importance of each Ganesha (idol). These stories tell us about why and how these idols of Ganesha got their names and came into existence. The idols are not beautiful like the man made ones but the self-existent appearance of then does please the devotees.</p>
+                        <p>The mangalashtaka (poetic lines spoken at the time of marriage or thread ceremony) of Ashtavinayaka is sang on holy occasions. The sequence of Ashtavinayak pilgrimage, according to the Stotra (poetic lines) mentioned in the Puran is as follows.</p>
+                        <ul>
+                        <li>SHRI MAYURESHWAR OF MOREGAON</li>
+                        <li>SHRI SIDDHIVINAYAK OF SIDDHATEK</li>
+                        <li>SHRI BALLALESHWAR OF PALI</li>
+                        <li>SHRI VARAD VINAYAKA OF MAHAD</li>
+                        <li>SHRI CHINTAMANI OF THEUR</li>
+                        <li>SHRI GIRIJATMAJ OF LENYADRI</li>
+                        <li>SHRI VIGNESHWAR OF OZAR</li>
+                        <li>SHRI MAHAGANAPATI OF RANJANGAON</li>
+                    </ul><div>
+                           <div class="col-sm-3">
+                                <nav>
+                                    <ul style='<section id="content-text">
+            <article>
+                <p>There are many important and famous places of Lord Ganesha all over the world. Among these some places are more powerful & important than the others. There are eight such powerful places, which are called as Ashtavinayaka. These eight place are in India in the state of Maharashtra. A lot of importance is given to these places in India and in Hindu religion. The incarnation stories of these Ganesha’s are ancient, the places are also ancient. Some of the temples are built recently. Among these, few are rebuilt in Madhavrao Peshwa’s period. The idols of Ashtavinayaka are self-existent. They are installed in the temples as they were found. Each idol is an incarnation of Lord Ganesha. There are some mythological stories giving the importance of each Ganesha (idol). These stories tell us about why and how these idols of Ganesha got their names and came into existence. The idols are not beautiful like the man made ones but the self-existent appearance of then does please the devotees.</p>
+                <p>The mangalashtaka (poetic lines spoken at the time of marriage or thread ceremony) of Ashtavinayaka is sang on holy occasions. The sequence of Ashtavinayak pilgrimage, according to the Stotra (poetic lines) mentioned in the Puran is as follows.</p>
+                <div>
+               
+                                </nav>
+                            </div>
+                           
+                    </article>
+                </section>`
+                },  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-2.jpeg`, 
+                description: `<ul>
+                <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+                <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+                <li>June 15 2021</li></ul>`
+            },   { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-1.jpeg`, 
+            description: `<ul>
+            <li> Inspired to draw this after listening to Rahul Deshpande singing 'Prathama Tula Vandito</li>
+            <li>It's in the film Ashtavinayak, a prayer song, original singer his Grandpa Pt Vasantrao Deshpande and Anuradha Paudwal</li>
+            <li>June 15 2021</li></ul>`
+        },
+                ],
+        }, {  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
                 iterations:[ {

@@ -2,6 +2,8 @@
 
 # ArtMusuem
 
+1. At component level, create functionality to display only text
+2. Stand alone utility to upload content
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 > It's (intended to be) a generic simple image display single page app, started around 1st week of June 2021 to showcase my sketches, and to be able to deploy to Google's Firebase Hosting  
 Started originally on Angular 2 (4), I ran in
