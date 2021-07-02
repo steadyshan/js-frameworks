@@ -47,7 +47,36 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             theme:'Latest Uploads',
             themeSummary:
             `Showing latest uploads and updates over a week`,
-            files: [  {  
+            files: [  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+            description: '<p>Inspirational Sketch</p>',
+            iterations:[{
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+                description: `<ul>
+                <li>June 2nd -3rd week 2021</li>
+                <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
+                </ul>`
+            }, {
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-1-June2021.jpg`, 
+                description: `<ul>
+                
+                <li>June 2nd -3rd week 2021 initial iteration</li>
+                <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li></ul>`
+            },]
+        }, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-2-June2021.jpg`, 
+        description: '<p>Inspirational Sketch</p>',
+        iterations:[{
+            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-2-June2021.jpg`, 
+            description: `<ul>
+            <li>June 2nd -3rd week 2021</li>
+            <li>Ganesh playing Tabla</li>
+            </ul>`
+        }, {
+            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-1-June2021.jpg`, 
+            description: `<ul>
+            <li>June 2nd -3rd week 2021</li>
+            <li>Ganesh playing Tabla</li></ul>`
+        },]
+    },{  
                 fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
                 thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
                 title: 'About Shree Ganesh and Ashtavinayaks',
