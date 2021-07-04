@@ -76,7 +76,21 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             <li>June 2nd -3rd week 2021</li>
             <li>Ganesh playing Tabla</li></ul>`
         },]
-    },{  
+    }, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+    description: '<p>Inspirational Sketch</p>',
+    iterations:[{
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+        description: `<ul>
+        <li>June 2nd -3rd week 2021</li>
+        <li>Ganesh playing Tabla</li>
+        </ul>`
+    }, {
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
+        description: `<ul>
+        <li>June 2nd -3rd week 2021</li>
+        <li>Ganesh playing Tabla</li></ul>`
+    },]
+},{  
                 fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
                 thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
                 title: 'About Shree Ganesh and Ashtavinayaks',

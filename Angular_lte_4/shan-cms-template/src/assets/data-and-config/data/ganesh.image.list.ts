@@ -96,6 +96,20 @@ public allImageList:ImageElement[]  =  [
         <li>June 2nd -3rd week 2021</li>
         <li>Ganesh playing Tabla</li></ul>`
     },]
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+    description: `<ul>
+    <li>June 2nd -3rd week 2021</li>
+    <li>Ganesh playing Tabla</li>
+    </ul>`
+}, {
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
+    description: `<ul>
+    <li>June 2nd -3rd week 2021</li>
+    <li>Ganesh playing Tabla</li></ul>`
+},]
 },{  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
