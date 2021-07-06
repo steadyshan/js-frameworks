@@ -105,7 +105,26 @@ iterations:[{
     <li>Ganesh playing Harmonium</li>
     </ul>`
 }]
-},{  
+}, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
+description: '<p>Baba smiling pic - July 2 2021</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li>
+    </ul>`
+},{
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-2.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li>
+    </ul>`
+}, {
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-1.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li></ul>`
+},]
+
+},
+{  
                 fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
                 thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
                 title: 'About Shree Ganesh and Ashtavinayaks',
