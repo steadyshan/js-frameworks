@@ -67,9 +67,15 @@ public allImageList:ImageElement[]  =  [
                       <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
                       <li>Approx March 31 2021</li></ul>`}
                     ]
-        },{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+        },{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
         description: '<p>Inspirational Sketch</p>',
         iterations:[{
+            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
+            description: `<ul>
+            <li>June 2nd -3rd week 2021</li>
+            <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
+            </ul>`
+        }, {
             fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
             description: `<ul>
             <li>June 2nd -3rd week 2021</li>
@@ -96,20 +102,29 @@ public allImageList:ImageElement[]  =  [
         <li>June 2nd -3rd week 2021</li>
         <li>Ganesh playing Tabla</li></ul>`
     },]
-},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
     fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
     description: `<ul>
     <li>June 2nd -3rd week 2021</li>
-    <li>Ganesh playing Tabla</li>
+    <li>Ganesh playing veena</li>
     </ul>`
 }, {
     fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
     description: `<ul>
     <li>June 2nd -3rd week 2021</li>
-    <li>Ganesh playing Tabla</li></ul>`
+    <li>Ganesh playing Veena</li></ul>`
 },]
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+description: `<ul>
+<li>July 7 2021</li>
+<li>Ganesh playing Harmonium</li>
+</ul>`
+}]
 },{  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',

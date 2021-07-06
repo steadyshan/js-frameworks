@@ -4,7 +4,7 @@ import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { NumberLiteralType } from 'typescript';
 import { CategoriesService } from '../../services/categories.service';
-interface ParamElement {
+interface MenuItem {
   label:string;
   key:string;
 }

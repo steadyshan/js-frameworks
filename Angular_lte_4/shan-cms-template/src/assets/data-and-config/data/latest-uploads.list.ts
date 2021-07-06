@@ -47,9 +47,15 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             theme:'Latest Uploads',
             themeSummary:
             `Showing latest uploads and updates over a week`,
-            files: [  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+            files: [  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
             description: '<p>Inspirational Sketch</p>',
             iterations:[{
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
+                description: `<ul>
+                <li>June 2nd -3rd week 2021</li>
+                <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
+                </ul>`
+            }, {
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
                 description: `<ul>
                 <li>June 2nd -3rd week 2021</li>
@@ -82,14 +88,23 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
         fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
         description: `<ul>
         <li>June 2nd -3rd week 2021</li>
-        <li>Ganesh playing Tabla</li>
+        <li>Ganesh playing veena</li>
         </ul>`
     }, {
         fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
         description: `<ul>
         <li>June 2nd -3rd week 2021</li>
-        <li>Ganesh playing Tabla</li></ul>`
+        <li>Ganesh playing Veena</li></ul>`
     },]
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+    description: `<ul>
+    <li>July 7 2021</li>
+    <li>Ganesh playing Harmonium</li>
+    </ul>`
+}]
 },{  
                 fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
                 thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
