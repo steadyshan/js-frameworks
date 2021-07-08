@@ -20,6 +20,24 @@ public allImageList:ImageElement[]  =  [
         files: [ {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaonStoneFamousPic.jpeg`, 
         description: `<b> AUM SAI RAM</b>` 
             
+            }, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
+            description: '<p>Baba smiling pic - July 2 2021 (will move to a new section for Q3-Q4 2021 soon)</p>',
+            iterations:[{
+                fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`, 
+                description: `<ul>
+                <li>Baba smiling pic - July 2 2021</li><li> (will move to a new section for Q3-Q4 2021 soon)</li>
+                </ul>`
+            },{
+                fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-2.jpeg`, 
+                description: `<ul>
+                <li>Baba smiling pic - July 2 2021</li><li> (will move to a new section for Q3-Q4 2021 soon)</li>
+                </ul>`
+            }, {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-1.jpeg`, 
+                description: `<ul>
+                <li>Baba smiling pic - July 2 2021</li><li> (will move to a new section for Q3-Q4 2021 soon)</li></ul>`
+            },]
+            
             },{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/ShirdiSaiJune20213rdweekWIP.jpg`, 
             description: `<b>Combination of being inspired by special effects black and white photography, using Baba's murthy face but Dwarkamai pose</b>` 
                 

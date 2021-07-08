@@ -47,9 +47,15 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             theme:'Latest Uploads',
             themeSummary:
             `Showing latest uploads and updates over a week`,
-            files: [  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+            files: [  {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
             description: '<p>Inspirational Sketch</p>',
             iterations:[{
+                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
+                description: `<ul>
+                <li>June 2nd -3rd week 2021</li>
+                <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
+                </ul>`
+            }, {
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
                 description: `<ul>
                 <li>June 2nd -3rd week 2021</li>
@@ -76,7 +82,49 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             <li>June 2nd -3rd week 2021</li>
             <li>Ganesh playing Tabla</li></ul>`
         },]
-    },{  
+    }, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+    description: '<p>Inspirational Sketch</p>',
+    iterations:[{
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+        description: `<ul>
+        <li>June 2nd -3rd week 2021</li>
+        <li>Ganesh playing veena</li>
+        </ul>`
+    }, {
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
+        description: `<ul>
+        <li>June 2nd -3rd week 2021</li>
+        <li>Ganesh playing Veena</li></ul>`
+    },]
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+    description: `<ul>
+    <li>July 7 2021</li>
+    <li>Ganesh playing Harmonium</li>
+    </ul>`
+}]
+}, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
+description: '<p>Baba smiling pic - July 2 2021</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li>
+    </ul>`
+},{
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-2.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li>
+    </ul>`
+}, {
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-1.jpeg`, 
+    description: `<ul>
+    <li>Baba smiling pic - July 2 2021</li></ul>`
+},]
+
+},
+{  
                 fullFileName: `#TEXTShree Ganesh: Ashta Vinayak`, 
                 thumbnail:`assets/all-images/religion/shree-ganesh/ashtavinayak-article/All_Ashtavinayak.jpeg`,
                 title: 'About Shree Ganesh and Ashtavinayaks',
