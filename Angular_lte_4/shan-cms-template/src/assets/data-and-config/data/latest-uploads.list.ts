@@ -105,7 +105,33 @@ iterations:[{
     <li>Ganesh playing Harmonium</li>
     </ul>`
 }]
-}, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+    description: `<ul>
+    <li>July 10 2021</li>
+        <li>Current..</li>
+    </ul>`
+    },{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-2-July102021.jpeg`, 
+    description: `<ul>
+    <li>July 10 2021</li>
+        <li>Was looking at this again and again.. something hadnt seemed right, then I got it</li>
+        <li>Right arm wasnt correct</li>
+    </ul>`
+    },{
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-1-July102021.jpeg`, 
+        description: `<ul>
+        <li>July 9 2021</li>
+            <li>Outline</li>
+        </ul>`
+        }]
+},// GaneshSitar-1-July102021.jpeg, 
+{  
+    fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-Chenabasapa-Veerabhadrapa-july82021.jpeg`,
+    description: '<p>July 8 2021 Thursday - story from SatCharit - Veerabhadrappa/Chenabassapa (reborn as) frog and snake </p>',},
+{  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
 description: '<p>Baba smiling pic - July 2 2021</p>',
 iterations:[{
     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`, 

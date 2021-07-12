@@ -125,7 +125,30 @@ description: `<ul>
 <li>Ganesh playing Harmonium</li>
 </ul>`
 }]
-},{  
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+    description: `<ul>
+    <li>July 10 2021</li>
+        <li>Current..</li>
+    </ul>`
+    },{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-2-July102021.jpeg`, 
+    description: `<ul>
+    <li>July 10 2021</li>
+        <li>Was looking at this again and again.. something hadnt seemed right, then I got it</li>
+        <li>Right arm wasnt correct</li>
+    </ul>`
+    },{
+        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-1-July102021.jpeg`, 
+        description: `<ul>
+        <li>July 9 2021</li>
+            <li>Outline</li>
+        </ul>`
+        }]
+},// GaneshSitar-1-July102021.jpeg
+{  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
                 iterations:[  {

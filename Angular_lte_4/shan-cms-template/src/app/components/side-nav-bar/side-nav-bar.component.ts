@@ -7,6 +7,9 @@ import { CategoriesService } from '../../services/categories.service';
 interface MenuItem {
   label:string;
   key:string;
+  uniqueKey:string;
+  parentKey:string;
+  
 }
 @Component({
   selector: 'app-side-nav-bar',
@@ -72,7 +75,14 @@ export class SideNavBarComponent implements OnInit {
     this._viewLink = this._unplugged === true ? `/unplugged-view` : `/view`;
     for (let i = 0; i < this._categories.length ; i++){
       //this._unplugged === true ?
-      this.menus.push({path: this._viewLink, label:`${this._categories[i].label}`, param:this._categories[i].key}) ;
+      this.menus.push({
+          path: this._viewLink, 
+          label:`${this._categories[i].label}`, 
+          uniqueKey: `${this._categories[i].uniqueKey}`, 
+           
+          parentKey: `${this._categories[i].parentKey}`, 
+          param:this._categories[i].key
+        }) ;
       // this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key});
     }
     // alert(JSON.stringify(this.menus));

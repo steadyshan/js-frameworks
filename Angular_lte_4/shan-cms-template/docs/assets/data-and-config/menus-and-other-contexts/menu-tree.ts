@@ -10,7 +10,7 @@ export interface MenuItem {
 };
 // flat structure - use uniqueKey - parentKey as one to many relationsho[
  
-export const ArtMuseumMenus:MenuItem[] = [
+export const MenuTree:MenuItem[] = [
         { label: 'Evolution', uniqueKey:'', parentKey:'', key:'starters-x', roles:['all']},
         { label: 'The Best', uniqueKey:'', parentKey:'', key:'starters-x', roles:['all']},
         { label: 'Latest Uploads', uniqueKey:'', parentKey:'', key:'latest-uploads', roles:['relgion','all'] },
@@ -29,7 +29,7 @@ export const ArtMuseumMenus:MenuItem[] = [
         { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'', key:'planes', roles:['nonLiving','all']},    ];
 @Injectable()
 export class  MenuNav { 
-    _artMuseumMenus:MenuItem[] = [
+    _menuTree:MenuItem[] = [
     { label: 'Evolution', uniqueKey:'', parentKey:'', key:'starters-x', roles:['all']},
     { label: 'The Best', uniqueKey:'', parentKey:'', key:'starters-x', roles:['all']},
     { label: 'Latest Uploads', uniqueKey:'', parentKey:'', key:'latest-uploads', roles:['relgion','all'] },
@@ -47,8 +47,8 @@ export class  MenuNav {
     { label: 'Rail', uniqueKey:'', parentKey:'', key:'trains', roles:['nonLiving','all']},
     { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'', key:'planes', roles:['nonLiving','all']},    ];
     
-    get ArtMusuemMenus():MenuItem[] {
-        return this._artMuseumMenus;
+    get MenuTree():MenuItem[] {
+        return this._menuTree;
     }
  
 };
