@@ -16,7 +16,7 @@ export class LatestUploadsImageList { // SwamiSamarthaImageList
             description: `
                <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
                ` }, 
-            {  fullFileName: `assets/all-images/religion/dattavatar-kartik-parvati-mahadev/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
+            {  fullFileName: `assets/all-images/religion/mahadev-familyAumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
                description: 
                `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
                <br/>Nov 17 2020`},
@@ -127,10 +127,35 @@ iterations:[{
             <li>Outline</li>
         </ul>`
         }]
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+    description: `<ul>
+    <li>July 12 2021</li>
+        <li>Current..</li>
+    </ul>`
+    },]
 },// GaneshSitar-1-July102021.jpeg, 
+// GaneshDholak-1-July12-2021.jpeg
 {  
     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-Chenabasapa-Veerabhadrapa-july82021.jpeg`,
     description: '<p>July 8 2021 Thursday - story from SatCharit - Veerabhadrappa/Chenabassapa (reborn as) frog and snake </p>',},
+    ,
+                                    {  
+                                        fullFileName: `assets/all-images/religion/dattavatar/TembeSwamiJuly82021.jpeg`, 
+                                        description: `
+                                        <ul>
+                                        <li> Vasudevanand Saraswati, also known as Tembe Swami, is a saint who is regarded as an incarnation of Dattatreya</li>
+                                        <li>Initial version JUkly 8 2021 drawn on request</li>
+                                        </ul>
+                                        ` },
+                                        { fullFileName: `assets/all-images/religion/dattavatar/RamThakurJuly2021-1.jpg`,  description:  `
+                                        <ul>
+                                        <li> Initial attempt to draw Ram Thakur - Sadguru from Bengal and my Mom and her family Guru</li>
+                                        <li>Ramthakur (Bengali: শ্রীশ্রী রামঠাকুর) (2 February 1860 – 1 May 1949) born Ram Chandra Chakraborty (Bengali: রাম চন্দ্র চক্রবর্তী), was an Indian mystic, yogi and spiritual master during 19th-century India.</li>
+                                        </ul>
+                                        ` },
 {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
 description: '<p>Baba smiling pic - July 2 2021</p>',
 iterations:[{

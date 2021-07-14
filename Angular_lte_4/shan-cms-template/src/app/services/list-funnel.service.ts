@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { DeviImageList } from '../../assets/data-and-config/data/devi.image.list' //'../assets/data-/../components/viewers/data/devi.image.list';
 import { MahadevImageList } from '../../assets/data-and-config/data/mahadev.image.list';
+import { MahadevFamilyImageList } from '../../assets/data-and-config/data/mahadev-family.image.list';
 import { LaxmiVishnuHanumanList} from '../../assets/data-and-config/data/laxmi-vishnu-hanuman.list';
 import { PeopleImageList } from '../../assets/data-and-config/data/people.image.list';
 import { PlacesScenesObjectsImageList} from '../../assets/data-and-config/data/places-scenes-objects.image.list';
@@ -38,6 +39,9 @@ export class ListFunnelService {
       this.allImageList = this.genImageList.allImageList ;
       break;
       case 'mahadev': this.genImageList = new MahadevImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'mahadev-family': this.genImageList = new MahadevFamilyImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'laxmi-vishnu-hanuman': this.genImageList = new LaxmiVishnuHanumanList();

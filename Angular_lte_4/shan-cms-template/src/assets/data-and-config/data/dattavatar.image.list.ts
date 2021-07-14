@@ -14,7 +14,7 @@ export class DattavatarImageList {
 public allImageList:ImageElement[]  =  [
    { 
         folder:'dattavatar',
-        theme:'Lord Dattatreya and Lineage, Sikh Gurus',
+        theme:'Spiritual Masters, Mystics - Lord Dattatreya and Lineage, Sikh Gurus, Others',
         themeSummary:
         `A section devoted to sketches on Guru's of Lord Dattatreya lineage and Sikh Gurus<br/>
             Before anything else, there are likely to be maybe a couple of sketches of Shirdi Sai, because I have many of them. So these warrant a separate folder
@@ -47,14 +47,22 @@ public allImageList:ImageElement[]  =  [
                                 <li> One of the first of <em><strong>numerous</strong></em> sketches of Shirdi Sai, one nearing a close resemblance</li>
                                 <li>November 2020</li>
                                 </ul>
-                                ` },,
+                                ` },
                                 {  
                                     fullFileName: `assets/all-images/religion/dattavatar/unsigned7SaiSmilingNov2020.jpeg`, 
                                     description: `
                                     <ul>
                                     <li> Also Nov 2020, one of my favorite Shirdi Sai Themes, one I call 'Santa Claus Baba'</li>
                                     </ul>
-                                    ` },,
+                                    ` },
+                                    {  
+                                        fullFileName: `assets/all-images/religion/dattavatar/TembeSwamiJuly82021.jpeg`, 
+                                        description: `
+                                        <ul>
+                                        <li> Vasudevanand Saraswati, also known as Tembe Swami, is a saint who is regarded as an incarnation of Dattatreya</li>
+                                        <li>Initial version JUkly 8 2021 drawn on request</li>
+                                        </ul>
+                                        ` },
                                     {  
                                         fullFileName: `assets/all-images/religion/dattavatar/unsigned8GuruNanakji11302020.jpeg`, 
                                         description: `
@@ -71,6 +79,12 @@ public allImageList:ImageElement[]  =  [
                     { fullFileName: `assets/all-images/religion/dattavatar/SaiSwamiApril2021.jpg`,  description:  `
                     <ul>
                     <li> Sometime April May 2021</li>
+                    </ul>
+                    ` },
+                    { fullFileName: `assets/all-images/religion/dattavatar/RamThakurJuly2021-1.jpg`,  description:  `
+                    <ul>
+                    <li> Initial attempt to draw Ram Thakur - Sadguru from Bengal and my Mom and her family Guru</li>
+                    <li>Ramthakur (Bengali: শ্রীশ্রী রামঠাকুর) (2 February 1860 – 1 May 1949) born Ram Chandra Chakraborty (Bengali: রাম চন্দ্র চক্রবর্তী), was an Indian mystic, yogi and spiritual master during 19th-century India.</li>
                     </ul>
                     ` }
               ]

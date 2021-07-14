@@ -9,7 +9,7 @@ export class GaneshImageList {
         description: `
            <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
            ` }, 
-        {  fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
+        {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
            description: 
            `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
            <br/>Nov 17 2020`},
@@ -147,7 +147,16 @@ iterations:[{
             <li>Outline</li>
         </ul>`
         }]
-},// GaneshSitar-1-July102021.jpeg
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+description: '<p>Inspirational Sketch</p>',
+iterations:[{
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+    description: `<ul>
+    <li>July 12 2021</li>
+        <li>Current..</li>
+    </ul>`
+    },]
+},
 {  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',

@@ -20,7 +20,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'Mahadev', uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all']},
         { label: 'Mahadev and Family', uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all']},
         { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', uniqueKey:'', parentKey:'art', key:'laxmi-vishnu-hanuman', roles:['relgion','all']},
-        { label: 'Satgurus of Lord Datta Lineage', uniqueKey:'', parentKey:'art', key:'dattavatar', roles:['relgion','all']},
+        { label: 'Spiritual Souls:Datta Lineage, Sikhs, East of India', uniqueKey:'', parentKey:'art', key:'dattavatar', roles:['relgion','all']},
         { label: 'Shree Swami Samartha', uniqueKey:'', parentKey:'art', key:'swami-samartha', roles:['relgion','all']},
         { label: 'Shirdi Sai Q1 Q2(+Q3) 2021', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
         { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all']},

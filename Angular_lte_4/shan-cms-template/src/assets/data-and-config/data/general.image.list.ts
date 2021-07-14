@@ -15,7 +15,7 @@ import { PicDescr, ImageElement } from './image.list'
            description: `
               <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
               ` }, 
-           {  fullFileName: `assets/all-images/religion/shree-ganesh-kartik-parvati-mahadev/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
+           {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
               description: 
               `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
               <br/>Nov 17 2020`},
