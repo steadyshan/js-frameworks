@@ -15,7 +15,56 @@ export class PlacesScenesObjectsImageList {
              themeSummary:
              ``,
              files: [
-                  {
+                  ,{  fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-final-1.jpeg`, 
+         description: '<p>Inspirational Sketch</p>',
+         iterations:[{
+             fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-final-1.jpeg`, 
+             description: `<ul>
+             <li>July 10 2021</li>
+                 <li>Imaginary scene developed as I went along..</li>
+                 <li>Also in planes.</li>
+                <li> Supposed to be a Hercules (of IAF?) dropping emergency supplies in a hilly region</li>
+                <li> Update: Attempt to show a river in spate and enhanced landslide on hill in foreground</li>
+             </ul>`
+             },{
+             fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-pre-final-1.jpeg`, 
+             description: `<ul>
+             <li>July 10 2021</li>
+                 <li>Imaginary scene developed as I went along..</li>
+                <li> Supposed to be a Hercules (of IAF?) dropping emergency supplies in a hilly region</li>
+             </ul>`
+             },{
+                 fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-1.jpeg`, 
+                 description: `<ul>
+                 <li>July 10 2021</li>
+                 <li>Imaginary scene developed as I went along..</li>
+                <li> Supposed to be a Hercules (of IAF?) dropping emergency supplies in a hilly region</li>
+                 </ul>`
+                 }]
+         },{  fullFileName: `assets/all-images/places-scenes-objects/TankerInStormJuly9-2021-2.jpeg`, 
+         description: '<p>Inspirational Sketch</p>',
+         iterations:[{
+             fullFileName: `assets/all-images/places-scenes-objects/TankerInStormJuly9-2021-2.jpeg`, 
+             description: `<ul>
+             <li>July 9 2021</li>
+                 <li>Imaginary scene developed as I went along..</li>
+                <li> Supposed to be a Tanker negotiating heavy storm .. </li>
+                <li>people thought it was a shark; probably because of the shape of the bow and the anchor 
+                looking like the eye and jawline of the fish </li>
+                <li>Smoothening out the bow and refined the water seeping over the fo'csle to fade out the eye .. er .. the anchor</li>
+             </ul>`
+             },{
+             fullFileName: `assets/all-images/places-scenes-objects/TankerInStormJuly9-2021-1.jpeg`, 
+             description: `<ul>
+             <li>July 9 2021</li>
+                 <li>Imaginary scene developed as I went along..</li>
+                <li> Supposed to be a Tanker negotiating heavy storm .. </li>
+                <li>People thought it was a shark; probably because of the shape of the bow and the anchor 
+                looking like the eye and jawline of the fish </li>
+                
+             </ul>`
+             }]
+         },{
                         fullFileName: `assets/all-images/places-scenes-objects/GeneralNatureScene.jpg`,
                         description: '<p>General scene</p>' 
                   },

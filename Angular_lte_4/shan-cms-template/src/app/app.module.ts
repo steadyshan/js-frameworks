@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppMuseumIntroComponent } from './app-museum-intro/app-museum-intro.component';
+import { AreaSummaryPageComponent } from './area-summary-page/area-summary-page.component';
 import { SideNavBarComponent } from './components/side-nav-bar/side-nav-bar.component';
 
 import { FormsModule } from '@angular/forms';
@@ -18,7 +18,7 @@ import { CategoriesService } from './services/categories.service';
 @NgModule({
   declarations: [
     AppComponent,
-    AppMuseumIntroComponent,
+    AreaSummaryPageComponent,
     SideNavBarComponent,
     RegisterAddUserComponent,
     MenuItemsComponent,
@@ -31,7 +31,8 @@ import { CategoriesService } from './services/categories.service';
     BrowserModule,
    // AppRoutingModule
    FormsModule,
-    RouterModule.forRoot([{path:'', component:AppMuseumIntroComponent},
+    RouterModule.forRoot([{path:'', component:AreaSummaryPageComponent},
+    {path:'intro/:index', component:AreaSummaryPageComponent},
     {path:'register', component:RegisterAddUserComponent},
     {path: 'view/:theme', component: RegularViewerComponent },
     {path: 'unplugged-view/:theme', component: UnpluggedViewerComponent },

@@ -67,96 +67,153 @@ public allImageList:ImageElement[]  =  [
                       <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
                       <li>Approx March 31 2021</li></ul>`}
                     ]
-        },{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
+        },
+        {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanpatiGaneshChaturthi09102021.jpeg`, 
+        description: `<p>GANESH CHATURTHI 2021!!<ul>
+                        <li>Took my time on this one - probably a month before official release Sept 10 2021 (Ganesh Chaturthi)</li>
+                        <li>Sketched off an image found on Google</li>
+                        <li>They say anything auspicious starts with Ganesh. This was my FIRST share on Facebook</li>
+                        <li>(I normally share on whatsapp)</li>
+                    </ul></p>`
+            ,
+       
+        },
+        {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
+        description: `<p>GANESH CHATURTHI 2021!! Gauri<ul>
+                        <li>Ganesh visarjan (completion of SHree's sojourn) takes place generally 1.5. 2.5, 5, 7 and 10 days after Chaturthi</li>
+                        <li>The Ganesh festivals ending on 5th day, have Gauri (To date I am unclear on the story)</li>
+                        <li>TThe two 'ladies' shown are Gauri/li>
+                        <li>The Ganesh sketch section is a 'glass trace' of another sketch.. see after the 8+1 sketches of Shree Ganesh playing music instruments</li>
+                        <li>Background is inspired from Shirdi Sai Milpitas Temple on a festival.</li>
+                        <li>Sept 14 2021 - including FB</li>
+                    </ul></p>`
+            ,
+       
+        },
+        {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapati2_AnantChaturdashi2021.jpeg`, 
+        description: `<p>GANESH CHATURTHI 2021!! Visarjan<ul>
+                        
+                        <li>10th Day is Anant Chaturdashi, a big event * in all places where Ganapati is celebrated, Esp. MUMBAI</li>
+                        <li>Shared (also on FB) Sept 19 which was Anant Chaturdashi 2021 in Bay Area. </li>
+                        <li>The word is 'Punaragaman' which means come back - asking the Lord to return soon</li>
+                        <li>Shared (also on FB) Sept 19 which was Anant Chaturdashi 2021 in Bay Area. </li>
+                        <li>(<em>* normally, however due to COVID, it is far subdued this year</em>)</li>
+                    </ul></p>`
+            ,
+       
+        },
+       {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-3-June2021.jpg`, 
         description: '<p>Inspirational Sketch</p>',
         iterations:[{
-            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-3-June2021.jpg`, 
+            fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-3-June2021.jpg`, 
             description: `<ul>
             <li>June 2nd -3rd week 2021</li>
             <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
             </ul>`
         }, {
-            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-2-June2021.jpg`, 
+            fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-2-June2021.jpg`, 
             description: `<ul>
             <li>June 2nd -3rd week 2021</li>
             <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li>
             </ul>`
         }, {
-            fullFileName: `assets/all-images/religion/shree-ganesh/GaneshFlute-1-June2021.jpg`, 
+            fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-1-June2021.jpg`, 
             description: `<ul>
             
             <li>June 2nd -3rd week 2021 initial iteration</li>
             <li>Like many, an inspiration, this from a photo posted by a friend, and  modified by adding a flute</li></ul>`
         },]
-    }, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-2-June2021.jpg`, 
+    }, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTabla-2-June2021.jpg`, 
     description: '<p>Inspirational Sketch</p>',
     iterations:[{
-        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-2-June2021.jpg`, 
+        fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTabla-2-June2021.jpg`, 
         description: `<ul>
         <li>June 2nd -3rd week 2021</li>
         <li>Ganesh playing Tabla</li>
         </ul>`
     }, {
-        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshTabla-1-June2021.jpg`, 
+        fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTabla-1-June2021.jpg`, 
         description: `<ul>
         <li>June 2nd -3rd week 2021</li>
         <li>Ganesh playing Tabla</li></ul>`
     },]
-}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-2-July32021.jpg`, 
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
-    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-2-July32021.jpg`, 
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-2-July32021.jpg`, 
     description: `<ul>
     <li>June 2nd -3rd week 2021</li>
     <li>Ganesh playing veena</li>
     </ul>`
 }, {
-    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshVeena-1-July32021.jpg`, 
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-1-July32021.jpg`, 
     description: `<ul>
     <li>June 2nd -3rd week 2021</li>
     <li>Ganesh playing Veena</li></ul>`
 },]
-}, {  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+}, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshHarmonium-1-July2021.jpeg`, 
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
-fullFileName: `assets/all-images/religion/shree-ganesh/GaneshHarmonium-1-July2021.jpeg`, 
+fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshHarmonium-1-July2021.jpeg`, 
 description: `<ul>
 <li>July 7 2021</li>
 <li>Ganesh playing Harmonium</li>
 </ul>`
 }]
-},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-3-July102021.jpeg`, 
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
-    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-3-July102021.jpeg`, 
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-3-July102021.jpeg`, 
     description: `<ul>
     <li>July 10 2021</li>
         <li>Current..</li>
     </ul>`
     },{
-    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-2-July102021.jpeg`, 
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-2-July102021.jpeg`, 
     description: `<ul>
     <li>July 10 2021</li>
         <li>Was looking at this again and again.. something hadnt seemed right, then I got it</li>
         <li>Right arm wasnt correct</li>
     </ul>`
     },{
-        fullFileName: `assets/all-images/religion/shree-ganesh/GaneshSitar-1-July102021.jpeg`, 
+        fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-1-July102021.jpeg`, 
         description: `<ul>
         <li>July 9 2021</li>
             <li>Outline</li>
         </ul>`
         }]
-},{  fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+},{  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshDholak-1-July12-2021.jpeg`, 
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
-    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshDholak-1-July12-2021.jpeg`, 
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshDholak-1-July12-2021.jpeg`, 
     description: `<ul>
     <li>July 12 2021</li>
         <li>Current..</li>
     </ul>`
     },]
-},
+},{
+    fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTanpura-1July14-26-2021.jpeg`, 
+    description: `<ul>
+    <li>uly 14-26 2021</li>
+        <li>Tanpura </li>
+        <li>Earlier iteration gave Shree a saddish look, which was pointed out by a well-wisher (same lady who 'audits' my Sai sketches)..</li>
+        <li>.. so hopefully, corrected!! (May add these iterations when I find them)</li>
+    </ul>`
+    },{
+        fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshManjira1-July14-26-2021.jpeg`, 
+        description: `<ul>
+        <li>July 14-26 2021</li>
+            <li>Manjira</li>
+            <li>(May add iterations when I find them)</li>
+        </ul>`
+        },{
+            fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/SangeetVinayakJuly26-27-2021.png`, 
+            description: `<ul>
+            <li>July 26-27 2021</li>
+                <li>AND THE COMPILATION!!!! </li>
+                <li>..</li>
+            </ul>`
+            },
 {  
                 fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',

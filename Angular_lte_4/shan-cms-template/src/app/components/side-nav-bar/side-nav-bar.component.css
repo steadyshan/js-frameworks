@@ -10,6 +10,13 @@
     border-radius: 7px;
     font-size:1vw;
 }
+.full-size {
+    width:100%;
+   
+}
+.full-size  div { 
+    margin:5px;
+}
 #smallScreenMenus {
     display:none;
 }

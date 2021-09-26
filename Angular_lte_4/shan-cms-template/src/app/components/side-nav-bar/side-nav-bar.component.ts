@@ -45,6 +45,9 @@ export class SideNavBarComponent implements OnInit {
   get password():string {
     return this._password? this._password : '';
   } 
+  get LoggedInClass():string {
+    return localStorage.getItem('userId') !== null? 'right-nav' :  'right-nav full-size';
+  }
   set password(val :string) {
     this._password = val;
   } 
@@ -60,7 +63,9 @@ export class SideNavBarComponent implements OnInit {
     // ts-lint:disable
     this._categories = localStorage.getItem('categories'); // ts-lint:disable
   }
-
+  setContext(contextNum:string) {
+    localStorage.setItem('context', contextNum) ;
+  }
   ngOnInit() {
   }
   navigateStoragelogin() {
@@ -108,10 +113,11 @@ export class SideNavBarComponent implements OnInit {
         console.log("Navigation has failed!");
       }
     });
-    // alert(JSON.stringify(this.menus[this.smallScreenIndex].param));
+    // alert(JSON.st ringify(this.menus[this.smallScreenIndex].param));
     // this.router.navigate(['view'], { queryParams: { key: 'starters-x' } });
       
   }
+  
   getMenuIndex(factor:number):number {
     this.smallScreenIndex += factor;
     if(this.smallScreenIndex < 0) {
@@ -124,6 +130,7 @@ export class SideNavBarComponent implements OnInit {
       
   }
   navigateStoragelogout() {
+    localStorage.removeItem('context');
     localStorage.removeItem('userId');
     localStorage.removeItem('userMenu');
     this.router.navigate(['']);

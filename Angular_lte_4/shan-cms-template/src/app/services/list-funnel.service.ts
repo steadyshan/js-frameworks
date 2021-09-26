@@ -14,6 +14,7 @@ import { DattavatarImageList } from '../../assets/data-and-config/data/dattavata
 import { ShirdiSaiQ1Q22021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-2020.list';
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list'
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
+import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
 import { allImageList, ImageElement } from '../../assets/data-and-config/data/image.list';
 @Injectable({
   providedIn: 'root'
@@ -26,6 +27,9 @@ export class ListFunnelService {
   constructor() { }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
+      case 'showpiece': this.genImageList = new ShowpieceImageList();
+                             this.allImageList = this.genImageList.allImageList ;
+                             break;
       case 'latest-uploads': this.genImageList = new LatestUploadsImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;

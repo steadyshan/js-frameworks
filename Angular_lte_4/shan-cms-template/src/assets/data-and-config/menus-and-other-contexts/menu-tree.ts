@@ -1,3 +1,4 @@
+// import { MenuItem } from './../../../../docs/assets/data-and-config/menus-and-other-contexts/menu-tree';
 import { Injectable } from '@angular/core';
 import { LabeledStatement } from 'typescript';
   
@@ -7,13 +8,13 @@ export interface MenuItem {
     key:string;
     label:string;
     roles:string[] ; // unused for now ;
+    children?:MenuItem[] ;
 };
 // flat structure - use uniqueKey - parentKey as one to many relationsho[
  
 export const MenuTree:MenuItem[] = [
-        { label: 'Sketches', uniqueKey:'parent-art', parentKey:'', key:'starters-x', roles:['all']},
         { label: 'Evolution', uniqueKey:'', parentKey:'art', key:'starters-x', roles:['all']},
-        { label: 'The Best', uniqueKey:'', parentKey:'art', key:'starters-x', roles:['all']},
+        { label: 'The Best', uniqueKey:'', parentKey:'art', key:'showpiece', roles:['all']},
         { label: 'Latest Uploads', uniqueKey:'', parentKey:'art', key:'latest-uploads', roles:['relgion','all'] },
         { label: 'Shree Ganesh', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'] },
         { label: 'Goddesses', uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all']},
@@ -31,9 +32,8 @@ export const MenuTree:MenuItem[] = [
 @Injectable()
 export class  MenuNav { 
     _menuTree:MenuItem[] = [
-    { label: 'Sketches', uniqueKey:'parent-art', parentKey:'', key:'', roles:['all']},
     { label: 'Evolution', uniqueKey:'', parentKey:'art', key:'starters-x', roles:['all']},
-    { label: 'The Best', uniqueKey:'', parentKey:'art', key:'starters-x', roles:['all']},
+    { label: 'The Best', uniqueKey:'', parentKey:'art', key:'showpiece', roles:['all']},
     { label: 'Latest Uploads', uniqueKey:'', parentKey:'art', key:'latest-uploads', roles:['relgion','all'] },
     { label: 'Shree Ganesh', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'] },
     { label: 'Goddesses', uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all']},

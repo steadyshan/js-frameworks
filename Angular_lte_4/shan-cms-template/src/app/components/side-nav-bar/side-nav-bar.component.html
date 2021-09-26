@@ -1,24 +1,21 @@
 
-  <div class="right-nav">`
+  <div [ngClass]="LoggedInClass">`
     <div *ngIf="userNotLoggedIn; else elseBlock">
-      <input type='text' placeholder='User Name' [(ngModel)]="userId">
-      <input type='password' placeholder='password' [(ngModel)]="password">
-      <input type='button' value='login' (click)='navigateStoragelogin()'>
-      <br/> View Unplugged
-      <input type='checkbox' value='login' (click)='unpluggedSet()'>
-      <ul>
-        <!--li> <a routerLink="/register">Register</a></li-->
-        <li> <a routerLink="/">Home</a></li>
-      </ul>
+      <div><input type='text' placeholder='User Name' [(ngModel)]="userId"></div>
+      <div><input type='password' placeholder='password' [(ngModel)]="password"></div>
+      <div><input type='button' value='login' (click)='navigateStoragelogin()'> View Unplugged
+      <input type='checkbox' value='login' (click)='unpluggedSet()'></div>
     <!--input type='button' value='Register' (click)='navigateStorageRegisterUser()'-->
     
 
     </div>
     <ng-template #elseBlock>
     <div>  
-    Welcome {{userId}}
+    Welcome {{userId}} 
     <div id='largeScreenMenus'>
       <ul>
+          <!--li> <a (click)="setContext('0')">Sketches</a></li>
+          <li> <a (click)="setContext('0')">Blog</a></li-->
           <li *ngFor="let link of Menus">
             <a *ngIf="link.param.length===0" routerLink="{{link.path}}">{{link.label}}</a>
             <!--a *ngIf="link.param.length > 0" [routerLink]="['view',link.param]">{{link.label}}</a-->

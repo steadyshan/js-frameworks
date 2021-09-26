@@ -13,14 +13,18 @@ export class ShirdiSaiQ1Q22021ImageList {
 public allImageList:ImageElement[]  =  [
    { 
         folder:'shirdi-sai-q1-q2-2021',
-        theme:'Shirdi Sai Sketches Q1 and Q2 2021',
+        theme:'Shirdi Sai Sketches Q1 and Q2 2021, SOME OF Q3 TOO',
         themeSummary:
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaonStoneFamousPic.jpeg`, 
         description: `<b> AUM SAI RAM</b>` 
             
-            }, {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
+            },// 
+            {  
+                fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-Chenabasapa-Veerabhadrapa-july82021.jpeg`,
+                description: '<p>July 8 2021 Thursday - story from SatCharit - Veerabhadrappa/Chenabassapa (reborn as) frog and snake </p>',},
+            , {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`,
             description: '<p>Baba smiling pic - July 2 2021 (will move to a new section for Q3-Q4 2021 soon)</p>',
             iterations:[{
                 fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Baba-July2-2021-3.jpeg`, 
@@ -162,7 +166,12 @@ public allImageList:ImageElement[]  =  [
                             <ul><li><strong> Milpitas CA Temple Sai</strong></li>
                             <li>Using color pencils</li>
                             <li>Probably Q2 s 2021</li></ul>
-                           ` } , {  
+                           ` } , {  fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/BabaMilpitasSept23_2021.jpeg`, 
+                           description: ` <ul><li><strong> Milpitas CA Temple Sai</strong></li>
+                           <li>Sept 23 2021</li>
+                           <li>Variation - Sai Yantra is larger than the one present and add hookah</li></ul>`
+                               
+                               },{  
                     fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/Milpitas-Baba-June3-2021.jpeg`, 
                     description: `
                        <ul><li><strong> Milpitas CA Temple Sai</strong></li>
