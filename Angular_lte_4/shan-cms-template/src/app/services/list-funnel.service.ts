@@ -9,9 +9,13 @@ import { ThemesMisc } from '../../assets/data-and-config/data/themes-misc.list';
 import { LatestUploadsImageList } from '../../assets/data-and-config/data/latest-uploads.list';
 import { PlanesImageList } from '../../assets/data-and-config/data/planes.image.list';
 import { GaneshImageList } from '../../assets/data-and-config/data/ganesh.image.list';
+import { GaneshGTEQ42021ImageList } from '../../assets/data-and-config/data/ganesh-gte-q4-2021.image.list';
 import { SwamiSamarthaImageList } from '../../assets/data-and-config/data/swami-samartha.image.list'
 import { DattavatarImageList } from '../../assets/data-and-config/data/dattavatar.image.list';
 import { ShirdiSaiQ1Q22021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-2020.list';
+import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q3-q4-2021.list';
+import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme.images-list';
+
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list'
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
@@ -24,7 +28,17 @@ export class ListFunnelService {
   allImageList:ImageElement[] = [];
   sortThumbnails:string = '';
   genImageList:any = null ;
+  latestLimit = 40 ;
   constructor() { }
+  daysAgoUploaded(source:any) {
+    const firstDayOfYear =  source.dateUploaded ? new Date(source.dateUploaded): new Date('01-01-1990') ;
+    const today = new Date();
+    
+  
+    const diff = Math.abs(today.getTime() - firstDayOfYear.getTime());
+    const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
+    return diffDays <= this.latestLimit;
+  }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
       case 'showpiece': this.genImageList = new ShowpieceImageList();
@@ -39,9 +53,12 @@ export class ListFunnelService {
       case 'shree-ganesh': this.genImageList = new GaneshImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
+      case 'shree-ganesh-gte-q4-2021': this.genImageList = new GaneshGTEQ42021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
       case 'devi': this.genImageList = new DeviImageList();
-      this.allImageList = this.genImageList.allImageList ;
-      break;
+                        this.allImageList = this.genImageList.allImageList ;
+                        break;
       case 'mahadev': this.genImageList = new MahadevImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
@@ -64,6 +81,12 @@ export class ListFunnelService {
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'shirdi-sai-q3-q4-2021': this.genImageList = new ShirdiSaiQ3Q42021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'baba-themes-1': this.genImageList = new ShirdiSaiThemeList1();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'people-places': this.genImageList = new PeopleImageList();

@@ -48,6 +48,30 @@ export class PeopleImageList {
                         ] 
          },
          {
+            fullFileName: `assets/all-images/people-places/ShivajiMaharajNov2021Final.jpeg`, 
+            description: '<p>From imagination</p>',
+            dateUploaded: '12-08-2021',
+            iterations:[ 
+               {
+                  fullFileName: `assets/all-images/people-places/ShivajiMaharajNov2021Final.jpeg`, 
+                  description: `<ul>
+                                 <li>Taking an unfinished sketch, slowly steadily filled out modified for this</li>
+                                 <li>Q4 2021</li>]
+                                </ul>`
+               }, {
+                     fullFileName: `assets/all-images/people-places/ShivajiMaharajNov2021_2.jpeg`, 
+                     description: `<ul>
+                                    <li>Taking an unfinished sketch, slowly steadily filled out modified for this</li>
+                                    <li>Q4 2021</li>]
+                                   </ul>`
+                  },
+                  {
+                     fullFileName: `assets/all-images/people-places/ShivbaHorseTithiJayanti_wip_03_31_2021.jpeg`, 
+                     description: `<ul><li>Maharaj on horseback </li><li>Black and white</li></ul>`}
+                        ] 
+         },
+         // 
+         {
             fullFileName: `assets/all-images/people-places/UnsignedWIPPtBhimsenJoshiJan242021.jpeg`, 
             description: `<ul>
                               <li>BHARAT RATNA Pt. Bhimsen Joshi </li>

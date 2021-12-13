@@ -88,9 +88,18 @@ public allImageList:ImageElement[]  =  [
                         <li>Sept 14 2021 - including FB</li>
                     </ul></p>`
             ,
+         dateUploaded: '10-05-2021',
        
         },
-        {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapati2_AnantChaturdashi2021.jpeg`, 
+        {  fullFileName: 'assets/all-images/religion/shree-ganesh/GaneshNov2021.jpeg', 
+        description: `<p>General Ganesh Snap<ul>
+                        <li>Still from Ganesh Video - Vishwavinayak (Ajay-Atul) list 1st song</li>
+                        <li>Nov 2021</li>
+                    </ul></p>`
+            ,
+         dateUploaded: '12-05-2021',
+        },
+        {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021.jpeg`, 
         description: `<p>GANESH CHATURTHI 2021!! Visarjan<ul>
                         
                         <li>10th Day is Anant Chaturdashi, a big event * in all places where Ganapati is celebrated, Esp. MUMBAI</li>
@@ -100,6 +109,28 @@ public allImageList:ImageElement[]  =  [
                         <li>(<em>* normally, however due to COVID, it is far subdued this year</em>)</li>
                     </ul></p>`
             ,
+        },
+            {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
+        description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
+                        
+                        <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
+                    </ul></p>`
+            ,
+            dateUploaded: '12-07-2021',
+            iterations:[  {
+                fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
+                description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
+                        
+                <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
+            </ul></p>`
+            }, {
+                fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR1.jpeg`, 
+                description: `<ul>
+                <li>Color version. (WIP)</li>
+                <li>Glass trace of the one sketched on Anant Chaturdashi, and color pencilled </li>
+                <li>Oct10-11-2021</li>
+                </ul>`
+            },]
        
         },
        {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-3-June2021.jpg`, 
@@ -306,8 +337,27 @@ iterations:[{
                     <li>So the dictation began and legend has it that the Sage packed so much meaning and depth into the narration that 'even 
                     the omniscient Ganesh has to pause and think to interpret what He was writing'.</li>
                     <li> This gave the Sage time to compose while the God of Wisdom understood and wrote</li>
-                    <li>Sketch drawn Marh 8-9 2021. Like the Bay Area GAnesh sketch designated as 'WIP'; even more so </li>
+                    <li>Sketch Refreshed Sept 2021, drawn Marh 8-9 2021. Like the Bay Area GAnesh sketch designated as 'WIP'; even more so </li>
+                    </ul>`,
+                    dateUploaded: '12-11-2021',
+                    iterations:[  
+                        { fullFileName: `assets/all-images/religion/shree-ganesh/DictationOfMahabharatSept2021Final.jpeg`, 
+                    description: `<ul>
+                    <li>Attempt to depict a famous secene related to Mahabharat</li>
+                    <li>Lord Brahma recommended Shree Ganesh to Sage Vyas for putting pen and paper to the Latter's Magnificent Poem</li>
+                    <li>Shree Ganesh agreed on the pre-condition that the moment His pen required to pause, He would stop writing; 
+                        that there should should be no gap, no interrupt</li>
+                    <li>The wily Sage put a counter condition that Ganesh ji should write only after He understood the meaning</li>
+                    <li>So the dictation began and legend has it that the Sage packed so much meaning and depth into the narration that 'even 
+                    the omniscient Ganesh has to pause and think to interpret what He was writing'.</li>
+                    <li> This gave the Sage time to compose while the God of Wisdom understood and wrote</li>
+                    <li>Sketch Refreshed Sept 2021, drawn Marh 8-9 2021. Like the Bay Area GAnesh sketch designated as 'WIP'; even more so </li>
                     </ul>`},
+                        { fullFileName: `assets/all-images/religion/shree-ganesh/DictationOfMahabharatMarch092021.jpeg`, 
+                    description: `<ul>
+                    <li>March 8-9 2021 Initial version - click iterations to go back </li>
+                    </ul>
+                    `}],},
                     {  
                         fullFileName: `assets/all-images/religion/shree-ganesh/GeneralGaneshSnap.jpeg`,
                         description: '<p>Quick Sketch Q1 2021 trying out shading pencils</p>',

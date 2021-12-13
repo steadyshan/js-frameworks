@@ -75,7 +75,18 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
      },{ 
             fullFileName: `assets/all-images/religion/swami-samartha/SwamicolorQ1Q2_2021-adj1.png`,
             description: '<ul><li>95% height adjusted - Mac paintbrush </li><li>Using color pencils approx Q1 - Q2 2021 - more Q1</li></ul>'},
-        ] },// SwamicolorQ1Q2_2021-adj1.png
+        ] }, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`, 
+        description: '<ul><li>olor</li> </ul>',
+        dateUploaded: '12-09-2021',
+     iterations:[
+         { 
+             fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`,
+             description: '<ul><li>color</li></ul>',
+      },{ 
+             fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021_1.jpeg`,
+             description: '<ul><li>initial iteration</li></ul>'},
+         ] },
+        // SwamicolorQ1Q2_2021-adj1.png
        {  fullFileName: `assets/all-images/religion/swami-samartha/Swami-June5-2021-v2.jpeg`, 
                        description: '<ul><li>Using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>',
                     iterations:[
@@ -88,7 +99,8 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
                         ] },
                         // SwamiSamarthaKhanderayaMarch12021Shivratri+1
                   ]
-           }
+           },
+           // SwamiOctNov2021.jpeg
      
        ];
  }

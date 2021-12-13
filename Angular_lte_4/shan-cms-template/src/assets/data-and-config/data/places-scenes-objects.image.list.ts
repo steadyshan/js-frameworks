@@ -3,19 +3,32 @@ import { PicDescr, ImageElement } from './image.list'
 export class PlacesScenesObjectsImageList {
     sort: string = 'asc'
     public allImageList:ImageElement[]  =  [
-          // GoldenGateAirShowJune222021_2.jpeg
-       /*
-      /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/places-scenes-objects/
-/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/places-scenes-objects/
-/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/places-scenes-objects/MalcolmM04192021.jpg
-/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/art-musuem/src/assets/all-images/places-scenes-objects/ */
-              { 
-             folder:'places-scenes-objects',
-             theme:'Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)',
-             themeSummary:
-             ``,
-             files: [
-                  ,{  fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-final-1.jpeg`, 
+          { 
+                folder:'places-scenes-objects',
+                theme:
+                'Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)',
+                themeSummary:``,
+                files: [
+                      { 
+                            fullFileName: `assets/all-images/places-scenes-objects/NeuSchwansteinNov2021_2.jpeg`,
+                            description: '<p>Inspirational Sketch</p>',
+                            dateUploaded: '12-06-2021',
+                            iterations:[
+                                  {
+                                        fullFileName: `assets/all-images/places-scenes-objects/NeuSchwansteinNov2021_2.jpeg`, 
+                     description: `<ul>
+                     <li>Nov-Dec 2021</li>
+                         <li>NeuSchwantstein Castle, Bavaria</li>
+                         <li>Built late 19th century - early 20th </li>
+                        <li>King Ludwig.. Inspiration for Disney Fairy tale castle</li>
+                     </ul>`
+                     },{
+                     fullFileName: `assets/all-images/places-scenes-objects/NeuSchwansteinNov2021_1.jpeg`, 
+                     description: `<ul>
+                     <li>worth posting prior iteration</li>
+                     </ul>`
+                     }]
+                 } ,{  fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-final-1.jpeg`, 
          description: '<p>Inspirational Sketch</p>',
          iterations:[{
              fullFileName: `assets/all-images/places-scenes-objects/IAFHerculesJuly10-final-1.jpeg`, 
@@ -87,7 +100,42 @@ export class PlacesScenesObjectsImageList {
                                           <li>Aircraft: a merge of US and Soviet thrust vector fighter lines</li>
                                           <li>Q1-2 2021</li>
                                     </ul>`, },
+                                    // GoldenGateColorPencil-11-2021.jpeg
                    {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021.jpeg`, 
+                        description: `<ul><li>Favourite of mine and many sketch arstists and painters on the SF waterfront - GOLDEN GATE BRIDGE!!! </li></ul>`,
+                        
+                        dateUploaded: '12-06-2021',
+                        iterations: [
+                              { 
+                                    fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021.jpeg`, 
+                                                     description: 
+                                                                 `<ul><li>Favourite of mine and many sketch arstists and painters on the SF waterfront - GOLDEN GATE BRIDGE!!! </li></ul>`
+                                               },
+                                               { 
+                                                     fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021-1.jpeg`, 
+                                                     description: 
+                                                                 `<ul>
+                                                                       <li>.. iteration 1.. </li>
+                                                                 </ul>`
+                                               },
+                                               { 
+                                                     fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021-2.jpeg`, 
+                                                     description: 
+                                                                 `<ul>
+                                                                       <li>.. iteration 2.. </li>
+                                                                 </ul>`
+                                               },
+                                               ,
+                                               { 
+                                                     fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021-3.jpeg`, 
+                                                     description: 
+                                                                 `<ul>
+                                                                       <li>.. iteration 3.. </li>
+                                                                 </ul>`
+                                               },
+                                          ]
+                                    },{
                          fullFileName: `assets/all-images/places-scenes-objects/GoldenGateAirShowJune222021_2.jpeg`, 
                          description: `<ul><li>Completely fictitious (I guess they'd NEVER close down sea traffic in the Bay)</li>
                                           <li>Air Show theme - attempt to sketch two 'thrust vectored' aircraft types</li></ul>`,

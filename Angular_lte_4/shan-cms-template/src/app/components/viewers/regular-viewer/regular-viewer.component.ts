@@ -51,6 +51,23 @@ export class RegularViewerComponent implements OnInit {
   get CurrentImage(): string {
     return JSON.stringify(this.currentImage);
   }
+  thumbnailStyle(source:any) {
+    return  this.listFunnelService.daysAgoUploaded(source) === true? 
+      { 'border': '2px outset orange', 'margin': '1px'} : 
+      { 'border': '1px inset blue', 'margin': '1px'}
+  }
+  daysAgoUploaded(source:any) {
+    const firstDayOfYear =  source.dateUploaded ? new Date(source.dateUploaded): new Date('01-01-1990') ;
+    const today = new Date();
+    
+  
+    const diff = Math.abs(today.getTime() - firstDayOfYear.getTime());
+    const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
+    if(source.dateUploaded) { console.log(`${JSON.stringify(source.dateUploaded)}`); }
+    console.log(`${JSON.stringify(source)}`);
+    return  diffDays <= 7 ? { 'border': '2px solid orange'} : { 'border': 'none'}
+
+  }
   ngOnInit() {
     let themed:any = null ;
     let foundList:ImageElement[] = [] ;
@@ -74,12 +91,14 @@ export class RegularViewerComponent implements OnInit {
           foundList[0]
               .files
               .forEach( (fileData:any) => {
+                
                 fileData.fullFileName? 
                   this.selectedImageList.push({ 
                     iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
                     image: `${fileData.fullFileName}`, 
                     thumbnail: `${fileData.thumbnail? fileData.thumbnail: ''}`,
                     title: `${fileData.title? fileData.title: fileData.description}`,
+                    dateUploaded: `${fileData.dateUploaded? fileData.dateUploaded: '01-01-1990'}`,
                     iterations: fileData.iterations? fileData.iterations:[],
                     iterationIndex:0 }):
                   this.selectedImageList.push({ 

@@ -113,11 +113,40 @@ provides luxury facilities for low income people (This scenario is completely fi
     ` } ,
 
  
-        ]},  { fullFileName:`assets/all-images/trains/pre-q3-2020-steamloco.png`, 
-        description: `<ul><li>Probably some time in 2015-2016... after school and college</li>
-        <li>WP steam loco - see the changes in later versions</li></ul>`},
-            { fullFileName:`assets/all-images/trains/steamloco1-sept11-2020.jpeg`, description: '<div>Sept 11 2020</div>' },
-            { fullFileName:'assets/all-images/trains/famous-trains-bct-ndls-rajdhani-90s-sept-oct-2020.jpeg', 
+        ]},  
+        { 
+            fullFileName:`assets/all-images/trains/pre-q3-2020-steamloco.png`,
+            description: 
+                `<ul><li>Probably some time in 2015-2016... after school and college</li>
+                <li>WP steam loco - see the changes in later versions</li></ul>`
+        },
+        {   iterativeText: 'More..',
+            fullFileName:'assets/all-images/trains/TajOldSketchColorAddFinal.jpeg', 
+            description: `<ul > 
+                            <li>Took an old sketch - probably pre-2020 and upgraded </li> 
+                            <li>slight re-shape, color, added the goods loco and scenery </li> 
+                        </ul>` ,
+            dateUploaded: '12-08-2021',
+            iterations:[
+                { 
+                    fullFileName:'assets/all-images/trains/TajOldSketchColorAddFinal.jpeg', 
+                    description: `<ul >
+                                    <li>Took an old sketch - probably pre-2020 and upgraded </li>
+                                    <li>slight re-shape, color, added the goods loco and scenery </li>
+                                    </ul>` 
+                },
+                { 
+                    fullFileName:'assets/all-images/trains/TajOldSketchColorAdd1.jpeg', 
+                    description: `<ul >
+                                    <li>Took an old sketch - probably pre-2020 and upgraded </li>
+                                    <li>slight re-shape, color, added the goods loco and scenery </li>
+                                </ul>` 
+                }
+            ]
+        },
+        // 
+        { fullFileName:`assets/all-images/trains/steamloco1-sept11-2020.jpeg`, description: '<div>Sept 11 2020</div>' },
+        { fullFileName:'assets/all-images/trains/famous-trains-bct-ndls-rajdhani-90s-sept-oct-2020.jpeg', 
         description: '<ul><li>Attempt to draw Mumbai - Delhi Rajdhani -  pre LHB, double diesel days - around Q3/Q4 2020</li></ul>' },
         {   fullFileName:`assets/all-images/trains/famous-trains-taj-express-steam-power-sept-oct-2020.jpeg`, 
                 description: '<ul><li>Attempt to draw Taj Express - around Q3/Q4 2020</li></ul>',
@@ -134,6 +163,11 @@ provides luxury facilities for low income people (This scenario is completely fi
                     fullFileName:`assets/all-images/trains/LatestSteamSceneQ2_2021.jpg`, 
                     description: `<ul><li>This is where my drawing of trains has reached Q2 2021 - lot of emphasis on shading and surroundings</li>
                     <li>Have a couple of iterations which I feel will be worth posting</li> </ul>`,
+            },,
+            {  fullFileName: `assets/all-images/trains/TajExpressQ32021.jpeg`, 
+            description: `<p>Q3 2021< - Taj express (again)</p>`
+                ,
+           
             }
                 
             ]

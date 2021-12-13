@@ -4,6 +4,7 @@ import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { NumberLiteralType } from 'typescript';
 import { CategoriesService } from '../../services/categories.service';
+import { ListFunnelService  } from '../../services/list-funnel.service';
 interface MenuItem {
   label:string;
   key:string;
@@ -51,7 +52,14 @@ export class SideNavBarComponent implements OnInit {
   set password(val :string) {
     this._password = val;
   } 
-  constructor(private categoryServices: CategoriesService, private router: Router) { 
+  menuStyle(menu:any) {
+    console.log(`${JSON.stringify(menu)}`);
+    const dateuploaded = menu.dateUploaded? menu.dateUploaded: '01-01-1990'
+    return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true ? 
+    { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
+  }
+  
+  constructor(private categoryServices: CategoriesService, private router: Router, private listFunnelService: ListFunnelService) { 
     let  a:any  = ''; //
     a = localStorage.getItem('userId');
     if (a)this._userId = a;
@@ -84,7 +92,7 @@ export class SideNavBarComponent implements OnInit {
           path: this._viewLink, 
           label:`${this._categories[i].label}`, 
           uniqueKey: `${this._categories[i].uniqueKey}`, 
-           
+          dateUploaded:  `${this._categories[i].dateUploaded? this._categories[i].dateUploaded: '01-01-1990' }`, 
           parentKey: `${this._categories[i].parentKey}`, 
           param:this._categories[i].key
         }) ;
@@ -133,6 +141,7 @@ export class SideNavBarComponent implements OnInit {
     localStorage.removeItem('context');
     localStorage.removeItem('userId');
     localStorage.removeItem('userMenu');
+    localStorage.removeItem('categories');
     this.router.navigate(['']);
     this.userNotLoggedIn = true ;
     this._unplugged  = false ;
