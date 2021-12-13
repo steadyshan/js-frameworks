@@ -17,6 +17,7 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
+           // 
              {  
                  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
                  description: 
@@ -58,7 +59,14 @@ export class MahadevImageList {
                     </ul>`,
                   }
                 ]
-         }, {  
+         }, 
+         {  
+          fullFileName: `assets/all-images/religion/mahadev/NandiSept62021.jpeg`, 
+          description: `<ul><li>Nandi Shiva's Vehicle..</li><li> based on Mysore Chamunda hills status</li><li>Initial Sept 6 2021</li></ul> `,
+          dateUploaded: '12-13-2021'
+         },
+         
+         {  
             fullFileName: `assets/all-images/religion/mahadev/MahadevMeditateFeb22021.jpeg`, 
             description: 
                `<ul>

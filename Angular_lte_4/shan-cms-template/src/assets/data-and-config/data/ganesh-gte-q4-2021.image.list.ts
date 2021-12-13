@@ -40,11 +40,13 @@ public allImageList:ImageElement[]  =  [
         theme:'Shree Ganesh',
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
-        files: [{fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221.jpeg`, 
+        files: [{fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n1.jpeg`, 
         description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
         dateUploaded: '12-11-2021',
         iterations:[
-            { 
+         { 
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n1.jpeg`,
+            description: `<ul><li>Week of Dec 12 - 18 2021</li></ul>`},{ 
                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221.jpeg`,
                 description: '<ul><li>initial iteration - color outline</li></ul>',
          },{ 
