@@ -91,14 +91,6 @@ public allImageList:ImageElement[]  =  [
          dateUploaded: '10-05-2021',
        
         },
-        {  fullFileName: 'assets/all-images/religion/shree-ganesh/GaneshNov2021.jpeg', 
-        description: `<p>General Ganesh Snap<ul>
-                        <li>Still from Ganesh Video - Vishwavinayak (Ajay-Atul) list 1st song</li>
-                        <li>Nov 2021</li>
-                    </ul></p>`
-            ,
-         dateUploaded: '12-05-2021',
-        },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021.jpeg`, 
         description: `<p>GANESH CHATURTHI 2021!! Visarjan<ul>
                         

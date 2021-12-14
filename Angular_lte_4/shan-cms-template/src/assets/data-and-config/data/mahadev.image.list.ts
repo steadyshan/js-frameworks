@@ -61,9 +61,24 @@ export class MahadevImageList {
                 ]
          }, 
          {  
-          fullFileName: `assets/all-images/religion/mahadev/NandiSept62021.jpeg`, 
+          fullFileName: `assets/all-images/religion/mahadev/Nandi0609_refresh1221.jpeg`, 
           description: `<ul><li>Nandi Shiva's Vehicle..</li><li> based on Mysore Chamunda hills status</li><li>Initial Sept 6 2021</li></ul> `,
-          dateUploaded: '12-13-2021'
+          // Nandi0609_refresh1221.jpeg
+          dateUploaded: '12-13-2021',
+          iterations:[
+            {
+              fullFileName: `assets/all-images/religion/mahadev/Nandi0609_refresh1221.jpeg`, 
+              description:  `<ul><li>Nandi Shiva's Vehicle..</li><li> based on Mysore Chamunda hills status</li>
+                            </ul> `,
+            }, {
+              fullFileName: `assets/all-images/religion/mahadev/NandiSept62021.jpeg`, 
+              description:  `<ul><li>Initial Iteration Sept 6 2021</li>
+                            </ul> `,
+            },{
+              fullFileName: `assets/all-images/religion/mahadev/Nandi0609_refresh1221.jpeg`, 
+              description:  `<ul> <li>WIP... Dec 13 </li> </ul>`,
+            },
+          ],
          },
          
          {  

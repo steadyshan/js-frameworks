@@ -40,9 +40,17 @@ public allImageList:ImageElement[]  =  [
         theme:'Shree Ganesh',
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
-        files: [{fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n1.jpeg`, 
+        files: [
+         {  fullFileName: 'assets/all-images/religion/shree-ganesh/GaneshNov2021.jpeg', 
+        description: `<p>General Ganesh Snap<ul>
+                        <li>Still from Ganesh Video - Vishwavinayak (Ajay-Atul) list 1st song</li>
+                        <li>Nov 2021</li>
+                    </ul></p>`
+            ,
+         dateUploaded: '12-05-2021',
+        }, {fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n2.jpeg`, 
         description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
-        dateUploaded: '12-11-2021',
+        dateUploaded: '12-14-2021',
         iterations:[
          { 
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n1.jpeg`,
@@ -51,7 +59,9 @@ public allImageList:ImageElement[]  =  [
                 description: '<ul><li>initial iteration - color outline</li></ul>',
          },{ 
                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n1.jpeg`,
-                description: `<ul><li>fill up Shree's body color</li></ul>`},
+                description: `<ul><li>fill up Shree's body color</li></ul>`},{ 
+                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n2.jpeg`,
+                  description: `<ul><li>El completo!!</li></ul>`}
             ] 
         },],
     },
