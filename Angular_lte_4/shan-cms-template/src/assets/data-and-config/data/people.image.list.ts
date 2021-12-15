@@ -70,7 +70,34 @@ export class PeopleImageList {
                      description: `<ul><li>Maharaj on horseback </li><li>Black and white</li></ul>`}
                         ] 
          },
-         // 
+         {
+            fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_2.jpeg`, 
+            description: '<p>From imagination</p>',
+            dateUploaded: '12-15-2021',
+            iterations:[ 
+               {
+                  fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_3.jpeg`, 
+                  description: `<ul>
+                                 <li>It was apprpriate a sketch tribute to the one Soldier Son of the Motherland be followed by one for another</li>
+                                 <li>General Bipin Rawat was an Indian military officer who was a four-star general of the Indian Army. </li>
+                                 <li>He served as the first Chief of Defence Staff of the Indian Armed Forces from January 2020 until his death in a helicopter crash in December (8th)2021. </li>
+                                 <li>Dec 14-15 2021</li>
+                                </ul>`
+               }, {
+                     fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_2.jpeg`, 
+                     description: `<ul>
+                                    <li>..</li>
+                                   </ul>`
+                  }, {
+                     fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_3.jpeg`, 
+                     description: `<ul>
+                                    <li>paused (and shared) Dec 15 2021 morning --- may add some color later on</li>
+                                    <li>Q4 2021</li>
+                                   </ul>`
+                  }
+                        ] 
+         },
+         // GeneralBipinRawatDec152021_2.jpeg
          {
             fullFileName: `assets/all-images/people-places/UnsignedWIPPtBhimsenJoshiJan242021.jpeg`, 
             description: `<ul>
