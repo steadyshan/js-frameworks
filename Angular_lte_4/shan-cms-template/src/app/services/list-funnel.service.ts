@@ -30,23 +30,39 @@ export class ListFunnelService {
   genImageList:any = null ;
   latestLimit = 40 ;
   constructor() { }
-  daysAgoUploaded(source:any) {
+  daysAgoUploaded(source:any, customLimit = -1) {
     const firstDayOfYear =  source.dateUploaded ? new Date(source.dateUploaded): new Date('01-01-1990') ;
     const today = new Date();
     
   
     const diff = Math.abs(today.getTime() - firstDayOfYear.getTime());
     const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
-    return diffDays <= this.latestLimit;
+    return customLimit === -1 ?  diffDays <= this.latestLimit: diffDays <= customLimit;
   }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
       case 'showpiece': this.genImageList = new ShowpieceImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
-      case 'latest-uploads': this.genImageList = new LatestUploadsImageList();
-                             this.allImageList = this.genImageList.allImageList ;
-                             break;
+      case 'latest-uploads': 
+      this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'latest-uploads',
+              themeSummary: `Uploads of 30 days or less`,
+              files: [],
+            }
+        ]} ;
+        this.loadLatestUploads(new GaneshImageList()) ;
+        this.loadLatestUploads(new GaneshGTEQ42021ImageList()) ;
+        this.loadLatestUploads(new DeviImageList()) ;
+        this.loadLatestUploads(new MahadevImageList()) ;
+        this.loadLatestUploads(new MahadevFamilyImageList()) ;
+        this.loadLatestUploads(new LaxmiVishnuHanumanList()) ;
+        this.loadLatestUploads(new DattavatarImageList()) ;
+        this.loadLatestUploads(new SwamiSamarthaImageList()) ;
+        break;
       case 'starters-x': this.genImageList = new GeneralImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
@@ -102,5 +118,78 @@ export class ListFunnelService {
     }
     return { all:  this.allImageList, gen: this.genImageList };
 
+  }
+  loadLatestUploads(currentList:any)  {
+    /*
+    this.genImageList = new GaneshGTEQ42021ImageList();
+    this.allImageList  = this.genImageList.allImageList ;
+    */ 
+    
+    if(currentList.allImageList && currentList.allImageList[0].files) {
+      currentList.allImageList[0].files.forEach((fileItem:any) => {
+        if (this.daysAgoUploaded(fileItem, 30)) {
+          this.genImageList.allImageList[0].files.push(fileItem);
+        }
+      });
+    }
+    /*
+    case 'starters-x': this.genImageList = new GeneralImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'shree-ganesh': this.genImageList = new GaneshImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'shree-ganesh-gte-q4-2021': this.genImageList = new GaneshGTEQ42021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'devi': this.genImageList = new DeviImageList();
+                        this.allImageList = this.genImageList.allImageList ;
+                        break;
+      case 'mahadev': this.genImageList = new MahadevImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'mahadev-family': this.genImageList = new MahadevFamilyImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'laxmi-vishnu-hanuman': this.genImageList = new LaxmiVishnuHanumanList();
+                           this.allImageList = this.genImageList.allImageList ;
+                           break;
+      case 'dattavatar': this.genImageList = new DattavatarImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'swami-samartha': this.genImageList = new SwamiSamarthaImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'planes':  this.genImageList = new PlanesImageList();  
+      this.allImageList = this.genImageList.allImageList ;
+      break;        
+      case 'trains': this.genImageList = new TrainImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'shirdi-sai-q3-q4-2021': this.genImageList = new ShirdiSaiQ3Q42021ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'baba-themes-1': this.genImageList = new ShirdiSaiThemeList1();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'people-places': this.genImageList = new PeopleImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'places-scenes-objects': this.genImageList = new PlacesScenesObjectsImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'themes-misc': this.genImageList = new ThemesMisc();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+    */
+    this.allImageList  = this.genImageList.allImageList ; 
+    this.allImageList[0].folder = '';
+    this.allImageList[0].theme = 'latest-uploads';
+    this.allImageList[0].themeSummary = 'latest uploads'
+    console.log(`Loading latest`);
+ //   return latestUploadList ;
   }
 }

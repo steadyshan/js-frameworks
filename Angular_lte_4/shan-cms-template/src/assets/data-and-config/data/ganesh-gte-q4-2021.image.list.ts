@@ -48,7 +48,8 @@ public allImageList:ImageElement[]  =  [
                     </ul></p>`
             ,
          dateUploaded: '12-05-2021',
-        }, {fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n2.jpeg`, 
+        }, {
+           fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n2.jpeg`, 
         description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
         dateUploaded: '12-14-2021',
         iterations:[
@@ -63,7 +64,26 @@ public allImageList:ImageElement[]  =  [
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSmilingDec1221-n2.jpeg`,
                   description: `<ul><li>El completo!!</li></ul>`}
             ] 
-        },],
+        }, {
+         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec18-22-2021-2.jpeg`, 
+      description: '<p>Ganesh and Swami Samartha, 3rd week Dec 2021 </p>',
+      dateUploaded: '12-24-2021',
+      iterations:[
+       { 
+          fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec18-22-2021-1.jpeg`,
+          description: `<ul><li>Ganesh and Swami Samartha, 3rd week Dec 2021 </li></ul>`},{ 
+              fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec18-22-2021-2.jpeg`,
+              description: `<ul>li>Ganesh and Swami Samartha, 3rd week Dec 2021 </li>
+              <li>Added Rudraksha Maala to Swami/li></ul>`,
+       },{ 
+              fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec18-22-2021-1.jpeg`,
+              description: `<ul><li>fill up Shree's body color</li></ul>`},{ 
+                fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec18-22-2021-1.jpeg`,
+                description: `<ul><li>El completo!!</li></ul>`}
+          ] 
+      },
+      ], // all list
+        // GaneshSwamiDec18-22-2021-1.jpeg
     },
    ];
  }
