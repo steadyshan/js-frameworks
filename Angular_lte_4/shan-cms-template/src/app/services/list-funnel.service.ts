@@ -62,6 +62,11 @@ export class ListFunnelService {
         this.loadLatestUploads(new LaxmiVishnuHanumanList()) ;
         this.loadLatestUploads(new DattavatarImageList()) ;
         this.loadLatestUploads(new SwamiSamarthaImageList()) ;
+        this.loadLatestUploads(new ShirdiSaiQ1Q22021ImageList()) ;
+        this.loadLatestUploads(new ShirdiSaiQ3Q42021ImageList()) ;
+        this.loadLatestUploads(new ShirdiSaiThemeList1()) ;
+        this.loadLatestUploads(new PeopleImageList()) ;
+        this.loadLatestUploads(new PlanesImageList()) ;
         break;
       case 'starters-x': this.genImageList = new GeneralImageList();
                          this.allImageList = this.genImageList.allImageList ;
