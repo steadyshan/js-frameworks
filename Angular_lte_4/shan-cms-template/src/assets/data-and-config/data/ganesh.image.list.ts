@@ -76,6 +76,7 @@ public allImageList:ImageElement[]  =  [
                         <li>(I normally share on whatsapp)</li>
                     </ul></p>`
             ,
+            rating: 1,
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
@@ -89,6 +90,7 @@ public allImageList:ImageElement[]  =  [
                     </ul></p>`
             ,
          dateUploaded: '10-05-2021',
+         rating: 1,
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021.jpeg`, 
@@ -101,6 +103,7 @@ public allImageList:ImageElement[]  =  [
                         <li>(<em>* normally, however due to COVID, it is far subdued this year</em>)</li>
                     </ul></p>`
             ,
+            rating: 1,
         },
             {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
         description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
@@ -109,6 +112,7 @@ public allImageList:ImageElement[]  =  [
                     </ul></p>`
             ,
             dateUploaded: '12-07-2021',
+            rating: 1,
             iterations:[  {
                 fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
                 description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>

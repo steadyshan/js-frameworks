@@ -27,6 +27,7 @@ export class MahadevImageList {
                       <li>So face accuracy, kindly condone under 'artist's license'</li>
                       <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li>
                     </ul>`,
+                rating: 1,
                 iterations:[
                   {
                     fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 

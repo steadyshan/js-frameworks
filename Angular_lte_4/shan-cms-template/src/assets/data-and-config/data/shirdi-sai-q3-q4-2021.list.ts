@@ -14,11 +14,16 @@ public allImageList:ImageElement[]  =  [
    { 
         folder:'shirdi-sai-q3-q4-2021',
         theme:'Shirdi Sai Sketches Q3 and Q4 2021',
-        themeSummary:
+        themeSummary: 
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ // 
-            {  fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedDec2021_shared.jpeg`,
+            {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/Baba12302021.jpeg`, 
+                description: `<ul>
+                <li>End Sketch in this category 2021 - at least the 1st iteration, if I decide to imoprove.. I dont</li><li> Dec 30 2021</li>
+                </ul>`
+            },{  fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedDec2021_shared.jpeg`,
             description: '<p>Baba Sketch Dec - shared 9th - 2021</p>' ,
             dateUploaded: '12-09-2021',
             iterations:[{
