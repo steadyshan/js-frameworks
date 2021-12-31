@@ -41,6 +41,14 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [
+         {  fullFileName: 'assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec-Cal-2022.png', 
+            description: `<ul>
+         <li>HAPPY NEW YEAR 2022 </li>
+         <li>Dec 30 2021</li>
+     </ul>`
+,
+dateUploaded: '12-30-2021',
+},
          {  fullFileName: 'assets/all-images/religion/shree-ganesh/GaneshNov2021.jpeg', 
         description: `<p>General Ganesh Snap<ul>
                         <li>Still from Ganesh Video - Vishwavinayak (Ajay-Atul) list 1st song</li>

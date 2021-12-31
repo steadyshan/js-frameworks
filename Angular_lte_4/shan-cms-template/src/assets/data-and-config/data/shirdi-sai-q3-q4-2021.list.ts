@@ -21,8 +21,9 @@ public allImageList:ImageElement[]  =  [
             {
                 fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/Baba12302021.jpeg`, 
                 description: `<ul>
-                <li>End Sketch in this category 2021 - at least the 1st iteration, if I decide to imoprove.. I dont</li><li> Dec 30 2021</li>
-                </ul>`
+                <li>End Sketch in this category 2021 - at least the 1st iteration, if I decide to imoprove.. </li><li>Will use as a template</li><li> Dec 30 2021</li>
+                </ul>`,
+                dateUploaded: '12/30/2021',
             },{  fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedDec2021_shared.jpeg`,
             description: '<p>Baba Sketch Dec - shared 9th - 2021</p>' ,
             dateUploaded: '12-09-2021',

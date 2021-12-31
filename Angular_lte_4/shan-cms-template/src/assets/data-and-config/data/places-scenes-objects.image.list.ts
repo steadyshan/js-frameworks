@@ -9,6 +9,11 @@ export class PlacesScenesObjectsImageList {
                 'Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)',
                 themeSummary:``,
                 files: [
+                  { 
+                        fullFileName: `assets/all-images/places-scenes-objects/SydneyDec3rdWeek2021.jpeg`,
+                        description: '<p>Inspirational Sketch</p>',
+                        dateUploaded: '12-30-2021',
+                  },
                       { 
                             fullFileName: `assets/all-images/places-scenes-objects/NeuSchwansteinNov2021_2.jpeg`,
                             description: '<p>Inspirational Sketch</p>',

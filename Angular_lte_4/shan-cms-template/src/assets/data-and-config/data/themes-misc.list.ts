@@ -10,7 +10,21 @@ public allImageList:ImageElement[]  =  [
         folder:'themes-misc',
              theme:'Themes and Pending categorization',
              themeSummary: `Some theme sketches with components, some as-yet 'one-off' or uncategorized sketches'`,
-             files: [{  fullFileName: `assets/all-images/themes-misc/MaryEaster2021.jpg`,
+             files: [   {  fullFileName: 'assets/all-images/themes-misc/Golden-Gate-cal-2022.png', 
+             description: `<ul>
+          <li>HAPPY NEW YEAR 2022 </li>
+          <li>Dec 30 2021</li>
+      </ul>`
+ ,
+ dateUploaded: '12-30-2021',
+ },   {  fullFileName: 'assets/all-images/themes-misc/sydney-cal-2022.png', 
+ description: `<ul>
+<li>HAPPY NEW YEAR 2022 </li>
+<li>Dec 30 2021</li>
+</ul>`
+,
+dateUploaded: '12-30-2021',
+},{  fullFileName: `assets/all-images/themes-misc/MaryEaster2021.jpg`,
                     description: `<ul>
                                     <li>Easter 2021. Attempt at Mother Mary</li>
                                     </ul>`},
