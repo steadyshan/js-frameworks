@@ -61,7 +61,9 @@ export class UnpluggedViewerComponent implements OnInit {
         
         this.genImageList = dataReturned.gen ; 
         this.allImageList = this.genImageList.allImageList;
-        foundList = this.allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
+       // foundList = this.allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
+        foundList = strParam === 'latest-uploads' || 'showpiece' ? this.allImageList :
+        this.allImageList.filter(x => x.folder === param.get('theme'));// themed.params.theme.toString());
         if (foundList !== null && foundList.length > 0) {
           let foundFolder = foundList[0].folder;
           this.themeHeader = '';
