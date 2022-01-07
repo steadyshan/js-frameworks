@@ -45,6 +45,7 @@ public allImageList:ImageElement[]  =  [
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`, 
          description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
          dateUploaded: '01-07-2022',
+         rating: 1,
          iterations:[
           { 
              fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`,

@@ -20,6 +20,7 @@ public allImageList:ImageElement[]  =  [
             Before anything else, there are likely to be maybe a couple of sketches of Shirdi Sai, because I have many of them. So these warrant a separate folder
         `,
         files: [{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
+                    rating: 1,
                    description: '<ul><li>This is based off of an image of the Lord, using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>' },
                 {  
                     fullFileName: `assets/all-images/religion/dattavatar/UnsignedWIPShreepadVallabhFeb-4-2021.jpeg`, 
@@ -65,12 +66,14 @@ public allImageList:ImageElement[]  =  [
                                         ` },
                                     {  
                                         fullFileName: `assets/all-images/religion/dattavatar/unsigned8GuruNanakji11302020.jpeg`, 
+                                        rating: 1,
                                         description: `
                                         <ul>
                                         <li> Guru Nanak Nov 11 2020 (Jayanti)</li>
                                         </ul>
                                         ` },
                     { fullFileName: `assets/all-images/religion/dattavatar/unsigned9GuruGobindSinghji12312020.jpeg`, 
+                    rating: 1,
                     description:  `
                     <ul>
                     <li> Guru Gobind Singh Dec 31 2020 (Jayanti)</li>

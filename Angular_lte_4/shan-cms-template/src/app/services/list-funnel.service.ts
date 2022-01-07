@@ -38,9 +38,24 @@ export class ListFunnelService {
     const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
     return customLimit === -1 ?  diffDays <= this.latestLimit: diffDays <= customLimit;
   }
+  sortSelectedContent(field='dateUploaded') {
+    this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+      const aDate = a.DateUploaded ? 
+              new Date(a.dateUploaded).getTime():
+              new Date('09-02-2015').getTime();
+              ;
+      const bDate =  a.DateUploaded ? 
+                  new Date(a.dateUploaded).getTime():
+                  new Date('09-02-2015').getTime();new Date(b.dateUploaded).getTime();
+      let c = bDate  -  aDate ; // aDate - bDate ;
+      return  c ;
+    });
+  }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
-      case 'showpiece': this.genImageList = { 
+      case 'showpiece': 
+      
+        this.genImageList = { 
         allImageList: [ 
             { 
               folder:'',
@@ -49,7 +64,6 @@ export class ListFunnelService {
               files: [],
             }
         ]} ;
-        /*
         this.loadTopUploads(new GaneshImageList()) ;
         this.loadTopUploads(new GaneshGTEQ42021ImageList()) ;
         this.loadTopUploads(new DeviImageList()) ;
@@ -66,9 +80,16 @@ export class ListFunnelService {
         this.loadTopUploads(new PlacesScenesObjectsImageList()) ;
         this.loadTopUploads(new PlanesImageList()) ;
         this.loadTopUploads(new ThemesMisc());
-        */
-        this.genImageList = new GaneshImageList();
-        this.allImageList = this.genImageList.allImageList ;
+        this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+          const aDate = a.dateUploaded ? 
+                  new Date(a.dateUploaded).getTime():
+                  new Date('12-01-2015').getTime();
+          const bDate = b.dateUploaded ? 
+                  new Date(b.dateUploaded).getTime():
+                  new Date('12-01-2015').getTime(); // new Date(b.dateUploaded).getTime();
+          let c = bDate  -  aDate ; // aDate - bDate ;
+          return  c ;
+        });
         break;
       case 'latest-uploads': 
       this.genImageList = { 
