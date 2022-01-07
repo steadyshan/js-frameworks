@@ -96,6 +96,13 @@ export class ListFunnelService {
         this.loadLatestUploads(new PlacesScenesObjectsImageList()) ;
         this.loadLatestUploads(new PlanesImageList()) ;
         this.loadLatestUploads(new ThemesMisc());
+        this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+          const aDate = new Date(a.dateUploaded).getTime();
+          const bDate = new Date(b.dateUploaded).getTime();
+          let c = bDate  -  aDate ; // aDate - bDate ;
+          return  c ;
+        });
+        
         break;
       case 'starters-x': this.genImageList = new GeneralImageList();
                          this.allImageList = this.genImageList.allImageList ;
@@ -153,6 +160,9 @@ export class ListFunnelService {
     return { all:  this.allImageList, gen: this.genImageList };
 
   }
+  sort(fieldName=null) {
+
+  }
   loadLatestUploads(currentList:any)  {
     /*
     this.genImageList = new GaneshGTEQ42021ImageList();
@@ -161,7 +171,7 @@ export class ListFunnelService {
     
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
-        if (this.daysAgoUploaded(fileItem, 30)) {
+        if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 30)) {
           this.genImageList.allImageList[0].files.push(fileItem);
         }
       });

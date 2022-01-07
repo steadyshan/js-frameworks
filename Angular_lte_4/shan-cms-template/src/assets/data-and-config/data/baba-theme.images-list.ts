@@ -15,9 +15,14 @@ public allImageList:ImageElement[]  =  [
         folder:'baba-themes-1',
         theme:'Shirdi Sai Satcharitra',
         themeSummary:
-        `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
-        &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
-        files: [  {  fullFileName: `assets/all-images/religion/baba-themes-1/baba-ya-sai-dec1-2021.jpeg`, 
+        `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make separate sections <br/> This is based on Sai Satcharitra (Note - the sketches mostly wont cover all sub stories in a chapter)... `,
+        files: [ 
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/BabaSatCharitChapt36.jpeg`, 
+            description: `<b> Chapt 36 - two gentlemen from Goa, Mrs Aurangabadkar </b>` ,
+            dateUploaded: '01-06-2022',
+                
+                },
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/baba-ya-sai-dec1-2021.jpeg`, 
         description: `<b> 'Ya Sai - Mhalsapatti'</b>` ,
         dateUploaded: '12-05-2021',
             

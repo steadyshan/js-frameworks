@@ -41,7 +41,29 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [
-         {  fullFileName: 'assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec-Cal-2022.png', 
+          {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`, 
+         description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
+         dateUploaded: '01-07-2022',
+         iterations:[
+          { 
+             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`,
+             description: `<ul><li>One of my first sketches for the New Year</li>
+                              <li>'विघ्नहर्ता' red lettering = Vighnaharta = remover of obstacles </li>
+                              <li>'पालनकर्ता ' greenlettering = palankarta = protector </li>
+                              <li>Final version - Jan 6 2022</li>
+                              <li>Will display in Ganesh AS WELL AS Swami Samartha list</li></ul>`},{ 
+                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-p1.jpeg`,
+                 description: '<ul><li>Almost done</li></ul>',
+          },{ 
+                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-p2.jpeg`,
+                 description: `<ul><li>WIP.. The shading below the script was added due to 'cover up', see next (earlier) version</li></ul>`},{ 
+                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-error.jpeg`,
+                   description: `<ul><li>Was done "SPELLING ERROR in 'विग्नाहार्ता  !!</li></ul>`},{ 
+                     fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-frame.jpeg`,
+                     description: `<ul><li>Start</li></ul>`}
+             ] 
+         }, {  fullFileName: 'assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiDec-Cal-2022.png', 
             description: `<ul>
          <li>HAPPY NEW YEAR 2022 </li>
          <li>Dec 30 2021</li>
