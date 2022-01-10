@@ -17,7 +17,33 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
-           // 
+          {  
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+            fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
+            description: 
+               `<ul>
+                 <li>Hadn't done a sketch of Lord Shiva for a looong time</li>
+                 <li>Completion of a half finished sketch </li>
+                 <li>Q4 2021 --> Jan 10 2022</li>
+                 </ul>`,
+           dateUploaded: '01-10-2022',
+           iterations:[
+            {
+              fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
+              description: 
+                 `<ul>
+                   <li>Hadn't done a sketch of Lord Shiva for a looong time</li>
+                   <li>Completion of a half finished sketch </li>
+                   <li>Q4 2021 --> Jan 10 2022</li>
+                 </ul>`,
+            },{
+              fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022_1.jpeg`, 
+              description: 
+                 `<ul>
+                   <li>Before background and 'effects'</li>
+                   </ul>`,
+            }]
+          },
              {  
                  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
                  description: 
