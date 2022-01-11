@@ -17,6 +17,12 @@ export class PlanesImageList {
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
+            { fullFileName:   `assets/all-images/ships/USNorthCarolinEnterprisCV6BaseJan102022.jpeg`, 
+            description: `<ul><li>Tempted to draw a US Battleship - the ship in the foreground started off with USS North Carolina in mind, but... </li>
+            <li>Likewise the Aircraft carrier starts with CV6 - WW2 USS Enterprise </li>
+            <li>Jan 10 2022/li></ul> `,
+            dateUploaded: '01-10-2022' },
+            ,
             { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
             description: `<ul><li>The One that started it ALL!!</li>
             <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
