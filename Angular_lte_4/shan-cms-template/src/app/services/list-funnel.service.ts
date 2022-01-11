@@ -60,7 +60,8 @@ export class ListFunnelService {
             { 
               folder:'',
               theme:'showpiece',
-              themeSummary: `Ones I consider my best efforts`,
+              themeSummary: ` <p>&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..</p>
+                              <p>&nbsp;&nbsp;My attitude and approach to sketching have changes; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces.. .</p>`,
               files: [],
             }
         ]} ;
@@ -220,7 +221,8 @@ export class ListFunnelService {
     this.allImageList  = this.genImageList.allImageList ; 
     this.allImageList[0].folder = '';
     this.allImageList[0].theme = 'showpiece';
-    this.allImageList[0].themeSummary = 'My top uploads'
+    this.allImageList[0].themeSummary = ` &nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
+     &nbsp;&nbsp;My attitude and approach to sketching have changes; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces.. . `;
     console.log(`Loading Tops`);
  //   return latestUploadList ;
   }
