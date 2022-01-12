@@ -77,6 +77,13 @@ export class SideNavBarComponent implements OnInit {
   ngOnInit() {
   }
   navigateStoragelogin() {
+    
+    localStorage.removeItem('context');
+    localStorage.removeItem('userId');
+    localStorage.removeItem('userMenu');
+    localStorage.removeItem('categories');
+    this.userNotLoggedIn = true ;
+    this._viewLink  = `/view`;
     this._categories = (this.categoryServices.Categories);
     console.log(`${this._categories}`)
     localStorage.setItem('userId',this.userId);

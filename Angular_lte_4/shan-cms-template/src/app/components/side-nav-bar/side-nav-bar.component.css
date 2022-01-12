@@ -11,7 +11,8 @@
     font-size:1vw;
 }
 .full-size {
-    width:100%;
+    width:95%;
+    margin:15px;
    
 }
 .full-size  div { 

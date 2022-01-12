@@ -1,6 +1,6 @@
 
-  <div [ngClass]="LoggedInClass">`
-    <div *ngIf="userNotLoggedIn; else elseBlock">
+  <div [ngClass]="LoggedInClass">
+    <div *ngIf="userNotLoggedIn; else elseBlock" style='margin:auto;'>
       <div><input type='text' placeholder='User Name' [(ngModel)]="userId"></div>
       <div><input type='password' placeholder='password' [(ngModel)]="password"></div>
       <div><input type='button' value='login' (click)='navigateStoragelogin()'> View Unplugged
