@@ -88,6 +88,7 @@ public allImageList:ImageElement[]  =  [
                 description: `<ul><li> Baba in color </li>
                            </ul>` ,
                            dateUploaded: '12-06-2021',
+                           rating: 1,
                     iterations:[
                         {  fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaOct2021Portrait.jpeg`, 
                             description: `<ul><li>Photo taken portrait mode normal light</li></ul>` },

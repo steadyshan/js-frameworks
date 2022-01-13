@@ -53,7 +53,7 @@ export class SideNavBarComponent implements OnInit {
     this._password = val;
   } 
   menuStyle(menu:any) {
-    console.log(`${JSON.stringify(menu)}`);
+  //  console.log(`${JSON.stringify(menu)}`);
     const dateuploaded = menu.dateUploaded? menu.dateUploaded: '01-01-1990'
     return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true ? 
     { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}

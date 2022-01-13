@@ -77,6 +77,7 @@ public allImageList:ImageElement[]  =  [
                     </ul></p>`
             ,
             rating: 1,
+            dateUploaded: '09-10-2021',
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
@@ -111,7 +112,7 @@ public allImageList:ImageElement[]  =  [
                         <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
                     </ul></p>`
             ,
-            dateUploaded: '12-07-2021',
+            dateUploaded: '09-10-2021',
             rating: 1,
             iterations:[  {
                 fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
@@ -310,8 +311,11 @@ iterations:[{
                             <li>Sept 29 2020 Initial version - click iterations to go back </li>
                             </ul>
                             `}], },
-                    { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
-                    description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch' },
+                    { 
+                        fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
+                        description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch',
+                        evolutionary: true,
+                    },
                     { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshRadioZTueFeb232021.jpeg`, 
                     description: `<ul>
                             <li>Based off of the idol of Ganeshotsav Bay Area. Organized primarily by Radio Zindagi and some Bay Area personalities like Amit and Renuka Inamdar</li>

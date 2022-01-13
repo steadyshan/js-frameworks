@@ -101,6 +101,7 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
         ] }, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`, 
         description: '<ul><li>olor</li> </ul>',
         dateUploaded: '12-09-2021',
+        rating: 1,
      iterations:[
          { 
              fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`,

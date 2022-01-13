@@ -30,14 +30,6 @@ export class ListFunnelService {
   genImageList:any = null ;
   latestLimit = 40 ;
   constructor() { }
-  daysAgoUploaded(source:any, customLimit = -1) {
-    const firstDayOfYear =  source.dateUploaded ? new Date(source.dateUploaded): new Date('01-01-1990') ;
-    const today = new Date();
-  
-    const diff = Math.abs(today.getTime() - firstDayOfYear.getTime());
-    const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
-    return customLimit === -1 ?  diffDays <= this.latestLimit: diffDays <= customLimit;
-  }
   sortSelectedContent(field='dateUploaded') {
     this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
       const aDate = a.DateUploaded ? 
@@ -59,12 +51,12 @@ export class ListFunnelService {
         allImageList: [ 
             { 
               folder:'',
-              theme:'showpiece',
-              themeSummary: ` <p>&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..</p>
-                              <p>&nbsp;&nbsp;My attitude and approach to sketching have changes; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces.. .</p>`,
+              theme:'Showpiece',
+              themeSummary: `&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
+                             &nbsp;&nbsp;My attitude and approach to sketching have changed; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces..`,
               files: [],
             }
-        ]} ;
+        ]} ; 
         this.loadTopUploads(new GaneshImageList()) ;
         this.loadTopUploads(new GaneshGTEQ42021ImageList()) ;
         this.loadTopUploads(new DeviImageList()) ;
@@ -84,10 +76,12 @@ export class ListFunnelService {
         this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
           const aDate = a.dateUploaded ? 
                   new Date(a.dateUploaded).getTime():
-                  new Date('12-01-2015').getTime();
+                  new Date('01-01-1990').getTime();
           const bDate = b.dateUploaded ? 
                   new Date(b.dateUploaded).getTime():
-                  new Date('12-01-2015').getTime(); // new Date(b.dateUploaded).getTime();
+                  new Date('01-01-1990').getTime(); // new Date(b.dateUploaded).getTime();
+          console.log(`compared: A: ${a.dateUploaded ? new Date(a.dateUploaded) :  new Date('01-01-1990')}, ${a.fullFileName}`);
+          console.log(`compared: B: ${b.dateUploaded ? new Date(b.dateUploaded) :  new Date('01-01-1990')}, ${b.fullFileName}`);
           let c = bDate  -  aDate ; // aDate - bDate ;
           return  c ;
         });
@@ -126,8 +120,8 @@ export class ListFunnelService {
         });
         
         break;
-      case 'starters-x': this.genImageList = new GeneralImageList();
-                         this.allImageList = this.genImageList.allImageList ;
+      case 'starters-x':  this.genImageList = new GeneralImageList();
+                         this.allImageList = this.genImageList.allImageList ;   
                          break;
       case 'shree-ganesh': this.genImageList = new GaneshImageList();
                          this.allImageList = this.genImageList.allImageList ;
@@ -182,15 +176,32 @@ export class ListFunnelService {
     return { all:  this.allImageList, gen: this.genImageList };
 
   }
-  sort(fieldName=null) {
-
+  
+  // Custom List functions
+  // Process compilations from existing theme based list
+  // 1. find images loaded 'latestLimit/customLimit' or less days ago
+  daysAgoUploaded(source:any, customLimit = -1) {
+    const firstDayOfYear =  source.dateUploaded ? new Date(source.dateUploaded): new Date('01-01-1990') ;
+    const today = new Date();
+  
+    const diff = Math.abs(today.getTime() - firstDayOfYear.getTime());
+    const diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
+    return customLimit === -1 ?  diffDays <= this.latestLimit: diffDays <= customLimit;
   }
+  sortImages(asc=true) {
+    this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+      const aDate = a.dateUploaded ? 
+              new Date(a.dateUploaded).getTime():
+              new Date('12-01-2015').getTime();
+      const bDate = b.dateUploaded ? 
+              new Date(b.dateUploaded).getTime():
+              new Date('12-01-2015').getTime(); // new Date(b.dateUploaded).getTime();
+      let c = asc === true ? bDate  -  aDate : aDate - bDate ; // aDate - bDate ;
+      return  c ;
+    });
+  }
+  // 2. used to extract latest uploads per theme 
   loadLatestUploads(currentList:any)  {
-    /*
-    this.genImageList = new GaneshGTEQ42021ImageList();
-    this.allImageList  = this.genImageList.allImageList ;
-    */ 
-    
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
         if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 30)) {
@@ -205,12 +216,8 @@ export class ListFunnelService {
     console.log(`Loading latest`);
  //   return latestUploadList ;
   }
+  // 2. used to extract top rated uploads per theme 
   loadTopUploads(currentList:any)  {
-    /*
-    this.genImageList = new GaneshGTEQ42021ImageList();
-    this.allImageList  = this.genImageList.allImageList ;
-    */ 
-    
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
         if (fileItem.rating  && fileItem.rating === 1) {
@@ -218,12 +225,6 @@ export class ListFunnelService {
         }
       });
     }
-    this.allImageList  = this.genImageList.allImageList ; 
-    this.allImageList[0].folder = '';
-    this.allImageList[0].theme = 'showpiece';
-    this.allImageList[0].themeSummary = ` &nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
-     &nbsp;&nbsp;My attitude and approach to sketching have changes; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces.. . `;
-    console.log(`Loading Tops`);
- //   return latestUploadList ;
+     //   return latestUploadList ;
   }
 }
