@@ -1,10 +1,11 @@
 
   <div [ngClass]="LoggedInClass">
-    <div *ngIf="userNotLoggedIn; else elseBlock" style='margin:auto;width:50%;background:aliceblue'>
+    <div *ngIf="userNotLoggedIn; else elseBlock" class='login-intro' style='margin:auto;'>
       <H2>A Journey of Sketches</H2>
-      <div><input type='text' placeholder='User Name' [(ngModel)]="userId"> 
+      <div style="float:right; margin-right: 20px;">- Shantanu Gadkari</div><br/>
+      <div><input type='text' placeholder='User Name (optional)' [(ngModel)]="userId"> 
       <!--div><input type='password' placeholder='password' [(ngModel)]="password"></div-->
-       <input type='button' value='Enter' (click)='navigateStoragelogin()'> View Unplugged
+      &nbsp;&nbsp; <input type='button' value='Enter' (click)='navigateStoragelogin()'> <br/>View 'Unplugged' (best for cellphones)
       <input type='checkbox' value='' (click)='unpluggedSet()'></div>
     <!--input type='button' value='Register' (click)='navigateStorageRegisterUser()'-->
     

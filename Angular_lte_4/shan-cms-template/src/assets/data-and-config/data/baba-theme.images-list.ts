@@ -17,7 +17,29 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make separate sections <br/> This is based on Sai Satcharitra (Note - the sketches mostly wont cover all sub stories in a chapter)... `,
         files: [ 
-            {  fullFileName: `assets/all-images/religion/baba-themes-1/BabaSatCharitChapt36.jpeg`, 
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
+            description: `<b> Chapt 7 - Bhagoji Shinde </b>` ,
+            dateUploaded: '01-13-2022',
+            iterations:[
+                {  
+                    fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
+                    description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                             </ul>` },
+                             {  
+                                fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde2_0113202.jpeg`, 
+                                description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                            <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                                         </ul>` },
+                                         {  
+                                            fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde1_01122022.jpeg`, 
+                                            description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                                        <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                                                     </ul>` }
+            ]
+                
+                },
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde1_01122022.jpeg`, 
             description: `<b> Chapt 36 - two gentlemen from Goa, Mrs Aurangabadkar </b>` ,
             dateUploaded: '01-06-2022',
                 

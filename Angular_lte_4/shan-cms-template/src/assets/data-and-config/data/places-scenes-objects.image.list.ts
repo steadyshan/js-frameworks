@@ -10,6 +10,19 @@ export class PlacesScenesObjectsImageList {
                 themeSummary:``,
                 files: [
                   { 
+                        fullFileName: `assets/all-images/places-scenes-objects/GatewayOfIndiaOutlineJan1222022.jpeg`,
+                        description: '<p>Inspirational Sketch</p>',
+                        dateUploaded: '01-31-2022',
+                        iterations:[{
+                              fullFileName: `assets/all-images/places-scenes-objects/GatewayOfIndiaOutlineJan1222022.jpeg`, 
+                              description: `<ul>
+                              <li>Jan-Feb 2022</li>
+                                  <li>LOOONG OVERDUE - a gesture of giving something back to the City I have been born and brought up in</li>
+                                  <li>Jan 13 upload - initial frame</li>
+                                </ul>`
+                              },]
+                  },   // 
+                  { 
                         fullFileName: `assets/all-images/places-scenes-objects/SydneyDec3rdWeek2021.jpeg`,
                         description: '<p>Inspirational Sketch</p>',
                         dateUploaded: '12-30-2021',
