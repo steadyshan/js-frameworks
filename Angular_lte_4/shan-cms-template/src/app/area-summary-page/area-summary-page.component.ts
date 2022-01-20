@@ -1,5 +1,6 @@
 import { introContentList } from './../../assets/data-and-config/menus-and-other-contexts/summary-page-content-list';
 import { Component, OnInit, ɵɵNgOnChangesFeature } from '@angular/core';
+import { ListFunnelService  } from '../services/list-funnel.service';
 // import { SideNavBarComponent } from  'compo / './components/side-nav-bar/side-nav-bar.component';
 
 @Component({
@@ -10,7 +11,7 @@ import { Component, OnInit, ɵɵNgOnChangesFeature } from '@angular/core';
 export class AreaSummaryPageComponent implements OnInit {
   context:number =  0;
   introContent:string = '';
-  constructor() {
+  constructor(private listFunnelService: ListFunnelService) {
    }
   get showRegister() : boolean {
     return localStorage.getItem('userRegister') === null ; 
@@ -21,12 +22,16 @@ export class AreaSummaryPageComponent implements OnInit {
       cachedContext = localStorage.getItem('context') ;
       this.context = Number(cachedContext);
     }
-    
-    this.introContent = introContentList[this.context]  ;
+    let uploadStats  = `current statistics as of ${new Date()}`;
+    const summaryStats = this.listFunnelService.getStats();
+    uploadStats = `${uploadStats}<br/><strong>'non compiled' themes:</strong> ${summaryStats.subjects}, <strong>total counts</strong>${summaryStats.totalCounts}`;
+    this.introContent = `${introContentList[this.context]}${uploadStats}`; // ${JSON.stringify(this.listFunnelService.getStats())}`   ;
     // window.setInterval(() => { this.context++ ; if (this.context > 1) this.context = 0 ; this.introContent = introContentList[this.context];}, 1000);
   }
   ngOnChanges() {
-    this.introContent = `${this.context} <br/>${introContentList[this.context]}` ;
+    alert(JSON.stringify(this.listFunnelService.getStats()));
+    this.introContent = `${this.context} hsalidfewojfewjrl<br/>${introContentList[this.context]}<br/>${JSON.stringify(this.listFunnelService.getStats())}` ;
+     
   }
   get isLoggedIn():boolean {
     return localStorage.getItem('userId') !== null ;

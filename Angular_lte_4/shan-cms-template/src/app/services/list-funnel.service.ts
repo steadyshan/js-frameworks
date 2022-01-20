@@ -23,6 +23,7 @@ import { allImageList, ImageElement } from '../../assets/data-and-config/data/im
 @Injectable({
   providedIn: 'root'
 })
+
 export class ListFunnelService {
 
   allImageList:ImageElement[] = [];
@@ -42,6 +43,34 @@ export class ListFunnelService {
       let c = bDate  -  aDate ; // aDate - bDate ;
       return  c ;
     });
+  }
+  getStats() {
+    let sketchStats = {
+      subjects: 0,
+      totalCounts :0 ,
+      themBasedCounts: [{name:'', count:0}],
+    };
+    sketchStats.themBasedCounts[0] = (this.getThemeCounts(new GaneshImageList()));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ42021ImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new DeviImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevFamilyImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new LaxmiVishnuHanumanList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new DattavatarImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ1Q22021ImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1())) );
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList()) );
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc()));
+    sketchStats.themBasedCounts.forEach((theme:any)=> {
+      sketchStats.subjects++;
+      sketchStats.totalCounts += theme.count;
+    });
+    return sketchStats ;
   }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
@@ -216,7 +245,7 @@ export class ListFunnelService {
     console.log(`Loading latest`);
  //   return latestUploadList ;
   }
-  // 2. used to extract top rated uploads per theme 
+  // 3. used to extract top rated uploads per theme 
   loadTopUploads(currentList:any)  {
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
@@ -226,5 +255,18 @@ export class ListFunnelService {
       });
     }
      //   return latestUploadList ;
+  }
+  // 4. Get counts of each theme - 1st iteration, NOT FACTORING IN DUPLICATES
+  getThemeCounts(currentList:any)  {
+    let themeCount = {
+      name: currentList.allImageList[0].theme,
+      count: 0
+    };
+    if(currentList.allImageList && currentList.allImageList[0].files) {
+      currentList.allImageList[0].files.forEach((fileItem:any) => {
+        themeCount.count++ ;
+      });
+    }
+    return themeCount ;
   }
 }

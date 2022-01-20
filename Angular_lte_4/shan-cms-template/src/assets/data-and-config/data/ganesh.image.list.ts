@@ -40,7 +40,8 @@ public allImageList:ImageElement[]  =  [
         theme:'Shree Ganesh',
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
-        files: [{fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
+        files: [
+            {fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
         description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
         iterations:[  
             { fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
