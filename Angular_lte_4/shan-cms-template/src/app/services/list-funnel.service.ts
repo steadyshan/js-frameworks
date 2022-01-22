@@ -19,6 +19,7 @@ import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list'
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
+import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
 import { allImageList, ImageElement } from '../../assets/data-and-config/data/image.list';
 @Injectable({
   providedIn: 'root'
@@ -63,6 +64,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1())) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList()) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaanList()));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc()));
@@ -99,6 +101,7 @@ export class ListFunnelService {
         this.loadTopUploads(new ShirdiSaiThemeList1()) ;
         this.loadTopUploads(new PeopleImageList()) ;
         this.loadTopUploads(new TrainImageList()) ;
+        this.loadTopUploads(new MumbaiMeriJaanList()) ;
         this.loadTopUploads(new PlacesScenesObjectsImageList()) ;
         this.loadTopUploads(new PlanesImageList()) ;
         this.loadTopUploads(new ThemesMisc());
@@ -138,6 +141,7 @@ export class ListFunnelService {
         this.loadLatestUploads(new ShirdiSaiThemeList1()) ;
         this.loadLatestUploads(new PeopleImageList()) ;
         this.loadLatestUploads(new TrainImageList()) ;
+        this.loadLatestUploads(new MumbaiMeriJaanList());
         this.loadLatestUploads(new PlacesScenesObjectsImageList()) ;
         this.loadLatestUploads(new PlanesImageList()) ;
         this.loadLatestUploads(new ThemesMisc());
@@ -180,6 +184,9 @@ export class ListFunnelService {
       this.allImageList = this.genImageList.allImageList ;
       break;        
       case 'trains': this.genImageList = new TrainImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+      case 'mumbai-meri-jaan': this.genImageList = new MumbaiMeriJaanList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();

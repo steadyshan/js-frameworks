@@ -18,7 +18,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'The Best', uniqueKey:'', parentKey:'art', key:'showpiece', roles:['all']},
         { label: 'Latest Uploads', uniqueKey:'', parentKey:'art', key:'latest-uploads', roles:['relgion','all'] },
         { label: 'Shree Ganesh', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'], dateUploaded: '12-11-2021' },
-        { label: 'Shree Ganesh Q4 2021 onward', uniqueKey:'', parentKey:'art', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '12-14-2021' },
+        { label: 'Shree Ganesh Q4 2021 onward', uniqueKey:'', parentKey:'art', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '01`-21-2022' },
         { label: 'Goddesses', uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all']},
         { label: 'Mahadev', uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '12-13-2021'},
         { label: 'Mahadev and Family', uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '01-19-2022'},
@@ -32,6 +32,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'Places, Scenes and Objects', uniqueKey:'', parentKey:'art', key:'places-scenes-objects', roles:['nonLiving','all'], dateUploaded: '12-06-2021'},
         { label: 'Misc, Themes', uniqueKey:'', parentKey:'art', key:'themes-misc', roles:['nonLiving','all']},
         { label: 'Rail', uniqueKey:'', parentKey:'art', key:'trains', roles:['nonLiving','all'], dateUploaded: '12-08-2021'},
+        { label: 'Mumbai Meri Jaan', uniqueKey:'', parentKey:'art', key:'mumbai-meri-jaan', roles:['nonLiving','all'], dateUploaded: '01-22-2022'},
         { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '12-11-2021'}  ];
 @Injectable()
 export class  MenuNav { 

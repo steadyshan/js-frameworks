@@ -41,6 +41,24 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [
+           {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_1.jpeg`, 
+            description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
+            dateUploaded: '01-21-2022',
+            rating: 1,
+            iterations:[
+             { 
+                fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_2.jpeg`,
+                description: `<ul><li>Sankasthi Chaturthi Paush month 2022 - Jan 21 </li>
+                                 <li>Shree's body had been filled out.. </li>
+                                 <li>ALSO The sketch proportions were getting too large for the (A4) canvass, so changed the pose</li><li> ..See previous ..</li>
+                                 <li>Still some finer touches</li></ul>`},
+             { 
+                fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_1.jpeg`,
+                description: '<ul><li>Sankasthi Chaturthi Paush month 2022 - Jan 21  - initial iteration</li></ul>',
+             }
+                ] 
+           },
           {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`, 
          description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
