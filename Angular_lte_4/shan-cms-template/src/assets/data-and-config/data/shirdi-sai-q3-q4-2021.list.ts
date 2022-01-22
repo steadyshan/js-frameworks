@@ -13,11 +13,18 @@ export class ShirdiSaiQ3Q42021ImageList {
 public allImageList:ImageElement[]  =  [
    { 
         folder:'shirdi-sai-q3-q4-2021',
-        theme:'Shirdi Sai Sketches Q3 and Q4 2021',
+        theme:'Shirdi Sai Sketches Q3 and Q4 2021 + Q1 2022',
         themeSummary: 
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ // 
+            {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/SaiThu01202022.jpeg`, 
+                description: `<ul>
+                <li>Simply .. Baba</li><li> Jan 20 2022</li>
+                </ul>`,
+                dateUploaded: '01-22-2022',
+            },
             {
                 fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/Baba12302021.jpeg`, 
                 description: `<ul>
