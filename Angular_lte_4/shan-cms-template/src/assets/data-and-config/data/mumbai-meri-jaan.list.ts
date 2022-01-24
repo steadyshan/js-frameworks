@@ -18,14 +18,15 @@ public allImageList:ImageElement[]  =  [
                         dateUploaded: '01-31-2022',
                     },
                     { 
-                    fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan1222022_4.jpeg`,
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`,
                     description: '<p>Inspirational Sketch</p>',
                     dateUploaded: '01-31-2022',
                     iterations:[
                         {
-                          fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan1222022_4.jpeg`, 
+                          fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`, 
                           description: `<ul>
-                              <li>LOOONG OVERDUE - a gesture of giving something back to the City I have been born and brought up in</li>
+                              <li>Latest iteration Jan 23 save.. shared with one friend</li>
+                              <li>Refining background, sharpened outlines, water reflection</li>
                               <li>This is the latest shared but STILL WIP.. </li>
                               <li><b> Please click more to see sequence</b></li> 
                             </ul>`
@@ -50,7 +51,16 @@ public allImageList:ImageElement[]  =  [
                                         <li>Initial 'presentable' but wasnt too happy with background... </li>
                                         <li><b> Please click more</b> to get back to latest</li> 
                                       </ul>`
-                                    }
+                                    },
+                              {
+                                  fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan1222022_4.jpeg`, 
+                                  description: `<ul>
+                                    <li>first post background change - shared</li>
+                                    <li> STILL WIP.. </li>
+                                     <li><b> Please click more to see sequence</b></li> 
+                                  </ul>`
+                              },
+                                      
                           ]
               },  { 
                 fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme26112020_finalVer1.png`,
