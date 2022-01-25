@@ -39,6 +39,15 @@ export class RegularViewerComponent implements OnInit {
   get ActualSize():boolean {
     return this._actualSize;
   }
+  IterativeText(currentImage:any)  {
+    return currentImage.iterativeText ? currentImage.iterativeText : 'Previous Versions... *'
+  }
+  DescrFooter(currentImage:any) {
+    console.log(JSON.stringify(currentImage.footNote));
+    return currentImage.footNote ? 
+      currentImage.footNote : 
+      '* Click the button on top in this div to see versions or components of the main sketch';
+  }
   set ActualSize(val:boolean) {
     this._actualSize = val ;
   }
@@ -95,7 +104,9 @@ export class RegularViewerComponent implements OnInit {
                 
                 fileData.fullFileName? 
                   this.selectedImageList.push({ 
-                    iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'',
+                    iterativeText: fileData.iterativeText?`${fileData.iterativeText}`:'Previous Versions... *',
+                    footNote: fileData.footNote?`${fileData.footNote}`:
+                        '* Click the button on top in this div to see versions or components of the main sketch',
                     image: `${fileData.fullFileName}`, 
                     thumbnail: `${fileData.thumbnail? fileData.thumbnail: ''}`,
                     title: `${fileData.title? fileData.title: fileData.description}`,

@@ -9,6 +9,8 @@ public allImageList:ImageElement[]  =  [
                      
                     { 
                         fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiThemeCenterNov20_2020.jpeg`,
+                        iterativeText: 'Components *',
+                        footNote: '* Click to see each sub sketch of the collage',
                         description: `<ul>
                         <li>Starting point - a tribute to the martyrs of the 26/11 terrorist attacks and recently the unsung heroes of COVID </li>
                         <li>You will see this again in the compiled sketch after the Gateway + 8 more :) </li>
@@ -173,7 +175,16 @@ public allImageList:ImageElement[]  =  [
   <li>Metro</li>
 </ul>`,
   dateUploaded: '01-31-2022',
-},]
+}, { 
+  fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiWaterFrontKashinClassApr42021.jpeg`,
+  description: `<ul>
+  <li>Starting out D51 INS Rajput - Navy Kashin Class destroyer - but little digressed</li>
+  <li>Imaginary scene in front of Gateway of India Taj Timeline</li>
+  <li>Repeated in Mumbai and ships theme</li>
+  <li>April 4 2021</li>
+</ul>`,
+  dateUploaded: '01-31-2022',
+}, ]
         },
     ]
 }

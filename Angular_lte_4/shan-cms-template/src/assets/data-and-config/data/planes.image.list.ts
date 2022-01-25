@@ -21,7 +21,17 @@ export class PlanesImageList {
             description: `<ul><li>Tempted to draw a US Battleship - the ship in the foreground started off with USS North Carolina in mind, but... </li>
             <li>Likewise the Aircraft carrier starts with CV6 - WW2 USS Enterprise </li>
             <li>Jan 10 2022/li></ul> `,
-            dateUploaded: '01-10-2022' },
+            dateUploaded: '01-10-2022' }, { 
+                fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiWaterFrontKashinClassApr42021.jpeg`,
+                description: `<ul>
+                <li>Starting out D51 INS Rajput - Navy Kashin Class destroyer - but little digressed</li>
+                <li>Imaginary scene in front of Gateway of India Taj Timeline</li>
+                <li>Repeated in Mumbai and ships theme</li>
+                <li>April 4 2021</li>
+              </ul>`,
+                dateUploaded: '01-31-2022',
+                duplicate: true,
+              },
             ,
             { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
             description: `<ul><li>The One that started it ALL!!</li>

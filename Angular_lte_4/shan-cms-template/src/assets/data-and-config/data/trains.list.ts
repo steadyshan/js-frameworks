@@ -21,8 +21,9 @@ public allImageList:ImageElement[]  =  [
             description: `<ul><li>IR Emblem</li>
             <li>On the left is the 'Fairy Queen' IR steam locomotive c.a 1853- 1855 said to be the oldest operational loco in the world
             </li><li> On the right is a express locomotive concept WAP5 'Tejas' variant targetting 180 - 200 kph)</li></ul>`},*/
-            {   iterativeText: 'Components',
+            {   iterativeText: 'Components *',
                 fullFileName:'assets/all-images/trains/IRTrainCollageOCT2020.png', 
+                footNote: '* Click to see each sub sketch of the collage',
             description: `<ul >
         <li><strong>Indian Rail Down the ages</strong> </li>
         <li><Drawn and Compile oct 2020 </li>

@@ -50,21 +50,21 @@
         style='float:left;margin-left:5px;border:2px inset goldenrod;max-width: 300px;'>
     <button  *ngIf="currentImage.iterations.length > 0"
       (click)='navigatedIteration()' 
-      title='next' class="btn btn-primary responser" style='max-width:105px;'>More...</button> * 
+      title='next' class="btn btn-primary responser" style='width: 80%;'>{{currentImage.iterativeText}}</button> 
       <br/><span 
       *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') != 0"
             [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></span>
             <div 
             *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') === 0"
                   [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></div>
-      * <em>Click the button on top in this div to see versions or components of the main sketch</em>
+      <em>{{currentImage.footNote}}</em>
 
   </div>
   <div  *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') === 0"
     style='margin-left:5px;border:2px inset goldenrod;'>
     <button  *ngIf="currentImage.iterations.length > 0"
       (click)='navigatedIteration()' 
-      title='next' class="btn btn-primary responser" style='max-width:105px;'>More..</button> * 
+      title='next' class="btn btn-primary responser" style='max-width:105px;'>{{IterativeText(currentImage)}}</button> * 
       <br/><span 
       *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') != 0"
             [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></span>

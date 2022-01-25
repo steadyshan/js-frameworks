@@ -271,7 +271,7 @@ export class ListFunnelService {
     };
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
-        themeCount.count++ ;
+        if(!fileItem.duplicate || fileItem.duplicate === false) themeCount.count++ ;
       });
     }
     return themeCount ;
