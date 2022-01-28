@@ -19,9 +19,24 @@ public allImageList:ImageElement[]  =  [
         `A section devoted to sketches on Guru's of Lord Dattatreya lineage and Sikh Gurus<br/>
             Before anything else, there are likely to be maybe a couple of sketches of Shirdi Sai, because I have many of them. So these warrant a separate folder
         `,
-        files: [{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
+        files: [
+                {  
+                    fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
+                    description: 
+           `<ul>
+            <li></li> </ul>`,
+            dateUploaded: '02-03-2022',
+            iterations:[  {
+                fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
+                description: `<ul>
+                            <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}],
+        },{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
                     rating: 1,
-                   description: '<ul><li>This is based off of an image of the Lord, using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>' },
+                   description: 
+                   `<ul>
+                    <li>This is based off of an image of the Lord, using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li>
+                    <li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>`
+                },
                 {  
                     fullFileName: `assets/all-images/religion/dattavatar/UnsignedWIPShreepadVallabhFeb-4-2021.jpeg`, 
                     description: `

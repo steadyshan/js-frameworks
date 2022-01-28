@@ -10,6 +10,13 @@ public allImageList:ImageElement[]  =  [
                     { 
                         fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiThemeCenterNov20_2020.jpeg`,
                         iterativeText: 'Components *',
+                        evolution: `<ul>
+                        <li>The center of one of my collages - I think my second collage, but landmark for the following reasons </li>
+                        <li> - My first (set) in tribute to my heart, my MUMBAI</li>
+                        <li> - A year and 2 months down, it triggered the realization and desire that I need to dedicate a separate theme to Mumbai</li>
+                        <li>(I include just this and the collage here; the other pieces are on display in the 'Mumbai Meri Jaan' section)</li>
+                        `,
+                        evolutionDate: `11-26-2020`,
                         footNote: '* Click to see each sub sketch of the collage',
                         description: `<ul>
                         <li>Starting point - a tribute to the martyrs of the 26/11 terrorist attacks and recently the unsung heroes of COVID </li>

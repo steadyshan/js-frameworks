@@ -2,14 +2,7 @@ import { PicDescr, ImageElement } from './image.list'
 
 export class PlanesImageList {
  sort: string = 'asc'
- bulkImageList:PicDescr[] = [
-    {  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
-    description: 
-     `<ul><li>Watching a Lord Shiv song an YouTube, I chanced upon the original sketch that inspired me to draw this</li>
-     <li>Actually, if I am guessing right this is based on the famous tele-serial 'Devon Ke Dev Mahadev' and 'Shivji' here is Mohit Raina</li>
-     <li>So face accuracy, kindly condone under 'artist's license'</li>
-     <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li></ul>`}
- ]
+ bulkImageList:PicDescr[] = []
  public allImageList:ImageElement[]  =  [
     { 
         folder:'planes',
@@ -33,8 +26,11 @@ export class PlanesImageList {
                 duplicate: true,
               },
             ,
-            { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
-            description: `<ul><li>The One that started it ALL!!</li>
+            { 
+                fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
+                evolution: `<ul><li>(As will be repeated later)generally the first sketch that I drew and shared </li>`,
+                evolutionDate: `09-01-2020`,
+                description: `<ul><li>The One that started it ALL!!</li>
             <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
             <li>Had a DC-10, Boeing 777-X and 737 (note radar hump before tail) in mind, so.. merged them into this</li></ul> ` },
             ,

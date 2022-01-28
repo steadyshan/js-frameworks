@@ -15,6 +15,9 @@ public allImageList:ImageElement[]  =  [
                 description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
                 iterativeText: 'Black and White / Color *',
                 footNote: '* Click to see color OR Black and white version',
+                evolution: `<ul><li><b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.</li>
+                                <li>(as will be repeated later)My first color pencil sketch and, also duplicated with black and white sketch using 'glass trace'</li>`,
+                evolutionDate: `01-01-1990`,
                 iterations:[  
                 { 
                     fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 

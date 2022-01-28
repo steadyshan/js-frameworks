@@ -19,6 +19,13 @@ public allImageList:ImageElement[]  =  [
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ // 
             {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaThursdayJan272021.jpeg`, 
+                description: `<ul>
+                <li>Simply .. Baba</li><li> Jan 27 2022</li>
+                </ul>`,
+                dateUploaded: '01-27-2022',
+            },
+            {
                 fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/SaiThu01202022.jpeg`, 
                 description: `<ul>
                 <li>Simply .. Baba</li><li> Jan 20 2022</li>
