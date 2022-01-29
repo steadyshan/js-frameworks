@@ -21,6 +21,7 @@ import { GeneralImageList } from '../../assets/data-and-config/data/general.imag
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
 import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
 import { allImageList, ImageElement } from '../../assets/data-and-config/data/image.list';
+import { isGeneratedFile } from '@angular/compiler/src/aot/util';
 @Injectable({
   providedIn: 'root'
 })
@@ -153,9 +154,33 @@ export class ListFunnelService {
         });
         
         break;
-      case 'starters-x':  this.genImageList = new GeneralImageList();
-                         this.allImageList = this.genImageList.allImageList ;   
-                         break;
+      case 'starters-x': 
+      /* This page attempts to capture points 
+      in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
+      when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
+      this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'INTRODUCTION: Milestones in a Journey',
+              themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches. 
+                              These may not be my best efforts but are a new element or entity that was introduced in these drawings.`,
+              files: [],
+            }
+        ]} ;
+      this.getMilestoneSketches(new GaneshImageList()) ;
+      this.getMilestoneSketches(new PlanesImageList()) ;
+      this.getMilestoneSketches(new PeopleImageList()) ;
+      this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+        const aDate = new Date(a.evolutionDate).getTime();
+        const bDate = new Date(b.evolutionDate).getTime();
+        let c = aDate  -  bDate ; // aDate - bDate ;
+        return  c ;
+      });
+     /* this.genImageList = new GeneralImageList();
+                         this.allImageList = this.genImageList.allImageList ;*/   
+      break;
+
       case 'shree-ganesh': this.genImageList = new GaneshImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
@@ -263,7 +288,33 @@ export class ListFunnelService {
     }
      //   return latestUploadList ;
   }
-  // 4. Get counts of each theme - 1st iteration, NOT FACTORING IN DUPLICATES
+  // 4. Load landmark sketches - not neccessarily the top sketches but a 'milestone' in my progress
+  getMilestoneSketches(currentList:any)  {
+    /*
+    evolution: `<ul><li><b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.</li>
+                                <li>(as will be repeated later)My first color pencil sketch and, also duplicated with black and white sketch using 'glass trace'</li>`,
+                evolutionDate
+    */
+    if(currentList.allImageList && currentList.allImageList[0].files) {
+      currentList.allImageList[0].files.forEach((fileItem:any) => {
+        // get evolution text
+        if (fileItem.evolution ) {
+          if (fileItem.iterations && fileItem.iterations.length > 0) {
+            fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
+          } else {
+            fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
+           
+          }
+          if(!fileItem.dateUploaded) {
+            fileItem.dateUploaded = fileItem.evolutionDate;
+          }
+          this.genImageList.allImageList[0].files.push(fileItem);
+        }
+      });
+    }
+     //   return latestUploadList ;
+  }
+  // 5. Get counts of each theme - 1st iteration, NOT FACTORING IN DUPLICATES
   getThemeCounts(currentList:any)  {
     let themeCount = {
       name: currentList.allImageList[0].theme,

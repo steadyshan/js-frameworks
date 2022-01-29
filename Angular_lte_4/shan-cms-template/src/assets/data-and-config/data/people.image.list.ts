@@ -12,7 +12,15 @@ export class PeopleImageList {
          Some off the spur of the moment, spontaneous, others due to their deaths (and we have had a lot of that!!)
          Some, in fact, many are <em><strong>pretty out of shape</strong></em>, but <em>still</em> included because of the significance`,
      files: [
-         {
+      {
+         fullFileName: `assets/all-images/people-places/GreatPersonsRaje locked version 09292020.jpeg`, 
+         description: `<p>My first 'non religious' person sketch.. Choice was obvious, wasnt it? </p>`,
+         evolution: '<b>Description below says it all..</b><br/>',
+         evolutionDate: '09-29-2020',
+         dateUploaded: '01-28-2022',
+         
+      },
+      {
             fullFileName: `assets/all-images/people-places/ShivajiJayantiTithi03312021.jpeg`, 
             description: `<ul>
                            <li>MAHARAJ!!!! </li>

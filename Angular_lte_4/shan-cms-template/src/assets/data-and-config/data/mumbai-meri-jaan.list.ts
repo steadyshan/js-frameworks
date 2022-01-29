@@ -24,12 +24,12 @@ public allImageList:ImageElement[]  =  [
                         <li><i>(Top corner attempt to sketch Mumba Devi and Mother Mary)</i></li>
                         <li>Nov 2020 timeframe</li>
                       </ul>`,
-                        dateUploaded: '01-31-2022',
+                        dateUploaded: '01-20-2022',
                     },
                     { 
                     fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`,
                     description: '<p>Inspirational Sketch</p>',
-                    dateUploaded: '01-31-2022',
+                    dateUploaded: '01-15-2022',
                     iterations:[
                         {
                           fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`, 
@@ -79,7 +79,7 @@ public allImageList:ImageElement[]  =  [
                 <li>click the '>>' button above to see the (other) individual pieces in more detail</li>
                 <li>Nov 2020 timeframe</li>
               </ul>`,
-                dateUploaded: '01-31-2022',
+                dateUploaded: '01-15-2022',
             },  { 
               fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme1_GodsNov2020.jpeg`,
               description: `<ul>
@@ -92,7 +92,7 @@ public allImageList:ImageElement[]  =  [
               <li>Gonya Maruti Temple - Dadar East(??)</li>
               <li>Nov 2020 timeframe</li>
             </ul>`,
-              dateUploaded: '01-31-2022',
+              dateUploaded: '01-15-2022',
           },  { 
             fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme2_PlacesofWorshipNov2020.jpeg`,
             description: `<ul>
@@ -103,7 +103,7 @@ public allImageList:ImageElement[]  =  [
             <li>Mount Mary Bandra</li>
             <li>Nov 2020 timeframe</li>
           </ul>`,
-            dateUploaded: '01-31-2022',
+            dateUploaded: '01-15-2022',
         } , { 
           fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme3_LifelinesNov2020.jpeg`,
           description: `<ul>
@@ -114,7 +114,7 @@ public allImageList:ImageElement[]  =  [
           <li>Auto</li>
           <li>(center) 'Dabbawala haathgadi'</li>
         </ul>`,
-          dateUploaded: '01-31-2022',
+          dateUploaded: '01-15-2022',
       }, { 
         fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme4_SocialGathering.jpeg`,
         description: `<ul>
@@ -125,7 +125,7 @@ public allImageList:ImageElement[]  =  [
         <li>Navy Ball Navinagar(??)</li>
         <li>Ganapati Visarjan - lalbaugh</li>
       </ul>`,
-        dateUploaded: '01-31-2022',
+        dateUploaded: '01-15-2022',
     }, { 
       fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme5_FoodieNov2020.jpeg`,
       description: `<ul>
@@ -142,7 +142,7 @@ public allImageList:ImageElement[]  =  [
       <li>Falooda</li>
       <li>Fish Patra</li>
     </ul>`,
-      dateUploaded: '01-31-2022',
+      dateUploaded: '01-15-2022',
   }, { 
     fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme6_MumbaiSitesOldNov2020.jpeg`,
     description: `<ul>
@@ -156,7 +156,7 @@ public allImageList:ImageElement[]  =  [
       <li>Muncipal building (opp VT)</li>
       <li>High court</li>
   </ul>`,
-    dateUploaded: '01-31-2022',
+    dateUploaded: '01-15-2022',
 }, { 
   fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme7_MumbaiSitesMidNov2020.jpeg`,
   description: `<ul>
@@ -170,7 +170,7 @@ public allImageList:ImageElement[]  =  [
   <li>707 replica for kids - Juhu Beach</li>
   <li>Raja Shivaji statue Shivaji Park</li>
 </ul>`,
-  dateUploaded: '01-31-2022',
+  dateUploaded: '01-15-2022',
 }, { 
   fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiTheme8_MumbaiTodayNov2020.jpeg`,
   description: `<ul>
@@ -181,7 +181,7 @@ public allImageList:ImageElement[]  =  [
   <li>Monorail</li>
   <li>Metro</li>
 </ul>`,
-  dateUploaded: '01-31-2022',
+  dateUploaded: '01-15-2022',
 }, { 
   fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiWaterFrontKashinClassApr42021.jpeg`,
   description: `<ul>
@@ -190,7 +190,7 @@ public allImageList:ImageElement[]  =  [
   <li>Repeated in Mumbai and ships theme</li>
   <li>April 4 2021</li>
 </ul>`,
-  dateUploaded: '01-31-2022',
+  dateUploaded: '01-15-2022',
 }, ]
         },
     ]

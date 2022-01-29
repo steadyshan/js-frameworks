@@ -21,16 +21,20 @@ public allImageList:ImageElement[]  =  [
         `,
         files: [
                 {  
-                    fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
+                    fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
                     description: 
-           `<ul>
-            <li></li> </ul>`,
-            dateUploaded: '02-03-2022',
-            iterations:[  {
-                fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
-                description: `<ul>
-                            <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}],
-        },{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
+                    `<ul>
+                        <li></li> </ul>`,
+                        dateUploaded: '02-03-2022',
+                        iterations:[  {
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
+                            description: `<ul>
+                                        <li>Version 2 - added halo, shading, etc uploaded Jan 29 2022</li> </ul>`} ,{
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
+                            description: `<ul>
+                                        <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}
+                        ],
+            },{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
                     rating: 1,
                    description: 
                    `<ul>

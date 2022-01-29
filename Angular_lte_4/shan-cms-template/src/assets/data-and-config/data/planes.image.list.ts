@@ -22,14 +22,14 @@ export class PlanesImageList {
                 <li>Repeated in Mumbai and ships theme</li>
                 <li>April 4 2021</li>
               </ul>`,
-                dateUploaded: '01-31-2022',
+                dateUploaded: '01-15-2022',
                 duplicate: true,
               },
             ,
             { 
                 fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
-                evolution: `<ul><li>(As will be repeated later)generally the first sketch that I drew and shared </li>`,
-                evolutionDate: `09-01-2020`,
+                evolution: `<b>Generally the first sketch that I drew and shared</b>(after the quick Ganesh one)<br/>`,
+                evolutionDate: `09-01-2019`,
                 description: `<ul><li>The One that started it ALL!!</li>
             <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
             <li>Had a DC-10, Boeing 777-X and 737 (note radar hump before tail) in mind, so.. merged them into this</li></ul> ` },

@@ -19,6 +19,33 @@ public allImageList:ImageElement[]  =  [
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ // 
             {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-2.jpeg`, 
+                description: `<ul>
+                <li>Simply .. Baba</li><li> Feb 3 2022</li>
+                </ul>`,
+                dateUploaded: '02-03-2022',
+                iterations: [
+                    {
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-3.jpeg`, 
+                        description: `<ul>
+                        <li>Simply .. Baba</li><li>Further refinement chin and beard area 01-29 </li>
+                        </ul>`
+                    },
+                    {
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-2.jpeg`, 
+                        description: `<ul>
+                        <li>Simply .. Baba</li><li>Adjust chin and beard area</li><li>Upload Jan 28 2022</li>
+                        </ul>`
+                    },
+                    {
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-1.jpeg`, 
+                        description: `<ul>
+                        <li>Simply .. Baba</li><li>Initial review</li><li>Upload Jan 28 2022</li>
+                        </ul>`
+                    }
+                ]
+            },
+            {
                 fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaThursdayJan272021.jpeg`, 
                 description: `<ul>
                 <li>Simply .. Baba</li><li> Jan 27 2022</li>

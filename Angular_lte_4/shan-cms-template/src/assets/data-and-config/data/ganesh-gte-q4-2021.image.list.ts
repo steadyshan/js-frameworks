@@ -44,10 +44,15 @@ public allImageList:ImageElement[]  =  [
            {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_1.jpeg`, 
             description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
-            dateUploaded: '01-21-2022',
+            dateUploaded: '01-29-2022',
             rating: 1,
             iterations:[
-             { 
+               { 
+                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_3.jpeg`,
+                  description: `<ul><li>Sankasthi Chaturthi Paush month 2022 - started Jan 21 </li>
+                                   <li>Finishing touches - background, throne, cushions, etc </li>
+                                   <li>Jan 29 2022</li></ul>`},
+               { 
                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_2.jpeg`,
                 description: `<ul><li>Sankasthi Chaturthi Paush month 2022 - Jan 21 </li>
                                  <li>Shree's body had been filled out.. </li>
