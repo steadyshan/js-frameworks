@@ -279,6 +279,8 @@ iterations:[{
                             <li>  revisited this sketch, adding more detail -- see prev </li>
                             </ul>
                             `,
+                            evolution: `<b>As mentioned below - inspired by Shankar, and Katyar..</b>`,
+                            evolutionDate: `9-29-2020`,
                             iterations:[  
                                 { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-Nov2-2020FINAL.jpeg`, 
                             description: `<ul>

@@ -53,6 +53,9 @@ export class MahadevImageList {
                       <li>So face accuracy, kindly condone under 'artist's license'</li>
                       <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li>
                     </ul>`,
+
+                evolution: `<b>trying to get shading effect. Also one of, if not, the first 'pose and fingers splayed', full body sketch, Dec 27 2020</b>`,
+                evolutionDate: `12-27-2020`,
                 rating: 1,
                 iterations:[
                   {

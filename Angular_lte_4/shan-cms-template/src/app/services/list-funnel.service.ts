@@ -163,14 +163,28 @@ export class ListFunnelService {
             { 
               folder:'',
               theme:'INTRODUCTION: Milestones in a Journey',
-              themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches. 
+              themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches, or maybe a special reason. 
                               These may not be my best efforts but are a new element or entity that was introduced in these drawings.`,
               files: [],
             }
         ]} ;
       this.getMilestoneSketches(new GaneshImageList()) ;
+      this.getMilestoneSketches(new GaneshGTEQ42021ImageList()) ;
+      this.getMilestoneSketches(new MahadevImageList()) ;
       this.getMilestoneSketches(new PlanesImageList()) ;
-      this.getMilestoneSketches(new PeopleImageList()) ;
+      this.getMilestoneSketches(new DeviImageList()) ;
+        this.getMilestoneSketches(new MahadevFamilyImageList()) ;
+        this.getMilestoneSketches(new LaxmiVishnuHanumanList()) ;
+        this.getMilestoneSketches(new DattavatarImageList()) ;
+        this.getMilestoneSketches(new SwamiSamarthaImageList()) ;
+        this.getMilestoneSketches(new ShirdiSaiQ1Q22021ImageList()) ;
+        this.getMilestoneSketches(new ShirdiSaiQ3Q42021ImageList()) ;
+        this.getMilestoneSketches(new ShirdiSaiThemeList1()) ;
+        this.getMilestoneSketches(new PeopleImageList()) ;
+        this.getMilestoneSketches(new TrainImageList()) ;
+        this.getMilestoneSketches(new MumbaiMeriJaanList());
+        this.getMilestoneSketches(new PlacesScenesObjectsImageList()) ;
+        this.getMilestoneSketches(new ThemesMisc());
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
         const aDate = new Date(a.evolutionDate).getTime();
         const bDate = new Date(b.evolutionDate).getTime();
