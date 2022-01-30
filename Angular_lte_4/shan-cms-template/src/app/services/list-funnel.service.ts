@@ -164,7 +164,7 @@ export class ListFunnelService {
               folder:'',
               theme:'INTRODUCTION: Milestones in a Journey',
               themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches, or maybe a special reason. 
-                              These may not be my best efforts but are a new element or entity that was introduced in these drawings.`,
+                              <i><u>These may not be my best efforts</u></i> but are a new element or entity that was introduced in these drawings.`,
               files: [],
             }
         ]} ;

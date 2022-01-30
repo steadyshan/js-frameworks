@@ -54,7 +54,7 @@ public allImageList:ImageElement[]  =  [
                     </ul></p>`
             ,
             rating: 1,
-            dateUploaded: '09-10-2021',
+            dateUploaded: '09-09-2021',
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
@@ -67,7 +67,7 @@ public allImageList:ImageElement[]  =  [
                         <li>Sept 14 2021 - including FB</li>
                     </ul></p>`
             ,
-         dateUploaded: '10-05-2021',
+         dateUploaded: '09-10-2021',
          rating: 1,
        
         },
@@ -81,6 +81,7 @@ public allImageList:ImageElement[]  =  [
                         <li>(<em>* normally, however due to COVID, it is far subdued this year</em>)</li>
                     </ul></p>`
             ,
+            dateUploaded: '09-11-2021',
             rating: 1,
         },
             {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
@@ -89,7 +90,7 @@ public allImageList:ImageElement[]  =  [
                         <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
                     </ul></p>`
             ,
-            dateUploaded: '09-10-2021',
+            dateUploaded: '09-12-2021',
             rating: 1,
             iterations:[  {
                 fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
