@@ -1,5 +1,5 @@
 
-.right-nav {
+.right-nav-jan31 {
     float:right; 
     width:16%; 
     height:100%; 
@@ -10,6 +10,34 @@
     border-radius: 7px;
     font-size:1vw;
 }
+/*
+float:left; 
+    margin:5px;
+    padding:10px; 
+    background-color: beige;
+    border: 4px inset brown ;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 17px;
+    font-family: Garamond, serif;
+    text-shadow: 14px,14px, skyblue;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, orange, #F4C430, yellow, lightgreen);
+*/
+.right-nav {
+    float:right; 
+    width:16%; 
+    height:100%; 
+    min-height: 700px;
+    padding:5px; 
+    background-color: aliceblue;
+    border: 4px outset darkblue ;
+    border-radius: 7px;
+    font-size:1vw;
+
+    background-image: linear-gradient(to right, lightgreen, aliceblue, skyblue);
+}
+
 .full-size {
     width:95%;
     margin:15px;

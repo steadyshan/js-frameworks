@@ -56,7 +56,9 @@ export class SideNavBarComponent implements OnInit {
   //  console.log(`${JSON.stringify(menu)}`);
     const dateuploaded = menu.dateUploaded? menu.dateUploaded: '01-01-1990'
     return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true || menu.label.indexOf('Latest Uploads') >= 0 ? 
-    { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
+  //  { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
+    { 'text-decoration': 'none', 'color': 'blue', 'font-weight': '800','font-family': 'Garamond, serif','background': 'beige'} : 
+    {  'text-decoration': 'none',  'color': 'darksklateblue', 'font-weight': '600'}
   }
   
   constructor(private categoryServices: CategoriesService, private router: Router, private listFunnelService: ListFunnelService) { 
