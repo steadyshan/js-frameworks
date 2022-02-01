@@ -31,6 +31,8 @@ public allImageList:ImageElement[]  =  [
         <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>
         <li>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.</li>
         <li><em>(Sometimes I keep a good handle on dates)</em></li></ul> `,
+        iterativeText: 'Components *',
+        footNote: '* Click to see each sub sketch of the collage',
         iterations: [
             { fullFileName: 
                 `assets/all-images/religion/devi/navratri-2020/NavDurgaNavratri2020.png`, 

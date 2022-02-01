@@ -1,11 +1,34 @@
 .main-content {
     float:left; 
     width:80%; 
-    height:100%; 
+    margin:3px;
+    min-height:98%; 
+    max-height:98%; 
     padding:10px; 
     background-color: beige;
     border: 4px inset brown ;
+    font-weight: 800;
+    font-size: 15px;
+    text-shadow: 4px,4px, skyblue;
     border-radius: 7px;
+}
+/*.main-content::before {*/
+ .sub-content {
+        content: "";
+    background-size: cover;
+    background: rgba(245,245,220);
+    background-image: url("../../assets/all-images/saraswati_pooja.png");
+    position: absolute;
+    width:80%; 
+    height:100%; 
+    padding:10px; 
+    top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 H1 {
     color:blue;
