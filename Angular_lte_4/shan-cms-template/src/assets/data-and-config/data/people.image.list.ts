@@ -21,6 +21,17 @@ export class PeopleImageList {
          
       },
       {
+         fullFileName: `assets/all-images/people-places/PtBhimsenJoshi04022022_100th.jpeg`, 
+         description: `<p><p>Feb 4 2022 Pt Bhimsen Joshi 100th birth anniversary part of collage with Ganesh Jayanti collage(See next) </p></p>`,
+         dateUploaded: '02-04-2022',
+         
+      },{
+         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti_Bhimsen_collage040222.jpeg`, 
+         description: '<p>Feb 4 2022 Ganesh Jayanti collage with Pt Bhimsen Joshi 100th birth anniversary</p>',
+         dateUploaded: '02-04-2022',
+         duplicate: true,
+      },
+      {
             fullFileName: `assets/all-images/people-places/ShivajiJayantiTithi03312021.jpeg`, 
             description: `<ul>
                            <li>MAHARAJ!!!! </li>

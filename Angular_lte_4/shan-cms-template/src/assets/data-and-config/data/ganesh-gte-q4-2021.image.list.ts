@@ -41,12 +41,28 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [
+        {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti02042022_collage.jpeg`, 
+            description: '<p>Feb 4 2022 Ganesh Jayanti.. Part of a collage with Pt Bhimsen Joshi 100th birth anniversary (see next)</p>',
+            dateUploaded: '02-04-2022',
+         },
+         {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti_Bhimsen_collage040222.jpeg`, 
+            description: '<p>Feb 4 2022 Ganesh Jayanti and Pt Bhimsen Joshi 100th birth anniversary</p>',
+            dateUploaded: '02-04-2022',
+         },
+         
            {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_1.jpeg`, 
             description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
-            dateUploaded: '01-29-2022',
+            dateUploaded: '02-02-2022',
             rating: 1,
             iterations:[
+               { 
+                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_4.jpeg`,
+                  description: `<ul><li>Sankasthi Chaturthi Paush month 2022 - started Jan 21 </li>
+                                   <li>Finishing touches - background, throne, cushions, etc </li>
+                                   <li>Feb 1 2022</li></ul>`},
                { 
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshPaushChaturthiJan21_2022_3.jpeg`,
                   description: `<ul><li>Sankasthi Chaturthi Paush month 2022 - started Jan 21 </li>

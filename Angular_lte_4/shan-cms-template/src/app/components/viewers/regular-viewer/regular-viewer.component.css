@@ -4,6 +4,7 @@ div {
     border:3px outset gray;
     background-color: beige;
     width:auto;
+    background-image: linear-gradient(to right, yellow, beige, blanchedalmond);
 }
 div:first-of-type {
     max-width:100%;

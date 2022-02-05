@@ -11,17 +11,16 @@
 }
 .main-text-content {
     float:left; 
-    margin:5px;
     min-height: 700px;
     padding:10px; 
     background-color: beige;
-    border: 4px inset brown ;
+    border: 5px inset brown ;
     font-style: italic;
     font-weight: 900;
     font-size: 17px;
     font-family: Garamond, serif;
     text-shadow: 14px,14px, skyblue;
-    border-radius: 7px;
+    border-radius: 10px;
     background-image: linear-gradient(to right, orange, #F4C430, yellow, lightgreen);
 }
 /*.main-content::before {*/
@@ -29,7 +28,7 @@
         content: "";
     background-size: cover;
     background: rgba(245,245,220);
-    background-image: url("../../assets/all-images/saraswati_pooja.png");
+    /* background-image: url("../../assets/all-images/saraswati_pooja.png");*/
     background-size: cover;
     position: absolute;
     height: 700px;
