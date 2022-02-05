@@ -4,7 +4,15 @@ div {
     border:3px outset gray;
     background-color: beige;
     width:auto;
+}
+#larger {
+
     background-image: linear-gradient(to right, yellow, beige, blanchedalmond);
+}
+#sub-larger {
+    background-image: url("../../../../assets/all-images/saraswati_pooja.png");
+    background-size: cover;
+    margin-left:5px;
 }
 div:first-of-type {
     max-width:100%;

@@ -28,7 +28,7 @@
         content: "";
     background-size: cover;
     background: rgba(245,245,220);
-    /* background-image: url("../../assets/all-images/saraswati_pooja.png");*/
+    background-image: url("../../assets/all-images/saraswati_pooja.png");
     background-size: cover;
     position: absolute;
     height: 700px;

@@ -37,6 +37,7 @@
   
 </div>
 <div  id='larger'  *ngIf="currentImage.iterations.length > 0"> 
+  
    <!-- --><img id="actualSize"  src={{currentImage.iterations[currentImage.iterationIndex].fullFileName}} 
           *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') != 0 && ActualSize.toString() === 'true'"/> 
           <div *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') == 0"  
@@ -72,4 +73,4 @@
             *ngIf="currentImage.iterations[currentImage.iterationIndex].fullFileName.indexOf('#TEXT') === 0"
                   [innerHTML]="currentImage.iterations[currentImage.iterationIndex].description"></div>
   </div>
-</div>
+</div> <!-- larger-->
