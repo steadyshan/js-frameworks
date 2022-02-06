@@ -16,8 +16,9 @@ public allImageList:ImageElement[]  =  [
         folder:'dattavatar',
         theme:'Spiritual Masters, Mystics - Lord Dattatreya and Lineage, Sikh Gurus, Others',
         themeSummary:
-        `A section devoted to sketches on Guru's of Lord Dattatreya lineage and Sikh Gurus<br/>
-            Before anything else, there are likely to be maybe a couple of sketches of Shirdi Sai, because I have many of them. So these warrant a separate folder
+        `<span style='font-weight:900;font-size:larger;'>
+        <strong>श्री गुरु स्मरण ... श्री गुरु नमन  ... श्री गुरु चरण ... श्री गुरु शरण ..  अवधूत चिंतन ... श्री गुरुदेव दत्त</strong></span><br/>Guru's of Lord Dattatreya lineage and Sikh Gurus...
+           there are likely to be maybe a couple of sketches of Shirdi Sai here; I have many of them, so have separate sections for the same..
         `,
         files: [
                 {  
@@ -27,11 +28,14 @@ public allImageList:ImageElement[]  =  [
                         <li></li> </ul>`,
                         dateUploaded: '02-03-2022',
                         iterations:[  {
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-3.jpeg`, 
+                            description: `<ul>
+                                        <li>Final Feb 3 2022</li> </ul>`} ,{
                             fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
                             description: `<ul>
                                         <li>Version 2 - added halo, shading, etc uploaded Jan 29 2022</li> </ul>`} ,{
                             fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
-                            description: `<ul>
+                            description: `<ul><li></li>
                                         <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}
                         ],
             },{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 

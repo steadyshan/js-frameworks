@@ -26,6 +26,12 @@ public allImageList:ImageElement[]  =  [
                 dateUploaded: '02-03-2022',
                 iterations: [
                     {
+                        fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-4.jpeg`, 
+                        description: `<ul>
+                        <li>Simply .. Baba</li><li>Final, Feb 4 </li>
+                        </ul>`
+                    },
+                    {
                         fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb32022-3.jpeg`, 
                         description: `<ul>
                         <li>Simply .. Baba</li><li>Further refinement chin and beard area 01-29 </li>
