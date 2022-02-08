@@ -2,6 +2,7 @@
   export const introContentList:string[] = [
     `<H1>A Journey of Sketches</H1>
       <p>
+          <h5 style='float:right'>(Initial leg completed Feb 8 2022)</h5>
           <em> <h6>&nbsp;&nbsp;&nbsp;"I always have liked to draw."</h6></em><br/>
           Some things just stick in memory. I remember, when I was a kid, my father drawing me a plane. It was a pretty good drawing...
           I dont remember the circumstances, but that was what set me off. My brother and I always loved trains 
