@@ -21,6 +21,18 @@ export class PeopleImageList {
          
       },
       {
+         fullFileName: `assets/all-images/people-places/LataFeb7-8-2022.jpeg`, 
+         description: `<ul>
+                        <li>On the occasion of the sad passing of Lata Mangeshkar</li>
+                        <li>Feb 7-8 2022</li>
+                        </ul>`,
+         dateUploaded: '02-08-2022',
+         rating: 1,
+         evolution: `<b>Lata being LATA - this is special and close to my heart as billions of people<br/>
+                        Also, a unique format where I chose to place the next version(s) under Shree Ganesh theme</b> `,
+         evolutionDate: '02-08-2022',
+         },
+      {
          fullFileName: `assets/all-images/people-places/PtBhimsenJoshi04022022_100th.jpeg`, 
          description: `<p><p>Feb 4 2022 Pt Bhimsen Joshi 100th birth anniversary part of collage with Ganesh Jayanti collage(See next) </p></p>`,
          dateUploaded: '02-04-2022',

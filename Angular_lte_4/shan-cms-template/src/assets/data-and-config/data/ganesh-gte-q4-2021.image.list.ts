@@ -57,6 +57,22 @@ public allImageList:ImageElement[]  =  [
                                     <li>Also a dedication to a very sad event - the passing of Lata Mangeshkar</li>
                                  </ul></strong>`,}],
          },
+         {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshLataFeb7-8-2022.jpeg`, 
+            description: `<ul>
+                        <li>On the occasion of the sad passing of Lata Mangeshkar</li>
+                        <li>Feb 7-8 2022</li>
+                     </ul>`,
+            dateUploaded: '02-08-2022',
+            rating: 1,
+            evolution: `<b>a unique format where the original was without Shree Ganesh sketch and I chose to place that version under 'people' theme</b> `,
+            evolutionDate: '02-08-2022', iterations:[
+               { 
+                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshLataFeb7-8-2022.jpeg`, 
+                  description: `<ul>
+                                    <li>Initial 'structure' with Shree Ganesh sketch and words added</li>
+                                 </ul>`,}],
+         },
         {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti02042022_collage.jpeg`, 
             description: '<p>Feb 4 2022 Ganesh Jayanti.. Part of a collage with Pt Bhimsen Joshi 100th birth anniversary (see next)</p>',
