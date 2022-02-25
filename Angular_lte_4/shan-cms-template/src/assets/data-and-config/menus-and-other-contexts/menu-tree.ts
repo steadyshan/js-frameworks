@@ -28,11 +28,11 @@ export const MenuTree:MenuItem[] = [
         { label: 'Shirdi Sai Q1 Q2(+Q3) 2021', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
         { label: 'Shirdi Sai Q3 Q4 2021/Q1 2022', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q3-q4-2021', roles:['relgion','all'],dateUploaded: '03-31-2022'},
         { label: 'Shirdi Sai Satcharitra', uniqueKey:'', parentKey:'art', key:'baba-themes-1', roles:['relgion','all'], dateUploaded: '01-10-2022'},
-        { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all'], dateUploaded: '02-08-2022'},
+        { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all'], dateUploaded: '02-24-2022'},
         { label: 'Places, Scenes and Objects', uniqueKey:'', parentKey:'art', key:'places-scenes-objects', roles:['nonLiving','all'], dateUploaded: '12-06-2021'},
         { label: 'Misc, Themes', uniqueKey:'', parentKey:'art', key:'themes-misc', roles:['nonLiving','all']},
         { label: 'Rail', uniqueKey:'', parentKey:'art', key:'trains', roles:['nonLiving','all'], dateUploaded: '12-08-2021'},
-        { label: 'Mumbai Meri Jaan', uniqueKey:'', parentKey:'art', key:'mumbai-meri-jaan', roles:['nonLiving','all'], dateUploaded: '01-22-2022'},
+        { label: 'Mumbai Meri Jaan', uniqueKey:'', parentKey:'art', key:'mumbai-meri-jaan', roles:['nonLiving','all'], dateUploaded: '02-25-2022'},
         { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '12-11-2021'}  ];
 @Injectable()
 export class  MenuNav { 
@@ -51,7 +51,7 @@ export class  MenuNav {
     { label: 'Shirdi Sai Q1 Q2(+Q3)2021', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
     { label: 'Shirdi Sai Q3 Q4 2021', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q3-q4-2021', roles:['relgion','all'],dateUploaded: '12-12-2021'},
     { label: 'Shirdi Sai Satcharitra', uniqueKey:'', parentKey:'art', key:'baba-themes-1', roles:['relgion','all'], dateUploaded: '12-06-2021'},
-        { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all'], dateUploaded: '12-15-2021'},
+        { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all'], dateUploaded: '02-24-2022'},
     { label: 'Places, Scenes and Objects', uniqueKey:'', parentKey:'art', key:'places-scenes-objects', roles:['nonLiving','all'], dateUploaded: '12-06-2021'},
     { label: 'Misc, Themes', uniqueKey:'', parentKey:'art', key:'themes-misc', roles:['nonLiving','all']},
     { label: 'Rail', uniqueKey:'', parentKey:'art', key:'trains', roles:['nonLiving','all'], dateUploaded: '12-08-2021'},

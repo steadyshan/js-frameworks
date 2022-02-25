@@ -21,6 +21,28 @@ export class PeopleImageList {
          
       },
       {
+         fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-4.jpeg`, 
+         description: `<ul>
+                        <li>Based off a Lata Bhimsen photo </li>
+                        <li>Feb 16-17 2022</li>
+                        </ul>`,
+         dateUploaded: '02-24-2022',  iterations: [
+            {
+                fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-4.jpeg`, 
+                description: `<ul>
+                <li>Based off a Lata Bhimsen photo </li>
+                <li>Feb 16-17 2022</li>
+                </ul>`
+            },{
+               fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-3.jpeg`, 
+               description: `<ul>
+               <li>Based off a Lata Bhimsen photo </li>
+               <li>Feb 16-17 2022</li>
+               </ul>`
+           }
+         ]
+      },
+      {
          fullFileName: `assets/all-images/people-places/LataFeb7-8-2022.jpeg`, 
          description: `<ul>
                         <li>On the occasion of the sad passing of Lata Mangeshkar</li>

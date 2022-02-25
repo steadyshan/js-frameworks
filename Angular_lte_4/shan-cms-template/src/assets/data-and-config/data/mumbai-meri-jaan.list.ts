@@ -27,6 +27,22 @@ public allImageList:ImageElement[]  =  [
                         dateUploaded: '01-20-2022',
                     },
                     { 
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/ButcherIslandElephantaFeb232022-final.jpeg`,
+                    description: '<p>Inspirational Sketch</p>',
+                    dateUploaded: '02-24-2022',
+                    iterations:[
+                        {
+                          fullFileName: `assets/all-images/mumbai-meri-jaan/ButcherIslandElephantaFeb232022-final.jpeg`, 
+                          description: `<ul>
+                            <li>This is (what it’s name was in 70’s) butcher island Mumbai’s oil tanker terminal,  Opposite the island of Elephanta caves *</li>
+                            <li>My Late dad has worked here -   Feb 23 being my parents wedding anniversary, sort of dedicated to them</li>
+                            <li>>He had his personal launch to commute normally from a pier near trombay(not sure) Called ‘pir Pau’</li>
+                            <li>>Sometimes the ships’ captains used to invite us for dinner so we used to go with him in the launch and return late night</li>
+                            <li> * Jawahar Dweep and Gharapuri</li>
+                            </ul>`
+                          },]
+                    },
+                    { 
                     fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`,
                     description: '<p>Inspirational Sketch</p>',
                     dateUploaded: '01-15-2022',
