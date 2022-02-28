@@ -10,7 +10,7 @@ export   interface ImageElement {
        theme?:string;
        themeSummary?:string;
        files:any[];
-   }
+   } 
    enum PicsIndex  {
        aumkarGaneshSept2020Final,
        AumGaShivParKashiVishwCTLightNov172020Final,

@@ -16,11 +16,55 @@ public allImageList:ImageElement[]  =  [
         folder:'dattavatar',
         theme:'Spiritual Masters, Mystics - Lord Dattatreya and Lineage, Sikh Gurus, Others',
         themeSummary:
-        `A section devoted to sketches on Guru's of Lord Dattatreya lineage and Sikh Gurus<br/>
-            Before anything else, there are likely to be maybe a couple of sketches of Shirdi Sai, because I have many of them. So these warrant a separate folder
+        `<span style='font-weight:900;font-size:larger;'>
+        <strong>श्री गुरु स्मरण ... श्री गुरु नमन  ... श्री गुरु चरण ... श्री गुरु शरण ..  अवधूत चिंतन ... श्री गुरुदेव दत्त</strong></span><br/>Guru's of Lord Dattatreya lineage and Sikh Gurus...
+           there are likely to be maybe a couple of sketches of Shirdi Sai here; I have many of them, so have separate sections for the same..
         `,
-        files: [{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
-                   description: '<ul><li>This is based off of an image of the Lord, using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li><li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>' },
+        files: [
+                {  
+                    fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
+                    description: 
+                    `<ul>
+                        <li></li> </ul>`,
+                        dateUploaded: '02-03-2022',
+                        iterations:[  {
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-3.jpeg`, 
+                            description: `<ul>
+                                        <li>Final Feb 3 2022</li> </ul>`} ,{
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
+                            description: `<ul>
+                                        <li>Version 2 - added halo, shading, etc uploaded Jan 29 2022</li> </ul>`} ,{
+                            fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-1.jpeg`, 
+                            description: `<ul><li></li>
+                                        <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}
+                        ],
+                        rating:1 ,
+            },//
+            {  
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                `<ul>
+                    <li></li> </ul>`,
+                    dateUploaded: '02-28-2022',
+                    iterations:[  {
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                        description: `<ul>
+                                    <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                                    <li>Feb 17 2022 - final </li> 
+                                    </ul>`} ,{
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-1.jpeg`, 
+                        description:  `<ul>
+                        <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                        <li>Feb 17 2022 - initial </li> 
+                        </ul>`}],
+            },
+                        
+            {  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
+                    rating: 1,
+                   description: 
+                   `<ul>
+                    <li>This is based off of an image of the Lord, using a format of which a copy is in my home in Mumbai - this format is probably one of the oldest renditions</li>
+                    <li>Released on Shree Datta Jayanti Dec 29 2020</li> </ul>`
+                },
                 {  
                     fullFileName: `assets/all-images/religion/dattavatar/UnsignedWIPShreepadVallabhFeb-4-2021.jpeg`, 
                     description: `
@@ -65,12 +109,14 @@ public allImageList:ImageElement[]  =  [
                                         ` },
                                     {  
                                         fullFileName: `assets/all-images/religion/dattavatar/unsigned8GuruNanakji11302020.jpeg`, 
+                                        rating: 1,
                                         description: `
                                         <ul>
                                         <li> Guru Nanak Nov 11 2020 (Jayanti)</li>
                                         </ul>
                                         ` },
                     { fullFileName: `assets/all-images/religion/dattavatar/unsigned9GuruGobindSinghji12312020.jpeg`, 
+                    rating: 1,
                     description:  `
                     <ul>
                     <li> Guru Gobind Singh Dec 31 2020 (Jayanti)</li>

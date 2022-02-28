@@ -2,14 +2,7 @@ import { PicDescr, ImageElement } from './image.list'
 
 export class PlanesImageList {
  sort: string = 'asc'
- bulkImageList:PicDescr[] = [
-    {  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
-    description: 
-     `<ul><li>Watching a Lord Shiv song an YouTube, I chanced upon the original sketch that inspired me to draw this</li>
-     <li>Actually, if I am guessing right this is based on the famous tele-serial 'Devon Ke Dev Mahadev' and 'Shivji' here is Mohit Raina</li>
-     <li>So face accuracy, kindly condone under 'artist's license'</li>
-     <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li></ul>`}
- ]
+ bulkImageList:PicDescr[] = []
  public allImageList:ImageElement[]  =  [
     { 
         folder:'planes',
@@ -17,8 +10,27 @@ export class PlanesImageList {
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
-            { fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
-            description: `<ul><li>The One that started it ALL!!</li>
+            { fullFileName:   `assets/all-images/ships/USNorthCarolinEnterprisCV6BaseJan102022.jpeg`, 
+            description: `<ul><li>Tempted to draw a US Battleship - the ship in the foreground started off with USS North Carolina in mind, but... </li>
+            <li>Likewise the Aircraft carrier starts with CV6 - WW2 USS Enterprise </li>
+            <li>Jan 10 2022/li></ul> `,
+            dateUploaded: '01-10-2022' }, { 
+                fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiWaterFrontKashinClassApr42021.jpeg`,
+                description: `<ul>
+                <li>Starting out D51 INS Rajput - Navy Kashin Class destroyer - but little digressed</li>
+                <li>Imaginary scene in front of Gateway of India Taj Timeline</li>
+                <li>Repeated in Mumbai and ships theme</li>
+                <li>April 4 2021</li>
+              </ul>`,
+                dateUploaded: '01-15-2022',
+                duplicate: true,
+              },
+            ,
+            { 
+                fullFileName:   `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
+                evolution: `<b>Generally the first sketch that I drew and shared</b>(after the quick Ganesh one)<br/>`,
+                evolutionDate: `09-01-2019`,
+                description: `<ul><li>The One that started it ALL!!</li>
             <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
             <li>Had a DC-10, Boeing 777-X and 737 (note radar hump before tail) in mind, so.. merged them into this</li></ul> ` },
             ,
@@ -28,7 +40,7 @@ export class PlanesImageList {
                 description: `<ul>
                 <li>Spontaneousm unplanned sketch attempt for SR-71 blackbird. Sept 2021</li>
                             </ul> `,
-               dateUploaded: '12-11-2021'
+               dateUploaded: '12-12-2021'
 
             }, { fullFileName: 
                 `assets/all-images/planes/spitfire-sept-2020.jpeg`, 

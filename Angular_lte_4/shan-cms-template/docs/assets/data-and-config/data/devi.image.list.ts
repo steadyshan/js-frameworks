@@ -11,9 +11,12 @@ public allImageList:ImageElement[]  =  [
     themeSummary:
     ``,
     files: [  ,
-      { fullFileName: 
+      { 
+        fullFileName: 
           `assets/all-images/religion/devi/EkviraAai-Q12021-1.jpg`, 
-          description: `<ul><li>Our Family 'Kukdaivat' - Shree Ekvira Aai</li>
+          evolution: `- <b> Most likely  First Devi sketch, and what was more appropriate than the Kuldaivat</b><br/>`,
+                evolutionDate: `12-27-2020`,
+          description: `<ul><li>Our Family 'Kuldaivat' - Shree Ekvira Aai</li>
           <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across end 2020-start 2021</li></ul> ` },
           { fullFileName: 
             `assets/all-images/religion/devi/ThreeDevisMahalaxmiTempleQ12021-1.jpg`, 
@@ -21,10 +24,15 @@ public allImageList:ImageElement[]  =  [
             <li>Mahakali, Mahalaxmi, Mahasaraswati -  Sketched  start 2021</li></ul> ` },
            { fullFileName: 
         `assets/all-images/religion/devi/navratri-2020/NavDurgaNavratri2020.png`, 
-        description: `<ul><li>An 'unplanned' sketch:</li>
+
+        evolution: `- <b> Navratri collage</b><br/>`,
+                evolutionDate: `10-09-2020`,
+          description: `<ul><li>An 'unplanned' sketch:</li>
         <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>
         <li>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.</li>
         <li><em>(Sometimes I keep a good handle on dates)</em></li></ul> `,
+        iterativeText: 'Components *',
+        footNote: '* Click to see each sub sketch of the collage',
         iterations: [
             { fullFileName: 
                 `assets/all-images/religion/devi/navratri-2020/NavDurgaNavratri2020.png`, 
@@ -54,6 +62,11 @@ public allImageList:ImageElement[]  =  [
         ] },
         { fullFileName: 
             `assets/all-images/religion/devi/DeviMaaMay13-18-2021.jpeg`, 
+
+        evolution: `- <b> First Devi full body sketch, first tiger sketch</b><br/>`,
+        evolutionDate: `05-13-2021`,
+        dateUploaded: '05-13-2021',
+        rating: 1,
             description: `<ul><li>An 'unplanned' sketch:</li>
             <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>
             <li>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.</li>

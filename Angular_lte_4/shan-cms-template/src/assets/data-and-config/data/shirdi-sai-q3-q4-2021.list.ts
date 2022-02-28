@@ -18,7 +18,33 @@ public allImageList:ImageElement[]  =  [
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ // 
-            {
+            { fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedFeb2422-final.jpeg`, 
+            description: `<ul>
+            <li>Simply .. Baba</li><li> Feb 24 2022</li>
+            </ul>`,
+            dateUploaded: '02-28-2022',
+            rating: 1,
+            iterations: [
+                {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedFeb2422-final.jpeg`, 
+                    description: `<ul>
+                    <li>Simply .. Baba</li><li>earlier versions were based on His Murthy..</li>
+                    <li> evolved to align to His 'sitting on stone' photo <li>final: Feb 24-25, 2022</li>
+                    </ul>`
+                },{
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedFeb2422-transit1.jpeg`, 
+                description: `<ul>
+                <li>Simply .. Baba</li><li>moving 'look' to 'Sitting on stone' photo</li>
+                <li>Feb 24, 2022 </li>
+                </ul>`
+            }, {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaUnpluggedFeb2422-1.jpeg`, 
+                    description: `<ul>
+                    <li>Simply .. Baba</li><li>initial drawn  based on 'glass trace' of other sketch</li>
+                    <li>morning, Feb 24, 2022 </li>
+                    </ul>`
+                }]
+            }, {
                 fullFileName: `assets/all-images/religion/shirdi-sai-q3-q4-2021/BabaFeb102022-1.jpeg`, 
                 description: `<ul>
                 <li>Simply .. Baba</li><li> Feb 10 2022</li>

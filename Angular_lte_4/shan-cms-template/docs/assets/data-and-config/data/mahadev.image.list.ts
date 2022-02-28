@@ -17,6 +17,33 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
+          {  
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+            fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
+            description: 
+               `<ul>
+                 <li>Hadn't done a sketch of Lord Shiva for a looong time</li>
+                 <li>Completion of a half finished sketch </li>
+                 <li>Q4 2021 --> Jan 10 2022</li>
+                 </ul>`,
+           dateUploaded: '01-10-2022',
+           iterations:[
+            {
+              fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
+              description: 
+                 `<ul>
+                   <li>Hadn't done a sketch of Lord Shiva for a looong time</li>
+                   <li>Completion of a half finished sketch </li>
+                   <li>Q4 2021 --> Jan 10 2022</li>
+                 </ul>`,
+            },{
+              fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022_1.jpeg`, 
+              description: 
+                 `<ul>
+                   <li>Before background and 'effects'</li>
+                   </ul>`,
+            }]
+          },
              {  
                  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
                  description: 
@@ -26,6 +53,10 @@ export class MahadevImageList {
                       <li>So face accuracy, kindly condone under 'artist's license'</li>
                       <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li>
                     </ul>`,
+
+                evolution: `<b>trying to get shading effect. Also one of, if not, the first 'pose and fingers splayed', full body sketch, Dec 27 2020</b>`,
+                evolutionDate: `12-27-2020`,
+                rating: 1,
                 iterations:[
                   {
                     fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
@@ -58,7 +89,9 @@ export class MahadevImageList {
                     </ul>`,
                   }
                 ]
-         }, {  
+         },
+         
+         {  
             fullFileName: `assets/all-images/religion/mahadev/MahadevMeditateFeb22021.jpeg`, 
             description: 
                `<ul>

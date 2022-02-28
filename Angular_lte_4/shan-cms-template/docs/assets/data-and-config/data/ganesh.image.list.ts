@@ -3,63 +3,40 @@ import { PicDescr, ImageElement } from './image.list'
 
 export class GaneshImageList {
  sort: string = 'asc'
- bulkImageList:PicDescr[] = [
-    {  
-        fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
-        description: `
-           <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
-           ` }, 
-        {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
-           description: 
-           `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
-           <br/>Nov 17 2020`},
-           {  fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
-           description: 
-            `<ul><li>Watching a Lord Shiv song an YouTube, I chanced upon the original sketch that inspired me to draw this</li>
-            <li>Actually, if I am guessing right this is based on the famous tele-serial 'Devon Ke Dev Mahadev' and 'Shivji' here is Mohit Raina</li>
-            <li>So face accuracy, kindly condone under 'artist's license'</li>
-            <li>One that I took a long time over - probably started Dec 1st weel 2020, Shared publicly on Dec 27 2020</li></ul>`},
-
-            { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
-                 description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch' },
-            { fullFileName: 
-                  `assets/all-images/religion/devi/DeviMaaMay13-18-2021.jpeg`, 
-                  description: `<ul><li>An 'unplanned' sketch:</li>
-                  <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>
-                  <li>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.</li>
-                  <li><em>(Sometimes I keep a good handle on dates)</em></li></ul> ` },
-                  { fullFileName: 
-                     `assets/all-images/planes/mix-gen-plane-sept-2020.jpeg`, 
-                     description: `<ul><li>The One that started it ALL!!</li>
-                     <li>Began revisit to my mothballed hobby with this, I think Sept 9 2020</li>
-                     <li>Had a DC-10, Boeing 777-X and 737 (note radar hump before tail) in mind, so.. merged them into this</li></ul> ` },
-]
 public allImageList:ImageElement[]  =  [
    { 
         folder:'shree-ganesh',
         theme:'Shree Ganesh',
         themeSummary:
-        `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
-        files: [{fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
-        description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
-        iterations:[  
-            { fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
-        description: `<ul>
-                      <li><strong>Ashtavinayak Ganesh's</strong><br/>
-                           Top to bottom,  L to R:<br/>
-                           <ul>
-                            <li>Shree Moreshwar</li>
-                            <li>Shree Siddhivinayak</li>
-                            <li>Shree Ballaleshwar</li>
-                            <li>Shree WardaVinayak</li>
-                            <li>Shree Chintamani</li>
-                            <li>Shree Girijatmaja</li>
-                            <li>Shree Vigneshwar</li>
-                            <li>Shree Mahaganapati</li>
-                           </ul>
-                      </li>
-                      <li>Inspired to try color pencils </li>
-                      <li>My first attempt, staying 'traditional' with something to do with Lord Ganesh</li>
+        `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles. The first of multiple image collections.. Pre Q4 2021`,
+        files: [
+            {
+                fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
+                description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
+                iterativeText: 'Black and White / Color *',
+                footNote: '* Click to see color OR Black and white version',
+                evolution: `- <b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.And also decent enough<br/>
+                            - <b>My first color pencil sketch and</b>, also duplicated with black and white sketch using<b>'glass trace'</b>(as will be repeated later)<br/>`,
+                evolutionDate: `01-01-1990`,
+                iterations:[  
+                { 
+                    fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
+                    description: `<ul>
+                                    <li><strong>GANAPATI BAPPA MORYA</strong></li>
+                                    <li>My first attempt using color pencils, staying 'traditional' with something to do with Lord Ganesh</li>
+                                    <li><strong>Ashtavinayak Ganesh's</strong><br/>
+                                        Top to bottom,  L to R:<br/>
+                                        <ul>
+                                            <li>Shree Moreshwar</li>
+                                            <li>Shree Siddhivinayak</li>
+                                            <li>Shree Ballaleshwar</li>
+                                            <li>Shree WardaVinayak</li>
+                                            <li>Shree Chintamani</li>
+                                            <li>Shree Girijatmaja</li>
+                                            <li>Shree Vigneshwar</li>
+                                            <li>Shree Mahaganapati</li>
+                                        </ul>
+                            </li>
                       <li>Approx March 31 2021</li></ul>`},
                       { fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-bw.jpeg`, 
         description: `<ul>
@@ -76,6 +53,8 @@ public allImageList:ImageElement[]  =  [
                         <li>(I normally share on whatsapp)</li>
                     </ul></p>`
             ,
+            rating: 1,
+            dateUploaded: '09-09-2021',
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
@@ -88,16 +67,9 @@ public allImageList:ImageElement[]  =  [
                         <li>Sept 14 2021 - including FB</li>
                     </ul></p>`
             ,
-         dateUploaded: '10-05-2021',
+         dateUploaded: '09-10-2021',
+         rating: 1,
        
-        },
-        {  fullFileName: 'assets/all-images/religion/shree-ganesh/GaneshNov2021.jpeg', 
-        description: `<p>General Ganesh Snap<ul>
-                        <li>Still from Ganesh Video - Vishwavinayak (Ajay-Atul) list 1st song</li>
-                        <li>Nov 2021</li>
-                    </ul></p>`
-            ,
-         dateUploaded: '12-05-2021',
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021.jpeg`, 
         description: `<p>GANESH CHATURTHI 2021!! Visarjan<ul>
@@ -109,6 +81,8 @@ public allImageList:ImageElement[]  =  [
                         <li>(<em>* normally, however due to COVID, it is far subdued this year</em>)</li>
                     </ul></p>`
             ,
+            dateUploaded: '09-11-2021',
+            rating: 1,
         },
             {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
         description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
@@ -116,7 +90,8 @@ public allImageList:ImageElement[]  =  [
                         <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
                     </ul></p>`
             ,
-            dateUploaded: '12-07-2021',
+            dateUploaded: '09-12-2021',
+            rating: 1,
             iterations:[  {
                 fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
                 description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
@@ -274,13 +249,20 @@ iterations:[{
                 ],
         },
         
-        {  fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
+        {  
+            fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
+            evolution: '<b>Not the best of sketches.. but carrying with the tradition of starting something with Lord Ganesh</b><br/>',
+            evolutionDate: '01-02-1990',
+                
                    description: '<p>Quick Sketch Memorial Day weekend 2020</p>' },
                 {  
                     fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
                     description: `
                     <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
                     `,
+                evolution: `<b>One of my first 'properly, patiently' drawn sketches, Sept 2020</b>`,
+                evolutionDate: `09-01-2020`,
+                
                 iterations:[
                     
                     { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sept-2020-final.jpeg`, 
@@ -298,6 +280,8 @@ iterations:[{
                             <li>  revisited this sketch, adding more detail -- see prev </li>
                             </ul>
                             `,
+                            evolution: `<b>As mentioned below - inspired by Shankar, and Katyar..</b>`,
+                            evolutionDate: `9-29-2020`,
                             iterations:[  
                                 { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-Nov2-2020FINAL.jpeg`, 
                             description: `<ul>
@@ -314,8 +298,13 @@ iterations:[{
                             <li>Sept 29 2020 Initial version - click iterations to go back </li>
                             </ul>
                             `}], },
-                    { fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
-                    description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch' },
+                    { 
+                        fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
+                        evolution: `<b>Landmark because of the theme, the iconic Ganesh Temple at Prabhadevi, Mumbai</b>`,
+                        evolutionDate: `12-01-2020`,
+                        description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch',
+                        evolutionary: true,
+                    },
                     { fullFileName: `assets/all-images/religion/shree-ganesh/GaneshRadioZTueFeb232021.jpeg`, 
                     description: `<ul>
                             <li>Based off of the idol of Ganeshotsav Bay Area. Organized primarily by Radio Zindagi and some Bay Area personalities like Amit and Renuka Inamdar</li>

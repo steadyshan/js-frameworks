@@ -17,12 +17,16 @@ export class MahadevFamilyImageList {
          themeSummary:
          ``,
          files: [ {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
-         description: 
+         evolution: `<b>Sketch of a sculpture which has always drawn, intrigued and fascinated me... <br/></b>`,
+         evolutionDate: `11-17-2020`,
+                description: 
          `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
          <br/>Nov 17 2020`},
          {  
-          fullFileName: `assets/all-images/religion/mahadev-family/MahadevParvatiDanceFeb142021.jpeg`, 
-             description: `<ul>
+            evolution: `<b>A first in sketching action figures, and in dance poses, with the best possible subjects :) <br/></b>`,
+            evolutionDate: `02-14-2021`,
+            fullFileName: `assets/all-images/religion/mahadev-family/MahadevParvatiDanceFeb142021.jpeg`, 
+            description: `<ul>
                                      <li>The first of sketches of a favorite theme of mine dancing Mahadev and consort (Sati/ Parvati)</li>
                                      <li>Drawn and shared by St. Valentine's day 2021 - this is based off of the colors serial 'Devo ke Dev Mahadev;'</li>
                                      <li>Mohit Raina and Sonarika Bhadoria</li>

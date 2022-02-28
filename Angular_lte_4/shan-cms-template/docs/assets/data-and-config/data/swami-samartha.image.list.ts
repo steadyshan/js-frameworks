@@ -49,6 +49,46 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
             `Swami Samartha the 4th Avatar of Shree Dattatreya (sequence include Lord Datta himself). `,
             files: [
                 {  
+                    fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                    `<ul>
+                        <li></li> </ul>`,
+                        dateUploaded: '02-28-2022',
+                        iterations:[  {
+                            fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                            description: `<ul>
+                                        <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                                        <li>Feb 17 2022 - final </li> 
+                                        </ul>`} ,{
+                            fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-1.jpeg`, 
+                            description:  `<ul>
+                            <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                            <li>Feb 17 2022 - initial </li> 
+                            </ul>`}],
+                            duplicate:true ,
+                }, {
+                    fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`, 
+                 description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
+                 duplicate: 'yes',
+                 dateUploaded: '01-07-2022',
+                 iterations:[
+                  { 
+                     fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022.jpeg`,
+                     description: `<ul><li>One of my first sketches for the New Year</li>
+                                      <li>'विघ्नहर्ता' red lettering = Vighnaharta = remover of obstacles </li>
+                                      <li>'पालनकर्ता ' greenlettering = palankarta = protector </li>
+                                      <li>Final version - Jan 6 2022</li>
+                                      <li>Will display in Ganesh AS WELL AS Swami Samartha list</li></ul>`},{ 
+                         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-p1.jpeg`,
+                         description: '<ul><li>Almost done</li></ul>',
+                  },{ 
+                         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-p2.jpeg`,
+                         description: `<ul><li>WIP.. The shading below the script was added due to 'cover up', see next (earlier) version</li></ul>`},{ 
+                           fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-error.jpeg`,
+                           description: `<ul><li>Was done "SPELLING ERROR in 'विग्नाहार्ता  !!</li></ul>`},{ 
+                             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSwamiJan4-72022-frame.jpeg`,
+                             description: `<ul><li>Start</li></ul>`}
+                     ] 
+                 },{  
                     fullFileName: `assets/all-images/religion/swami-samartha/Swami-april28-2021.jpg`, 
                     description: `<ul><li>Typical Swami image</li></ul>`}, 
                     
@@ -78,6 +118,7 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
         ] }, {  fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`, 
         description: '<ul><li>olor</li> </ul>',
         dateUploaded: '12-09-2021',
+        rating: 1,
      iterations:[
          { 
              fullFileName: `assets/all-images/religion/swami-samartha/SwamiOctNov2021.jpeg`,

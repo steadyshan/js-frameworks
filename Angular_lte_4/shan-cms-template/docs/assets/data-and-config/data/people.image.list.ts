@@ -12,7 +12,60 @@ export class PeopleImageList {
          Some off the spur of the moment, spontaneous, others due to their deaths (and we have had a lot of that!!)
          Some, in fact, many are <em><strong>pretty out of shape</strong></em>, but <em>still</em> included because of the significance`,
      files: [
-         {
+      {
+         fullFileName: `assets/all-images/people-places/GreatPersonsRaje locked version 09292020.jpeg`, 
+         description: `<p>My first 'non religious' person sketch.. Choice was obvious, wasnt it? </p>`,
+         evolution: '<b>Description below says it all..</b><br/>',
+         evolutionDate: '09-29-2020',
+         dateUploaded: '01-28-2022',
+         
+      },
+      {
+         fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-4.jpeg`, 
+         description: `<ul>
+                        <li>Based off a Lata Bhimsen photo </li>
+                        <li>Feb 16-17 2022</li>
+                        </ul>`,
+         dateUploaded: '02-24-2022',  iterations: [
+            {
+                fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-4.jpeg`, 
+                description: `<ul>
+                <li>Based off a Lata Bhimsen photo </li>
+                <li>Feb 16-17 2022</li>
+                </ul>`
+            },{
+               fullFileName: `assets/all-images/people-places/BhimsenLataFeb2022-3.jpeg`, 
+               description: `<ul>
+               <li>Based off a Lata Bhimsen photo </li>
+               <li>Feb 16-17 2022</li>
+               </ul>`
+           }
+         ]
+      },
+      {
+         fullFileName: `assets/all-images/people-places/LataFeb7-8-2022.jpeg`, 
+         description: `<ul>
+                        <li>On the occasion of the sad passing of Lata Mangeshkar</li>
+                        <li>Feb 7-8 2022</li>
+                        </ul>`,
+         dateUploaded: '02-08-2022',
+         rating: 1,
+         evolution: `<b>Lata being LATA - this is special and close to my heart as billions of people<br/>
+                        Also, a unique format where I chose to place the next version(s) under Shree Ganesh theme</b> `,
+         evolutionDate: '02-08-2022',
+         },
+      {
+         fullFileName: `assets/all-images/people-places/PtBhimsenJoshi04022022_100th.jpeg`, 
+         description: `<p><p>Feb 4 2022 Pt Bhimsen Joshi 100th birth anniversary part of collage with Ganesh Jayanti collage(See next) </p></p>`,
+         dateUploaded: '02-04-2022',
+         
+      },{
+         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti_Bhimsen_collage040222.jpeg`, 
+         description: '<p>Feb 4 2022 Ganesh Jayanti collage with Pt Bhimsen Joshi 100th birth anniversary</p>',
+         dateUploaded: '02-04-2022',
+         duplicate: true,
+      },
+      {
             fullFileName: `assets/all-images/people-places/ShivajiJayantiTithi03312021.jpeg`, 
             description: `<ul>
                            <li>MAHARAJ!!!! </li>
@@ -70,7 +123,34 @@ export class PeopleImageList {
                      description: `<ul><li>Maharaj on horseback </li><li>Black and white</li></ul>`}
                         ] 
          },
-         // 
+         {
+            fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_2.jpeg`, 
+            description: '<p>From imagination</p>',
+            dateUploaded: '12-15-2021',
+            iterations:[ 
+               {
+                  fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_3.jpeg`, 
+                  description: `<ul>
+                                 <li>It was apprpriate a sketch tribute to the one Soldier Son of the Motherland be followed by one for another</li>
+                                 <li>General Bipin Rawat was an Indian military officer who was a four-star general of the Indian Army. </li>
+                                 <li>He served as the first Chief of Defence Staff of the Indian Armed Forces from January 2020 until his death in a helicopter crash in December (8th)2021. </li>
+                                 <li>Dec 14-15 2021</li>
+                                </ul>`
+               }, {
+                     fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_2.jpeg`, 
+                     description: `<ul>
+                                    <li>..</li>
+                                   </ul>`
+                  }, {
+                     fullFileName: `assets/all-images/people-places/GeneralBipinRawatDec152021_3.jpeg`, 
+                     description: `<ul>
+                                    <li>paused (and shared) Dec 15 2021 morning --- may add some color later on</li>
+                                    <li>Q4 2021</li>
+                                   </ul>`
+                  }
+                        ] 
+         },
+         // GeneralBipinRawatDec152021_2.jpeg
          {
             fullFileName: `assets/all-images/people-places/UnsignedWIPPtBhimsenJoshiJan242021.jpeg`, 
             description: `<ul>

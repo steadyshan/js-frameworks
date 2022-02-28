@@ -15,9 +15,53 @@ public allImageList:ImageElement[]  =  [
         folder:'baba-themes-1',
         theme:'Shirdi Sai Satcharitra',
         themeSummary:
-        `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
-        &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
-        files: [  {  fullFileName: `assets/all-images/religion/baba-themes-1/baba-ya-sai-dec1-2021.jpeg`, 
+        `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make separate sections <br/> This is based on Sai Satcharitra (Note - the sketches mostly wont cover all sub stories in a chapter)... `,
+        files: [ 
+            {  
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                `<ul>
+                    <li></li> </ul>`,
+                    dateUploaded: '02-28-2022',
+                    iterations:[  {
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                        description: `<ul>
+                                    <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                                    <li>Feb 17 2022 - final </li> 
+                                    </ul>`} ,{
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-1.jpeg`, 
+                        description:  `<ul>
+                        <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                        <li>Feb 17 2022 - initial </li> 
+                        </ul>`}],
+                        duplicate:true ,
+            },{  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
+            description: `<b> Chapt 7 - Bhagoji Shinde </b>` ,
+            dateUploaded: '01-13-2022',
+            iterations:[
+                {  
+                    fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
+                    description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                             </ul>` },
+                             {  
+                                fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde2_0113202.jpeg`, 
+                                description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                            <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                                         </ul>` },
+                                         {  
+                                            fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde1_01122022.jpeg`, 
+                                            description: `<ul><li><b> Chapt 7 - Bhagoji Shinde </b></li>
+                                                        <li>Audumbar tree, Kamadhenu and 4 vedas theme. fill out</li>
+                                                     </ul>` }
+            ]
+                
+                },
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde1_01122022.jpeg`, 
+            description: `<b> Chapt 36 - two gentlemen from Goa, Mrs Aurangabadkar </b>` ,
+            dateUploaded: '01-06-2022',
+                
+                },
+            {  fullFileName: `assets/all-images/religion/baba-themes-1/baba-ya-sai-dec1-2021.jpeg`, 
         description: `<b> 'Ya Sai - Mhalsapatti'</b>` ,
         dateUploaded: '12-05-2021',
             

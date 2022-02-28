@@ -17,7 +17,24 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make separate sections <br/> This is based on Sai Satcharitra (Note - the sketches mostly wont cover all sub stories in a chapter)... `,
         files: [ 
-            {  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
+            {  
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                `<ul>
+                    <li></li> </ul>`,
+                    dateUploaded: '02-28-2022',
+                    iterations:[  {
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                        description: `<ul>
+                                    <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                                    <li>Feb 17 2022 - final </li> 
+                                    </ul>`} ,{
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-1.jpeg`, 
+                        description:  `<ul>
+                        <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                        <li>Feb 17 2022 - initial </li> 
+                        </ul>`}],
+                        duplicate:true ,
+            },{  fullFileName: `assets/all-images/religion/baba-themes-1/Chapt7BhagojiShinde3_01122022.jpeg`, 
             description: `<b> Chapt 7 - Bhagoji Shinde </b>` ,
             dateUploaded: '01-13-2022',
             iterations:[

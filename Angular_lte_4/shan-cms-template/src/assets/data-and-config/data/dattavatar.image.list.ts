@@ -38,7 +38,27 @@ public allImageList:ImageElement[]  =  [
                             description: `<ul><li></li>
                                         <li>Version 1 - photo taken, minimum share and uploaded Jan 27 2022</li> </ul>`}
                         ],
-            },{  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
+                        rating:1 ,
+            },//
+            {  
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                `<ul>
+                    <li></li> </ul>`,
+                    dateUploaded: '02-28-2022',
+                    iterations:[  {
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                        description: `<ul>
+                                    <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                                    <li>Feb 17 2022 - final </li> 
+                                    </ul>`} ,{
+                        fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-1.jpeg`, 
+                        description:  `<ul>
+                        <li>What started off as a Sai Satcharit Chapter theme involving daskshina, Baba and Swami, Lord Dattatreya was sketched too</li> 
+                        <li>Feb 17 2022 - initial </li> 
+                        </ul>`}],
+            },
+                        
+            {  fullFileName: `assets/all-images/religion/dattavatar/unsigned3DattaGuru12292020.jpeg`, 
                     rating: 1,
                    description: 
                    `<ul>
