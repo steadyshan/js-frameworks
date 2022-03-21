@@ -55,13 +55,27 @@ export class MahadevFamilyImageList {
                             <li>Around Shivratri - March 11 2021 (Attempt to sketch Mt Kailash in the background)</li>
                             </ul>`,
             }, {  
-               fullFileName: `assets/all-images/religion/mahadev-family/NandiSept62021.jpeg`, 
+               fullFileName: `assets/all-images/religion/mahadev-family/NandiSept62021-RefreshMarch122.jpeg`, 
                   description: `<ul>
                                   <li>Nandi - the Bull - Mahadev's vehicke</li>
                                   <li>Based on the huge statue in Chamunda Hills Mysore, southern India</li>
                                   <li>WIP - Sept 2021</li>
                                   </ul>`,
-                  dateUploaded: '12-11-2021'
+                                  iterations:[  {
+                                    fullFileName: `assets/all-images/religion/mahadev-family/NandiSept62021-RefreshMarch122.jpeg`, 
+                                    description: `<ul>
+                                    <li>Nandi - the Bull - Mahadev's vehicke</li>
+                                    <li>Based on the huge statue in Chamunda Hills Mysore, southern India</li>
+                                    <li>Complated March 1 2022, resumed after gap - Sept 2021</li>
+                                    </ul>`} , {
+                                       fullFileName: `assets/all-images/religion/mahadev-family/NandiSept62021.jpeg`, 
+                                       description: `<ul>
+                                       <li>Nandi - the Bull - Mahadev's vehicke</li>
+                                       <li>Based on the huge statue in Chamunda Hills Mysore, southern India</li>
+                                       <li>WIP - Sept 2021</li>
+                                       </ul>`}],
+                           //        `NandiSept62021-RefreshMarch122.jpeg`
+                  dateUploaded: '02-21-2022'
                   },
             //
          ]
