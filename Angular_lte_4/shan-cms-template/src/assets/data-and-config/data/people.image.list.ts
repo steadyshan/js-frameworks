@@ -13,6 +13,18 @@ export class PeopleImageList {
          Some, in fact, many are <em><strong>pretty out of shape</strong></em>, but <em>still</em> included because of the significance`,
      files: [
       {
+         fullFileName: `assets/all-images/people-places/ShivjayantiTithiMarch2122.jpeg`, 
+         description: `<ul>
+                        <li>Shiv Jayanti by Tithi, 2022</li>
+                        <li>Seated Personality is Shree Samarth Guru Ramdas, Shivaji's Guru</li>
+                        <li>Ganesh sketch top left is attempt to draw Girijatmaja, Ashtavinayak at Lenyadri, near Shivneri where Shivaji was born</li>
+                        <li> Right is Goddess Bhavani</li>
+                        <li>March 21, 2022</li>
+                  `,
+         dateUploaded: '03-21-2022',
+         
+      },
+      {
          fullFileName: `assets/all-images/people-places/GreatPersonsRaje locked version 09292020.jpeg`, 
          description: `<p>My first 'non religious' person sketch.. Choice was obvious, wasnt it? </p>`,
          evolution: '<b>Description below says it all..</b><br/>',

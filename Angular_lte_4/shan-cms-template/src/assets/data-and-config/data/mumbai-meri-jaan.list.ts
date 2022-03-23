@@ -36,9 +36,11 @@ public allImageList:ImageElement[]  =  [
                           description: `<ul>
                             <li>This is (what it’s name was in 70’s) butcher island Mumbai’s oil tanker terminal,  Opposite the island of Elephanta caves *</li>
                             <li>My Late dad has worked here -   Feb 23 being my parents wedding anniversary, sort of dedicated to them</li>
-                            <li>>He had his personal launch to commute normally from a pier near trombay(not sure) Called ‘pir Pau’</li>
-                            <li>>Sometimes the ships’ captains used to invite us for dinner so we used to go with him in the launch and return late night</li>
-                            <li> * Jawahar Dweep and Gharapuri</li>
+                            <li>He had his personal launch ** to commute normally from a pier near trombay(not sure) Called ‘pir Pau’</li>
+                            <li>Sometimes the ships’ captains used to invite us for dinner so we used to go with him in the launch and return late night</li>
+                            <li>Feb 23 2022</li>
+                            <li> * now named Jawahar Dweep; Elephanta was always named Gharapuri</li>
+                            <li> ** As I remember, named 'KrishnaLeela' </li>
                             </ul>`
                           },]
                     },
