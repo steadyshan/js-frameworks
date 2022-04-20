@@ -14,6 +14,7 @@ import { SwamiSamarthaImageList } from '../../assets/data-and-config/data/swami-
 import { DattavatarImageList } from '../../assets/data-and-config/data/dattavatar.image.list';
 import { ShirdiSaiQ1Q22021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-2020.list';
 import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q3-q4-2021.list';
+import { ShirdiSaiQ2Q32022ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-q3-2022.list';
 import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme.images-list';
 
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list'
@@ -62,6 +63,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ1Q22021ImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32022ImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1())) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList()) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
@@ -99,6 +101,8 @@ export class ListFunnelService {
         this.loadTopUploads(new SwamiSamarthaImageList()) ;
         this.loadTopUploads(new ShirdiSaiQ1Q22021ImageList()) ;
         this.loadTopUploads(new ShirdiSaiQ3Q42021ImageList()) ;
+        this.loadTopUploads(new ShirdiSaiQ2Q32022ImageList()) ;
+        
         this.loadTopUploads(new ShirdiSaiThemeList1()) ;
         this.loadTopUploads(new PeopleImageList()) ;
         this.loadTopUploads(new TrainImageList()) ;
@@ -139,6 +143,7 @@ export class ListFunnelService {
         this.loadLatestUploads(new SwamiSamarthaImageList()) ;
         this.loadLatestUploads(new ShirdiSaiQ1Q22021ImageList()) ;
         this.loadLatestUploads(new ShirdiSaiQ3Q42021ImageList()) ;
+        this.loadLatestUploads(new ShirdiSaiQ2Q32022ImageList()) ;
         this.loadLatestUploads(new ShirdiSaiThemeList1()) ;
         this.loadLatestUploads(new PeopleImageList()) ;
         this.loadLatestUploads(new TrainImageList()) ;
@@ -179,6 +184,7 @@ export class ListFunnelService {
         this.getMilestoneSketches(new SwamiSamarthaImageList()) ;
         this.getMilestoneSketches(new ShirdiSaiQ1Q22021ImageList()) ;
         this.getMilestoneSketches(new ShirdiSaiQ3Q42021ImageList()) ;
+        this.getMilestoneSketches(new ShirdiSaiQ2Q32022ImageList()) ;
         this.getMilestoneSketches(new ShirdiSaiThemeList1()) ;
         this.getMilestoneSketches(new PeopleImageList()) ;
         this.getMilestoneSketches(new TrainImageList()) ;
@@ -234,6 +240,9 @@ export class ListFunnelService {
       case 'shirdi-sai-q3-q4-2021': this.genImageList = new ShirdiSaiQ3Q42021ImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
+      case 'shirdi-sai-q2-q3-2022': this.genImageList = new ShirdiSaiQ2Q32022ImageList();
+                          this.allImageList = this.genImageList.allImageList ;
+                          break;
       case 'baba-themes-1': this.genImageList = new ShirdiSaiThemeList1();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
