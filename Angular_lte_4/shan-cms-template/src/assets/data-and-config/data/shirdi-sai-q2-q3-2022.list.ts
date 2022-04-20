@@ -22,8 +22,40 @@ public allImageList:ImageElement[]  =  [
             <li>Simply .. Baba.. April Trayodashi</li><li> April 14 2022</li>
             </ul>`,
             dateUploaded: '04-19-2022',
-            rating: 1,
-        }
+            iterations: [
+                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022-1.jpeg
+                {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022-1.jpeg`, 
+                    description: `<ul>
+                    <li>Simply .. Baba.. April Trayodashi initial w/o background</li><li> April 14 2022</li>
+                    </ul>`
+                },{
+                   fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022.jpeg`, 
+                   description: `<ul>
+                   <li>Simply .. Baba.. April Trayodashi background, to complete the 'Mahadev' elements</li><li> April 14 2022</li>
+                   </ul>`
+               }
+             ]
+        },{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04072022-portrait-contour.jpeg`, 
+        description: `<ul>
+        <li><li> April 7 2022</li>
+        </ul>`,
+        dateUploaded: '04-20-2022',
+        iterations: [
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022-1.jpeg
+            {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04072022-portrait-reg.jpeg`, 
+                description: `<ul>
+                 <li> Photo taken using Portrait regular </li><li>April 7 2022</li>
+                </ul>`
+            },{
+               fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04072022-portrait-contour.jpeg`, 
+               description: `<ul>
+               <li> Photo taken using Portrait contour mode </li><li>April 7 2022</li>
+               </ul>`
+           }
+         ]
+    }
               ]
        }
  
