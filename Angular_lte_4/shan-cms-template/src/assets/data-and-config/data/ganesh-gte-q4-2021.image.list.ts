@@ -51,11 +51,17 @@ public allImageList:ImageElement[]  =  [
                            evolutionDate: '02-06-2022',
                            dateUploaded: '06-17-2022', iterations:[
                { 
-                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
+                  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi.jpeg`, 
                   description: `<strong><ul>
                                     <li>Feb 5 2022 Saraswati Pooja - my first attempt using crayons</li>
                                     <li>Also a dedication to a very sad event - the passing of Lata Mangeshkar</li>
-                                 </ul></strong>`,}],
+                                 </ul></strong>`,},
+                                 { 
+                                    fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi_prev.jpeg`, 
+                                    description: `<strong><ul>
+                                                      <li>Feb 5 2022 Saraswati Pooja - my first attempt using crayons</li>
+                                                      <li>Also a dedication to a very sad event - the passing of Lata Mangeshkar</li>
+                                                   </ul></strong>`,}       ],
          },
          {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
