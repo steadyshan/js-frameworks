@@ -77,6 +77,50 @@ export class ListFunnelService {
     });
     return sketchStats ;
   }
+  //... later
+  loadMultipleThemes(functionProto: any, optionalArg=null) {
+    functionProto(new GaneshImageList()) ;
+    functionProto(new GaneshGTEQ42021ImageList()) ;
+    functionProto(new DeviImageList()) ;
+    functionProto(new MahadevImageList()) ;
+    functionProto(new MahadevFamilyImageList()) ;
+    functionProto(new LaxmiVishnuHanumanList()) ;
+    functionProto(new DattavatarImageList()) ;
+    functionProto(new SwamiSamarthaImageList()) ;
+    functionProto(new ShirdiSaiQ1Q22021ImageList()) ;
+    functionProto(new ShirdiSaiQ3Q42021ImageList()) ;
+    functionProto(new ShirdiSaiQ2Q32022ImageList()) ;
+        
+    functionProto(new ShirdiSaiThemeList1()) ;
+    functionProto(new PeopleImageList()) ;
+    functionProto(new TrainImageList()) ;
+    functionProto(new MumbaiMeriJaanList()) ;
+    functionProto(new PlacesScenesObjectsImageList()) ;
+    functionProto(new PlanesImageList()) ;
+    functionProto(new ThemesMisc());
+  }
+  // optimize 
+  loadLists(imageList:any = [])  {
+    imageList.push(new GaneshImageList()) ;
+    imageList.push(new GaneshGTEQ42021ImageList()) ;
+    imageList.push(new DeviImageList()) ;
+    imageList.push(new MahadevImageList()) ;
+    imageList.push(new MahadevFamilyImageList()) ;
+    imageList.push(new LaxmiVishnuHanumanList()) ;
+    imageList.push(new DattavatarImageList()) ;
+    imageList.push(new SwamiSamarthaImageList()) ;
+    imageList.push(new ShirdiSaiQ1Q22021ImageList()) ;
+    imageList.push(new ShirdiSaiQ3Q42021ImageList()) ;
+    imageList.push(new ShirdiSaiQ2Q32022ImageList()) ;
+        
+    imageList.push(new ShirdiSaiThemeList1()) ;
+    imageList.push(new PeopleImageList()) ;
+    imageList.push(new TrainImageList()) ;
+    imageList.push(new MumbaiMeriJaanList()) ;
+    imageList.push(new PlacesScenesObjectsImageList()) ;
+    imageList.push(new PlanesImageList()) ;
+    imageList.push(new ThemesMisc());
+  }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
       case 'showpiece': 
@@ -91,6 +135,13 @@ export class ListFunnelService {
               files: [],
             }
         ]} ; 
+        // later this.loadMultipleThemes(this.loadTopUploads) ;
+        const imageLists:any = [];
+        this.loadLists(imageLists) ;
+        imageLists.forEach((imageList:any) => {
+          this.loadTopUploads(imageList);
+        })
+        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
         this.loadTopUploads(new GaneshImageList()) ;
         this.loadTopUploads(new GaneshGTEQ42021ImageList()) ;
         this.loadTopUploads(new DeviImageList()) ;
@@ -110,6 +161,7 @@ export class ListFunnelService {
         this.loadTopUploads(new PlacesScenesObjectsImageList()) ;
         this.loadTopUploads(new PlanesImageList()) ;
         this.loadTopUploads(new ThemesMisc());
+        */
         this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
           const aDate = a.dateUploaded ? 
                   new Date(a.dateUploaded).getTime():
@@ -133,6 +185,29 @@ export class ListFunnelService {
               files: [],
             }
         ]} ;
+        const latestImageLists:any = [];
+        this.loadLists(latestImageLists) ;
+        latestImageLists.forEach((latestImageList:any) => {
+          this.loadLatestUploads(latestImageList);
+        })
+        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length === 0) {
+          latestImageLists.forEach((latestImageList2:any) => {
+            if(latestImageList2.allImageList && latestImageList2.allImageList[0].files) {
+              latestImageList2.allImageList[0].files.sort(function(a:any, b:any) {
+                const aDate = new Date(a.dateUploaded).getTime();
+                const bDate = new Date(b.dateUploaded).getTime();
+                let c = bDate  -  aDate ; // aDate - bDate ;
+                return  c ;
+              });
+            }
+            latestImageList2.allImageList[0].files.forEach((element:any, index:number) => {
+              if (index < 2 && index < latestImageList2.allImageList[0].files.length){
+                this.genImageList.allImageList[0].files.push(latestImageList2.allImageList[0].files[index]);
+              }
+            });
+          });
+        }
+        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
         this.loadLatestUploads(new GaneshImageList()) ;
         this.loadLatestUploads(new GaneshGTEQ42021ImageList()) ;
         this.loadLatestUploads(new DeviImageList()) ;
@@ -151,12 +226,16 @@ export class ListFunnelService {
         this.loadLatestUploads(new PlacesScenesObjectsImageList()) ;
         this.loadLatestUploads(new PlanesImageList()) ;
         this.loadLatestUploads(new ThemesMisc());
+        */
+        console.log(`#### LATEST UPLOAD .. LOADED`);
+        
         this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
           const aDate = new Date(a.dateUploaded).getTime();
           const bDate = new Date(b.dateUploaded).getTime();
           let c = bDate  -  aDate ; // aDate - bDate ;
           return  c ;
         });
+        console.log(`#### LATEST UPLOAD .. RETURN AFTER SORT`);
         
         break;
       case 'starters-x': 
@@ -173,11 +252,18 @@ export class ListFunnelService {
               files: [],
             }
         ]} ;
-      this.getMilestoneSketches(new GaneshImageList()) ;
-      this.getMilestoneSketches(new GaneshGTEQ42021ImageList()) ;
-      this.getMilestoneSketches(new MahadevImageList()) ;
-      this.getMilestoneSketches(new PlanesImageList()) ;
-      this.getMilestoneSketches(new DeviImageList()) ;
+        const milestoneImageLists:any = [];
+        this.loadLists(milestoneImageLists) ;
+        milestoneImageLists.forEach((milestoneImageList:any) => {
+          this.getMilestoneSketches(milestoneImageList);
+        })
+        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
+        
+        this.getMilestoneSketches(new GaneshImageList()) ;
+        this.getMilestoneSketches(new GaneshGTEQ42021ImageList()) ;
+        this.getMilestoneSketches(new MahadevImageList()) ;
+        this.getMilestoneSketches(new PlanesImageList()) ;
+        this.getMilestoneSketches(new DeviImageList()) ;
         this.getMilestoneSketches(new MahadevFamilyImageList()) ;
         this.getMilestoneSketches(new LaxmiVishnuHanumanList()) ;
         this.getMilestoneSketches(new DattavatarImageList()) ;
@@ -191,6 +277,7 @@ export class ListFunnelService {
         this.getMilestoneSketches(new MumbaiMeriJaanList());
         this.getMilestoneSketches(new PlacesScenesObjectsImageList()) ;
         this.getMilestoneSketches(new ThemesMisc());
+      */
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
         const aDate = new Date(a.evolutionDate).getTime();
         const bDate = new Date(b.evolutionDate).getTime();
