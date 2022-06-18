@@ -54,7 +54,7 @@ public allImageList:ImageElement[]  =  [
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi.jpeg`, 
                   description: `<ul>
                   <li>Color sketch on (the lunar date of ) संकष्टी (संकटाहार) चतुर्थी  ('Sankatahara Chaturthi')</li>
-                  <li>Sketeched and uploaded June 17 2022 ('Juneteenth')</li>
+                  <li>Sketched and uploaded June 17 2022 ('Juneteenth')</li>
                   </ul>`,},
                                  { 
                                     fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi_prev.jpeg`, 
