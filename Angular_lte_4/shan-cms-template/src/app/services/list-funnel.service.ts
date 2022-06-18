@@ -206,6 +206,9 @@ export class ListFunnelService {
               }
             });
           });
+          this.genImageList.allImageList[0].themeSummary = 
+            `Latest Uploads - normally a collection of skethes uploaded 30 days or less. 
+             However this time around there arent so many, so this becomes (additionally) a collection of latest 2 skethes from the themes on the right` ;
         }
         /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
         this.loadLatestUploads(new GaneshImageList()) ;

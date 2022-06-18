@@ -17,6 +17,33 @@ public allImageList:ImageElement[]  =  [
         themeSummary: 
         `<p> <em><strong>April 2022, my attempt on Shirdi Sai sketch every Thursday going on. Let's see how far this sustains... `,
         files: [ // SaiMarch32022.jpeg
+        // BabaParaBrahmaJune162022_2
+        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaParaBrahmaJune162022_2.jpeg`, 
+            description: `<ul>
+            <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+            गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+            <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>
+            </ul>`,
+            dateUploaded: '06-16-2022',
+            iterations: [
+                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022-1.jpeg
+                {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaParaBrahmaJune162022_2.jpeg`, 
+                    description: `<ul>
+                    <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+                    गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+                    <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>
+                    </ul>`
+                },{
+                   fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaParaBrahmaJune162022_1.jpeg`, 
+                   description: `<ul>
+                   <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+                   गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+                   <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>
+                   </ul>`
+               }
+             ]
+        },
         { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022.jpeg`, 
             description: `<ul>
             <li>Simply .. Baba.. April Trayodashi</li><li> April 14 2022</li>
