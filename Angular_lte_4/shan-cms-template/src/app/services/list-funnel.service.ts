@@ -190,7 +190,7 @@ export class ListFunnelService {
         latestImageLists.forEach((latestImageList:any) => {
           this.loadLatestUploads(latestImageList);
         })
-        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length === 0) {
+        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length <  10) {
           latestImageLists.forEach((latestImageList2:any) => {
             if(latestImageList2.allImageList && latestImageList2.allImageList[0].files) {
               latestImageList2.allImageList[0].files.sort(function(a:any, b:any) {

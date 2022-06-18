@@ -18,7 +18,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'The Best', uniqueKey:'', parentKey:'art', key:'showpiece', roles:['all']},
         { label: 'Latest Uploads', uniqueKey:'', parentKey:'art', key:'latest-uploads', roles:['relgion','all'] },
         { label: 'Shree Ganesh', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'], dateUploaded: '12-11-2021' },
-        { label: 'Shree Ganesh Q4 2021 onward', uniqueKey:'', parentKey:'art', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '02-08-2022' },
+        { label: 'Shree Ganesh Q4 2021 onward', uniqueKey:'', parentKey:'art', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '06-18-2022' },
         { label: 'Goddesses', uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all']},
         { label: 'Mahadev', uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '03-21-2022'},
         { label: 'Mahadev and Family', uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '03-21-2022'},
