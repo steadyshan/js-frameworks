@@ -17,6 +17,16 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
+           {
+            fullFileName: `assets/all-images/religion/mahadev/KedarnathTemple03012022.jpeg`,
+            description: 
+            `<ul>
+              <li>kedarnath Temple, Uttarakhand, North India </li>
+              <li>One of the 12 Jyotirlinga's </li>
+              <li>Started Q3 2021, finalized March 1 2022</li>
+              </ul>`,
+        dateUploaded: '03-21-2022',
+           }, 
           {  
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
             fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 

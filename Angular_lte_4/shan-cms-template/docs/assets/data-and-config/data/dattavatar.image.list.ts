@@ -21,6 +21,18 @@ public allImageList:ImageElement[]  =  [
            there are likely to be maybe a couple of sketches of Shirdi Sai here; I have many of them, so have separate sections for the same..
         `,
         files: [
+            {  
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
+                description: 
+                `<ul>
+                    <li>Attempt to draw Samarth Guru Ramdas</li>
+                    <li>He was Shivaji's Guru</li>
+                    <li>'Ramdas' means (Lord) Ram's servant. He was considered inncarnation of Lord Hanuman</li>
+                    <li>April 16 2022 - Hanuman Jayanti</li>
+                    <li>displayed in two themes - Gurus and Personalities</li>
+                </ul>`,
+                    dateUploaded: '04-19-2022',
+            },
                 {  
                     fullFileName: `assets/all-images/religion/dattavatar/LordDattaJan27-Feb32021-2.jpeg`, 
                     description: 

@@ -12,6 +12,30 @@ export class PeopleImageList {
          Some off the spur of the moment, spontaneous, others due to their deaths (and we have had a lot of that!!)
          Some, in fact, many are <em><strong>pretty out of shape</strong></em>, but <em>still</em> included because of the significance`,
      files: [
+      {  
+         fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
+         description: 
+         `<ul>
+             <li>Attempt to draw Samarth Guru Ramdas</li>
+             <li>He was Shivaji's Guru</li>
+             <li>'Ramdas' means (Lord) Ram's servant. He was considered inncarnation of Lord Hanuman</li>
+             <li>April 16 2022 - Hanuman Jayanti</li>
+             <li>displayed in two themes - Gurus and Personalities</li>
+         </ul>`,
+             duplicate:true,
+             dateUploaded: '04-19-2022',
+     },{
+         fullFileName: `assets/all-images/people-places/ShivjayantiTithiMarch2122.jpeg`, 
+         description: `<ul>
+                        <li>Shiv Jayanti by Tithi, 2022</li>
+                        <li>Seated Personality is Shree Samarth Guru Ramdas, Shivaji's Guru</li>
+                        <li>Ganesh sketch top left is attempt to draw Girijatmaja, Ashtavinayak at Lenyadri, near Shivneri where Shivaji was born</li>
+                        <li> Right is Goddess Bhavani</li>
+                        <li>March 21, 2022</li>
+                  `,
+         dateUploaded: '03-21-2022',
+         
+      },
       {
          fullFileName: `assets/all-images/people-places/GreatPersonsRaje locked version 09292020.jpeg`, 
          description: `<p>My first 'non religious' person sketch.. Choice was obvious, wasnt it? </p>`,

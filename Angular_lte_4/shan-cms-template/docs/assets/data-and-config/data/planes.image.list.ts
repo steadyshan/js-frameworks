@@ -10,6 +10,27 @@ export class PlanesImageList {
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg
+            {
+                    fullFileName: 
+                `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 
+                description: `<ul><li>RMS Queen Elizabeth </li>
+                <li>RMS Queen Elizabeth 1930s - 1960 </li>
+                <li>Drawn mid april 2022</li>
+                            </ul> `,
+                dateUploaded: '04-19-2022',
+                iterations:[
+                    {fullFileName: 
+                        `assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg`, 
+                        description: `<ul><li>Initial version - not different by much</li>
+                        <li>RMS Queen Elizabeth 1930s - 1960 </li>
+                                    </ul> `},
+                  {  
+                 fullFileName: `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 
+                 description:`<ul><li>
+                 <li>RMS Queen Elizabeth 1930s - 1960 </li></li></ul> `}]
+
+            },
             { fullFileName:   `assets/all-images/ships/USNorthCarolinEnterprisCV6BaseJan102022.jpeg`, 
             description: `<ul><li>Tempted to draw a US Battleship - the ship in the foreground started off with USS North Carolina in mind, but... </li>
             <li>Likewise the Aircraft carrier starts with CV6 - WW2 USS Enterprise </li>
