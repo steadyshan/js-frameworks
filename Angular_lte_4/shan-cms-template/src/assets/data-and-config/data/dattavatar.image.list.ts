@@ -21,7 +21,17 @@ public allImageList:ImageElement[]  =  [
            there are likely to be maybe a couple of sketches of Shirdi Sai here; I have many of them, so have separate sections for the same..
         `,
         files: [
-            {  
+            { fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
+            description: `<ul>
+            <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+            गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+            <li>GuruPoornima compilation  </li> July  13 2022</li>
+            <li>This evolved into a series of Baba resembling other Avatars..</li>
+            <li>..Sketches with this and four others - Dattatreya, Shreepad Vallabh(2), Nrusimha Saraswati, Swami Samartha</li>
+            </ul>`,
+            dateUploaded: '07-13-2022',
+           
+        }, {  
                 fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
                 description: 
                 `<ul>

@@ -19,11 +19,33 @@ public allImageList:ImageElement[]  =  [
         files: [ // SaiMarch32022.jpeg
         // BabaParaBrahmaJune162022_2
         // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/ShreepadVallabhSaiBaba1061622.jpeg
-        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/NrusimhaSaraswatSai06302022.jpeg`, 
+        // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png
+        { fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
             description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
             गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
-            <li>Baba appearing as Nrusimha Saraswat</li> June 23 2022</li>
+            <li>GuruPoornima compilation  </li> July  13 2022</li>
+            <li>This evolved into a series of Baba resembling other Avatars..</li>
+            <li>..Sketches with this and four others - Dattatreya, Shreepad Vallabh(2), Nrusimha Saraswati, Swami Samartha</li>
+            </ul>`,
+            dateUploaded: '07-13-2022',
+            duplicate: true,
+           
+        },{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/ShreeSaiSamarth070722.jpeg`, 
+            description: `<ul>
+            <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+            गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+            <li>Baba appearing as Shree Swami Samartha</li> July 7 2022</li>
+            <li>This evolved into a series of Baba resembling other Avatars..</li>
+            <li>..Sketches with this and four others - Dattatreya, Shreepad Vallabh(2), Nrusimha Saraswati, Swami Samartha</li>
+            </ul>`,
+            dateUploaded: '06-30-2022',
+           
+        },{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/NrusimhaSaraswatSai06302022.jpeg`, 
+            description: `<ul>
+            <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+            गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+            <li>Baba appearing as Nrusimha Saraswati</li> June 23 2022</li>
             <li>This evolved into a series of Baba resembling other Avatars..</li>
             <li>..Sketches with this and four others - Dattatreya, Shreepad Vallabh(2), Nrusimha Saraswati, Swami Samartha</li>
             </ul>`,
