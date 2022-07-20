@@ -190,7 +190,8 @@ export class ListFunnelService {
         latestImageLists.forEach((latestImageList:any) => {
           this.loadLatestUploads(latestImageList);
         })
-        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length <  10) {
+        /*
+        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length <  5) {
           latestImageLists.forEach((latestImageList2:any) => {
             if(latestImageList2.allImageList && latestImageList2.allImageList[0].files) {
               latestImageList2.allImageList[0].files.sort(function(a:any, b:any) {
@@ -206,10 +207,12 @@ export class ListFunnelService {
               }
             });
           });
+          this.sortImages();
           this.genImageList.allImageList[0].themeSummary = 
             `Latest Uploads - normally a collection of sketches uploaded 30 days or less. 
              However this time around there arent so many, so this becomes (additionally) a collection of latest 2 sketches from the themes on the right` ;
         }
+        */
         /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
         this.loadLatestUploads(new GaneshImageList()) ;
         this.loadLatestUploads(new GaneshGTEQ42021ImageList()) ;

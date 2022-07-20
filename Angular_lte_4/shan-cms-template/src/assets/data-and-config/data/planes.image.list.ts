@@ -11,6 +11,16 @@ export class PlanesImageList {
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg
+            ,
+            { 
+                fullFileName:   `assets/all-images/planes/AI707BabaBirthdayDedicate07192022.jpeg`, 
+                evolution: `<b>Dedicated to my Dad who got me started on this hobby of mine (rest in description)<br/>`,
+                evolutionDate: `07-19-2022`,
+                rating: 1,
+                description: `<ul><li>This one for my Dad on his birthday anniversary (07/19).. </li>
+                <li>he is the one who drew a plane for me when I was a kid, showing me how to draw</li></ul> `,
+                dateUploaded: '07-19-2022', },
+            ,
             {
                     fullFileName: 
                 `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 
