@@ -7,26 +7,37 @@ public allImageList:ImageElement[]  =  [
                 themeSummary: `This long overdue dedication to the City that is part of me that I am part of.. How could I have waited soooo long`,
                 files: [
                      
-                    { 
-                        fullFileName: `assets/all-images/mumbai-meri-jaan/MumbaiThemeCenterNov20_2020.jpeg`,
-                        iterativeText: 'Components *',
-                        evolution: `
-                        <b>The center of one of my collages - I think my second collage, but landmark for the following reasons</b>:<br/>
-                        &nbsp;&nbsp;- My first (set) in tribute to my heart, my MUMBAI<br/>
-                        &nbsp;&nbsp;- A year and 2 months down, it triggered the realization and desire that I need to dedicate a separate theme to Mumbai<br/>
-                        &nbsp;&nbsp;- <i>(I include just this and the collage here; the other pieces are on display in the 'Mumbai Meri Jaan' section)</i><br/>--------><br/>
-                        `,
-                        evolutionDate: `11-26-2020`,
-                        footNote: '* Click to see each sub sketch of the collage',
+                  { 
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayPrintFrameJuly2022.jpeg`,
+                    iterativeText: 'Components *',
+                    evolution: `
+                    The FIRST black and white sketch that I framed... this is an 11x14
+                    `,
+                    evolutionDate: `11-26-2020`,
+                    footNote: '* Click to see each sub sketch of the collage',
+                    description: `<ul>
+                    <li>Photo print 11x14 of the previous and framed</li>
+                  </ul>`,
+                  iterations:[
+                    {
+                      fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayPrintFrameJuly2022.jpeg`, 
+                      description: `<ul>
+                      <li>Photo print 11x14 of the (previous) Gateway of India sketch and framed</li>
+                      </li>
+                          <li>This is the latest shared but STILL WIP.. </li>
+                          <li><b> Please click 'more' to see the final, original sketch</b></li> 
+                        </ul>`
+                      },
+                      {
+                        fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayOfIndiaOutlineJan232022_5.jpeg`, 
                         description: `<ul>
-                        <li>Starting point - a tribute to the martyrs of the 26/11 terrorist attacks and recently the unsung heroes of COVID </li>
-                        <li>You will see this again in the compiled sketch after the Gateway + 8 more :) </li>
-                        <li><i>(Top corner attempt to sketch Mumba Devi and Mother Mary)</i></li>
-                        <li>Nov 2020 timeframe</li>
-                      </ul>`,
-                        dateUploaded: '01-20-2022',
-                    },
-                    { 
+                             <li>..</li> 
+                          </ul>`
+                        }
+                      ],
+                    dateUploaded: '07-23-2022',
+                },
+                { 
                     fullFileName: `assets/all-images/mumbai-meri-jaan/ButcherIslandElephantaFeb232022-final.jpeg`,
                     description: '<p>Inspirational Sketch</p>',
                     dateUploaded: '02-24-2022',

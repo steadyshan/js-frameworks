@@ -30,7 +30,7 @@ public allImageList:ImageElement[]  =  [
             evolution: `<b>My first 'Baba unplugged' sketch in color<br/>`,
                 evolutionDate: `07-20-2022`,
                 rating: 1,
-                dateUploaded: '07-222022',
+                dateUploaded: '07-22-2022',
             iterations: [
                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiThu04142022-1.jpeg
                 {
@@ -39,7 +39,9 @@ public allImageList:ImageElement[]  =  [
                     <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
                     गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
                     <li>Final ... </li>
-                    </ul>`
+                    </ul>`,
+                    rating: 1,
+                    dateUploaded: '07-22-2022',
                 },{
                    fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaUnpluggedColor0719222022-2.jpeg`, 
                    description: `<ul>
@@ -52,7 +54,14 @@ public allImageList:ImageElement[]  =  [
                 </ul>`
             }
              ]
-        },{ fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
+        },
+        ,{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaSleepingJuly142022.jpeg`, description: `<ul>
+        <li>“Happy with my devotees.. taking some time off… DND ..Shama, wake me only if anything critical”</li>
+        </ul>`,
+        dateUploaded: '07-23-2022',
+       
+    },
+        { fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
             description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
             गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
