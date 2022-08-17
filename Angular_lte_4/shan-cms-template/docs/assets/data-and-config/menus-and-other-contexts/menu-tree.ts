@@ -34,7 +34,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'Misc, Themes', uniqueKey:'', parentKey:'art', key:'themes-misc', roles:['nonLiving','all']},
         { label: 'Rail', uniqueKey:'', parentKey:'art', key:'trains', roles:['nonLiving','all'], dateUploaded: '12-08-2021'},
         { label: 'Mumbai Meri Jaan', uniqueKey:'', parentKey:'art', key:'mumbai-meri-jaan', roles:['nonLiving','all'], dateUploaded: '07-25-2022'},
-        { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '07-20-2022'}  ];
+        { label: 'Aircraft, Ships and Cars', uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '07-23-2022'}  ];
 @Injectable()
 export class  MenuNav { 
     _menuTree:MenuItem[] = [

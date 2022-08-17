@@ -20,7 +20,12 @@ export class PlanesImageList {
                 description: `<ul><li>This one for my Dad on his birthday anniversary (07/19).. </li>
                 <li>he is the one who drew a plane for me when I was a kid, showing me how to draw</li></ul> `,
                 dateUploaded: '07-19-2022', },
-            ,
+                ,
+                { 
+                    fullFileName:   `assets/all-images/ships/BismarkJuly152022.jpeg`, 
+                    description: `<ul><li>Attempt on Bismark (or Tirpitz) 07-15-2022</li></ul> `,
+                    dateUploaded: '07-23-2022', },
+               ,
             {
                     fullFileName: 
                 `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 

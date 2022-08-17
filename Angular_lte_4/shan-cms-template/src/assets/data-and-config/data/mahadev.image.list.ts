@@ -17,6 +17,33 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
+          {  
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+            fullFileName: `assets/all-images/religion/mahadev/Shivji2022ShravanMonday_final.png`, 
+            description: 
+               `<ul>
+                 <li>Mahadev 'Shravani Somwar' sketch</li>
+                  <li>Aug 1s 2022</li>
+                 </ul>`,
+           dateUploaded: '08-17-2022',
+           iterations:[
+            {
+              fullFileName: `assets/all-images/religion/mahadev/Shivji2022ShravanMonday_final.png`, 
+              description: 
+              `<ul>
+              <li>Mahadev 'Shravani Somwar' sketch</li>
+               <li>Aug 1s 2022</li>
+              </ul>`,
+            },{
+              fullFileName: `assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg`, 
+              description: 
+              `<ul>
+              <li>Mahadev 'Shravani Somwar' sketch</li>
+               <li>Aug 1s 2022</li>
+              </ul>`,
+            }]
+          },
            {
             fullFileName: `assets/all-images/religion/mahadev/KedarnathTemple03012022.jpeg`,
             description: 
