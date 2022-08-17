@@ -6,7 +6,20 @@ public allImageList:ImageElement[]  =  [
                 theme:'Salaam Mumbai',
                 themeSummary: `This long overdue dedication to the City that is part of me that I am part of.. How could I have waited soooo long`,
                 files: [
-                     
+                  {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
+                    description: 
+                       `<ul>
+                         <li><b>Mahadev 'Shravani Somwar' sketch KashiVishweshwar Temple, Citylight, Mumbai</b></li>
+                         <li>(See Mahadev and Family for details and iterations)</li>
+                         </ul>`,
+                         rating: 1,
+                     duplicate:true,    
+                   dateUploaded: '08-17-2022',
+                 
+                  },  
                   { 
                     fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayPrintFrameJuly2022.jpeg`,
                     iterativeText: 'Components *',
