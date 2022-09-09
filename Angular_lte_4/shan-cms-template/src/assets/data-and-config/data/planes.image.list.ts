@@ -20,7 +20,37 @@ export class PlanesImageList {
                 description: `<ul><li>This one for my Dad on his birthday anniversary (07/19).. </li>
                 <li>he is the one who drew a plane for me when I was a kid, showing me how to draw</li></ul> `,
                 dateUploaded: '07-19-2022', },
-                ,
+                { 
+                    fullFileName:   `assets/all-images/ships/newINSVikrant09022022final.jpeg`, 
+                    evolution: `<b>First sincere attempt to accurately follow the object. Also commemorative in the 1st indigenous carrier by India </b><br/>`,
+                    evolutionDate: `09-08-2022`,
+                    rating: 1,
+                    description: `<ul><li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
+                    <li>Final sketch shows INS Kolkata accompanying, 4 Mig29 and Mumbai - Wandre - Worli skyline in back</li></ul> `,
+                    dateUploaded: '09-08-2022',
+                    iterations:[
+                        {fullFileName: 
+                            `assets/all-images/ships/newINSVikrant09022022final.jpeg`, 
+                            description: `<ul><li>Final Refinement</li>
+                            <li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
+                            <li>Final sketch shows INS Kolkata accompanying, 4 Mig29 and Mumbai - Wandre - Worli skyline in back</li>
+                            <li>sept 2- 6 2022</li></ul> `},
+                            {fullFileName: 
+                                `assets/all-images/ships/newINSVikrant09022022l-1.jpeg`, 
+                                description: `<ul><li>BEFORE Final Refinement</li>
+                                <li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
+                                <li>Final sketch shows INS Kolkata accompanying, 4 Mig29 and Mumbai - Wandre - Worli skyline in back</li>
+                                <li>sept 2- 6 2022</li></ul> `},
+                                {fullFileName: 
+                                    `assets/all-images/ships/newINSVikrant09022022-2.jpeg`, 
+                                    description: `<ul><li>fill out carrier</li>
+                                    <li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
+                                    <li>sept 2- 6 2022</li></ul> `},
+                                {fullFileName: 
+                                    `assets/all-images/ships/newINSVikrant09022022-1.jpeg`, 
+                                    description: `<ul><li>Initial draft - outline</li>
+                                    <li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
+                                    <li>sept 2- 6 2022</li></ul> `}] },
                 { 
                     fullFileName:   `assets/all-images/ships/BismarkJuly152022.jpeg`, 
                     description: `<ul><li>Attempt on Bismark (or Tirpitz) 07-15-2022</li></ul> `,
