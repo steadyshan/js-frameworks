@@ -28,7 +28,7 @@ export class MahadevFamilyImageList {
                     <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
                      <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
                      <li> This, a request by my current office Team Product Owner, Greg</li>
-                     <li>so before starting it, I had to do something with 1. above</li>
+                     <li>so before starting it, I had to do something with 2. above</li>
                     <li> Factoring in Shravan month(Shankar's favorite?) </li>
                     <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
                     <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>
@@ -49,7 +49,7 @@ export class MahadevFamilyImageList {
                <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
                 <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
                 <li> This, a request by my current office Team Product Owner, Greg</li>
-                <li>so before starting it, I had to do something with 1. above</li>
+                <li>so before starting it, I had to do something with 2. above</li>
                <li> Factoring in Shravan month(Shankar's favorite?) </li>
                <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
                <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>
@@ -64,7 +64,7 @@ export class MahadevFamilyImageList {
                  <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
                   <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
                   <li> This, a request by my current office Team Product Owner, Greg</li>
-                  <li>so before starting it, I had to do something with 1. above</li>
+                  <li>so before starting it, I had to do something with 2. above</li>
                  <li> Factoring in Shravan month(Shankar's favorite?) </li>
                  <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
                  <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>

@@ -16,7 +16,63 @@ export class MahadevFamilyImageList {
          theme:'Mahadev',
          themeSummary:
          ``,
-         files: [ {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
+         files: [ 
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg'
+            {  
+               // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+               // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+               fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
+               description: 
+                  `<ol>
+                    <li>Mahadev 'Shravani Somwar' sketch</li>
+                    <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
+                     <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
+                     <li> This, a request by my current office Team Product Owner, Greg</li>
+                     <li>so before starting it, I had to do something with 1. above</li>
+                    <li> Factoring in Shravan month(Shankar's favorite?) </li>
+                    <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
+                    <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>
+                    </ol><br/><b>First sketch on 11x17 (A3 paper), </br>first 'God' sketch photo-printed to frame and hoist
+                    </br>first with numbered description</b><br/>`,
+                    evolution: `<b>First sketch on 11x17 (A3 paper), </br>first 'God' sketch photo-printed to frame and hoist
+                    </br>first with numbered description</b>`,
+                    evolutionDate: `08-17-2022`,
+                    rating: 1,
+                    
+              dateUploaded: '08-17-2022',
+              iterations:[
+               {
+                 fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
+                 description: 
+               `<ol>
+               <li>Mahadev 'Shravani Somwar' sketch</li>
+               <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
+                <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
+                <li> This, a request by my current office Team Product Owner, Greg</li>
+                <li>so before starting it, I had to do something with 1. above</li>
+               <li> Factoring in Shravan month(Shankar's favorite?) </li>
+               <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
+               <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>
+               </ol><br/><b>First sketch on 11x17 (A3 paper), </br>first 'God' sketch photo-printed to frame and hoist
+               </br>first with numbered description</b><br/>`,
+                  
+               },{
+                 fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
+                 description: 
+                 `<ol>
+                 <li>Mahadev 'Shravani Somwar' sketch</li>
+                 <li>Typically, you do something connected with God esp Ganapati when starting something new</li>
+                  <li>So, I (as on 8/17), I am in the process of drawing a large sketch of the SFO Bay (with Golden Gate bridge) </li>
+                  <li> This, a request by my current office Team Product Owner, Greg</li>
+                  <li>so before starting it, I had to do something with 1. above</li>
+                 <li> Factoring in Shravan month(Shankar's favorite?) </li>
+                 <li>Also the desire to draw a proper version of the magnificent Sculpture in KashiVishweshwar Temple, Citylight, Mumbai</li>
+                 <li>Changes = Nandi is shifted to the left, The Lion skin under Mahadev is replaced, and DurgaMaa vehicle, lion is added</li>
+                 </ol><br/><b>First sketch on 11x17 (A3 paper), </br>first 'God' sketch photo-printed to frame and hoist
+                 </br>first with numbered description</b><br/>`,
+               }]
+             },
+         {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
          evolution: `<b>Sketch of a sculpture which has always drawn, intrigued and fascinated me... <br/></b>`,
          evolutionDate: `11-17-2020`,
                 description: 
