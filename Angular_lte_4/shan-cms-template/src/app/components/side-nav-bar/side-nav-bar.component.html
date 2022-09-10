@@ -5,8 +5,12 @@
       <div style="float:right; margin-right: 20px;">- Shantanu Gadkari</div><br/>
       <div><input type='text' placeholder='User Name (optional)' [(ngModel)]="userId"> 
       <!--div><input type='password' placeholder='password' [(ngModel)]="password"></div-->
-      &nbsp;&nbsp; <input type='button' value='Enter' (click)='navigateStoragelogin()'> <br/>View 'Unplugged' (best for cellphones)
-      <input type='checkbox' value='' (click)='unpluggedSet()'></div>
+      &nbsp;&nbsp; <input type='button' value='Enter' (click)='navigateStoragelogin()'> <br/>
+      <!-- View 'Unplugged' (best for cellphones)  <input type='checkbox' value='' (click)='unpluggedSet()'> -->
+      Gallery Layout <input type="radio" name="layout" value="card" [ngModel]="picLayout"> Card Layout 
+      <input type="radio" name="layout" value="carousel" [ngModel]="picLayout"> Carousel ('next') layout 
+      
+    </div>
     <!--input type='button' value='Register' (click)='navigateStorageRegisterUser()'-->
     
 

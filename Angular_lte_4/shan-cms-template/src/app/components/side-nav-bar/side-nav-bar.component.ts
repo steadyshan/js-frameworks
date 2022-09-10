@@ -23,7 +23,8 @@ export class SideNavBarComponent implements OnInit {
   private  _userId:string = '';
   private  _password:string = '';
   private _categories:any;
-  private _unplugged: boolean = false ;
+  picLayout ='carousel';
+  private _unplugged: boolean = this.picLayout === 'card' ;
   private _viewLink:string = `/view`;
   unpluggedSet() {
     this._unplugged = true ;
