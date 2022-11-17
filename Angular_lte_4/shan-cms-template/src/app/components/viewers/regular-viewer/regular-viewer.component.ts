@@ -123,7 +123,8 @@ export class RegularViewerComponent implements OnInit {
           }
           this.currentIndex = 0;
           this.currentImage = this.selectedImageList[0];
-          if (this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
+          
+          if (this.currentImage && this.currentImage.iterations !== null && this.currentImage.iterations.length > 0) {
             //this.currentImage.iterations.unshift(this.currentImage.image );
             this.currentImage.iterationIndex = 0;
           

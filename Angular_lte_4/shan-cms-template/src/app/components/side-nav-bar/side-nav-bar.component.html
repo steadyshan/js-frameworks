@@ -7,8 +7,8 @@
       <!--div><input type='password' placeholder='password' [(ngModel)]="password"></div-->
       &nbsp;&nbsp; <input type='button' value='Enter' (click)='navigateStoragelogin()'> <br/>
       <!-- View 'Unplugged' (best for cellphones)  <input type='checkbox' value='' (click)='unpluggedSet()'> -->
-      Gallery Layout <input type="radio" name="layout" value="card" [ngModel]="picLayout"> Card Layout 
-      <input type="radio" name="layout" value="carousel" [ngModel]="picLayout"> Carousel ('next') layout 
+      Gallery Layout <input type="radio" name="layout" value="card" (click)="unpluggedSet('card')" [ngModel]="picLayout"> Card Layout 
+      <input type="radio" name="layout" value="carousel" (click)="unpluggedSet('carousel')"  [ngModel]="picLayout"> Carousel ('next') layout 
       
     </div>
     <!--input type='button' value='Register' (click)='navigateStorageRegisterUser()'-->
@@ -18,7 +18,7 @@
     <ng-template #elseBlock>
     <div >  
     Welcome {{userId}} 
-    <div id='largeScreenMenus'>
+    <div id='largeScreenMenus' >
       <ul>
           <!--li> <a (click)="setContext('0')">Sketches</a></li>
           <li> <a (click)="setContext('0')">Blog</a></li-->

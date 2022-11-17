@@ -24,10 +24,11 @@ export class SideNavBarComponent implements OnInit {
   private  _password:string = '';
   private _categories:any;
   picLayout ='carousel';
-  private _unplugged: boolean = this.picLayout === 'card' ;
+  private _unplugged: boolean = this.picLayout === 'carousel' ;
   private _viewLink:string = `/view`;
-  unpluggedSet() {
-    this._unplugged = true ;
+  unpluggedSet(layout='carousel') {
+    // alert (layout);
+    this._unplugged = layout === 'card' ;// true ;
   }
   private menus:any[] = [
     {path: '/', label:'Home page', param:[]}
@@ -59,7 +60,9 @@ export class SideNavBarComponent implements OnInit {
     return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true || menu.label.indexOf('Latest Uploads') >= 0 ? 
   //  { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
     { 'text-decoration': 'none', 'color': 'blue', 'font-weight': '800','font-family': 'Garamond, serif','background': 'beige'} : 
-    {  'text-decoration': 'none',  'color': 'darksklateblue', 'font-weight': '600'}
+    menu.parentKey === 'art'?
+    {  'text-decoration': 'none',  'color': 'darksklateblue', 'font-weight': '600'}: 
+      { 'list-style-type': "-", 'margin-left': '15px', 'text-decoration': 'none',  'color': 'darkblue', 'font-weight': '600'} ;
   }
   
   constructor(private categoryServices: CategoriesService, private router: Router, private listFunnelService: ListFunnelService) { 
@@ -91,7 +94,7 @@ export class SideNavBarComponent implements OnInit {
     console.log(`${this._categories}`)
     localStorage.setItem('userId',this.userId);
     localStorage.setItem('password',this.password);
-    this.menus = [ {path: '/', label:'Home page', param:[]}];
+    this.menus = [ {path: '/', label:'Home page',parentKey:'art', param:[]}];
     if (this.userId === 'steadyshan' || this.userId === 'songads') {
       this.menus.push({path: '/content-manage', label:'Manage Content', param:[]})
     }

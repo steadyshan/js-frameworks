@@ -5,6 +5,7 @@ import { LabeledStatement } from 'typescript';
 export interface MenuItem {
     uniqueKey:string;
     parentKey:string;
+    parent?:boolean;// also use for expand
     key:string;
     label:string;
     roles:string[] ; // unused for now ;
@@ -17,18 +18,18 @@ export const MenuTree:MenuItem[] = [
         { label: 'Evolution', uniqueKey:'', parentKey:'art', key:'starters-x', roles:['all']},
         { label: 'The Best', uniqueKey:'', parentKey:'art', key:'showpiece', roles:['all']},
         { label: 'Latest Uploads', uniqueKey:'', parentKey:'art', key:'latest-uploads', roles:['relgion','all'] },
-        { label: 'Shree Ganesh', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'], dateUploaded: '12-11-2021' },
-        { label: 'Shree Ganesh Q4 2021 onward', uniqueKey:'', parentKey:'art', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '06-18-2022' },
+        { label: 'Shree Ganesh: pre Q42021 ', uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'], dateUploaded: '12-11-2021' },
+        { label: '- Q4 2021 onward', uniqueKey:'', parentKey:'Shree Ganesh', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '06-18-2022' },
         { label: 'Goddesses', uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all'],  dateUploaded: '09-08-2022'},
         { label: 'Mahadev', uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Mahadev and Family', uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', uniqueKey:'', parentKey:'art', dateUploaded: '01-19-2022', key:'laxmi-vishnu-hanuman', roles:['relgion','all']},
         { label: 'Spiritual Souls:Datta Lineage, Sikhs, East of India', uniqueKey:'', parentKey:'art', dateUploaded: '04-19-2022',key:'dattavatar', roles:['relgion','all']},
         { label: 'Shree Swami Samartha', uniqueKey:'', parentKey:'art', key:'swami-samartha', roles:['relgion','all'], dateUploaded: '02-28-2022'},
-        { label: 'Shirdi Sai Q1 Q2(+Q3) 2021', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
-        { label: 'Shirdi Sai Q2 Q3 2022', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q2-q3-2022', roles:['relgion','all'],dateUploaded: '09-08-2022'},
-        { label: 'Shirdi Sai Q3 Q4 2021/Q1 2022', uniqueKey:'', parentKey:'art', key:'shirdi-sai-q3-q4-2021', roles:['relgion','all'],dateUploaded: '03-31-2022'},
-        { label: 'Shirdi Sai Satcharitra', uniqueKey:'', parentKey:'art', key:'baba-themes-1', roles:['relgion','all'], dateUploaded: '02-28-2022'},
+        { label: 'Shirdi Sai: Q1 - Q3 2021', uniqueKey:'', parentKey:'art', parent:true, key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
+        { label: '- Q3 2021 - Q1 2022', uniqueKey:'', parentKey:'Shirdi Sai', key:'shirdi-sai-q3-q4-2021', roles:['relgion','all'],dateUploaded: '03-31-2022'},
+        { label: '- Q2 2022 onward', uniqueKey:'', parentKey:'Shirdi Sai', key:'shirdi-sai-q2-q3-2022', roles:['relgion','all'],dateUploaded: '09-08-2022'},
+        { label: '- Sai Satcharitra', uniqueKey:'', parentKey:'Shirdi Sai', key:'baba-themes-1', roles:['relgion','all'], dateUploaded: '02-28-2022'},
         { label: 'People', uniqueKey:'', parentKey:'art', key:'people-places', roles:['nonLiving','all'], dateUploaded: '03-22-2022'},
         { label: 'Places, Scenes and Objects', uniqueKey:'', parentKey:'art', key:'places-scenes-objects', roles:['nonLiving','all'], dateUploaded: '12-06-2021'},
         { label: 'Misc, Themes', uniqueKey:'', parentKey:'art', key:'themes-misc', roles:['nonLiving','all']},
