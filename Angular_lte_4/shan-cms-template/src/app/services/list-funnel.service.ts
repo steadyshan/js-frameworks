@@ -17,7 +17,8 @@ import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shi
 import { ShirdiSaiQ2Q32022ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-q3-2022.list';
 import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme.images-list';
 
-import { TrainImageList } from '../../assets/data-and-config/data/trains.list'
+import { TrainImageList } from '../../assets/data-and-config/data/trains.list';
+import { TrainsIndianRailwayAlcos} from '../../assets/data-and-config/data/trains-indian-railway-alcos'
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
 import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
@@ -67,6 +68,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1())) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList()) );
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainsIndianRailwayAlcos())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaanList()));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList())) ;
@@ -94,6 +96,7 @@ export class ListFunnelService {
     functionProto(new ShirdiSaiThemeList1()) ;
     functionProto(new PeopleImageList()) ;
     functionProto(new TrainImageList()) ;
+    functionProto(new TrainsIndianRailwayAlcos()) ;
     functionProto(new MumbaiMeriJaanList()) ;
     functionProto(new PlacesScenesObjectsImageList()) ;
     functionProto(new PlanesImageList()) ;
@@ -116,6 +119,7 @@ export class ListFunnelService {
     imageList.push(new ShirdiSaiThemeList1()) ;
     imageList.push(new PeopleImageList()) ;
     imageList.push(new TrainImageList()) ;
+    imageList.push(new TrainsIndianRailwayAlcos()) ;
     imageList.push(new MumbaiMeriJaanList()) ;
     imageList.push(new PlacesScenesObjectsImageList()) ;
     imageList.push(new PlanesImageList()) ;
@@ -324,6 +328,9 @@ export class ListFunnelService {
       case 'trains': this.genImageList = new TrainImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
+      case 'trains-ir-alcos': this.genImageList = new TrainsIndianRailwayAlcos();
+        this.allImageList = this.genImageList.allImageList ;
+        break;
       case 'mumbai-meri-jaan': this.genImageList = new MumbaiMeriJaanList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
