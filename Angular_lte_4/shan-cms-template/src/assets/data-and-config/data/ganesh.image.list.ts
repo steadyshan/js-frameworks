@@ -10,6 +10,7 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles. The first of multiple image collections.. Pre Q4 2021`,
         files: [
+            // assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshDattaOct132022.jpeg
             {
                 fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2021</p>',

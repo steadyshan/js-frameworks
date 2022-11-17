@@ -31,7 +31,18 @@ public allImageList:ImageElement[]  =  [
             </ul>`,
             dateUploaded: '07-13-2022',
            
-        }, {  
+        },{  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshDattaOct132022.jpeg`, 
+        description: `<p>Ganesh Datta <ul>
+                        <li>Shree Ganesh represented in Dattatreya avatar</li>
+                        <li>October 13 2022</li>
+                    </ul></p>`
+            ,
+         dateUploaded: '11-17-2022',
+         duplicate:true, 
+         rating: 1,
+       
+        },
+         {  
                 fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
                 description: 
                 `<ul>

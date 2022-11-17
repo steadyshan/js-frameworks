@@ -63,7 +63,17 @@ public allImageList:ImageElement[]  =  [
                                     <li>Sketched and uploaded June 17 2022 ('Juneteenth')</li>
                                     </ul>`,}       ],
          },
-         {
+         {  fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshDattaOct132022.jpeg`, 
+        description: `<p>Ganesh Datta <ul>
+                        <li>Shree Ganesh represented in Dattatreya avatar</li>
+                        <li>October 13 2022</li>
+                    </ul></p>`
+            ,
+         dateUploaded: '11-17-2022',
+         rating: 1,
+       
+        },
+        {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
             description: `<ul>
                               <li>Feb 5 2022 Saraswati Pooja - my first attempt using crayons</li>
