@@ -42,6 +42,52 @@ public allImageList:ImageElement[]  =  [
          rating: 1,
        
         },
+        {  
+            fullFileName: `assets/all-images/religion/dattavatar/SwamiDattaOc62022.jpeg`, 
+            description: 
+            `<ul>
+                <li>Taking my time in sketching, needed to draw a really well made sketch of Shre Swami Samartha</li>
+                <li>From a picture with Lord Dattatreya in the background, started around end September and completed Oct 6 2022</li>
+                 </ul>`,
+                dateUploaded: '11-17-2022',
+                iterations:[  {
+                    fullFileName: `assets/all-images/religion/dattavatar/SwamiDattaOc62022.jpeg`, 
+                    description: `<ul>
+                    <li>Taking my time in sketching, needed to draw a really well made sketch of Shre Swami Samartha</li>
+                    <li>From a picture with Lord Dattatreya in the background, started around end September and completed Oct 6 2022</li>
+                     </ul>`} ,{ fullFileName: `assets/all-images/religion/dattavatar/SwamiDattaOct12022.jpeg`, 
+                     description: `<ul>
+                     <li>Initial checkpoint - Swami and Datta in place</li>
+                      </ul>`} 
+                ],
+                rating:1 ,
+    },
+    {  
+        fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoready-8x10-proto1.png`, 
+        description: 
+        `<ul>
+            <li>The previous sketch has been printed on photo paper twice</li>
+            <li>And this is a candidate for an 8x10 frame (11/17)</li>
+             </ul>`,
+            dateUploaded: '11-17-2022',
+            iterations:[  {
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoready-8x10-proto1.png`, 
+        description: 
+        `<ul>
+            <li>The previous sketch has been printed on photo paper twice</li>
+            <li>And this is a candidate for an 8x10 frame (11/17)</li>
+            <li>Special mention. Nov 13 2022 Swami's physical presence was established at Sunnyvale Hindu Temple...</li>
+            <li>..  The 8x10 photo frame shown (with another having Swami's portrait) was donated to the ceremony</li>
+             </ul>`,} ,{
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoframe-12x18.jpeg`, 
+                description: `<ul>
+                            <li>12x18 photo frame on my table </li> </ul>`} ,{
+                fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoframe-2-8x10.jpeg`, 
+                description: `<ul> <li>Special mention. Nov 13 2022 Swami's physical presence was established at Sunnyvale Hindu Temple...</li>
+                <li>..  The 8x10 photo frame shown (with another having Swami's portrait) was donated to the ceremony</li> </ul>`}
+            ],
+            rating:1 ,
+},
          {  
                 fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
                 description: 
