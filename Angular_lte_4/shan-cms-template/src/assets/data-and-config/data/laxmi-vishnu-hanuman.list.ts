@@ -12,6 +12,14 @@ public allImageList:ImageElement[]  =  [
              themeSummary: `<p>Laxmi and avatars, Rukhmini, Sita, Narayan, Ram, Vithal, Narsimha, Hanuman and others.   </p>`,
              files: [
                 {  
+                    fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/HanumanAugust62022.jpeg`, 
+                    description: `<ul>   <li>Hamuman Sketch with a different kind of poses</li>
+                    <li>Used Arnold Schwarzenegger's body builder poses for sketching as a reference</li>
+                    </ul>`,
+    dateUploaded: '11-19-2022',
+    rating: 1,
+                },
+                {  
                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/Hanuman1Jan1stWeek2022.jpeg`, 
                     description: `<ul>
                                 <li><strong>LATEST UPDATED (June 2 2021)</strong></li>

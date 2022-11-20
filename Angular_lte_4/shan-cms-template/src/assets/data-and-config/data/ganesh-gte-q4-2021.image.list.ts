@@ -42,6 +42,14 @@ public allImageList:ImageElement[]  =  [
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles.`,
         files: [
          {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshSept92022.jpeg`, 
+            description: `<ul>
+            <li>Andheri (Mumbai) sarvajanik Ganesh based sketch, Sept 9 2022</li>
+            </ul>`,
+            dateUploaded: '11-19-2022',
+            
+         },
+         {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi.jpeg`, 
             description: `<ul>
             <li>Color sketch on (the lunar date of ) संकष्टी (संकटाहार) चतुर्थी  ('Sankatahara Chaturthi')</li>
