@@ -19,7 +19,82 @@ public allImageList:ImageElement[]  =  [
                      duplicate:true,    
                    dateUploaded: '08-17-2022',
                  
-                  },  
+                  },  {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/vjti.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>Butcher Island (details coming soon)</li>
+                         <li>Feb 2022</li>
+                         </ul>`,
+                      
+                   dateUploaded: '11-28-2022',
+                 
+                  },  {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/butcher-island.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>Veermata Jijabai Technical Institute better known by acronym - VJTI
+                         Inspired by (and started sketching approximately on) engineers day in India</li>
+                         <li>Sept 19 2022</li>
+                         </ul>`,
+                      
+                   dateUploaded: '11-28-2022',
+                 
+                  }, {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/marine-drive.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>11x17 sheet marine drive vista - OCt 13 2022</li>
+                         </ul>`,   
+                   dateUploaded: '11-28-2022',
+                 
+                  }, {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/kite-flying.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>Attempt to capture a Diwali scene </li>
+                         <li>Tying lanterns to the big ‘Kauwaa’ kites and sending them in the sky </li>
+                         <li>From what I recollect when as a kid: </li>
+                         <li>Huge kites almost as broad as a man’s chest are used to do this  </li>
+                         <li>Extremely carefully chosen ‘stheer  patang’ , (stable, steady kites) this would be flown late night  </li>
+                         <li>After the patang would be high enough they would tie the lantern to rhr Manja ( the glass coated thread used in kite flying in India /  don’t remember if it was custom made or a special type chosen for this) and let it rise by feeding more manja </li>
+                         <li>Often two or three ‘Kandeels’￼ would be flown on a single kite</li>
+                         <li>Diwali 2022 - 10/29/2022</li>
+                         </ul>`,   
+                   dateUploaded: '11-28-2022',
+                 
+                  }, {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/launch-ride.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>Attempting to capture a typical launch ride in the ‘Bay showing the Middle Ground Coastal Battery
+                         I remember we used to throw breadcrumbs to the seagulls - many would catch them in mid air</li>
+                         <li>Nov 3 2022</li>
+                         </ul>`,   
+                   dateUploaded: '11-28-2022',
+                 
+                  }, {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/nehru-planetarium.jpeg`, 
+                    description: 
+                       `<ul>
+                         <li>Iconic structures of Mumbai
+                         Nehru planetarium and science center with the Race Course as backdrop. Sept 12 2022 </li>
+                         </ul>`,   
+                   dateUploaded: '11-28-2022',
+                 
+                  }, 
                   { 
                     fullFileName: `assets/all-images/mumbai-meri-jaan/GatewayPrintFrameJuly2022.jpeg`,
                     iterativeText: 'Components *',
