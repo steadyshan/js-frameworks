@@ -22,6 +22,17 @@ public allImageList:ImageElement[]  =  [
                   },  {  
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    fullFileName: `assets/all-images/mumbai-meri-jaan/mumbai-theme2.png`, 
+                    description: 
+                       `<ul>
+                         <li>26/11 terrorist attack tribute - similar to the one I sketched two years back,but with different and more recent sketches around the center</li>
+                         <li>Central pic - top L to R : Mumba Devi, mostly Sandeep Unikrishnan, Tukram Omble, Ashok Kamte, Vijay Salaskar, Hemant Karkare, Havaldar Gajendra Singh,Mother Mary </li>
+                         </ul>`,
+                      
+                   dateUploaded: '11-28-2022',}
+                 ,  {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
                     fullFileName: `assets/all-images/mumbai-meri-jaan/vjti.jpeg`, 
                     description: 
                        `<ul>

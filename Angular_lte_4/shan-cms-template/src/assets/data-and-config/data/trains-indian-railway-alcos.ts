@@ -20,11 +20,22 @@ public allImageList:ImageElement[]  =  [
             On collaboration with Alco (USA) the first locos entered service in 1962 imported, then manufacture began in 1964`,
     files: [ 
          
-        /*{ fullFileName:`assets/all-images/trains/frame1_IR_Emblem.jpeg`, 
-            description: `<ul><li>IR Emblem</li>
-            <li>On the left is the 'Fairy Queen' IR steam locomotive c.a 1853- 1855 said to be the oldest operational loco in the world
-            </li><li> On the right is a express locomotive concept WAP5 'Tejas' variant targetting 180 - 200 kph)</li></ul>`},*/
-            {   fullFileName:'assets/all-images/trains/alco/kundan1964wdm2.jpeg', 
+       
+        {  
+            fullFileName: `assets/all-images/trains/alco/thanksgiving-wdm2-tribute2.png`, description: 
+            `<ul>
+                <li></li> </ul>`,
+                dateUploaded: '11-28-2022',
+                iterations:[  {
+                    fullFileName: `assets/all-images/trains/alco/thanksgiving-wdm2-tribute2.png`, 
+                    description: `<ul>
+                                <li>compilation of Alcos Nov 24-25 2022</li> 
+                                </ul>`} ,{
+                    fullFileName: `assets/all-images/trains/alco/thanksgiving-wdm2-tribute1.png`, 
+                    description:  `<ul>
+                    <li>compiilation of Alcos </li> 
+                    </ul>`}],
+        },{   fullFileName:'assets/all-images/trains/alco/kundan1964wdm2.jpeg', 
             evolution: `- <b> A landmark, iconic engine - start of an era of phasing out steam power in IR </b><br/>`,
             evolutionDate: `11-09-222`,
             description: `<ul >
@@ -35,16 +46,52 @@ public allImageList:ImageElement[]  =  [
         
         </ul>` ,
         dateUploaded: '11-17-2022',
-    },  {   fullFileName:'assets/all-images/trains/alco/kalyanwdm2.jpeg', 
+    },  {   fullFileName:'assets/all-images/trains/alco/kalyan-ver2-11-23-2022.jpeg', 
     evolution: `- <b> First of the WDM2 series I started.. I used this as a template to draw the others</b><br/>`,
     evolutionDate: `10-27-222`,
     description: `<ul >
 <li><strong>Kalyan loco shed</strong> </li>
 <li>Oct 27 2022</li>
+<li>Redrawn Nov 23 2022</li>
+
+</ul>` ,  iterations:[  {
+    fullFileName: `assets/all-images/trains/alco/kalyan-ver2-11-23-2022.jpeg`, 
+    description: `<ul>
+                <li>Kalyan WDM2 in 'vanilla' IR livery</li><li>Updated  11-23-2022</li> 
+                </ul>`} ,{
+    fullFileName: `assets/all-images/trains/alco/kalyanwdm2.jpeg`, 
+    description:  `<ul>
+    <li>Kalyan WDM2 in 'vanilla' IR livery</li><li>The original drawn on Oct 27 </li> 
+    </ul>`}],
+dateUploaded: '11-17-2022',
+} ,  {   fullFileName:'assets/all-images/trains/alco/WDM2-Itarsi-11-25-2022.jpeg', 
+
+description: `<ul >
+<li><strong>Itarsi loco shed </strong> </li>
+
+<li>November 23 2022</li>
 
 </ul>` ,
 dateUploaded: '11-17-2022',
-} ,  {   fullFileName:'assets/all-images/trains/alco/ratlamwdm2creamblue.jpeg', 
+},  {   fullFileName:'assets/all-images/trains/alco/newGuwahati-11-24-2022.jpeg', 
+
+description: `<ul >
+<li><strong>New  Guwahati loco shed </strong> </li>
+
+<li>November 23 2022</li>
+
+</ul>` ,
+dateUploaded: '11-17-2022',
+},  {   fullFileName:'assets/all-images/trains/alco/ludhiana-11-23-2022.jpeg', 
+
+description: `<ul >
+<li><strong>Ludhiana </strong> </li>
+
+<li>November 23 2022</li>
+
+</ul>` ,
+dateUploaded: '11-17-2022',
+},  {   fullFileName:'assets/all-images/trains/alco/ratlamwdm2creamblue.jpeg', 
 
 description: `<ul >
 <li><strong>Ratlam loco shed </strong> </li>
