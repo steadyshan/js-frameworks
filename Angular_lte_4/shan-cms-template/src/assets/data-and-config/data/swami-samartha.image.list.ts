@@ -49,7 +49,16 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
             `Swami Samartha the 4th Avatar of Shree Dattatreya (sequence include Lord Datta himself). `,
             files: [
                 {  
-                    fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, description: 
+                    fullFileName: `assets/all-images/religion/dattavatar/SwamiSamarthaKhandoba-champaShashti-11-28-29-2022.jpeg`, 
+                    description: 
+                    `<ul>
+                        <li>Champa Shashti Nov 28/29 2022 - Swami in Khandoba look</li> </ul>`,
+                        dateUploaded: '12-01-2022',
+                       
+                },
+                {  
+                    fullFileName: `assets/all-images/religion/dattavatar/SwamiBabaFeb172022-2.jpeg`, 
+                    description: 
                     `<ul>
                         <li></li> </ul>`,
                         dateUploaded: '02-28-2022',

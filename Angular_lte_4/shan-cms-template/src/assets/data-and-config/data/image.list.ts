@@ -2,6 +2,7 @@ export interface PicDescr {
        fullFileName?:string;
        fileName?:string;
        description:string;
+       categories?:string ;
        title?:string;
        iterations?:PicDescr[];
    }

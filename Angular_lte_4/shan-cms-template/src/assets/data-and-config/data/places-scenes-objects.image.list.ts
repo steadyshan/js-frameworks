@@ -10,6 +10,14 @@ export class PlacesScenesObjectsImageList {
                 themeSummary:`</strong>Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)<br/>
                 Mumbai gets her due place and a dedicated theme; all Mumbai related sketches will be found in 'Mumbai Meri Jaan'`,
                 files: [ 
+
+                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg
+                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedTajMoonlightOct2020.jpeg
+                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedSeattleSpaceNeedleDec2020.jpeg
+                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg
+                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicPreReflectionPreFinal2020.jpeg
+                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicStartNov2020.jpeg
+                 
                   { 
                         fullFileName: `assets/all-images/places-scenes-objects/SydneyDec3rdWeek2021.jpeg`,
                         description: '<p>Inspirational Sketch</p>',
