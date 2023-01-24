@@ -10,6 +10,7 @@ import { LatestUploadsImageList } from '../../assets/data-and-config/data/latest
 import { PlanesImageList } from '../../assets/data-and-config/data/planes.image.list';
 import { GaneshImageList } from '../../assets/data-and-config/data/ganesh.image.list';
 import { GaneshGTEQ42021ImageList } from '../../assets/data-and-config/data/ganesh-gte-q4-2021.image.list';
+import { GaneshGTEQ12023ImageList } from '../../assets/data-and-config/data/ganesh-gte-q1-2023.image.list';
 import { SwamiSamarthaImageList } from '../../assets/data-and-config/data/swami-samartha.image.list'
 import { DattavatarImageList } from '../../assets/data-and-config/data/dattavatar.image.list';
 import { ShirdiSaiQ1Q22021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-2020.list';
@@ -22,6 +23,7 @@ import { TrainsIndianRailwayAlcos} from '../../assets/data-and-config/data/train
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
 import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
+import {MumbaiMeriJaan2List} from '../../assets/data-and-config/data/mumbai-meri-jaan-2.list';
 import { allImageList, ImageElement } from '../../assets/data-and-config/data/image.list';
 import { isGeneratedFile } from '@angular/compiler/src/aot/util';
 @Injectable({
@@ -56,6 +58,7 @@ export class ListFunnelService {
     };
     sketchStats.themBasedCounts[0] = (this.getThemeCounts(new GaneshImageList()));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ42021ImageList())) ;
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ12023ImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new DeviImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevFamilyImageList())) ;
@@ -70,6 +73,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainsIndianRailwayAlcos())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaanList()));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaan2List()));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList())) ;
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc()));
@@ -83,6 +87,7 @@ export class ListFunnelService {
   loadMultipleThemes(functionProto: any, optionalArg=null) {
     functionProto(new GaneshImageList()) ;
     functionProto(new GaneshGTEQ42021ImageList()) ;
+    functionProto(new GaneshGTEQ12023ImageList()) ;
     functionProto(new DeviImageList()) ;
     functionProto(new MahadevImageList()) ;
     functionProto(new MahadevFamilyImageList()) ;
@@ -98,6 +103,7 @@ export class ListFunnelService {
     functionProto(new TrainImageList()) ;
     functionProto(new TrainsIndianRailwayAlcos()) ;
     functionProto(new MumbaiMeriJaanList()) ;
+    functionProto(new MumbaiMeriJaan2List()) ;
     functionProto(new PlacesScenesObjectsImageList()) ;
     functionProto(new PlanesImageList()) ;
     functionProto(new ThemesMisc());
@@ -106,6 +112,7 @@ export class ListFunnelService {
   loadLists(imageList:any = [])  {
     imageList.push(new GaneshImageList()) ;
     imageList.push(new GaneshGTEQ42021ImageList()) ;
+    imageList.push(new GaneshGTEQ12023ImageList()) ;
     imageList.push(new DeviImageList()) ;
     imageList.push(new MahadevImageList()) ;
     imageList.push(new MahadevFamilyImageList()) ;
@@ -121,6 +128,7 @@ export class ListFunnelService {
     imageList.push(new TrainImageList()) ;
     imageList.push(new TrainsIndianRailwayAlcos()) ;
     imageList.push(new MumbaiMeriJaanList()) ;
+    imageList.push(new MumbaiMeriJaan2List()) ;
     imageList.push(new PlacesScenesObjectsImageList()) ;
     imageList.push(new PlanesImageList()) ;
     imageList.push(new ThemesMisc());
@@ -185,7 +193,7 @@ export class ListFunnelService {
             { 
               folder:'',
               theme:'latest-uploads',
-              themeSummary: `Uploads of 30 days or less`,
+              themeSummary: `Uploads of 60 days or less`,
               files: [],
             }
         ]} ;
@@ -304,6 +312,9 @@ export class ListFunnelService {
       case 'shree-ganesh-gte-q4-2021': this.genImageList = new GaneshGTEQ42021ImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
+      case 'shree-ganesh-gte-q1-2023': this.genImageList = new GaneshGTEQ12023ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
       case 'devi': this.genImageList = new DeviImageList();
                         this.allImageList = this.genImageList.allImageList ;
                         break;
@@ -332,8 +343,11 @@ export class ListFunnelService {
         this.allImageList = this.genImageList.allImageList ;
         break;
       case 'mumbai-meri-jaan': this.genImageList = new MumbaiMeriJaanList();
-                         this.allImageList = this.genImageList.allImageList ;
-                         break;
+        this.allImageList = this.genImageList.allImageList ;
+        break;
+      case 'mumbai-meri-jaan-2': this.genImageList = new MumbaiMeriJaan2List();
+        this.allImageList = this.genImageList.allImageList ;
+        break;
       case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
@@ -388,7 +402,7 @@ export class ListFunnelService {
   loadLatestUploads(currentList:any)  {
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
-        if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 30)) {
+        if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 60)) {
           this.genImageList.allImageList[0].files.push(fileItem);
         }
       });

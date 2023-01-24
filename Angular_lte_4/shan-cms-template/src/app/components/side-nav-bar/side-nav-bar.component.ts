@@ -56,15 +56,27 @@ export class SideNavBarComponent implements OnInit {
   } 
   menuStyle(menu:any) {
   //  console.log(`${JSON.stringify(menu)}`);
+  const marginLeft   = menu.child===false || menu.label.indexOf('Latest Uploads') >= 0? '0':'15px'
     const dateuploaded = menu.dateUploaded? menu.dateUploaded: '01-01-1990'
     return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true || menu.label.indexOf('Latest Uploads') >= 0 ? 
   //  { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
-    { 'text-decoration': 'none', 'color': 'blue', 'font-weight': '800','font-family': 'Garamond, serif','background': 'beige'} : 
-    menu.parentKey === 'art'?
-    {  'text-decoration': 'none',  'color': 'darksklateblue', 'font-weight': '600'}: 
-      { 'list-style-type': "-", 'margin-left': '15px', 'text-decoration': 'none',  'color': 'darkblue', 'font-weight': '600'} ;
+    { 'text-decoration': 'none', 'color': 'blue', 'font-weight': '800','font-family': 'Garamond, serif','background': 'beige', 'margin-left': marginLeft} : 
+   menu.parentKey === 'art' || menu.child===false ?
+   //  menu.child===true ?
+    {  'text-decoration': 'none',  'color': 'blue', 'font-weight': '600'}: 
+      { 'list-style-type': "-", 'margin-left': marginLeft, 'text-decoration': 'none',  'color': 'blue', 'font-weight': '500'} ;
   }
-  
+  menuStylePre(menu:any) {
+    //  console.log(`${JSON.stringify(menu)}`);
+      const dateuploaded = menu.dateUploaded? menu.dateUploaded: '01-01-1990'
+      return  this.listFunnelService.daysAgoUploaded({dateUploaded: dateuploaded}) === true || menu.label.indexOf('Latest Uploads') >= 0 ? 
+    //  { 'text-decoration': 'none', 'background': 'skyblue', 'border': '1px brown outset'} : {  'text-decoration': 'none',  'background': 'beige', 'border': '1px yellow inset'}
+      { 'text-decoration': 'none', 'color': 'blue', 'font-weight': '800','font-family': 'Garamond, serif','background': 'beige'} : 
+     menu.parentKey === 'art' || menu.child===false ?
+     //  menu.child===true ?
+      {  'text-decoration': 'none',  'color': 'blue', 'font-weight': '600'}: 
+        { 'list-style-type': "-", 'margin-left': '15px', 'text-decoration': 'none',  'color': 'blue', 'font-weight': '500'} ;
+    }
   constructor(private categoryServices: CategoriesService, private router: Router, private listFunnelService: ListFunnelService) { 
     let  a:any  = ''; //
     a = localStorage.getItem('userId');
