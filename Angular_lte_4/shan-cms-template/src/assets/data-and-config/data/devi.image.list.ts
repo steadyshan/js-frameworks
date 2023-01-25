@@ -37,7 +37,15 @@ public allImageList:ImageElement[]  =  [
                       `assets/all-images/religion/devi/EkviraAai08192022.jpeg`, 
                       description: `<ul><li>Our Family 'Kuldaivat' - Shree Ekvira Aai</li>
                       <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across Shravan 2022 - color</li></ul>`},
-              ]},
+              ]},{ 
+                fullFileName: 
+                  `assets/all-images/religion/devi/KolhapuriAmbabbai12-23-2022.jpeg`,
+                  evolution: `- <b> Mahalaxmi of Kohlapur - Ambabai is a much worshipped deity </b><br/>`,
+                  evolutionDate: `12-23-2022`,
+            description: `<ul><li>Mahalaxmi Devi - Ambabai = of Kohlapur.</li></ul> ` ,
+            rating: 1,
+            dateUploaded: '01-25-2023',
+              },
           { fullFileName: 
             `assets/all-images/religion/devi/ThreeDevisMahalaxmiTempleQ12021-1.jpg`, 
             description: `<ul><li>Mahalaxmi Temple Mumnbai </li>

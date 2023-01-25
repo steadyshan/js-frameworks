@@ -21,6 +21,50 @@ export class PlanesImageList {
                 <li>he is the one who drew a plane for me when I was a kid, showing me how to draw</li></ul> `,
                 dateUploaded: '07-19-2022', },
                 { 
+                    fullFileName:   `assets/all-images/planes/migs-011823-scan.jpeg`, 
+                    evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
+                    evolutionDate: `01-18-2023`,
+                    rating: 1,
+                    description: `<ul><li>MiGs have been the mainstay of IAF since the 60s </li>
+                    <li>Here an attempt to capture mig21 (upper aircraft ) and the mig29 </li>
+                    <li>Mig21 has seen many wars and played a key role in 71 war. <br/>
+                    unfortunately it has also seen lot of tragedy in recent years because it is been used beyond its age expectancy and we have had numerous crashes mostly because of aircraft malfunction (related to age)</li>
+                    <li>Mig29 is probably famous for the cobra maneuver and uses a technique called thrust vectoring which literally gives the aircraft the ability to twist and turn in any way the pilot may want </li>
+                    <li>Also used by  Indian Navy</li>
+                    <li>Jan 18 2023</li>
+                    <li>SCANNED VERSION</li>
+                    </ul> `,
+                    dateUploaded: '01-24-2023',
+                    iterations:[
+                        {fullFileName:   `assets/all-images/planes/migs-011823-scan.jpeg`, 
+                        evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
+                        evolutionDate: `01-18-2023`,
+                        rating: 1,
+                        description: `<ul><li>MiGs have been the mainstay of IAF since the 60s </li>
+                        <li>Here an attempt to capture mig21 (upper aircraft ) and the mig29 </li>
+                        <li>Mig21 has seen many wars and played a key role in 71 war. <br/>
+                        unfortunately it has also seen lot of tragedy in recent years because it is been used beyond its age expectancy and we have had numerous crashes mostly because of aircraft malfunction (related to age)</li>
+                        <li>Mig29 is probably famous for the cobra maneuver and uses a technique called thrust vectoring which literally gives the aircraft the ability to twist and turn in any way the pilot may want </li>
+                        <li>Also used by  Indian Navy</li>
+                        <li>Jan 18 2023</li>
+                        <li>SCANNED VERSION</li>
+                        </ul> `,},
+                        {fullFileName:   `assets/all-images/planes/migs-011823-photo.jpeg`, 
+                        evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
+                        evolutionDate: `01-18-2023`,
+                        rating: 1,
+                        description: `<ul><li>MiGs have been the mainstay of IAF since the 60s </li>
+                        <li>Here an attempt to capture mig21 (upper aircraft ) and the mig29 </li>
+                        <li>Mig21 has seen many wars and played a key role in 71 war. <br/>
+                        unfortunately it has also seen lot of tragedy in recent years because it is been used beyond its age expectancy and we have had numerous crashes mostly because of aircraft malfunction (related to age)</li>
+                        <li>Mig29 is probably famous for the cobra maneuver and uses a technique called thrust vectoring which literally gives the aircraft the ability to twist and turn in any way the pilot may want </li>
+                        <li>Also used by  Indian Navy</li>
+                        <li>Jan 18 2023</li>
+                        <li>PHOTO VERSION</li>
+                        </ul> `,}]
+                    },
+                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/planes/migs-011823-photo.jpeg
+                { 
                     fullFileName:   `assets/all-images/ships/newINSVikrant09022022final.jpeg`, 
                     evolution: `<b>First sincere attempt to accurately follow the object. Also commemorative in the 1st indigenous carrier by India </b><br/>`,
                     evolutionDate: `09-08-2022`,

@@ -22,7 +22,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'Shree Ganesh: pre Q42021 ', child:false, uniqueKey:'', parentKey:'art', key:'shree-ganesh', roles:['relgion','all'], dateUploaded: '12-11-2021' },
         { label: '- Q4 2021 onward', child:true, uniqueKey:'', parentKey:'Shree Ganesh', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '11-19-2022' },
         { label: '- Q1 2023 onward', child:true, uniqueKey:'', parentKey:'Shree Ganesh', key:'shree-ganesh-gte-q1-2023', roles:['relgion','all'], dateUploaded: '01-23-2023' },
-        { label: 'Goddesses', child:false, uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all'],  dateUploaded: '09-08-2022'},
+        { label: 'Goddesses', child:false, uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all'],  dateUploaded: '01-25-2023'},
         { label: 'Mahadev', child:false, uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Mahadev and Family', child:false, uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '11-19-2022', key:'laxmi-vishnu-hanuman', roles:['relgion','all']},
@@ -39,7 +39,7 @@ export const MenuTree:MenuItem[] = [
         { label: ' - IR WDM2', child:true, uniqueKey:'', parentKey:'Rail', key:'trains-ir-alcos', roles:['nonLiving','all'], dateUploaded: '11-28-2022'},
         { label: 'Mumbai Meri Jaan', child:false, uniqueKey:'', parentKey:'art', key:'mumbai-meri-jaan', roles:['nonLiving','all'], dateUploaded: '11-28-2022'},
         { label: ' - Q1 2023 onward', child:true, uniqueKey:'', parentKey:'Mumbai Meri Jaan', key:'mumbai-meri-jaan-2', roles:['nonLiving','all'], dateUploaded: '01-24-2023'},
-        { label: 'Aircraft, Ships and Cars', child:false, uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '09-08-2022'}  ];
+        { label: 'Aircraft, Ships and Cars', child:false, uniqueKey:'', parentKey:'art', key:'planes', roles:['nonLiving','all'],  dateUploaded: '01-24-2023'}  ];
 @Injectable()
 export class  MenuNav { 
     _menuTree:MenuItem[] = [
