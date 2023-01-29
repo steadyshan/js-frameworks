@@ -21,7 +21,16 @@ public allImageList:ImageElement[]  =  [
         // BabaUnpluggedColor0719222022-1.jpeg
         // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/ShreepadVallabhSaiBaba1061622.jpeg
         // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png
-        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/Babaunplugged07292022.jpeg`, 
+        {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
+            description: `<ul>
+            <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>
+            <li>scanned</li></ul>`,
+            dateUploaded: '01-29-2023',
+            duplicate:true,
+            
+         },
+ { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/Babaunplugged07292022.jpeg`, 
             description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
             गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>

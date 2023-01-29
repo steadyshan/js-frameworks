@@ -62,6 +62,14 @@ export class PlanesImageList {
                         <li>Jan 18 2023</li>
                         <li>PHOTO VERSION</li>
                         </ul> `,}]
+                    },{ 
+                        fullFileName:   `assets/all-images/ships/ArjunMk2-09152022.jpeg`, 
+                        evolution: `<b>First tank sketch</b><br/>`,
+                        evolutionDate: `09-15-2022`,
+                        rating: 1,
+                        description: `<ul><li>Arjun Main Battle Tank Mk1B or Mk2</li>
+                        <li>Sept 15 2022</li></ul> `,
+                        dateUploaded: '01-25-2023',
                     },
                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/planes/migs-011823-photo.jpeg
                 { 

@@ -11,14 +11,20 @@ public allImageList:ImageElement[]  =  [
     themeSummary:
     ``,
     files: [  ,
-     
-          { 
+      { 
         fullFileName: 
           `assets/all-images/religion/devi/EkviraAai-Q12021-1.jpg`, 
           evolution: `- <b> Most likely  First Devi sketch, and what was more appropriate than the Kuldaivat</b><br/>`,
                 evolutionDate: `12-27-2020`,
           description: `<ul><li>Our Family 'Kuldaivat' - Shree Ekvira Aai</li>
           <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across end 2020-start 2021</li></ul> `,
+         },
+      
+          { 
+        fullFileName: 
+        `assets/all-images/religion/devi/Maa-Saraswati-pooja-jan262023.jpeg`,
+          description: `<ul><li>Sarwaswati Pooja Jan 26 2023</li></ul> `,
+          dateUploaded: '01-29-2023',
          },
           { 
             fullFileName: 
