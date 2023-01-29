@@ -11,6 +11,38 @@ public allImageList:ImageElement[]  =  [
              theme:'Themes and Pending categorization',
              themeSummary: `Some theme sketches with components, some as-yet 'one-off' or uncategorized sketches'`,
              files: [   
+                { fullFileName: `assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-final.jpeg`,
+                  evolution:
+                  `<p>color pencils on 11x17 sheet,  <br/>
+                    The  influence of Old Bombay FB group I was originally thinking of Marine Drive as the terrain, 
+                    but too detailed for a time line and settled on Gateway of India
+                    <br/>Republic Day was around the corner so added the ships and army vehicles… 
+                    in an earlier Google search I had seen the ‘largest flag’ event image and ‘presto’!!!<br/>
+                    I had my composition</p>`,
+                    evolutionDate: `01-28-2023`,
+                   description: `<ul>
+                  <li>Republic Day special <br/>
+                  - INS Kolkata and Brahmaputra<br/>
+                  - Mig 29 and 21 over Gateway of India<br/>
+                  - Missile launcher and Arjun Main Battle Tank<br/>
+                  The flag is based on a true event Navy Day 2021 - was then the worlds largest flag - made of Khadi</li> June 16 2022</li>
+                  <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023
+                  </ul>`,
+                  rating: 1,
+                  duplicate:true,
+                  dateUploaded: '01-29-2023',
+                  iterations: [{
+                   fullFileName: `assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-final.jpeg`, 
+                   description: `<ul>
+                   <li>Republic Day special <br/>
+                   - INS Kolkata and Brahmaputra<br/>
+                   - Mig 29 and 21 over Gateway of India<br/>
+                   - Missile launcher and Arjun Main Battle Tank<br/>
+                   The flag is based on a true event Navy Day 2021 - was then the worlds largest flag - made of Khadi</li> June 16 2022</li>
+                   <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023
+                   </ul>`,
+                 }, ],
+                }, 
                 {
                     fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti_Bhimsen_collage040222.jpeg`, 
                     description: '<p>Feb 4 2022 Ganesh Jayanti collage with Pt Bhimsen Joshi 100th birth anniversary</p>',
