@@ -21,6 +21,47 @@ public allImageList:ImageElement[]  =  [
            there are likely to be maybe a couple of sketches of Shirdi Sai here; I have many of them, so have separate sections for the same..
         `,
         files: [
+            { fullFileName: `assets/all-images/religion/dattavatar/ShreeDattatreya11x17DattaJayanti120822.jpeg`, 
+            description: `<ul>
+            <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
+            गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
+            <li>Datta Jayanti 2022 - December 8   </li><li>A3 11x17 paper using color pencils</li>
+            </ul>`,
+            dateUploaded: '01-30-2023',
+            rating: 1,
+           
+        },
+        { fullFileName: `assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-color.jpeg`, 
+            description: `<ul>
+            <li>Imaginary sketch of Shree Nrusimha Saraswati, Shirdi Sai, Swami Samartha being taken to Shripad Vallabh - Lord Dattatreya's 1st avatar - 
+                temple at Kuruvapur (Maharashtra Karnataka border)  </li>
+            <li><strong>Color Version</strong></li>
+            <li>I had sketched this intending to be black and white (see next sketch)</li>
+            <li>I shared this with Mekla Rao a fellow devotee at Shirdi Sai Temple at Milpitas, CA (USA), and he suggested doing it in color,</li> 
+            <li>So I made a photocopy of the original black and white, and then detailed one in color and shaded the other</li>
+            <li>(tongue in cheek - the boatman is intentionally made to look like Chhatrapati Shivaji Maharaj)</li>
+            <li>Completed Saraswati Pooja Day - Jan 26 2023</li>
+            </ul>`,
+            dateUploaded: '01-30-2023',
+            rating: 1,
+           
+        },
+        { fullFileName: `assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-b&W.jpeg`, 
+            description: `<ul>
+            <li>Imaginary sketch of Shree Nrusimha Saraswati, Shirdi Sai, Swami Samartha being taken to Shripad Vallabh - Lord Dattatreya's 1st avatar - 
+                temple at Kuruvapur (Maharashtra Karnataka border)  </li>
+            <li><strong>Black and White Version</strong></li>
+            <li>I shared this (B&W version)with Mekla Rao a fellow devotee at Shirdi Sai Temple at Milpitas, CA (USA), and he suggested doing it in color,</li> 
+            <li>So I made a photocopy of the original black and white, shaded it(this sketch), and then detailed the original in color (previous sketch)</li>
+            <li>(tongue in cheek - the boatman is intentionally made to look like Chhatrapati Shivaji Maharaj)</li>
+            <li>Completed Saraswati Pooja Day - Jan 26 2023</li>
+            </ul>`,
+            dateUploaded: '01-30-2023',
+            rating: 1,
+           
+        },
+            // assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-b&W.jpeg
+            // assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-color.jpeg
             { fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
             description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;

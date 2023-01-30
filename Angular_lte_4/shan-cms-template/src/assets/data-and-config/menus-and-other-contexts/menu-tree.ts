@@ -26,7 +26,7 @@ export const MenuTree:MenuItem[] = [
         { label: 'Mahadev', child:false, uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Mahadev and Family', child:false, uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '11-19-2022', key:'laxmi-vishnu-hanuman', roles:['relgion','all']},
-        { label: 'Spiritual Souls:Datta Lineage, Sikhs, East of India', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '11-17-2022',key:'dattavatar', roles:['relgion','all']},
+        { label: 'Spiritual Souls:Datta Lineage, Sikhs, East of India', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '01-30-2023',key:'dattavatar', roles:['relgion','all']},
         { label: 'Shree Swami Samartha', child:false, uniqueKey:'', parentKey:'art', key:'swami-samartha', roles:['relgion','all'], dateUploaded: '12-01-2022'},
         { label: 'Shirdi Sai: Q1 - Q3 2021', child:false, uniqueKey:'', parentKey:'art', parent:true, key:'shirdi-sai-q1-q2-2021', roles:['relgion','all']},
         { label: '- Q3 2021 - Q1 2022', child:true, uniqueKey:'', parentKey:'Shirdi Sai', key:'shirdi-sai-q3-q4-2021', roles:['relgion','all'],dateUploaded: '03-31-2022'},
