@@ -59,10 +59,29 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '01-30-2023',
             rating: 1,
            
-        },
-            // assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-b&W.jpeg
-            // assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-color.jpeg
-            { fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
+        }, {
+            fullFileName: `assets/all-images/religion/dattavatar/SamarthaRamdasShripadVallabhShivaji10-26-2022-1.jpeg`, 
+            description: `<ul>
+            <li>Imaginary scene of Raje Shivaji paying obeisance to Samartha Guru Ramdas and Shripad Vallabh</li>
+            <li>Shripad Vallabh's associate Narsimha Verma re-incarnated  Shivaji </li>
+            <li>Shripad Vallabh's elder brother re-incarnated as Samartha Guru Ramdas, Shivaji's Guru</li>
+            <li>Probably a marker for Shripad Vallabh Parayan group read</li>
+            <li>10-26-2022</li>
+            </ul>`,
+            dateUploaded: '01-31-2023',
+            
+         },
+        {
+           fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshShripadVallabhAug302022.jpeg`, 
+           description: `<ul>
+           <li>Ganesh Chaturthi 2022 (Aug 30/31) special</li>
+           <li>Shripad Vallabh jayanti is Ganesh Chaturthi</li>
+           <li>Marked my personal, individual completion of Shripad Vallabh Parayan read</li>
+           </ul>`,
+           dateUploaded: '01-31-2023',
+           duplicate:true,
+           
+        },{ fullFileName: `assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png`, 
             description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
             गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>

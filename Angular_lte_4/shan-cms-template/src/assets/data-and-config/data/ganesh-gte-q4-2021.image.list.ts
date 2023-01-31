@@ -49,6 +49,25 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '11-19-2022',
             
          },
+
+         {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshShiv0423-2022.jpeg`, 
+            description: `<ul>
+            <li>Dont remember context April 23 2022</li>
+            </ul>`,
+            dateUploaded: '01-31-2023',
+            
+         },
+         {
+            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshShripadVallabhAug302022.jpeg`, 
+            description: `<ul>
+            <li>Ganesh Chaturthi 2022 (Aug 30/31) special</li>
+            <li>Shripad Vallabh jayanti is Ganesh Chaturthi</li>
+            <li>Marked my personal, individual completion of Shripad Vallabh Parayan read</li>
+            </ul>`,
+            dateUploaded: '01-31-2023',
+            
+         },
          {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi.jpeg`, 
             description: `<ul>
