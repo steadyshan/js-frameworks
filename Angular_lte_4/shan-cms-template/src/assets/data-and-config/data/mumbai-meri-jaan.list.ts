@@ -27,6 +27,9 @@ public allImageList:ImageElement[]  =  [
                        `<ul>
                          <li>26/11 terrorist attack tribute - similar to the one I sketched two years back,but with different and more recent sketches around the center</li>
                          <li>Central pic - top L to R : Mumba Devi, mostly Sandeep Unikrishnan, Tukram Omble, Ashok Kamte, Vijay Salaskar, Hemant Karkare, Havaldar Gajendra Singh,Mother Mary </li>
+                         <li>Other pics - Left to Right, top to bottom<br/>
+                          - VJTI engineering institute. INS Rajput class destroyer at Gateway of India, Nehru Planetarium, Nehru Science Center<br/>
+                          - Marine Drive vista. Typical Launch at Gateway of India (navy battery), Butcher island(Jawahar Dweep) and Elephanta (Gharapuri)island<br/></li>
                          </ul>`,
                       
                    dateUploaded: '11-28-2022',}
@@ -35,23 +38,11 @@ public allImageList:ImageElement[]  =  [
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
                     fullFileName: `assets/all-images/mumbai-meri-jaan/vjti.jpeg`, 
                     description: 
-                       `<ul>
-                         <li>Butcher Island (details coming soon)</li>
-                         <li>Feb 2022</li>
-                         </ul>`,
-                      
-                   dateUploaded: '11-28-2022',
-                 
-                  },  {  
-                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
-                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
-                    fullFileName: `assets/all-images/mumbai-meri-jaan/butcher-island.jpeg`, 
-                    description: 
-                       `<ul>
-                         <li>Veermata Jijabai Technical Institute better known by acronym - VJTI
-                         Inspired by (and started sketching approximately on) engineers day in India</li>
-                         <li>Sept 19 2022</li>
-                         </ul>`,
+                    `<ul>
+                    <li>Veermata Jijabai Technical Institute better known by acronym - VJTI
+                    Inspired by (and started sketching approximately on) engineers day in India</li>
+                    <li>Sept 19 2022</li>
+                    </ul>`,
                       
                    dateUploaded: '11-28-2022',
                  

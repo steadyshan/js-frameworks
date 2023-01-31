@@ -115,6 +115,14 @@ provides luxury facilities for low income people (This scenario is completely fi
 
  
         ]},  
+
+        { 
+            fullFileName:`assets/all-images/trains/IndianRailTurntable-09212021.jpeg`,
+            description: 
+                `<ul><li>I think Kalyan Steam turntable with a WG steam loco</li>
+                <li>Sketched sometime Sept 21 2021</li></ul>`,
+            dateUploaded: '01-30-2023'
+        },
         { 
             fullFileName:`assets/all-images/trains/pre-q3-2020-steamloco.png`,
             description: 

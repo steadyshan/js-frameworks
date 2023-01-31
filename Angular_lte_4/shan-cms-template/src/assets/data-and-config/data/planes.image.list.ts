@@ -120,12 +120,14 @@ export class PlanesImageList {
                     {fullFileName: 
                         `assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg`, 
                         description: `<ul><li>Initial version - not different by much</li>
+                        <li>Drawn mid april 2022</li>
                         <li>RMS Queen Elizabeth 1930s - 1960 </li>
                                     </ul> `},
                   {  
                  fullFileName: `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 
-                 description:`<ul><li>
-                 <li>RMS Queen Elizabeth 1930s - 1960 </li></li></ul> `}]
+                 description:`<ul>
+                 <li>RMS Queen Elizabeth 1930s - 1960 </li>
+                 <li>Drawn mid april 2022</li></ul> `}]
 
             },
             { fullFileName:   `assets/all-images/ships/USNorthCarolinEnterprisCV6BaseJan102022.jpeg`, 
