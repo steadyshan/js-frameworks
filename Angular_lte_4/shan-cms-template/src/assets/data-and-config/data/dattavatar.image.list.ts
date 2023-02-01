@@ -31,6 +31,21 @@ public allImageList:ImageElement[]  =  [
             rating: 1,
            
         },
+        
+            {  
+                fullFileName: `assets/all-images/religion/swami-samartha/SwamiAndDattavatarsJuly122022.jpeg`, 
+                description: 
+                `<ul>
+                    <li>Featuring Swami with Lord Dattatreya (top) then clockwise from left bottonm</li> 
+                    <li>- Shirdi Sai (after Swami)<br/>
+                    - Sripadh Vallabh (1st Datta Avatar)<br/>
+                    - Nrusimha Saraswati (2nd Datta Avatar)<br/>
+                    - Gajanan Maharaj (after Swami)</li></ul>`,
+                    dateUploaded: '01-31-2023',
+                    duplicate:true,
+                   
+            },
+            
         { fullFileName: `assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-color.jpeg`, 
             description: `<ul>
             <li>Imaginary sketch of Shree Nrusimha Saraswati, Shirdi Sai, Swami Samartha being taken to Shripad Vallabh - Lord Dattatreya's 1st avatar - 

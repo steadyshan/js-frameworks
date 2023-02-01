@@ -76,6 +76,7 @@ public allImageList:ImageElement[]  =  [
         },
         ,{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaSleepingJuly142022.jpeg`, description: `<ul>
         <li>“Happy with my devotees.. taking some time off… DND ..Shama, wake me only if anything critical”</li>
+        <li>(July 14 2022)</li>
         </ul>`,
         dateUploaded: '07-23-2022',
        
