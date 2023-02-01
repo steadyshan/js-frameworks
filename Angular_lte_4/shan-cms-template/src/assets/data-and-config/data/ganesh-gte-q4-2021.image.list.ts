@@ -99,7 +99,20 @@ public allImageList:ImageElement[]  =  [
          dateUploaded: '11-17-2022',
          rating: 1,
        
-        },
+        },{
+         fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshBMMMarch202022-smaranika.png`, 
+         description: `<p>Ganesh Sketch + poem for Marathi Mandal East Coast competition <ul>
+                         <li>The sketch was dedicated to this</li>
+                         <li>For May 15 2022, tentative March 2022</li>
+                     </ul></p>`
+             ,
+          dateUploaded: '02-01-2023',
+          evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
+                     <b>a 'first submittal' to a competition</b><br/>`,
+          evolutionDate: '05-15-2022',
+          rating: 1,
+        
+         },
         {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
             description: `<ul>

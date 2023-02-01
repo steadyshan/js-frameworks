@@ -23,7 +23,7 @@ export const MenuTree:MenuItem[] = [
         { label: '- Q4 2021 onward', child:true, uniqueKey:'', parentKey:'Shree Ganesh', key:'shree-ganesh-gte-q4-2021', roles:['relgion','all'], dateUploaded: '01-31-2023' },
         { label: '- Q1 2023 onward', child:true, uniqueKey:'', parentKey:'Shree Ganesh', key:'shree-ganesh-gte-q1-2023', roles:['relgion','all'], dateUploaded: '01-29-2023' },
         { label: 'Goddesses', child:false, uniqueKey:'', parentKey:'art', key:'devi', roles:['relgion','all'],  dateUploaded: '01-29-2023'},
-        { label: 'Mahadev', child:false, uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
+        { label: 'Mahadev', child:false, uniqueKey:'', parentKey:'art', key:'mahadev', roles:['relgion','all'],  dateUploaded: '02-01-2023'},
         { label: 'Mahadev and Family', child:false, uniqueKey:'', parentKey:'art', key:'mahadev-family', roles:['relgion','all'],  dateUploaded: '08-17-2022'},
         { label: 'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '11-19-2022', key:'laxmi-vishnu-hanuman', roles:['relgion','all']},
         { label: 'Spiritual Souls:Datta Lineage, Sikhs, East of India', child:false, uniqueKey:'', parentKey:'art', dateUploaded: '01-31-2023',key:'dattavatar', roles:['relgion','all']},

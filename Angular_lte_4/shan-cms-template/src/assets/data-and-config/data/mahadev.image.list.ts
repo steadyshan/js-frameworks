@@ -43,6 +43,22 @@ export class MahadevImageList {
                <li>Aug 1s 2022</li>
               </ul>`,
             }]
+          },{
+            fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-08-08-22-3.jpeg`, 
+            description: 
+               `<ul>
+                 <li>Mahadev 'Shravani Somwar' sketch.. Dancing Shiva</li>
+                  <li>Aug 08 2022</li>
+                 </ul>`,
+           dateUploaded: '02-01-2023',
+          },{
+            fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-amarnath-08-22-22-1.jpeg`, 
+            description: 
+               `<ul>
+                 <li>Mahadev 'Shravani Somwar' sketch.. Amarnath ice shivling Shiva</li>
+                  <li>Aug 22 2022</li>
+                 </ul>`,
+           dateUploaded: '02-01-2023',
           },
            {
             fullFileName: `assets/all-images/religion/mahadev/KedarnathTemple03012022.jpeg`,
@@ -153,7 +169,58 @@ export class MahadevImageList {
                      <li>Searching a theme for Ramnavmi 2021, I had contemplated the one of Shree Ram doing abhishek</li>
                      <li>This was a practice one .. </li>
                    </ul>`
-        }
+        },{  
+          // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+          // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+          fullFileName: `assets/all-images/religion/mahadev/Kailash-final-july22-2022.jpeg`, 
+          description: 
+             `<ul>
+               <li>Attempt to sketch Mt. Kailash - abode of Mahadev.. </li>
+               <li>Still before getting into using 11x17 sheets(this is on A4) the sketch was targetted for a large photo print (see next sketch)</li>
+               <li>Photo edited for better photo print</li>
+               <li>July 2022</li>
+               </ul>`,
+         dateUploaded: '02-01-2023',
+         rating: 1,
+         evolution: 'A first in landscape and a religious theme at that',
+         evolutionDate: `07-22-2022`,
+
+         iterations:[
+          {
+            fullFileName: `assets/all-images/religion/mahadev/Kailash-final-july22-2022.jpeg`, 
+            description: 
+            `<ul>
+              <li>Attempt to sketch Mt. Kailash - abode of Mahadev.. </li>
+              <li>Still before getting into using 11x17 sheets(this is on A4) the sketch was targetted for a large photo print (see next sketch)</li>
+              <li>Photo edited for better photo print</li>
+              <li>July 2022</li>
+              </ul>`,
+          },{
+            fullFileName: `assets/all-images/religion/mahadev/Kailash-final-1-07222022.jpeg`, 
+            description:  
+            `<ul>
+              <li>Attempt to sketch Mt. Kailash - abode of Mahadev.. </li>
+              <li>Still before getting into using 11x17 sheets(this is on A4) the sketch was targetted for a large photo print (see next sketch)</li>
+              <li>Photo edited for better photo print - earlier version</li>
+              <li>July 2022</li>
+              </ul>`,
+          }]
+        }, {  
+          fullFileName: `assets/all-images/religion/mahadev/Kailash-photo-print-30x20-07302022.jpeg`, 
+          description: 
+             `<ul>
+               <li>Mt Kailash picture of a photo (see previous original sketch)</li>
+               <li>20x30 photo printed at Walmart and framed hoisted on stair landing as on Feb 2023</li>
+             </ul>`,
+             dateUploaded: '02-01-2023',
+          }, {  
+            fullFileName: `assets/all-images/religion/mahadev/Shivling-aug2-2022.jpeg`, 
+            description: 
+               `<ul>
+                 <li>Shivling August 2 2022</li>
+               </ul>`,
+               dateUploaded: '02-01-2023',
+            }
          ]
         }
         ]
