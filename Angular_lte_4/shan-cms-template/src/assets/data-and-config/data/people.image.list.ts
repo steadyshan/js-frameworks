@@ -24,7 +24,19 @@ export class PeopleImageList {
          </ul>`,
              duplicate:true,
              dateUploaded: '04-19-2022',
-     },{
+     }, {  
+      fullFileName: `assets/all-images/people-places/ShivajiBMMMarch202022-smaranika.jpeg`, 
+      description: `<p>Shivaji Sketch + poem for Marathi Mandal East Coast competition smaranika <ul>
+                         <li>The sketch was dedicated to this</li>
+                         <li>For May 15 2022, tentative March 2022</li>
+                     </ul></p>`
+             ,
+          dateUploaded: '02-02-2023',
+          evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
+                     <b>a 'first submittal' to a competition</b><br/>`,
+          evolutionDate: '05-15-2022',
+          rating: 1,
+  },{
          fullFileName: `assets/all-images/people-places/ShivjayantiTithiMarch2122.jpeg`, 
          description: `<ul>
                         <li>Shiv Jayanti by Tithi, 2022</li>

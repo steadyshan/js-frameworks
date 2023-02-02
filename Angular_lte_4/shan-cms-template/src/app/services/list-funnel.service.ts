@@ -16,10 +16,12 @@ import { DattavatarImageList } from '../../assets/data-and-config/data/dattavata
 import { ShirdiSaiQ1Q22021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-2020.list';
 import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q3-q4-2021.list';
 import { ShirdiSaiQ2Q32022ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-q3-2022.list';
+import { ShirdiSaiQ42022Q12023ImageList} from '../../assets/data-and-config/data/shirdi-sai-q4-2022-q1-2023.list';
 import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme.images-list';
 
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list';
 import { TrainsIndianRailwayAlcos} from '../../assets/data-and-config/data/trains-indian-railway-alcos'
+import { TrainsIndianRailwaySpecialTrains} from '../../assets/data-and-config/data/trains-indian-railway-special-trains'
 import { GeneralImageList } from '../../assets/data-and-config/data/general.image.list';
 import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.image.list';
 import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
@@ -50,33 +52,44 @@ export class ListFunnelService {
       return  c ;
     });
   }
+  canvassSize = [
+    'A3', 'A4'
+  ];
+  content = [
+    'color-pencil',
+    'black-white'
+  ]
   getStats() {
     let sketchStats = {
       subjects: 0,
       totalCounts :0 ,
+      canvassSize:[],
+      content:[],
       themBasedCounts: [{name:'', count:0}],
     };
-    sketchStats.themBasedCounts[0] = (this.getThemeCounts(new GaneshImageList()));
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ42021ImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ12023ImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new DeviImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevFamilyImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new LaxmiVishnuHanumanList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new DattavatarImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ1Q22021ImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32022ImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1())) );
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList()) );
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainsIndianRailwayAlcos())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaanList()));
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaan2List()));
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList())) ;
-    sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc()));
+    sketchStats.themBasedCounts[0] = (this.getThemeCounts(new GaneshImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ42021ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ12023ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new DeviImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevFamilyImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new LaxmiVishnuHanumanList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new DattavatarImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ1Q22021ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32022ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ42022Q12023ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1()), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainsIndianRailwayAlcos(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainsIndianRailwaySpecialTrains(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaanList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaan2List(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.forEach((theme:any)=> {
       sketchStats.subjects++;
       sketchStats.totalCounts += theme.count;
@@ -97,11 +110,12 @@ export class ListFunnelService {
     functionProto(new ShirdiSaiQ1Q22021ImageList()) ;
     functionProto(new ShirdiSaiQ3Q42021ImageList()) ;
     functionProto(new ShirdiSaiQ2Q32022ImageList()) ;
-        
+    functionProto(new ShirdiSaiQ42022Q12023ImageList()) ;
     functionProto(new ShirdiSaiThemeList1()) ;
     functionProto(new PeopleImageList()) ;
     functionProto(new TrainImageList()) ;
     functionProto(new TrainsIndianRailwayAlcos()) ;
+    functionProto(new TrainsIndianRailwaySpecialTrains()) ;
     functionProto(new MumbaiMeriJaanList()) ;
     functionProto(new MumbaiMeriJaan2List()) ;
     functionProto(new PlacesScenesObjectsImageList()) ;
@@ -122,11 +136,12 @@ export class ListFunnelService {
     imageList.push(new ShirdiSaiQ1Q22021ImageList()) ;
     imageList.push(new ShirdiSaiQ3Q42021ImageList()) ;
     imageList.push(new ShirdiSaiQ2Q32022ImageList()) ;
-        
+    ShirdiSaiQ42022Q12023ImageList
     imageList.push(new ShirdiSaiThemeList1()) ;
     imageList.push(new PeopleImageList()) ;
     imageList.push(new TrainImageList()) ;
     imageList.push(new TrainsIndianRailwayAlcos()) ;
+    // TrainsIndianRailwaySpecialTrains
     imageList.push(new MumbaiMeriJaanList()) ;
     imageList.push(new MumbaiMeriJaan2List()) ;
     imageList.push(new PlacesScenesObjectsImageList()) ;
@@ -340,8 +355,11 @@ export class ListFunnelService {
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'trains-ir-alcos': this.genImageList = new TrainsIndianRailwayAlcos();
-        this.allImageList = this.genImageList.allImageList ;
-        break;
+                        this.allImageList = this.genImageList.allImageList ;
+                        break;
+      case 'trains-ir-special-trains': this.genImageList = new TrainsIndianRailwaySpecialTrains();
+                        this.allImageList = this.genImageList.allImageList ;
+                        break;
       case 'mumbai-meri-jaan': this.genImageList = new MumbaiMeriJaanList();
         this.allImageList = this.genImageList.allImageList ;
         break;
@@ -355,6 +373,9 @@ export class ListFunnelService {
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'shirdi-sai-q2-q3-2022': this.genImageList = new ShirdiSaiQ2Q32022ImageList();
+                          this.allImageList = this.genImageList.allImageList ;
+                          break;
+      case 'shirdi-sai-q4-2022-q1-2023': this.genImageList = new ShirdiSaiQ42022Q12023ImageList() ;
                           this.allImageList = this.genImageList.allImageList ;
                           break;
       case 'baba-themes-1': this.genImageList = new ShirdiSaiThemeList1();
@@ -452,7 +473,7 @@ export class ListFunnelService {
      //   return latestUploadList ;
   }
   // 5. Get counts of each theme - 1st iteration, NOT FACTORING IN DUPLICATES
-  getThemeCounts(currentList:any)  {
+  getThemeCounts(currentList:any, canvass:any=null, content:any=null)  {
     let themeCount = {
       name: currentList.allImageList[0].theme,
       count: 0

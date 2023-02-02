@@ -101,7 +101,7 @@ public allImageList:ImageElement[]  =  [
        
         },{
          fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshBMMMarch202022-smaranika.png`, 
-         description: `<p>Ganesh Sketch + poem for Marathi Mandal East Coast competition <ul>
+         description: `<p>Ganesh Sketch + poem for Marathi Mandal East Coast competition smaranika <ul>
                          <li>The sketch was dedicated to this</li>
                          <li>For May 15 2022, tentative March 2022</li>
                      </ul></p>`
