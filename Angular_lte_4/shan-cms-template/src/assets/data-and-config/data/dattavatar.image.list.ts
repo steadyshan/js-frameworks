@@ -47,6 +47,7 @@ public allImageList:ImageElement[]  =  [
             },
             
         { fullFileName: `assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-color.jpeg`, 
+        canvassSize: 'A4', content:'color-pencil',
             description: `<ul>
             <li>Imaginary sketch of Shree Nrusimha Saraswati, Shirdi Sai, Swami Samartha being taken to Shripad Vallabh - Lord Dattatreya's 1st avatar - 
                 temple at Kuruvapur (Maharashtra Karnataka border)  </li>
@@ -62,6 +63,7 @@ public allImageList:ImageElement[]  =  [
            
         },
         { fullFileName: `assets/all-images/religion/dattavatar/NrusSaraswatiBabaSwami-SwtiPooja-01262023-b&W.jpeg`, 
+        canvassSize: 'A4', content:'black-white',
             description: `<ul>
             <li>Imaginary sketch of Shree Nrusimha Saraswati, Shirdi Sai, Swami Samartha being taken to Shripad Vallabh - Lord Dattatreya's 1st avatar - 
                 temple at Kuruvapur (Maharashtra Karnataka border)  </li>
@@ -74,7 +76,31 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '01-30-2023',
             rating: 1,
            
-        }, {
+        },
+        { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramDec292022.jpeg`, 
+        canvassSize: 'A4', content:'black-white',
+        description: `<ul>
+        <li>Kuruvapur Shripad Vallabh Datta Temple Gopuram (See previous 2 sketches)_</li>
+        <li>This is a photo copy, so I could add the figures of the Gurus who were coming here (see next sketch) </li>
+        <li>Dec 29 2022</li>
+        </ul>`,
+        dateUploaded: '02-03-2023',
+        rating: 1,
+       
+    },
+    { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramWithGurusDec292022.jpeg`, 
+    canvassSize: 'A4', content:'black-white',
+    description: `<ul>
+    <li>Kuruvapur Shripad Vallabh Datta Temple Gopuram (See previous 3 sketches)</li>
+    <li>With shree Swami Samartha, Shirdi Sai and Nrusimha Saraswati </li>
+    <li>Dec 29 2022</li>
+    </ul>`,
+    dateUploaded: '02-03-2023',
+    rating: 1,
+   
+},
+        // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/dattavatar/KurvapurGopuramWithGurusDec292022.jpeg
+        {
             fullFileName: `assets/all-images/religion/dattavatar/SamarthaRamdasShripadVallabhShivaji10-26-2022-1.jpeg`, 
             description: `<ul>
             <li>Imaginary scene of Raje Shivaji paying obeisance to Samartha Guru Ramdas and Shripad Vallabh</li>

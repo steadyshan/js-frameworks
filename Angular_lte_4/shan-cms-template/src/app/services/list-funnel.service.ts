@@ -53,13 +53,78 @@ export class ListFunnelService {
     });
   }
   canvassSize = [
-    'A3', 'A4'
+    'A3', 'A4', 'soft'
   ];
   content = [
     'color-pencil',
     'black-white',
-    'color-crayon'
+    'color-crayon',
+    'color-pencil black-white',
+    'poem black-white',
   ]
+  // show sketch stats
+  public techStatsDiv(fileDetail:any):string {
+    let returnHTML = '';
+    if ((fileDetail.canvassSize && fileDetail.canvassSize.trim() !== '') || 
+        (fileDetail.content && fileDetail.content.trim() !== '')){
+      returnHTML = '<ul>'
+      if (fileDetail.canvassSize && fileDetail.canvassSize.trim() !== '') {
+        switch(fileDetail.canvassSize) {
+          case 'A3': returnHTML = `${returnHTML}<li>on A3 (11x17) paper</li>`; break ;
+          case 'A4': returnHTML = `${returnHTML}<li>on A4 (8.5x11) paper</li>`; break ;
+          case 'soft': returnHTML = `${returnHTML}<li>soft copy only</li>`; break ;
+          default: returnHTML = `${returnHTML}<li>other size</li>`; break ;
+        }
+      }
+      if (fileDetail.content && fileDetail.content.trim() !== '') {
+        switch(fileDetail.canvassSize) {
+          case 'A3': returnHTML = `${returnHTML}<li>on A3 (11x17) paper</li>`; break ;
+          case 'A4': returnHTML = `${returnHTML}<li>on A4 (8.5x11) paper</li>`; break ;
+          case 'soft': returnHTML = `${returnHTML}<li>soft copy only</li>`; break ;
+          default: returnHTML = `${returnHTML}<li>other size</li>`; break ;
+        }
+      }
+      returnHTML = `${returnHTML}<ul>`;
+      
+    }
+    return returnHTML ;
+  }
+  public techStatsSpan(fileDetail:any):string {
+    let returnHTML = '';
+    if ((fileDetail.canvassSize && fileDetail.canvassSize.trim() !== '') || 
+        (fileDetail.content && fileDetail.content.trim() !== '')){
+      if (fileDetail.canvassSize && fileDetail.canvassSize.trim() !== '') {
+        returnHTML = `${returnHTML} Canvass: `;
+        switch(fileDetail.canvassSize) {
+          case 'A3': returnHTML = `${returnHTML}A3 (11x17)  `; break ;
+          case 'A4': returnHTML = `${returnHTML}A4 (8.5x11)  `; break ;
+          case 'soft': returnHTML = `${returnHTML}soft copy only`; break ;
+          default: returnHTML = `${returnHTML}other size`; break ;
+        }
+      }
+      if (fileDetail.content && fileDetail.content.trim() !== '') {
+        returnHTML = `${returnHTML}, Content: `;
+       /* 'color-pencil',
+        'black-white',
+        'color-crayon',
+        'color-pencil black-white',
+        'poem black-white',
+       */
+        switch(fileDetail.content) {
+          case 'color-pencil': returnHTML = `${returnHTML}Color Pencils`; break ;
+          case 'black-white': returnHTML = `${returnHTML}Black and white with possible shading`; break ;
+          case 'color-crayon': returnHTML = `${returnHTML}Color Crayons`; break ;
+          case 'color-pencil black-white': returnHTML = `${returnHTML}Combination of color + B&W`; break ;
+          case 'poem black-white': returnHTML = `${returnHTML}Drawing + poetry`; break ;
+          default: returnHTML = `${returnHTML}Other`; break ;
+        }
+      }
+      returnHTML = `${returnHTML}`;
+      
+    }
+    console.log(`RRR ${returnHTML}`);
+    return returnHTML ;
+  }
   getStats() {
     let sketchStats = {
       subjects: 0,

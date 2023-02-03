@@ -106,17 +106,17 @@ public allImageList:ImageElement[]  =  [
                          <li>For May 15 2022, tentative March 2022</li>
                      </ul></p>`
              ,
-          dateUploaded: '02-01-2023',
+             canvassSize: 'soft', content:'poem black-white',
+         dateUploaded: '02-01-2023',
           evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
                      <b>a 'first submittal' to a competition</b><br/>`,
           evolutionDate: '05-15-2022',
-          canvasSize: 'other', content:'other',
           rating: 1,
         
          },
         {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
-            canvasSize: 'A4', content:'color-crayon',
+            canvassSize: 'A4', content:'color-crayon',
             description: `<ul>
                               <li>Feb 5 2022 Saraswati Pooja - my first attempt using crayons</li>
                               <li>Also a dedication to a very sad event - the passing of Lata Mangeshkar</li>
@@ -139,7 +139,7 @@ public allImageList:ImageElement[]  =  [
                      </ul>`,
             dateUploaded: '02-08-2022',
             rating: 1,
-            canvasSize: 'A4', content:'color-crayon',
+            canvassSize: 'A4', content:'color-crayon',
             evolution: `<b>a unique format where the original was without Shree Ganesh sketch and I chose to place that version under 'people' theme</b> `,
             evolutionDate: '02-08-2022', iterations:[
                { 

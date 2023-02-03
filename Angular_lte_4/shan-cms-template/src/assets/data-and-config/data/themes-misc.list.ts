@@ -13,7 +13,7 @@ public allImageList:ImageElement[]  =  [
              files: [   
                 { 
                     fullFileName: `assets/all-images/themes-misc/chessCVS-PIPlann02-02-2023.jpeg`,
-                    canvasSize: 'A4', content:'black-white',
+                    canvassSize: 'A4', content:'black-white',
                 evolution:
                 `<p>Unthought, unplanned genre</p>`,
                   evolutionDate: `01-31-2023`,

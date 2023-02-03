@@ -18,7 +18,18 @@ export class PlacesScenesObjectsImageList {
                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicPreReflectionPreFinal2020.jpeg
                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicStartNov2020.jpeg
                  
-                  { 
+                 ,
+        { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramDec292022.jpeg`, 
+        canvassSize: 'A4', content:'black-white',
+        description: `<ul>
+        <li>Kuruvapur Shripad Vallabh Datta Temple Gopuram  </li>
+        <li>Dec 29 2022</li>
+        </ul>`,
+        dateUploaded: '02-03-2023',
+        duplicate:true, 
+        rating: 1,
+       
+    } ,{ 
                         fullFileName: `assets/all-images/places-scenes-objects/SydneyDec3rdWeek2021.jpeg`,
                         description: '<p>Inspirational Sketch</p>',
                         dateUploaded: '12-30-2021',

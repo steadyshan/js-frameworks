@@ -16,6 +16,7 @@ public allImageList:ImageElement[]  =  [
                 description: '<p>Quick Sketch Memorial Day weekend 2021</p>',
                 iterativeText: 'Black and White / Color *',
                 footNote: '* Click to see color OR Black and white version',
+                canvassSize: 'A4', content:'color-pencil black-white',
                 evolution: `- <b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.And also decent enough<br/>
                             - <b>My first color pencil sketch and</b>, also duplicated with black and white sketch using<b>'glass trace'</b>(as will be repeated later)<br/>`,
                 evolutionDate: `01-01-1990`,
@@ -47,7 +48,8 @@ public allImageList:ImageElement[]  =  [
                     ]
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanpatiGaneshChaturthi09102021.jpeg`, 
-        description: `<p>GANESH CHATURTHI 2021!!<ul>
+        canvassSize: 'A4', content:'black-white',
+                description: `<p>GANESH CHATURTHI 2021!!<ul>
                         <li>Took my time on this one - probably a month before official release Sept 10 2021 (Ganesh Chaturthi)</li>
                         <li>Sketched off an image found on Google</li>
                         <li>They say anything auspicious starts with Ganesh. This was my FIRST share on Facebook</li>
@@ -59,6 +61,7 @@ public allImageList:ImageElement[]  =  [
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/GauriGanpatiGaneshChaturthi09102021.jpeg`, 
+        canvassSize: 'A4', content:'black-white',
         description: `<p>GANESH CHATURTHI 2021!! Gauri<ul>
                         <li>Ganesh visarjan (completion of SHree's sojourn) takes place generally 1.5. 2.5, 5, 7 and 10 days after Chaturthi</li>
                         <li>The Ganesh festivals ending on 5th day, have Gauri (To date I am unclear on the story)</li>
@@ -73,6 +76,7 @@ public allImageList:ImageElement[]  =  [
        
         },
         {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021.jpeg`, 
+        canvassSize: 'A4', content:'black-white',
         description: `<p>GANESH CHATURTHI 2021!! Visarjan<ul>
                         
                         <li>10th Day is Anant Chaturdashi, a big event * in all places where Ganapati is celebrated, Esp. MUMBAI</li>
@@ -86,7 +90,8 @@ public allImageList:ImageElement[]  =  [
             rating: 1,
         },
             {  fullFileName: `assets/all-images/religion/shree-ganesh/DancingGanapatiAnantChaturdashi2021COLOR2.jpeg`, 
-        description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
+            canvassSize: 'A4', content:'color-pencil',
+            description: `<p>GANESH CHATURTHI 2021!! Visarjan Color<ul>
                         
                         <li>Glass trace of the one sketched on Anant Chaturdashi (previous), and color pencilled </li>
                     </ul></p>`
@@ -110,7 +115,8 @@ public allImageList:ImageElement[]  =  [
        
         },
        {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-3-June2021.jpg`, 
-        description: '<p>Inspirational Sketch</p>',
+       canvassSize: 'A4', content:'black-white',
+       description: '<p>Inspirational Sketch</p>',
         iterations:[{
             fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshFlute-3-June2021.jpg`, 
             description: `<ul>
@@ -132,6 +138,7 @@ public allImageList:ImageElement[]  =  [
         },]
     }, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTabla-2-June2021.jpg`, 
     description: '<p>Inspirational Sketch</p>',
+    canvassSize: 'A4', content:'black-white',
     iterations:[{
         fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTabla-2-June2021.jpg`, 
         description: `<ul>
@@ -146,6 +153,7 @@ public allImageList:ImageElement[]  =  [
     },]
 }, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-2-July32021.jpg`, 
 description: '<p>Inspirational Sketch</p>',
+canvassSize: 'A4', content:'black-white',
 iterations:[{
     fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-2-July32021.jpg`, 
     description: `<ul>
@@ -154,11 +162,13 @@ iterations:[{
     </ul>`
 }, {
     fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshVeena-1-July32021.jpg`, 
+    canvassSize: 'A4', content:'black-white',
     description: `<ul>
     <li>June 2nd -3rd week 2021</li>
     <li>Ganesh playing Veena</li></ul>`
 },]
 }, {  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshHarmonium-1-July2021.jpeg`, 
+canvassSize: 'A4', content:'black-white',
 description: '<p>Inspirational Sketch</p>',
 iterations:[{
 fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshHarmonium-1-July2021.jpeg`, 
@@ -169,6 +179,7 @@ description: `<ul>
 }]
 },{  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-3-July102021.jpeg`, 
 description: '<p>Inspirational Sketch</p>',
+canvassSize: 'A4', content:'black-white',
 iterations:[{
     fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshSitar-3-July102021.jpeg`, 
     description: `<ul>
@@ -191,6 +202,7 @@ iterations:[{
         }]
 },{  fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshDholak-1-July12-2021.jpeg`, 
 description: '<p>Inspirational Sketch</p>',
+canvassSize: 'A4', content:'black-white',
 iterations:[{
     fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshDholak-1-July12-2021.jpeg`, 
     description: `<ul>
@@ -199,6 +211,7 @@ iterations:[{
     </ul>`
     },]
 },{
+    canvassSize: 'A4', content:'black-white',
     fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshTanpura-1July14-26-2021.jpeg`, 
     description: `<ul>
     <li>uly 14-26 2021</li>
@@ -207,6 +220,7 @@ iterations:[{
         <li>.. so hopefully, corrected!! (May add these iterations when I find them)</li>
     </ul>`
     },{
+        canvassSize: 'A4', content:'black-white',
         fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/GaneshManjira1-July14-26-2021.jpeg`, 
         description: `<ul>
         <li>July 14-26 2021</li>
@@ -214,6 +228,7 @@ iterations:[{
             <li>(May add iterations when I find them)</li>
         </ul>`
         },{
+            canvassSize: 'soft', content:'black-white',
             fullFileName: `assets/all-images/religion/shree-ganesh/sangeet-vinayak-Q3-2021/SangeetVinayakJuly26-27-2021.png`, 
             description: `<ul>
             <li>July 26-27 2021</li>
@@ -222,7 +237,8 @@ iterations:[{
             </ul>`
             },
 {  
-                fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
+    canvassSize: 'A4', content:'black-white',
+    fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
                 description: '<p>Quick Sketch Memorial Day weekend 2020</p>',
                 iterations:[  {
                     fullFileName: `assets/all-images/religion/shree-ganesh/GaneshPratamaTulaVandito06152021-4.jpeg`, 
@@ -251,7 +267,8 @@ iterations:[{
         },
         
         {  
-            fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
+            canvassSize: 'A4', content:'black-white',
+        fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
             evolution: '<b>Not the best of sketches.. but carrying with the tradition of starting something with Lord Ganesh</b><br/>',
             evolutionDate: '01-02-1990',
                 

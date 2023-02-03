@@ -42,6 +42,9 @@ export class RegularViewerComponent implements OnInit {
   IterativeText(currentImage:any)  {
     return currentImage.iterativeText ? currentImage.iterativeText : 'Previous Versions... *'
   }
+  public techStats(currentImage:any) {
+    return this.listFunnelService.techStatsSpan(currentImage);
+  }
   DescrFooter(currentImage:any) {
     console.log(JSON.stringify(currentImage.footNote));
     return currentImage.footNote ? 
@@ -112,6 +115,8 @@ export class RegularViewerComponent implements OnInit {
                     title: `${fileData.title? fileData.title: fileData.description}`,
                     dateUploaded: `${fileData.dateUploaded? fileData.dateUploaded: '01-01-1990'}`,
                     iterations: fileData.iterations? fileData.iterations:[],
+                    canvassSize: fileData.canvassSize? fileData.canvassSize:'',
+                    content:fileData.content?fileData.content:'',
                     iterationIndex:0 }):
                   this.selectedImageList.push({ 
                     image: `assets/all-images/${foundFolder}/${fileData.fileName}`, 

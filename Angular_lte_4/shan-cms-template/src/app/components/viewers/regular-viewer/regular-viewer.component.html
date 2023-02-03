@@ -25,6 +25,7 @@
   <button  *ngIf="currentImage.iterations.length > 0" (click)='navigatedIteration()' title='next' class="btn btn-primary responser">Iterations</button>
 -->
 <button  (click)='toggleSort()' title='next' class="btn btn-primary responser">Toggle Order</button>
+<span [innerHTML]="techStats(currentImage)"></span>
 <div  id='larger'  *ngIf="currentImage && (!currentImage.iterations || currentImage.iterations.length === 0)"> 
   
   <!-- --><img id="actualSize"  src={{currentImage.image}} *ngIf="ActualSize.toString() === 'true'"/> 
