@@ -57,7 +57,8 @@ export class ListFunnelService {
   ];
   content = [
     'color-pencil',
-    'black-white'
+    'black-white',
+    'color-crayon'
   ]
   getStats() {
     let sketchStats = {
@@ -141,7 +142,7 @@ export class ListFunnelService {
     imageList.push(new PeopleImageList()) ;
     imageList.push(new TrainImageList()) ;
     imageList.push(new TrainsIndianRailwayAlcos()) ;
-    // TrainsIndianRailwaySpecialTrains
+    imageList.push(new TrainsIndianRailwaySpecialTrains()) ;
     imageList.push(new MumbaiMeriJaanList()) ;
     imageList.push(new MumbaiMeriJaan2List()) ;
     imageList.push(new PlacesScenesObjectsImageList()) ;

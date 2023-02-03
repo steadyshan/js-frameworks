@@ -11,6 +11,19 @@ public allImageList:ImageElement[]  =  [
              theme:'Themes and Pending categorization',
              themeSummary: `Some theme sketches with components, some as-yet 'one-off' or uncategorized sketches'`,
              files: [   
+                { 
+                    fullFileName: `assets/all-images/themes-misc/chessCVS-PIPlann02-02-2023.jpeg`,
+                    canvasSize: 'A4', content:'black-white',
+                evolution:
+                `<p>Unthought, unplanned genre</p>`,
+                  evolutionDate: `01-31-2023`,
+                  
+                 description: `<ul>
+                <li>Our office had a competition to share photos of your favorite board game, so I sketched this!!!</li>
+                <li>Jan 31 2023</li>
+                </ul>`,
+                dateUploaded: '02-02-2023',
+                },
                 { fullFileName: `assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-final.jpeg`,
                   evolution:
                   `<p>color pencils on 11x17 sheet,  <br/>
@@ -20,16 +33,16 @@ public allImageList:ImageElement[]  =  [
                     in an earlier Google search I had seen the ‘largest flag’ event image and ‘presto’!!!<br/>
                     I had my composition</p>`,
                     evolutionDate: `01-28-2023`,
+                    duplicate:true,
                    description: `<ul>
                   <li>Republic Day special <br/>
                   - INS Kolkata and Brahmaputra<br/>
                   - Mig 29 and 21 over Gateway of India<br/>
                   - Missile launcher and Arjun Main Battle Tank<br/>
                   The flag is based on a true event Navy Day 2021 - was then the worlds largest flag - made of Khadi</li> June 16 2022</li>
-                  <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023
+                  <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023</li>
                   </ul>`,
                   rating: 1,
-                  duplicate:true,
                   dateUploaded: '01-29-2023',
                   iterations: [{
                    fullFileName: `assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-final.jpeg`, 
@@ -39,10 +52,17 @@ public allImageList:ImageElement[]  =  [
                    - Mig 29 and 21 over Gateway of India<br/>
                    - Missile launcher and Arjun Main Battle Tank<br/>
                    The flag is based on a true event Navy Day 2021 - was then the worlds largest flag - made of Khadi</li> June 16 2022</li>
-                   <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023
+                   <li>Date completed Jan 26 2023, black and white (see iteration) edited Jan 28 2023</li>
                    </ul>`,
                  }, ],
                 }, 
+                {
+                    fullFileName: `assets/all-images/themes-misc/trainAndChristmasTree2022.jpeg`,
+                    description: `<ul>
+                   <li>On request by Aparna, a fellow RAITian and part of WA antakshari group for Christmas 2022</li>
+                   </ul>`,
+                   dateUploaded: '02-02-2023',
+                   },
                 {
                     fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJayanti_Bhimsen_collage040222.jpeg`, 
                     description: '<p>Feb 4 2022 Ganesh Jayanti collage with Pt Bhimsen Joshi 100th birth anniversary</p>',

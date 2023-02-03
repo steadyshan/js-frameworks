@@ -121,9 +121,60 @@ public allImageList:ImageElement[]  =  [
                         <li>Sketch over Aug-Sept 2022 </li>
                         <li>WIP...</li>
                     </ul>`,
-                        } ,
+                        }
                    ],
-        }
+        }, 
+        {
+        fullFileName: `assets/all-images/trains/special-trains/RajdhaniMintoBridge-3-Nov20-2022.jpeg`, 
+        description: 
+        `<ul>
+            <li>Sketch of one of the, if not the first set of superfast trains in India, the Rajdhani express</li> 
+            <li>New Delhi-Mumbai (151/152) Rajdhani of the 1980s-1990s - a double headed WDM2 with 18 coaches  </li> 
+            <li>Shown over Minto Bridge New Delhi - sketched Nov 20 2022 </li>
+            <li>Final version </li>
+        </ul>`,
+            dateUploaded: '02-02-2023',
+            rating:1,
+            canvassSize:'A3',
+            content: 'color-pencil',
+
+            iterations:[ { fullFileName: `assets/all-images/trains/special-trains/RajdhaniMintoBridge-3-Nov20-2022.jpeg`, description: 
+            `<ul>
+            <li>Sketch of one of the, if not the first set of superfast trains in India, the Rajdhani express</li> 
+            <li>New Delhi-Mumbai (151/152) Rajdhani of the 1980s-1990s - a double headed WDM2 with 18 coaches  </li> 
+            <li>Shown over Minto Bridge New Delhi - sketched Nov 20 2022 </li>
+            <li>Final version </li>
+        </ul>`}, { fullFileName: `assets/all-images/trains/special-trains/RajdhaniMintoBridge-1-Nov20-2022.jpeg`, description: 
+            `<ul>
+            <li>Sketch of one of the, if not the first set of superfast trains in India, the Rajdhani express</li> 
+            <li>New Delhi-Mumbai (151/152) Rajdhani of the 1980s-1990s - a double headed WDM2 with 18 coaches  </li> 
+            <li>Shown over Minto Bridge New Delhi - sketched Nov 20 2022 </li>
+            <li>interim version </li>
+        </ul>`}, {
+                fullFileName: `assets/all-images/trains/special-trains/RajdhaniMintoBridge-2-Nov20-2022.jpeg`, 
+                description: 
+                `<ul>
+                <li>Sketch of one of the, if not the first set of superfast trains in India, the Rajdhani express</li> 
+                <li>New Delhi-Mumbai (151/152) Rajdhani of the 1980s-1990s - a double headed WDM2 with 18 coaches  </li> 
+                <li>Shown over Minto Bridge New Delhi - sketched Nov 20 2022 </li>
+                <li>interim version </li>
+            </ul>`}
+               ],
+    },  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/trains/special-trains/JammuTawi-171-70s-Dadar-12-23-2022.jpeg
+        {
+                fullFileName: `assets/all-images/trains/special-trains/JammuTawi-171-70s-Dadar-12-23-2022.jpeg`, 
+            description: `<ul>
+                            <li>Jammu Tawi - Mumbai (Central) - Jammu superfast express in what I imagine is its original livery </li>
+                            <li> attempt at scene under Tilak bridge Dadar - train no was 171/172 </li>
+                            <li>Dec 23 2022</li>
+                        </ul></p>`
+                ,
+             dateUploaded: '02-02-2023',
+             
+             canvassSize:'A4',
+             content: 'color-pencil',
+           
+            }
         // 
        , 
                 

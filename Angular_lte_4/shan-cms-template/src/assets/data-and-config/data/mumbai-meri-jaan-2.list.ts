@@ -29,6 +29,7 @@ public allImageList:ImageElement[]  =  [
                     in an earlier Google search I had seen the ‘largest flag’ event image and ‘presto’!!!<br/>
                     I had my composition</p>`,
                     evolutionDate: `01-28-2023`,
+                    canvasSize: 'A3', content:'color-pencil',
                    description: `<ul>
                   <li>Republic Day special <br/>
                   - INS Kolkata and Brahmaputra<br/>
