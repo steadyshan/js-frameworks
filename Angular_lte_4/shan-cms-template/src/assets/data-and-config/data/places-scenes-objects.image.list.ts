@@ -19,6 +19,83 @@ export class PlacesScenesObjectsImageList {
                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicStartNov2020.jpeg
                  
                  ,
+                 /*
+                 assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-1.jpeg
+                 /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-2.jpeg
+                 /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-3.jpeg
+                 /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-4.jpeg
+                 */
+                 { 
+                  evolution: 'First non religious and 2nd sketch using 11x17 A3 sheet. The description below says it all',
+                  evolutionDate: '08-31-2022',
+                 canvassSize: 'A3', content:'color-pencil',
+                 fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-5.jpeg`, 
+                  description: `<ul>
+                 <li>Golden Gate as seen from the highest North view point</li>
+                 <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                 <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                 <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                 <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                 <li>August 31 2022</li>
+                 </ul>`,
+                 dateUploaded: '02-03-2023',
+                 rating: 1,
+                 iterations:[
+                  {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-5.jpeg`, 
+                        description: `<ul>
+                       <li>Golden Gate as seen from the highest North view point</li>
+                       <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                       <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>August 31 2022</li>
+                       </ul>`,   
+                  }, {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-1.jpeg`, 
+                        description: `<ul>
+                       <li>Golden Gate as seen from the highest North view point</li>
+                       <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                       <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>August 31 2022</li>
+                       </ul>`,   
+                  }, {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-2.jpeg`, 
+                        description: `<ul>
+                       <li>Golden Gate as seen from the highest North view point</li>
+                       <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                       <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>August 31 2022</li>
+                       </ul>`,   
+                  }, {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-3.jpeg`, 
+                        description: `<ul>
+                       <li>Golden Gate as seen from the highest North view point</li>
+                       <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                       <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>August 31 2022</li>
+                       </ul>`,   
+                  }, {
+                        fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-4.jpeg`, 
+                        description: `<ul>
+                       <li>Golden Gate as seen from the highest North view point</li>
+                       <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
+                       <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>August 31 2022</li>
+                       </ul>`,   
+                  }
+                 ]
+                
+             },
+                 
         { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramDec292022.jpeg`, 
         canvassSize: 'A4', content:'black-white',
         description: `<ul>

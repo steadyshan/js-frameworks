@@ -31,7 +31,8 @@ export class PeopleImageList {
                          <li>For May 15 2022, tentative March 2022</li>
                      </ul></p>`
              ,
-          dateUploaded: '02-02-2023',
+        
+        canvassSize: 'soft', content:'poem black-white',  dateUploaded: '02-02-2023',
           evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
                      <b>a 'first submittal' to a competition</b><br/>`,
           evolutionDate: '05-15-2022',

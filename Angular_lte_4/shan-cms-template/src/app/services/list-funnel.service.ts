@@ -274,7 +274,7 @@ export class ListFunnelService {
             { 
               folder:'',
               theme:'latest-uploads',
-              themeSummary: `Uploads of 60 days or less`,
+              themeSummary: `Uploads of 30 days or less`,
               files: [],
             }
         ]} ;
@@ -487,9 +487,10 @@ export class ListFunnelService {
   }
   // 2. used to extract latest uploads per theme 
   loadLatestUploads(currentList:any)  {
+    
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
-        if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 60)) {
+        if (!fileItem.duplicate && this.daysAgoUploaded(fileItem, 30)) {
           this.genImageList.allImageList[0].files.push(fileItem);
         }
       });
@@ -497,7 +498,7 @@ export class ListFunnelService {
     this.allImageList  = this.genImageList.allImageList ; 
     this.allImageList[0].folder = '';
     this.allImageList[0].theme = 'latest-uploads';
-    this.allImageList[0].themeSummary = 'latest uploads'
+    this.allImageList[0].themeSummary = 'latest uploads of 30 days or less'
     console.log(`Loading latest`);
  //   return latestUploadList ;
   }

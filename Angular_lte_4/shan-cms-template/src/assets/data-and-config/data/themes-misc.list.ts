@@ -25,6 +25,7 @@ public allImageList:ImageElement[]  =  [
                 dateUploaded: '02-02-2023',
                 },
                 { fullFileName: `assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-final.jpeg`,
+                canvassSize: 'A3', content:'color-pencil',
                   evolution:
                   `<p>color pencils on 11x17 sheet,  <br/>
                     The  influence of Old Bombay FB group I was originally thinking of Marine Drive as the terrain, 
@@ -56,6 +57,55 @@ public allImageList:ImageElement[]  =  [
                    </ul>`,
                  }, ],
                 }, 
+                { fullFileName: `assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-complete.jpeg`,
+                canvassSize: 'A3', content:'black-white',
+                description: `<ul>
+                <li>Indian Air Force Day Oct 8 2022 = NINETIETH ANNIV </li>
+                <li> Showing aircraft used by the IAF over the years<br/>
+                (1) Clockwise from top left with approximate period:
+                    Wapiti 1933 - 1942,  Spitfire 1940s - mid 1950s, Mystere 1950s - 1970s
+Su 7  late 1960s - 1980s, Canberra 1950s - 2000s, Hawker Hunter 1960s - early 1990s
+Marut 1960s - 1980s, Ajeet / Gnat late 1950s - 1991
+Mig 21 1960s - present, Jaguar 1979 - present(?)
+CURRENT Mirage 2000, Mig29 Tejas, Rafalle , Su 30
+                <li>Date completed Oct 8 2022</li>
+                </ul>`,
+                rating: 1,
+                dateUploaded: '02-03-2023',
+                iterations: [{
+                    fullFileName: `assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-complete.jpeg`,
+                    canvassSize: 'A3', content:'black-white',
+                    description: `<ul>
+                    <li>Indian Air Force Day Oct 8 2022 = NINETIETH ANNIV </li>
+                    <li> Showing aircraft used by the IAF over the years<br/>
+                    (1) Clockwise from top left with approximate period:
+                        Wapiti 1933 - 1942,  Spitfire 1940s - mid 1950s, Mystere 1950s - 1970s
+    Su 7  late 1960s - 1980s, Canberra 1950s - 2000s, Hawker Hunter 1960s - early 1990s
+    Marut 1960s - 1980s, Ajeet / Gnat late 1950s - 1991
+    Mig 21 1960s - present, Jaguar 1979 - present(?)
+    CURRENT Mirage 2000, Mig29 Tejas, Rafalle , Su 30
+                    <li>Date completed Oct 8 2022</li>
+                    </ul>`,
+                  }, 
+                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-missing-hunter.jpeg
+                  {
+                    fullFileName: `assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-missing-hunter.jpeg`,
+                    canvassSize: 'A3', content:'black-white',
+                    description: `<ul>
+                    <li>Indian Air Force Day Oct 8 2022 = NINETIETH ANNIV </li>
+                    <li> Showing aircraft used by the IAF over the years<br/>
+                    (1) Clockwise from top left with approximate period:
+                        Wapiti 1933 - 1942,  Spitfire 1940s - mid 1950s, Mystere 1950s - 1970s
+    Su 7  late 1960s - 1980s, Canberra 1950s - 2000s,
+    Marut 1960s - 1980s, Ajeet / Gnat late 1950s - 1991
+    Mig 21 1960s - present, Jaguar 1979 - present(?)
+    CURRENT Mirage 2000, Mig29 Tejas, Rafalle , Su 30
+                    <li>Date completed Oct 8 2022</li>
+                    <li> I had forgotten to add the hunter in this version</li>
+                    </ul>`,
+                  },]
+                },
+                // assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-complete.jpeg
                 {
                     fullFileName: `assets/all-images/themes-misc/trainAndChristmasTree2022.jpeg`,
                     description: `<ul>

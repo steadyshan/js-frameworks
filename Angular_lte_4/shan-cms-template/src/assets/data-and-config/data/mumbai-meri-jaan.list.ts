@@ -49,10 +49,14 @@ public allImageList:ImageElement[]  =  [
                   }, {  
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    evolution: 'First non religious black and white sketch using 11x17 A3 sheet. The description below says it all',
+                    evolutionDate: '08-31-2022',
+                    canvassSize: 'A3', content:'black-white',
                     fullFileName: `assets/all-images/mumbai-meri-jaan/marine-drive.jpeg`, 
                     description: 
                        `<ul>
                          <li>11x17 sheet marine drive vista - OCt 13 2022</li>
+                         <li>First non religious black and white sketch using 11x17 A3 sheet</li>
                          </ul>`,   
                    dateUploaded: '11-28-2022',
                  
