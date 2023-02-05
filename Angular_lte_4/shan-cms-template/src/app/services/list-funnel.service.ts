@@ -27,6 +27,8 @@ import { ShowpieceImageList } from '../../assets/data-and-config/data/showpiece.
 import {MumbaiMeriJaanList} from '../../assets/data-and-config/data/mumbai-meri-jaan.list';
 import {MumbaiMeriJaan2List} from '../../assets/data-and-config/data/mumbai-meri-jaan-2.list';
 import { allImageList, ImageElement } from '../../assets/data-and-config/data/image.list';
+//#### Unorganized #### 
+import { AnimateToBeOrganized1ImageList } from  '../../assets/data-and-config/data/animate-to-be-organized-1.list';
 import { isGeneratedFile } from '@angular/compiler/src/aot/util';
 @Injectable({
   providedIn: 'root'
@@ -99,6 +101,7 @@ export class ListFunnelService {
           case 'A3': returnHTML = `${returnHTML}A3 (11x17)  `; break ;
           case 'A4': returnHTML = `${returnHTML}A4 (8.5x11)  `; break ;
           case 'soft': returnHTML = `${returnHTML}soft copy only`; break ;
+          case 'portion': returnHTML = `${returnHTML}part of larger drawing`; break ;
           default: returnHTML = `${returnHTML}other size`; break ;
         }
       }
@@ -136,6 +139,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts[0] = (this.getThemeCounts(new GaneshImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ42021ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new GaneshGTEQ12023ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new AnimateToBeOrganized1ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new DeviImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MahadevFamilyImageList(), sketchStats.canvassSize,sketchStats.content));
@@ -187,6 +191,7 @@ export class ListFunnelService {
     functionProto(new PlacesScenesObjectsImageList()) ;
     functionProto(new PlanesImageList()) ;
     functionProto(new ThemesMisc());
+    functionProto(new AnimateToBeOrganized1ImageList());
   }
   // optimize 
   loadLists(imageList:any = [])  {
@@ -213,6 +218,7 @@ export class ListFunnelService {
     imageList.push(new PlacesScenesObjectsImageList()) ;
     imageList.push(new PlanesImageList()) ;
     imageList.push(new ThemesMisc());
+    imageList.push(new AnimateToBeOrganized1ImageList()) ;
   }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
@@ -456,6 +462,9 @@ export class ListFunnelService {
       case 'themes-misc': this.genImageList = new ThemesMisc();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
+      case 'animate-to-be-oragnized1': this.genImageList = new  AnimateToBeOrganized1ImageList() ;
+                                      this.allImageList = this.genImageList.allImageList ;
+                                      break;
       default: this.allImageList = allImageList ; break;
     }
     return { all:  this.allImageList, gen: this.genImageList };

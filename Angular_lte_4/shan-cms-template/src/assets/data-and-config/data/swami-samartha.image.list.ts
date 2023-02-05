@@ -60,7 +60,27 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
                     <li>july 12 2022 </li></ul>`,
                         dateUploaded: '01-31-2023',
                        
+                },{  
+                    fullFileName: `assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-photo.jpeg`, 
+                    canvassSize: 'A4', content:'color-pencil black-white',
+                    description: 
+                    `<ul>
+                        <li>Swami Aai photo - dont remember when sketched.. uploaded Feb 5 2023</li> </ul>`,
+                        dateUploaded: '02-05-2023',
+                        iterations:[ {
+                            fullFileName: `assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-photo.jpeg`, 
+                            canvassSize: 'A4', content:'color-pencil black-white',
+                            description: 
+                            `<ul>
+                                <li>Swami Aai photo - dont remember when sketched.. uploaded Feb 5 2023</li> <li>photo</li></ul>`},  {
+                                    fullFileName: `assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-scan.jpeg`, 
+                                    canvassSize: 'A4', content:'color-pencil black-white',
+                                    description: 
+                                    `<ul>
+                                        <li>Swami Aai photo - dont remember when sketched.. uploaded Feb 5 2023</li> <li>scan</li> </ul>`}],
                 },
+                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-photo.jpeg
+                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-scan.jpeg
                 {  
                     fullFileName: `assets/all-images/religion/swami-samartha/SwamiSamarthaKhandoba-champaShashti-11-28-29-2022.jpeg`, 
                     description: 

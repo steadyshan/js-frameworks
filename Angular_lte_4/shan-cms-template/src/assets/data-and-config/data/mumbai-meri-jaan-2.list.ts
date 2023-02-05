@@ -69,19 +69,22 @@ public allImageList:ImageElement[]  =  [
                          rating: 1,
                    
                    evolution: `<ul><li> Covers all genres of my sketches - transport, landmarks, deities, etc </li></ul>`,
-            evolutionDate: '01-23-2023',
+            evolutionDate: '01-01-2023',
+            canvassSize: 'A3', content:'color-pencil',
             description: `<ul>
+            <li>HAPPY NEW YEAR 2023</li>
             <li>Presenting Imaginary scenario overlooking Marine Lines station over Islam Gymkhana and Marine drive with Ganesh Chaturthi and a Naval air show </li><li>
             Note: walls painted with pictures of Gods (at the bottom) to prevent messing them, etc</li>
             </ul>`,
             dateUploaded: '01-24-2023',
+            
                  
                   },  {  
-                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
-                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
-                    fullFileName: `assets/all-images/mumbai-meri-jaan-2/marine-lines-snapshot.jpeg`, 
+                    canvassSize: 'portion', content:'color-pencil',
+                fullFileName: `assets/all-images/mumbai-meri-jaan-2/marine-lines-snapshot.jpeg`, 
                     
             description: `<ul>
+            <li>HAPPY NEW YEAR 2023</li>
             <li>zoomed in section of previous sketch showing the mainstays of Mumbai's transport system - local, BEST and 'kala peela' !!</li>
             </ul>`,
             dateUploaded: '01-24-2023',
