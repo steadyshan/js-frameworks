@@ -17,11 +17,18 @@ public allImageList:ImageElement[]  =  [
         themeSummary: 
         `<p> <em><strong>April 2022, my attempt on Shirdi Sai sketch every Thursday going on. Let's see how far this sustains... `,
         files: [ // SaiMarch32022.jpeg
-        // BabaParaBrahmaJune162022_2
-        // BabaUnpluggedColor0719222022-1.jpeg
-        // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2022/ShreepadVallabhSaiBaba1061622.jpeg
-        // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/dattavatar/GuruPoornimaJuly1322-1.png
         {
+              
+            canvassSize: 'soft', content:'black-white',
+            fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/SaiFluteAug292022.jpeg`, 
+            description: `<ul>
+            <li>Sai playing flute - thursday aug 29 2022 - this sketch is only a soft copy - converted to a Shreee Krishna type sketch</li>`
+            ,
+            dateUploaded: '02-05-2023'
+            
+         },
+        {
+            canvassSize: 'A4', content:'black-white',
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
             description: `<ul>
             <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>
@@ -31,7 +38,8 @@ public allImageList:ImageElement[]  =  [
             
          },
  { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/Babaunplugged07292022.jpeg`, 
-            description: `<ul>
+ canvassSize: 'A4', content:'color-pencil',
+ description: `<ul>
             <li><strong><em>"गुरु ब्रह्मा गुरु विष्णू गुरु देवो महेश्वरहा <br/>&nbsp;
             गुरु साक्षात परब्रम्ह तस्मै श्री गुरुवे नमः </em></strong></li>
             <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>

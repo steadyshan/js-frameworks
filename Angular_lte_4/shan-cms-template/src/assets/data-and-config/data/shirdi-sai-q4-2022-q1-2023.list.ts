@@ -38,7 +38,15 @@ public allImageList:ImageElement[]  =  [
             
                 </ul>`,
             }]
-            }, { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-1.jpeg`, 
+            },  {
+                fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
+                description: `<ul>
+                <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>
+                <li>scanned</li></ul>`,
+                dateUploaded: '01-29-2023',
+                duplicate:true,
+                
+             },{ fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-1.jpeg`, 
             description: `<ul>
             <li>Baba Feb 2 2023 - photo copied light a previous black and white and then colored it</li>
             

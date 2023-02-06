@@ -11,7 +11,15 @@ public allImageList:ImageElement[]  =  [
              theme:'Lord Narayan, Maa Laxmi and Avatars, Shree Hanuman',
              themeSummary: `<p>Laxmi and avatars, Rukhmini, Sita, Narayan, Ram, Vithal, Narsimha, Hanuman and others.   </p>`,
              files: [
-                {  
+                {
+              // 
+                    canvassSize: 'A4', content:'color-pencil',
+                    fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/ShreeKrishnaAug292022-FromSai.jpeg`, 
+                    description: `<ul>
+                    <li>Krishna playing flute - thursday aug 29 2022 - this sketch is coverted from a black and white Shirdi Sai sketch (latter only a soft copy)</li>`,
+                    dateUploaded: '02-05-2023'
+                    
+                 }, {  
                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/HanumanAugust62022.jpeg`, 
                     description: `<ul>   <li>Hamuman Sketch with a different kind of poses</li>
                     <li>Used Arnold Schwarzenegger's body builder poses for sketching as a reference</li>
