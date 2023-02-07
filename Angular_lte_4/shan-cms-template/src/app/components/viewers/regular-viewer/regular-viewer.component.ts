@@ -153,7 +153,7 @@ import { PlanesImageList } from '../data/planes.image.list';
 import { GaneshImageList } from '../data/ganesh.image.list';
 import { SwamiSamarthaImageList } from '../data/swami-samartha.image.list'
 import { DattavatarImageList } from '../data/dattavatar.image.list';
-import { ShirdiSaiQ1Q22021ImageList} from '../data/shirdi-sai-q2-2020.list';
+import { ShirdiSaiQ1Q32021ImageList} from '../data/shirdi-sai-q2-2020.list';
 import { TrainImageList } from '../data/trains.list'
 import { allImageList, ImageElement } from '../data/image.list';
 import { GeneralImageList } from '../data/general.image.list';
@@ -197,7 +197,7 @@ import { GeneralImageList } from '../data/general.image.list';
           case 'trains': this.genImageList = new TrainImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
-          case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q22021ImageList();
+          case 'shirdi-sai-q1-q2-2021': this.genImageList = new ShirdiSaiQ1Q32021ImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'people-places': this.genImageList = new PeopleImageList();

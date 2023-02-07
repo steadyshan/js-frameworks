@@ -11,12 +11,13 @@ public allImageList:ImageElement[]  =  [
              theme:'Lord Narayan, Maa Laxmi and Avatars, Shree Hanuman',
              themeSummary: `<p>Laxmi and avatars, Rukhmini, Sita, Narayan, Ram, Vithal, Narsimha, Hanuman and others.   </p>`,
              files: [
+                
                 {
               // 
-                    canvassSize: 'A4', content:'color-pencil',
                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/ShreeKrishnaAug292022-FromSai.jpeg`, 
                     description: `<ul>
                     <li>Krishna playing flute - thursday aug 29 2022 - this sketch is coverted from a black and white Shirdi Sai sketch (latter only a soft copy)</li>`,
+                    canvassSize: 'A4', content:'color-pencil',
                     dateUploaded: '02-05-2023'
                     
                  }, {  
@@ -46,6 +47,12 @@ public allImageList:ImageElement[]  =  [
                                                 <li>Before background</li>
                                                 </ul>`},
    ]},
+   {   fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/ShreeRamOct252020Dassera.jpeg`, 
+   description: `<ul>
+                   <li>SHree Ram, Sketched for Dassera  Oct 25 2020 - an early sketch</li>
+                   </ul>`,
+                   canvassSize: 'A4', content:'black-white',
+                   dateUploaded: '02-05-2023'},
                 {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarayanRarePicFeb232021.jpeg`, 
                 evolution: `<b>Sketch on recommendation, and drawn with lot of care, with the shading set gifted by my wife on my birthday 1227</b>`,
                 evolutionDate: `03-23-2021`,

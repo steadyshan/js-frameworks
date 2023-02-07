@@ -256,11 +256,23 @@ public allImageList:ImageElement[]  =  [
                     ` },
                     {  
                         fullFileName: `assets/all-images/religion/dattavatar/unsigned4NarasimhaSaraswatiJan152021.jpeg`, 
+                        canvassSize: 'A4', content:'black-white',
                         description: `
                         <ul>
                         <li>Shree Nrusimha (Narasimha) Saraswati 3rd - Drawn approximately on jayanti which was on Jan 15 2021</li>
                         </ul>
                         ` },
+                        {  
+                            fullFileName: `assets/all-images/religion/dattavatar/NarasimhaSaraswatiFeb6-72023-Gurupadyami.jpeg`, 
+                            canvassSize: 'A4', content:'color-pencil',
+                            description: `
+                            <ul>
+                            <li> 6th Feb 2023 was Gurupadyami divas .On this day Dattaavatari  Sri Narasimha Saraswathi Maharaj  the second Avatar  of lord Dattathreya  left for Kardalivana  in Srisaila .</li>
+                            <li>extremely light photo copy of an original (black and white), and colored it, adding Datta's faces and the shaligram in foreground</li>
+                            <li> 6th-7th Feb 2023 </ul>` ,
+
+                    dateUploaded: '02-07-2023',
+                        },
                         {  
                             fullFileName: `assets/all-images/religion/dattavatar/unsigned5SwamiSamartha12312020.jpeg`, 
                             description: `
