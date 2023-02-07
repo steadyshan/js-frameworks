@@ -290,6 +290,7 @@ public allImageList:ImageElement[]  =  [
                                 ` },
                                 {  
                                     fullFileName: `assets/all-images/religion/dattavatar/unsigned7SaiSmilingNov2020.jpeg`, 
+                                    canvassSize: 'A4', content:'black-white',
                                     description: `
                                     <ul>
                                     <li> Also Nov 2020, one of my favorite Shirdi Sai Themes, one I call 'Santa Claus Baba'</li>
