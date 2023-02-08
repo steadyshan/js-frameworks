@@ -94,8 +94,23 @@ export class PlacesScenesObjectsImageList {
                   }
                  ]
                 
+             },// /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg
+                {
+                  fullFileName: `assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg`,
+                  description: '<p>Verazzano Narrows Bridge, New York City, Oct2020</p>',
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-08-2023'
              },
-                 
+                {
+                  fullFileName: `assets/all-images/places-scenes-objects/unsignedSeattleSpaceNeedleDec2020.jpeg`,
+                  description: '<p>Seattle Space Needle December 2020</p>',
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-08-2023' },
+                {
+                  fullFileName: `assets/all-images/places-scenes-objects/SpaceShuttleAug152021.jpeg`,
+                  description: '<p>Space Shuttle Aug 15 2021</p>',
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-08-2023' },  
         { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramDec292022.jpeg`, 
         canvassSize: 'A4', content:'black-white',
         description: `<ul>
@@ -108,11 +123,13 @@ export class PlacesScenesObjectsImageList {
        
     } ,{ 
                         fullFileName: `assets/all-images/places-scenes-objects/SydneyDec3rdWeek2021.jpeg`,
-                        description: '<p>Inspirational Sketch</p>',
+                        canvassSize: 'A4', content:'color-pencil',
+                        description: '<p>Sydney Harbor Bridge and Opera House - Dec 2021 </p>',
                         dateUploaded: '12-30-2021',
                   },
                       { 
                             fullFileName: `assets/all-images/places-scenes-objects/NeuSchwansteinNov2021_2.jpeg`,
+                            canvassSize: 'A4', content:'color-pencil',
                             description: '<p>Inspirational Sketch</p>',
                             dateUploaded: '12-06-2021',
                             iterations:[
