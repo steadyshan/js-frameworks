@@ -467,6 +467,7 @@ export class ListFunnelService {
                                       break;
       default: this.allImageList = allImageList ; break;
     }
+   // this.sortImages(false);
     return { all:  this.allImageList, gen: this.genImageList };
 
   }

@@ -29,13 +29,35 @@ public allImageList:ImageElement[]  =  [
          },
         {
             canvassSize: 'A4', content:'black-white',
-            fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
+            fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaMay192022.jpeg`, 
             description: `<ul>
-            <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>
-            <li>scanned</li></ul>`,
-            dateUploaded: '01-29-2023',
-            duplicate:true,
+            <li>Baba with crown</li>
+            <li>See next sketch - that is a color-pencil fill of a light photo copy of this one </li>
+            <li>May 19 2022</li></ul>`,
+            dateUploaded: '02-07-2023',
             
+         }, { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+         description: `<ul>
+         <li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         </ul>`,
+
+         duplicate:true,
+         dateUploaded: '02-02-2023',
+          
+         canvassSize:'A4',
+         content: 'color-pencil',
+         iterations: [
+             {
+                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+                 description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         
+                 </ul>`
+             },{
+                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-2.jpeg`, 
+             description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         
+             </ul>`,
+         }]
          },
  { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/Babaunplugged07292022.jpeg`, 
  canvassSize: 'A4', content:'color-pencil',

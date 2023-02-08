@@ -18,27 +18,39 @@ public allImageList:ImageElement[]  =  [
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
-            { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+           
+        {
+            canvassSize: 'A4', content:'black-white',
+            fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaMay192022.jpeg`, 
             description: `<ul>
-            <li>Baba Feb 2 2023 - photo copied light a previous black and white and then colored it</li>
-            </ul>`,
-            dateUploaded: '02-02-2023',
-             
-            canvassSize:'A4',
-            content: 'color-pencil',
-            iterations: [
-                {
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
-                    description: `<ul><li>Baba Feb 2 2023 - photo copied light a previous black and white and then colored it</li>
-            
-                    </ul>`
-                },{
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-2.jpeg`, 
-                description: `<ul><li>Baba Feb 2 2023 - photo copied light a previous black and white and then colored it</li>
-            
-                </ul>`,
-            }]
-            },  {
+            <li>Baba with crown</li>
+            <li>See next sketch - that is a color-pencil fill of a light photo copy of this one </li>
+            <li>May 19 2022</li></ul>`,
+            dateUploaded: '02-07-2023',
+            duplicate:true,
+         
+         }, { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+         description: `<ul>
+         <li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         </ul>`,
+
+         dateUploaded: '02-02-2023',
+          
+         canvassSize:'A4',
+         content: 'color-pencil',
+         iterations: [
+             {
+                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+                 description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         
+                 </ul>`
+             },{
+                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-2.jpeg`, 
+             description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
+         
+             </ul>`,
+         }]
+         },  {
                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
                 description: `<ul>
                 <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>

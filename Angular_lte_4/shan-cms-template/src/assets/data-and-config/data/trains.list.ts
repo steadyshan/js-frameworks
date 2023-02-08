@@ -24,6 +24,7 @@ public allImageList:ImageElement[]  =  [
             {   iterativeText: 'Components *',
                 fullFileName:'assets/all-images/trains/IRTrainCollageOCT2020.png', 
                 footNote: '* Click to see each sub sketch of the collage',
+                canvassSize:'soft', content:'black-white',
             description: `<ul >
         <li><strong>Indian Rail Down the ages</strong> </li>
         <li><Drawn and Compile oct 2020 </li>
@@ -114,8 +115,36 @@ provides luxury facilities for low income people (This scenario is completely fi
     ` } ,
 
  
-        ]},  
+        ]},  {  
+            fullFileName: `assets/all-images/trains/ICE_IngoldstadtAudi085-62022-2.jpeg`, 
+            canvassSize: 'A4', content:'color-pencil',
+            description: 
+            `<ul>
+                <li>ICE (Inter City Express) earlier generation (1990s)Of German Railway DB</li>
+                <li>fictitious scene - passing the city of Ingolstadt on the Munich Nuernberg Line</li>
+                <li>Ingolstadt has or had the Audi car factory which was next to the rail lines </li>
+                <li>Aug 5-6 2022 </li></ul>`,
+                dateUploaded: '02-07-2023',
+                iterations:[ {
+                    fullFileName: `assets/all-images/trains/ICE_IngoldstadtAudi085-62022-2.jpeg`, 
+                    canvassSize: 'A4', content:'color-pencil',
+                    description: 
+                    `<ul>
+                        <li>ICE (Inter City Express) earlier generation (1990s)Of German Railway DB</li>
+                        <li>fictitious scene - passing the city of Ingolstadt on the Munich Nuernberg Line</li>
+                        <li>Ingolstadt has or had the Audi car factory which was next to the rail lines </li>
+                        <li>Aug 5-6 2022 </li></ul>`,},{
+                            fullFileName: `assets/all-images/trains/ICE_IngoldstadtAudi085-62022-1.jpeg`, 
+                            canvassSize: 'A4', content:'color-pencil',
+                            description: 
+                            `<ul>
+                                <li>ICE (Inter City Express) earlier generation (1990s)Of German Railway DB</li>
+                                <li>fictitious scene - passing the city of Ingolstadt on the Munich Nuernberg Line</li>
+                                <li>Ingolstadt has or had the Audi car factory which was next to the rail lines </li>
+                                <li>Aug 5-6 2022 </li></ul>`,}
+                ],
 
+        },
         { 
             fullFileName:`assets/all-images/trains/IndianRailTurntable-09212021.jpeg`,
             description: 
