@@ -13,13 +13,33 @@ export class ShirdiSaiQ42022Q12023ImageList {
 public allImageList:ImageElement[]  =  [
    { 
         folder:'shirdi-sai-q4-2022-q1-2023',
-        theme:'Shirdi Sai Sketches Q3 and Q4 2021 + Q1/Q2 2022',
+        theme:'Shirdi Sai Sketches Q4 2022 + Q1 2023, some of Q3 2022',
         themeSummary: 
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
            
-        {
+           { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiFeb92023.jpeg`,
+            description: `<ul>
+            <li>Baba Dwarkamai Feb 9 2023 - photo copied light the (next) black and white original and then colored it</li>
+            </ul>`,
+   
+            dateUploaded: '02-09-2023',
+             
+            canvassSize:'A4',
+            content: 'color-pencil',
+           }
+           , 
+            { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiSepty152022.jpeg`,
+            description: `<ul>
+            <li>Baba Dwarkamai Sept 15 2022- original black and white </li>
+            </ul>`,
+   
+            dateUploaded: '02-09-2023',
+             
+            canvassSize:'A4',
+            content: 'black-white',
+           }, {
             canvassSize: 'A4', content:'black-white',
             fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaMay192022.jpeg`, 
             description: `<ul>
@@ -29,7 +49,9 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '02-07-2023',
             duplicate:true,
          
-         }, { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
+         },
+         // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiSepty152022.jpeg
+         { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
          description: `<ul>
          <li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
          </ul>`,
