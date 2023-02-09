@@ -203,8 +203,20 @@ provides luxury facilities for low income people (This scenario is completely fi
                     <li>Have a couple of iterations which I feel will be worth posting</li> </ul>`,
             },,
             {  fullFileName: `assets/all-images/trains/TajExpressQ32021.jpeg`, 
+            canvassSize: 'A4', content:'black-white',
             description: `<p>Q3 2021< - Taj express (again)</p>`
                 ,
+           
+            },  {  fullFileName: `assets/all-images/trains/AcurateWPMarch232022.jpeg`, 
+            canvassSize: 'A4', content:'black-white',
+            description: `<p>WP5 Indian Railways Steam Loco - attempt to get accurate sketch.. 03-23-2022</p>`,
+            dateUploaded: '02-08-2022'
+                ,
+           
+            },  {  fullFileName: `assets/all-images/trains/FrontierDaraPassBWApril162022.jpeg`, 
+            canvassSize: 'A4', content:'black-white',
+            description: `<p>One of serveral Frontier at Dara Pass skecthes April 16 2022 </p>`,
+            dateUploaded: '02-08-2022'
            
             }
                 
