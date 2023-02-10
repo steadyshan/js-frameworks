@@ -47,22 +47,12 @@ public allImageList:ImageElement[]  =  [
         </ul>` ,
         dateUploaded: '11-17-2022',
     },  {   fullFileName:'assets/all-images/trains/alco/kalyan-ver2-11-23-2022.jpeg', 
-    evolution: `- <b> First of the WDM2 series I started.. I used this as a template to draw the others</b><br/>`,
-    evolutionDate: `10-27-222`,
     description: `<ul >
 <li><strong>Kalyan loco shed</strong> </li>
-<li>Oct 27 2022</li>
-<li>Redrawn Nov 23 2022</li>
+<li>Original (see at the end) Oct 27 2022</li>
+<li> Nov 23 2022</li>
 
-</ul>` ,  iterations:[  {
-    fullFileName: `assets/all-images/trains/alco/kalyan-ver2-11-23-2022.jpeg`, 
-    description: `<ul>
-                <li>Kalyan WDM2 in 'vanilla' IR livery</li><li>Updated  11-23-2022</li> 
-                </ul>`} ,{
-    fullFileName: `assets/all-images/trains/alco/kalyanwdm2.jpeg`, 
-    description:  `<ul>
-    <li>Kalyan WDM2 in 'vanilla' IR livery</li><li>The original drawn on Oct 27 </li> 
-    </ul>`}],
+</ul>` ,
 dateUploaded: '11-17-2022',
 } ,  {   fullFileName:'assets/all-images/trains/alco/WDM2-Itarsi-11-25-2022.jpeg', 
 
@@ -119,7 +109,15 @@ description: `<ul >
 
 </ul>` ,
 dateUploaded: '11-17-2022',
-}
+},  {   fullFileName:'assets/all-images/trains/alco/kalyanwdm2.jpeg', 
+evolution: `- <b> First of the WDM2 series I started.. I used this as a template to draw the others</b><br/>`,
+evolutionDate: `10-27-222`,
+description: `<ul >
+<li><strong>Kalyan loco shed</strong> </li>
+<li>Oct 27 2022</li>
+<li>This is the original - redrawn Nov 23 2022</li>
+
+</ul>`}
         // 
        , 
                 

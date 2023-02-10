@@ -10,15 +10,51 @@ export class PlacesScenesObjectsImageList {
                 themeSummary:`</strong>Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)<br/>
                 Mumbai gets her due place and a dedicated theme; all Mumbai related sketches will be found in 'Mumbai Meri Jaan'`,
                 files: [ 
+                  { 
+                        evolution: `Taj is iconic - a symbol of India`,
+                        evolutionDate: '11-23-2020',
+                       canvassSize: 'A3', content:'black-white',
+                       fullFileName: `assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg`, 
+                        description: `<ul>
+                       <li>The legendary Taj Mahal.. </li>
+                       <li>While there is no need for description of the landmark, a bit on the sketch/li>
+                       <li>I realized the sketch was too much towards the upper half of the sheet, so I sketched a reflection below</li>
+                       <li>See previous iteration</li>
+                       <li>Nov 23 2020</li>
+                       </ul>`,
+                       dateUploaded: '02-09-2023',
+                       rating: 1,
+                       iterations:[
+                        {  fullFileName: `assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg`, 
+                        description: `<ul>
+                       <li>The legendary Taj Mahal.. </li>
+                       <li>While there is no need for description of the landmark, a bit on the sketch/li>
+                       <li>I realized the sketch was too much towards the upper half of the sheet, so I sketched a reflection below</li>
+                       <li>See previous iteration</li>
+                       <li>Nov 23 2020</li>
+                       </ul>`,},
+                       ,
+                       {  fullFileName: `assets/all-images/places-scenes-objects/TajBasicPreReflectionPreFinal2020.jpeg`, 
+                       description: `<ul>
+                      <li>The legendary Taj Mahal.. </li>
+                      <li>... sketch before adding the reflection</li>
+                      <li>See previous iteration</li>
+                      <li>Nov 2020</li>
+                      </ul>`,} ,
+                     {  fullFileName: `assets/all-images/places-scenes-objects/TajBasicStartNov2020.jpeg`, 
+                     description: `<ul>
+                    <li>The legendary Taj Mahal.. </li>
+                    <li>.start</li>
+                    <li>Nov 2020</li>
+                    </ul>`,}],
 
-                  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg
-                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedTajMoonlightOct2020.jpeg
-                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedSeattleSpaceNeedleDec2020.jpeg
-                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg
-                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicPreReflectionPreFinal2020.jpeg
-                 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/TajBasicStartNov2020.jpeg
-                 
-                 ,
+                        }
+                 , { 
+                  description: `<ul>
+                  <li>Taj at night, oct 19 2021</li></ul>`,
+                  dateUploaded: '02-09-2023',
+                 canvassSize: 'A3', content:'black-white',
+                 fullFileName: `assets/all-images/places-scenes-objects/TajMahalNightLightColorOct192021.jpeg`,},
                  /*
                  assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-1.jpeg
                  /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-2.jpeg
@@ -34,7 +70,7 @@ export class PlacesScenesObjectsImageList {
                  <li>Golden Gate as seen from the highest North view point</li>
                  <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
                  <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
-                 <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
+                 <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets (see next sketch)</li>
                  <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
                  <li>August 31 2022</li>
                  </ul>`,
@@ -47,8 +83,8 @@ export class PlacesScenesObjectsImageList {
                        <li>Golden Gate as seen from the highest North view point</li>
                        <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
                        <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
-                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
-                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets (see next sketch)</li>
+                        <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
                        <li>August 31 2022</li>
                        </ul>`,   
                   }, {
@@ -57,8 +93,8 @@ export class PlacesScenesObjectsImageList {
                        <li>Golden Gate as seen from the highest North view point</li>
                        <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
                        <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
-                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
-                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets (see next sketch)</li>
+                 <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
                        <li>August 31 2022</li>
                        </ul>`,   
                   }, {
@@ -67,8 +103,8 @@ export class PlacesScenesObjectsImageList {
                        <li>Golden Gate as seen from the highest North view point</li>
                        <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
                        <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
-                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
-                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets (see next sketch)</li>
+                  <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
                        <li>August 31 2022</li>
                        </ul>`,   
                   }, {
@@ -87,15 +123,48 @@ export class PlacesScenesObjectsImageList {
                        <li>Golden Gate as seen from the highest North view point</li>
                        <li>First non religious and 2nd sketch using 11x17 A3 sheet and color. </li>
                        <li>This resulted from a request by a colleague at CVS when they gave me a photo of this view to draw</li>
-                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets</li>
-                       <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
+                       <li>This was always going to cramped on A4 thus activated a dormant desire to experiment drawing on larger sheets (see next sketch)</li>
+                 <li> The attempt to draw the USS Nimitz is an add on from a real life event when the super carrier visited SFO</li>
                        <li>August 31 2022</li>
                        </ul>`,   
                   }
                  ]
                 
-             },// /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg
-                {
+             },  {
+                  fullFileName: `assets/all-images/places-scenes-objects/GoldenGateNimitzA32A4July272022.jpeg`,
+                  description: `<ul>
+                  <li>See previous sketch A4 black and white version of Golden Gate as seen from the highest North view point</li>
+                  <li>Showing Nimitz  july 27 2022</li>`,
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-09-2023'
+             },  {
+                  evolution: 'Probably 1st sketch of the Golden Gate Bridge',
+                  evolutionDate: '11-19-2029'
+                  ,fullFileName: `assets/all-images/places-scenes-objects/GoldenGateNimitz_Nov19_2020.jpeg`,
+                  description: `<ul>
+                  <li>Earlier sketch of GG Showing Nimitz</li>
+                  <li>11/19/2020</li>`,
+                  iterations: [
+                        {
+                              fullFileName: `assets/all-images/places-scenes-objects/GoldenGateNimitz_Nov19_2020.jpeg`,
+                              description: `<ul>
+                              <li>Earlier sketch of GG Showing Nimitz</li>
+                              <li>11/19/2020</li>`,
+                        },{
+                              fullFileName: `assets/all-images/places-scenes-objects/GoldenGateWIP1_Nov2020.jpeg`,
+                              description: `<ul>
+                              <li>Earlier sketch of GG Showing Nimitz</li>
+                              <li>11/19/2020</li>`,
+                        },{
+                              fullFileName: `assets/all-images/places-scenes-objects/GoldenGateWIP2_Nov2020.jpeg`,
+                              description: `<ul>
+                              <li>Earlier sketch of GG Showing Nimitz</li>
+                              <li>11/19/2020</li>`,
+                        }
+                  ],
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-09-2023'
+             },{
                   fullFileName: `assets/all-images/places-scenes-objects/unsignedVerazzanoNYBridgeOct2020.jpeg`,
                   description: '<p>Verazzano Narrows Bridge, New York City, Oct2020</p>',
                   canvassSize: 'A4', content:'black-white',

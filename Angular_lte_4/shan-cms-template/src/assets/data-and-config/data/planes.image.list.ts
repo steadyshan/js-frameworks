@@ -118,7 +118,34 @@ export class PlanesImageList {
                     fullFileName:   `assets/all-images/ships/BismarkJuly152022.jpeg`, 
                     canvassSize: 'A3 A4', content:'black-white color-pencil', description: `<ul><li>Attempt on Bismark (or Tirpitz) 07-15-2022</li></ul> `,
                     dateUploaded: '07-23-2022', },
-               ,
+                    ,
+                    {
+                        canvassSize: 'A4', content:'color-pencil', 
+                        fullFileName: 
+                        `assets/all-images/planes/IAFSu30INMig29Feb92023-finish.jpeg`, 
+                        description: `<ul> 
+                        <li>Found an outline sketch of the Su30 and Mig29, probably drawn mid 2022</li>
+                        <li>Filled out with IAF and IN context respectively, Feb 9 2023</li>
+                                    </ul> `,
+                        dateUploaded: '02-09-2023',
+                        iterations:[
+                            { 
+                                fullFileName: 
+                                `assets/all-images/planes/IAFSu30INMig29Feb92023-finish.jpeg`, 
+                                description: `<ul> 
+                                <li>Found an outline sketch of the Su30 and Mig29, probably drawn mid 2022</li>
+                                <li>Filled out with IAF and IN context respectively, Feb 9 2023</li>
+                                            </ul> `,},
+                          {  
+                            fullFileName: 
+                            `assets/all-images/planes/IAFSu30INMig29Feb92023-initial.jpeg`, 
+                            description: `<ul> 
+                            <li>Found an outline sketch of the Su30 and Mig29, probably drawn mid 2022</li>
+                            <li>Filled out with IAF and IN context respectively, Feb 9 2023</li>
+                            <li>This is what I found</li>
+                                        </ul> `,}]
+        
+                    },
             {
                     fullFileName: 
                 `assets/all-images/ships/QueenElizabethApril10-1620222_final.jpeg`, 
