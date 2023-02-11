@@ -105,6 +105,13 @@ CURRENT Mirage 2000, Mig29 Tejas, Rafalle , Su 30
                     </ul>`,
                   },]
                 },
+                {
+                    fullFileName: `assets/all-images/misc-scenes-specials-etc/MiscManOnTheMove-mid2021.jpeg`,  description: `<ul>
+                    <li>Generic 'humans on the move' theme - </li>
+                    </ul>`,
+                    dateUploaded: '02-09-2023',
+                    },
+                  
                 // assets/all-images/themes-misc/IndianAirForce90th-Oct82022-final-complete.jpeg
                 {
                     fullFileName: `assets/all-images/themes-misc/trainAndChristmasTree2022.jpeg`,
