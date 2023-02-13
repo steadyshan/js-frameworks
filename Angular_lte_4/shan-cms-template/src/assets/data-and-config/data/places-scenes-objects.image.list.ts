@@ -179,7 +179,25 @@ export class PlacesScenesObjectsImageList {
                   fullFileName: `assets/all-images/places-scenes-objects/SpaceShuttleAug152021.jpeg`,
                   description: '<p>Space Shuttle Aug 15 2021</p>',
                   canvassSize: 'A4', content:'black-white',
-                 dateUploaded: '02-08-2023' },  
+                 dateUploaded: '02-08-2023' }, 
+                 {
+                  fullFileName: `assets/all-images/places-scenes-objects/GSLV3_ISRO_Feb112023.jpeg`,
+                  description: `<ul><li>A sketch on one of the pinnacles of a testament of Mera Bharat Mahan success stories </li>
+                                    <li>Attempting to sketch ISRO's GSLV3 (now LVM 3) one of several Satellite launchers...</li>
+                                    <li>Idea sprung as when putting my sketches into a presentation book I needed to 'fill in' the pocket 
+                                        opposite the shittle sketch with something appropriate.. so this </li>
+                                    <li>Feb 9 - 11, 2023 </li>
+                              </ul>`,
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-11-2023' },  
+                 {
+                  fullFileName: `assets/all-images/places-scenes-objects/QutabMinarFeb122023.jpeg`,
+                  description: `<ul><li>Qutab Minar </li>
+                                   
+                                    <li>Feb 11-12, 2023 </li>
+                              </ul>`,
+                  canvassSize: 'A4', content:'black-white',
+                 dateUploaded: '02-13-2023' },  
         { fullFileName: `assets/all-images/religion/dattavatar/KurvapurGopuramDec292022.jpeg`, 
         canvassSize: 'A4', content:'black-white',
         description: `<ul>

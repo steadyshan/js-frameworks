@@ -34,7 +34,7 @@ export const MenuTree: MenuItem[] = [
     { label: '- Q3,Q4 2022 Q1 2023', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'shirdi-sai-q4-2022-q1-2023', roles: ['relgion', 'all'], dateUploaded: '02-09-2023' },
     { label: '- Sai Satcharitra', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'baba-themes-1', roles: ['relgion', 'all'], dateUploaded: '02-28-2022' },
     { label: 'People', child: false, uniqueKey: '', parentKey: 'art', key: 'people-places', roles: ['nonLiving', 'all'], dateUploaded: '02-02-2023' },
-    { label: 'Places, Scenes and Objects', child: false, uniqueKey: '', parentKey: 'art', key: 'places-scenes-objects', roles: ['nonLiving', 'all'], dateUploaded: '02-09-2023' },
+    { label: 'Places, Scenes and Objects', child: false, uniqueKey: '', parentKey: 'art', key: 'places-scenes-objects', roles: ['nonLiving', 'all'], dateUploaded: '02-13-2023' },
     { label: 'Misc, Themes', child: false, uniqueKey: '', parentKey: 'art', key: 'themes-misc', roles: ['nonLiving', 'all'], dateUploaded: '02-09-2023' },
     { label: 'Anim Unorganized', child: false, uniqueKey: '', parentKey: 'art', key: 'animate-to-be-oragnized1', roles: ['nonLiving', 'all'], dateUploaded: '02-03-2022' },
     { label: 'Rail', child: false, uniqueKey: '', parentKey: 'art', key: 'trains', roles: ['nonLiving', 'all'], dateUploaded: '02-08-2023' },
