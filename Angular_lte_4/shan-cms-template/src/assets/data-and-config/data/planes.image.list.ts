@@ -28,7 +28,13 @@ export class PlanesImageList {
                     content:'black-white',
                     description: `<ul><li>Hindustan Motors Ambassador Car, an icon of India's roads from the 1960s to early 2000s</li>
                     <li>Shown Mark 3.. Jan 2 2023</li></ul> `,
-                    dateUploaded: '02-02-2023', },
+                    dateUploaded: '02-02-2023', },{ 
+                        fullFileName:   `assets/all-images/ships/AcuraTL06212021.jpeg` ,
+                        description: 'Acura TL June 21 2021',
+                        canvassSize:'A4', content: 'black-white',
+                        dateUploaded: '02-14-2023',
+
+                    },
                 { 
                     fullFileName:   `assets/all-images/planes/migs-011823-scan.jpeg`, 
                     evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,

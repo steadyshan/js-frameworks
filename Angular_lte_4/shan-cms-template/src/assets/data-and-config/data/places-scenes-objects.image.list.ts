@@ -313,6 +313,7 @@ export class PlacesScenesObjectsImageList {
                                     </ul>`, },
                                     // GoldenGateColorPencil-11-2021.jpeg
                    {
+                        canvassSize: 'A4', content: 'color-pencil',
                         fullFileName: `assets/all-images/places-scenes-objects/GoldenGateColorPencil-11-2021.jpeg`, 
                         description: `<ul><li>Favourite of mine and many sketch arstists and painters on the SF waterfront - GOLDEN GATE BRIDGE!!! </li></ul>`,
                         
