@@ -60,7 +60,16 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
                     <li>july 12 2022 </li></ul>`,
                         dateUploaded: '01-31-2023',
                        
-                },{  
+                },
+                { fullFileName: `assets/all-images/religion/dattavatar/GajananMaharajPragatDinFeb132023.jpeg`, 
+                canvassSize: 'A4', content:'black-white',
+                    description: `<ul>
+                            <li>Shree Gajanan Maharaj Pragat Din Feb 13 2023</li>
+                            <li>Theme shows 'Maharaj as a bpy being blessed by His Guru, Swami Samartha who would say 'My Ganapati has come'</li>
+                            </ul>`,
+                dateUploaded: '02-13-2023',
+                duplicate: true,
+            },{  
                     fullFileName: `assets/all-images/religion/swami-samartha/SwamiMauliUploadFeb52023-photo.jpeg`, 
                     canvassSize: 'A4', content:'color-pencil black-white',
                     description: 
