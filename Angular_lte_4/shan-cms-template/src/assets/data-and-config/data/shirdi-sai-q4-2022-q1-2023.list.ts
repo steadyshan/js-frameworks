@@ -18,8 +18,80 @@ public allImageList:ImageElement[]  =  [
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
-           
-           { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiFeb92023.jpeg`,
+           ///Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-final.jpeg
+           { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-processed-scan.jpeg`, 
+             
+            canvassSize:'A4',
+            content: 'color-pencil',
+            description: `<ul>
+            <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
+            <li> color pencil version based on previous March 4 22 sketch</li>
+            <li> scanned and photo edited</li>
+            </ul>`,
+            dateUploaded: '02-16-2023',
+            rating: 1,
+            iterations: [
+                {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-processed-scan.jpeg`, 
+                    
+                    description: `<ul>
+                    <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
+                    <li> color pencil version based on previous March 4 22 sketch</li>
+                    <li> scanned and photo edited</li>
+                    </ul>`,
+                    
+                },{
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-unprocessed-scan.jpeg`, 
+             
+                    description: `<ul>
+                    <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
+                    <li> color pencil version based on previous March 4 22 sketch</li>
+                    <li> scanned, raw</li>
+                    </ul>`,
+            }, {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-photo.jpeg`, 
+             
+                description: `<ul>
+                <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
+                <li> color pencil version based on previous March 4 22 sketch</li>
+                <li> photo</li>
+                </ul>`,
+                }]
+            } ,
+            { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-final.jpeg`, 
+             
+            canvassSize:'A4',
+            content: 'black-white',
+            description: `<ul>
+            <li>Simply .. Baba</li><li> March 3-4 2022</li>
+            <li>Original sketch; color pencil(next) version based on this</li>
+            </ul>`,
+            dateUploaded: '02-16-2023',
+            rating: 1,
+            iterations: [
+                {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-final.jpeg`, 
+                    
+            description: `<ul>
+            <li>Simply .. Baba</li><li> March 3-4 2022</li>
+            <li>Original sketch; color pencil(next) version based on this</li>
+            </ul>`,
+                },{
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-1.jpeg`, 
+               
+            description: `<ul>
+            <li>Simply .. Baba</li><li> March 3-4 2022</li>
+            <li>Original sketch; color pencil(next) version based on this</li>
+            </ul>`,
+            }, {
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-2.jpeg`, 
+                  
+            description: `<ul>
+            <li>Simply .. Baba</li><li> March 3-4 2022</li>
+            <li>Original sketch; color pencil(next) version based on this</li>
+            </ul>`,
+                }]
+            }, { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiFeb92023.jpeg`,
             description: `<ul>
             <li>Baba Dwarkamai Feb 9 2023 - photo copied light the (next) black and white original and then colored it</li>
             </ul>`,
