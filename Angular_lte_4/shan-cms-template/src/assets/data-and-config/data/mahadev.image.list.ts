@@ -69,7 +69,17 @@ export class MahadevImageList {
               <li>Started Q3 2021, finalized March 1 2022</li>
               </ul>`,
         dateUploaded: '03-21-2022',
-           }, 
+           },  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg
+           {  
+             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+             fullFileName: `assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg`,
+             description: 
+             `<ul>
+               <li>Markandeshwar Temple Worli Mumbai </li>
+               <li>Sept 23 2022</li>
+               </ul>`,
+         dateUploaded: '02-16-2023',
+           },
           {  
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
             fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 

@@ -22,6 +22,7 @@ export class MahadevFamilyImageList {
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
                fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
+               canvassSize: 'A3', content:'color-pencil',
                description: 
                   `<ol>
                     <li>Mahadev 'Shravani Somwar' sketch</li>

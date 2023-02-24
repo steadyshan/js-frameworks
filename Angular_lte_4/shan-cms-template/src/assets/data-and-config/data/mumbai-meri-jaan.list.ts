@@ -9,6 +9,7 @@ public allImageList:ImageElement[]  =  [
                   {  
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+                    canvassSize: 'A3', content:'color-pencil',
                     fullFileName: `assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg`, 
                     description: 
                        `<ul>
@@ -19,7 +20,18 @@ public allImageList:ImageElement[]  =  [
                      duplicate:true,    
                    dateUploaded: '08-17-2022',
                  
-                  },  {  
+                  },   {  
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+                    canvassSize: 'A4', content:'black-white',
+                    fullFileName: `assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg`,
+                    description: 
+                    `<ul>
+                      <li>Markandeshwar Temple Worli Mumbai </li>
+                      <li>Sept 23 2022</li>
+                      </ul>`,
+                      duplicate: true ,
+                dateUploaded: '02-16-2023',
+                  }, {  
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
                     fullFileName: `assets/all-images/mumbai-meri-jaan/mumbai-theme2.png`, 
