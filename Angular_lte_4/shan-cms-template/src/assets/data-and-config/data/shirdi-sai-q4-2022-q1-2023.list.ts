@@ -20,9 +20,47 @@ public allImageList:ImageElement[]  =  [
         files: [ 
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-pre-q3-2021/BabaSmilingPhoto-1-0702-2021.jpeg
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaSmilingPhoto-1-0223-2023.jpeg
-
+// /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-photo.jpeg
            ///Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-final.jpeg
-         { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaSmilingPhoto-1-0223-2023.jpeg`, 
+           { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-scan.jpeg`, 
+           evolutionDate: '03-02-2023',
+            evolution: 'Amongst first attempt to draw roses correctly - realzing that the petals are arranged as spiral',
+           canvassSize:'A4',
+           content: 'color-pencil',
+           description: `<ul>
+           <ul>
+           <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - scan version</li>
+           <li>March 2 2023 </li>
+           </ul>`
+           ,
+           dateUploaded: '03-02-2023',
+           iterations: [
+               {
+                   fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-scan.jpeg`, 
+            
+                   canvassSize:'A4',
+                   content: 'color-pencil',
+                   description: `<ul>
+           <ul>
+           <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - scan version</li>
+           <li>March 2 2023 </li>
+           </ul>`
+                   ,
+                   
+               },{   fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-photo.jpeg`, 
+            
+               canvassSize:'A4',
+               content: 'color-pencil',
+               description: `<ul>
+       <ul>
+       <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - photo version</li>
+       <li>March 2 2023 </li>
+       </ul>`
+               ,
+               
+           
+               }]
+           } ,{ fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaSmilingPhoto-1-0223-2023.jpeg`, 
              
             canvassSize:'A4',
             content: 'color-pencil',

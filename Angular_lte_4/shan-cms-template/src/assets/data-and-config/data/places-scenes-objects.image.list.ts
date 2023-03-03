@@ -48,7 +48,37 @@ export class PlacesScenesObjectsImageList {
                     <li>Nov 2020</li>
                     </ul>`,}],
 
-                        }
+                        },
+                        { 
+                              evolution: `A real real challenge to draw - the complexities of the beams and trusses, in 3D - I found A3 insufficient, so added an A4 in portrait
+                                          to handle the 'spill-over' - left section.. A first of sorts 1.2 * A3 canvass`,
+                              evolutionDate: '03-02-2023',
+                              canvassSize: 'A3', content:'color-pencil black-white',
+                             fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
+                              description: `<ul>
+                             <li>Horwah Bridge</li>
+                             <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
+                             <li>Initial bare bones skectch having gotten the external facing beams and trusses network (sort of) right... </li>
+                             <li>I realized that to make the complex network of trusses clear, even an A3 lengthwise was insufficient</li>
+                             <li>So I kept the sketch to partial, 'leaving out' the left post pillar section</li>
+                             <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
+                             <li>March 3 2023</li>
+                             </ul>`,
+                             dateUploaded: '03-02-2023',
+                             rating: 1,
+                             iterations:[
+                              {  fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
+                              description: `<ul>
+                             <li>Horwah Bridge</li>
+                             <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
+                             <li>Initial bare bones skectch having gotten the external facing beams and trusses network (sort of) right... </li>
+                             <li>I realized that to make the complex network of trusses clear, even an A3 lengthwise was insufficient</li>
+                             <li>So I kept the sketch to partial, 'leaving out' the left post pillar section</li>
+                             <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
+                             <li>March 3 2023</li>
+                             </ul>`,}],
+      
+                              }
                  , { 
                   description: `<ul>
                   <li>Taj at night, oct 19 2021</li></ul>`,
