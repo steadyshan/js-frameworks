@@ -37,7 +37,7 @@ public allImageList:ImageElement[]  =  [
                     </ul>`}],
         },{   fullFileName:'assets/all-images/trains/alco/kundan1964wdm2.jpeg', 
             evolution: `- <b> A landmark, iconic engine - start of an era of phasing out steam power in IR </b><br/>`,
-            evolutionDate: `11-09-222`,
+            evolutionSequence: 2, evolutionDate: `11-09-222`,
             description: `<ul >
         <li><strong>Kundan</strong> </li>
         <li>The first Alco/WDM2 to be manufactured in India</li>
@@ -111,7 +111,7 @@ description: `<ul >
 dateUploaded: '11-17-2022',
 },  {   fullFileName:'assets/all-images/trains/alco/kalyanwdm2.jpeg', 
 evolution: `- <b> First of the WDM2 series I started.. I used this as a template to draw the others</b><br/>`,
-evolutionDate: `10-27-222`,
+evolutionSequence: 2, evolutionDate: `10-27-222`,
 description: `<ul >
 <li><strong>Kalyan loco shed</strong> </li>
 <li>Oct 27 2022</li>

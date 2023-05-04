@@ -35,7 +35,7 @@ export class PeopleImageList {
         canvassSize: 'soft', content:'poem black-white',  dateUploaded: '02-02-2023',
           evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
                      <b>a 'first submittal' to a competition</b><br/>`,
-          evolutionDate: '05-15-2022',
+          evolutionSequence: 2, evolutionDate: '05-15-2022',
           rating: 1,
   },{
          fullFileName: `assets/all-images/people-places/ShivjayantiTithiMarch2122.jpeg`, 
@@ -53,7 +53,7 @@ export class PeopleImageList {
          fullFileName: `assets/all-images/people-places/GreatPersonsRaje locked version 09292020.jpeg`, 
          description: `<p>My first 'non religious' person sketch.. Choice was obvious, wasnt it? </p>`,
          evolution: '<b>Description below says it all..</b><br/>',
-         evolutionDate: '09-29-2020',
+         evolutionSequence: 1, evolutionDate: '09-29-2020',
          dateUploaded: '01-28-2022',
          
       },
@@ -89,7 +89,7 @@ export class PeopleImageList {
          rating: 1,
          evolution: `<b>Lata being LATA - this is special and close to my heart as billions of people<br/>
                         Also, a unique format where I chose to place the next version(s) under Shree Ganesh theme</b> `,
-         evolutionDate: '02-08-2022',
+         evolutionSequence: 2, evolutionDate: '02-08-2022',
          },
       {
          fullFileName: `assets/all-images/people-places/PtBhimsenJoshi04022022_100th.jpeg`, 

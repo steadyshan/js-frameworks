@@ -28,7 +28,7 @@ public allImageList:ImageElement[]  =  [
                     <br/>Republic Day was around the corner so added the ships and army vehicles… 
                     in an earlier Google search I had seen the ‘largest flag’ event image and ‘presto’!!!<br/>
                     I had my composition</p>`,
-                    evolutionDate: `01-28-2023`,
+                    evolutionSequence: 3, evolutionDate: `01-28-2023`,
                     canvassSize: 'A3', content:'color-pencil',
                    description: `<ul>
                   <li>Republic Day special <br/>
@@ -69,7 +69,7 @@ public allImageList:ImageElement[]  =  [
                          rating: 1,
                    
                    evolution: `<ul><li> Covers all genres of my sketches - transport, landmarks, deities, etc </li></ul>`,
-            evolutionDate: '01-01-2023',
+            evolutionSequence: 3, evolutionDate: '01-01-2023',
             canvassSize: 'A3', content:'color-pencil',
             description: `<ul>
             <li>HAPPY NEW YEAR 2023</li>

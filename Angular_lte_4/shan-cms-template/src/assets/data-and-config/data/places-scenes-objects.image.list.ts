@@ -12,7 +12,7 @@ export class PlacesScenesObjectsImageList {
                 files: [ 
                   { 
                         evolution: `Taj is iconic - a symbol of India`,
-                        evolutionDate: '11-23-2020',
+                        evolutionSequence: 1, evolutionDate: '11-23-2020',
                        canvassSize: 'A3', content:'black-white',
                        fullFileName: `assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg`, 
                         description: `<ul>
@@ -52,7 +52,7 @@ export class PlacesScenesObjectsImageList {
                         { 
                               evolution: `A real real challenge to draw - the complexities of the beams and trusses, in 3D - I found A3 insufficient, so added an A4 in portrait
                                           to handle the 'spill-over' - left section.. A first of sorts 1.2 * A3 canvass`,
-                              evolutionDate: '03-02-2023',
+                              evolutionSequence: 3, evolutionDate: '03-02-2023',
                               canvassSize: 'A3', content:'color-pencil black-white',
                              fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
                               description: `<ul>
@@ -93,7 +93,7 @@ export class PlacesScenesObjectsImageList {
                  */
                  { 
                   evolution: 'First non religious and 2nd sketch using 11x17 A3 sheet. The description below says it all',
-                  evolutionDate: '08-31-2022',
+                  evolutionSequence: 1, evolutionDate: '08-31-2022',
                  canvassSize: 'A3', content:'color-pencil',
                  fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-5.jpeg`, 
                   description: `<ul>
@@ -169,7 +169,7 @@ export class PlacesScenesObjectsImageList {
                  dateUploaded: '02-09-2023'
              },  {
                   evolution: 'Probably 1st sketch of the Golden Gate Bridge',
-                  evolutionDate: '11-19-2029'
+                  evolutionSequence: 1, evolutionDate: '11-19-2020'
                   ,fullFileName: `assets/all-images/places-scenes-objects/GoldenGateNimitz_Nov19_2020.jpeg`,
                   description: `<ul>
                   <li>Earlier sketch of GG Showing Nimitz</li>

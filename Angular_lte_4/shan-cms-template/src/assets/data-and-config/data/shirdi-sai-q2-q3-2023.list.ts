@@ -8,12 +8,12 @@ enum PicsIndex  {
     DeviMaaMay13182021,
     MixGenPlaneSept2020,
 };
-export class ShirdiSaiQ42022Q12023ImageList {
+export class ShirdiSaiQ2Q32023ImageList {
 
 public allImageList:ImageElement[]  =  [
    { 
-        folder:'shirdi-sai-q4-2022-q1-2023',
-        theme:'Shirdi Sai Sketches Q4 2022 + Q1 2023, some of Q3 2022',
+        folder:'shirdi-sai-q2-q3-2023',
+        theme:'Shirdi Sai Sketches Q2 Q3 2023',
         themeSummary: 
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
@@ -22,45 +22,17 @@ public allImageList:ImageElement[]  =  [
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaSmilingPhoto-1-0223-2023.jpeg
 // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-photo.jpeg
            ///Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiMarch42022-final.jpeg
-           { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-scan.jpeg`, 
-           evolutionDate: '03-02-2023',
-            evolution: 'Amongst first attempt to draw roses correctly - realzing that the petals are arranged as spiral',
-            evolutionSequence:3, 
-            canvassSize:'A4',
-           content: 'color-pencil',
+           { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/BabaApril202023.jpeg`, 
+           canvassSize:'A4',
+           content: 'black-white',
            description: `<ul>
            <ul>
-           <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - scan version</li>
-           <li>March 2 2023 </li>
+           <li>Smiling Baba  - PROFILE</li>
+           <li>APRIL 20 2023 </li>
            </ul>`
            ,
-           dateUploaded: '03-02-2023',
-           iterations: [
-               {
-                   fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-scan.jpeg`, 
-            
-                   canvassSize:'A4',
-                   content: 'color-pencil',
-                   description: `<ul>
-           <ul>
-           <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - scan version</li>
-           <li>March 2 2023 </li>
-           </ul>`
-                   ,
-                   
-               },{   fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/Baba-roses-march2-2023-photo.jpeg`, 
-            
-               canvassSize:'A4',
-               content: 'color-pencil',
-               description: `<ul>
-       <ul>
-       <li>Smiling Baba  - circled with 21 roses and bel leaves on the head (Shankarji's favorite) - photo version</li>
-       <li>March 2 2023 </li>
-       </ul>`
-               ,
-               
-           
-               }]
+           dateUploaded: '05-04-2023',
+        
            } ,{ fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaSmilingPhoto-1-0223-2023.jpeg`, 
              
             canvassSize:'A4',
@@ -117,7 +89,8 @@ public allImageList:ImageElement[]  =  [
              
             canvassSize:'A4',
             content: 'black-white',
-           },  { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-processed-scan.jpeg`, 
+           },  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2023/BabaSamadhiMurthiApril272023-1.jpeg
+           { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/BabaSamadhiMurthiApril272023-2.jpeg`, 
              
             canvassSize:'A4',
             content: 'color-pencil',
@@ -126,11 +99,11 @@ public allImageList:ImageElement[]  =  [
             <li> color pencil version based on previous March 4 22 sketch</li>
             <li> scanned and photo edited</li>
             </ul>`,
-            dateUploaded: '02-16-2023',
+            dateUploaded: '05-04-2023',
             rating: 1,
             iterations: [
                 {
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-processed-scan.jpeg`, 
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/BabaSamadhiMurthiApril272023-2.jpeg`, 
                     
                     description: `<ul>
                     <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
@@ -139,7 +112,7 @@ public allImageList:ImageElement[]  =  [
                     </ul>`,
                     
                 },{
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiFeb162023-unprocessed-scan.jpeg`, 
+                    fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/BabaSamadhiMurthiApril272023-2.jpeg`, 
              
                     description: `<ul>
                     <li>Simply .. Baba</li><li> Feb 15-16 2023</li>
@@ -219,58 +192,7 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '02-07-2023',
             duplicate:true,
          
-         },
-         // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/SaiDwarkamaiSepty152022.jpeg
-         { fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
-         description: `<ul>
-         <li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
-         </ul>`,
-
-         dateUploaded: '02-02-2023',
-          
-         canvassSize:'A4',
-         content: 'color-pencil',
-         iterations: [
-             {
-                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-3.jpeg`, 
-                 description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
-         
-                 </ul>`
-             },{
-                 fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-2.jpeg`, 
-             description: `<ul><li>Baba Feb 2 2023 - photo copied light the previous black and white original and then colored it</li>
-         
-             </ul>`,
-         }]
-         },  {
-                fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-Sai-Veena-Saraswati-pooja-012623.jpeg`, 
-                description: `<ul>
-                <li>SHree Ganesh with Baba theme (als completed) on Jan 26 2023 Saraswati Pooja - (Baba with Veena)</li>
-                <li>scanned</li></ul>`,
-                dateUploaded: '01-29-2023',
-                duplicate:true,
-                
-             },{ fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaFeb2-2023-1.jpeg`, 
-            description: `<ul>
-            <li>Baba Feb 2 2023 - photo copied light a previous black and white and then colored it</li>
-            
-            </ul>`,
-            dateUploaded: '02-02-2023',
-            rating: 1,
-             
-            canvassSize:'A4',
-            content: 'color-pencil',
-            iterations: [
-                {
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaChristmas120222-final.jpeg`, 
-                    description: `<ul><li>Baba Christmas theme Dec 22 2022</li>
-                    </ul>`
-                },{
-                    fullFileName: `assets/all-images/religion/shirdi-sai-q4-2022-q1-2023/BabaChristmas120222-1.jpeg`, 
-                description: `<ul><li>Baba Christmas theme Dec 22 2022</li>
-                </ul>`,
-            }]
-            }
+         }
               ]
        }
  

@@ -17,7 +17,36 @@ export class MahadevFamilyImageList {
          themeSummary:
          ``,
          files: [ 
-            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev-family/MahadevKashivishwesharShravanSomwar11x17.jpg'
+            {  
+               // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
+               // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
+               fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-May4-2023-1.jpeg`, 
+               canvassSize: 'A3', content:'color-pencil',
+               description: 
+                  `<ul>
+                     <li>It had been in my mind to sketch the Full Shiva-Parvati family as famously depicted - the addition of Karthikeya</li>
+                     <li>To the left of Karthikeya, intended sketching Narsimha - Laxmi - (the 1st publish date 05-04-2023 was Narasimha Jayanti</li>
+                     <li>But this wasnt ready in time</li>
+                     <li>Technically A3, but the captured part shown here is 3/4 the length of the canvass</li>
+                     <li>(Will add to the '..narayan group once that is ready)</li>
+                  </ul> `,
+                  evolution: `<b>Technically the reason of publishing a part sketch is trivial. But the content of Mahadev full family color on A3 wannabe is special</b>`,
+                  evolutionSequence: 3, evolutionDate: `05-04-2023`,
+                  rating: 1,
+                  iterations:[
+                     {
+                       fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-May4-2023-1.jpeg`, 
+                       description:   `<ul>
+                       <li>It had been in my mind to sketch the Full Shiva-Parvati family as famously depicted - the addition of Karthikeya</li>
+                       <li>To the left of Karthikeya, intended sketching Narsimha - Laxmi - (the 1st publish date 05-04-2023 was Narasimha Jayanti</li>
+                       <li>But this wasnt ready in time</li>
+                       <li>Technically A3, but the captured part shown here is 3/4 the length of the canvass</li>
+                       <li>(Will add to the '..narayan group once that is ready)</li>
+                    </ul> `}
+                     ],
+                  
+            dateUploaded: '05-04-2023',
+            },
             {  
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
@@ -37,7 +66,7 @@ export class MahadevFamilyImageList {
                     </br>first with numbered description</b><br/>`,
                     evolution: `<b>First sketch on 11x17 (A3 paper), </br>first 'God' sketch photo-printed to frame and hoist
                     </br>first with numbered description</b>`,
-                    evolutionDate: `08-17-2022`,
+                    evolutionSequence: 2, evolutionDate: `08-17-2022`,
                     rating: 1,
                     
               dateUploaded: '08-17-2022',
@@ -75,13 +104,13 @@ export class MahadevFamilyImageList {
              },
          {  fullFileName: `assets/all-images/religion/mahadev-family/AumGaShivParKashiVishwCTLightNov172020Final.jpeg`, 
          evolution: `<b>Sketch of a sculpture which has always drawn, intrigued and fascinated me... <br/></b>`,
-         evolutionDate: `11-17-2020`,
+         evolutionSequence: 1, evolutionDate: `11-17-2020`,
                 description: 
          `Attempt to sketch <em>based on</em> the sculpture overlooking the main shivling room Kashi Vishweshwar Temple Citilight, Mumbai
          <br/>Nov 17 2020`},
          {  
             evolution: `<b>A first in sketching action figures, and in dance poses, with the best possible subjects :) <br/></b>`,
-            evolutionDate: `02-14-2021`,
+            evolutionSequence: 1, evolutionDate: `02-14-2021`,
             fullFileName: `assets/all-images/religion/mahadev-family/MahadevParvatiDanceFeb142021.jpeg`, 
             description: `<ul>
                                      <li>The first of sketches of a favorite theme of mine dancing Mahadev and consort (Sati/ Parvati)</li>

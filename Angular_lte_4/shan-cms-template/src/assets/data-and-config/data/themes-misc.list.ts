@@ -16,7 +16,7 @@ public allImageList:ImageElement[]  =  [
                     canvassSize: 'A4', content:'black-white',
                 evolution:
                 `<p>Unthought, unplanned genre</p>`,
-                  evolutionDate: `01-31-2023`,
+                  evolutionSequence: 3, evolutionDate: `01-31-2023`,
                   
                  description: `<ul>
                 <li>Our office had a competition to share photos of your favorite board game, so I sketched this!!!</li>
@@ -33,7 +33,7 @@ public allImageList:ImageElement[]  =  [
                     <br/>Republic Day was around the corner so added the ships and army vehicles… 
                     in an earlier Google search I had seen the ‘largest flag’ event image and ‘presto’!!!<br/>
                     I had my composition</p>`,
-                    evolutionDate: `01-28-2023`,
+                    evolutionSequence: 3, evolutionDate: `01-28-2023`,
                     duplicate:true,
                    description: `<ul>
                   <li>Republic Day special <br/>
@@ -127,7 +127,7 @@ CURRENT Mirage 2000, Mig29 Tejas, Rafalle , Su 30
                     evolution: `<b>Unique event of Ganesh Jayanti, Pt Ji' <em>100th</em> birth anniversary</b><br/>
                     <em>(Even more interesting is that Feb 5 - next day is Maa Saraswati Pooja)</em><br/>......<br/>
                     `,
-                    evolutionDate: '04-02-2022',
+                    evolutionSequence: 2, evolutionDate: '04-02-2022',
                     duplicate: true,
                  },
                  {  fullFileName: 'assets/all-images/themes-misc/Golden-Gate-cal-2022.png', 

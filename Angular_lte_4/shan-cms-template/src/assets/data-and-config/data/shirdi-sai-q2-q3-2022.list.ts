@@ -67,7 +67,7 @@ public allImageList:ImageElement[]  =  [
             <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>
             </ul>`,
             evolution: `<b>My first 'Baba unplugged' face sketch in color<br/>`,
-                evolutionDate: `07-20-2022`,
+                evolutionSequence: 2, evolutionDate: `07-20-2022`,
                 rating: 1,
                 dateUploaded: '09-08-2022'},
                 { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2022/BabaUnpluggedColor0719222022-4-stretch.jpeg`, 
@@ -77,7 +77,7 @@ public allImageList:ImageElement[]  =  [
             <li>Baba is an incarnation of Shree Dattatreya who is the Parabrahma; the trinity of Brahma, Vishnu and Shiva </li> June 16 2022</li>
             </ul>`,
             evolution: `<b>My first 'Baba unplugged' full figure (His well known 'sitting on stone' pose) sketch in color<br/>`,
-                evolutionDate: `07-20-2022`,
+                evolutionSequence: 2, evolutionDate: `07-20-2022`,
                 rating: 1,
                 dateUploaded: '07-22-2022',
             iterations: [

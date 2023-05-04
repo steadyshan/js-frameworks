@@ -55,7 +55,7 @@ public allImageList:ImageElement[]  =  [
                    dateUploaded: '02-05-2023'},
                 {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarayanRarePicFeb232021.jpeg`, 
                 evolution: `<b>Sketch on recommendation, and drawn with lot of care, with the shading set gifted by my wife on my birthday 1227</b>`,
-                evolutionDate: `03-23-2021`,
+                evolutionSequence: 1, evolutionDate: `03-23-2021`,
                 rating: 1,
                  description: `<ul>
                                     <li>Vinu, a friend from college gave me the original to sketch from, Rare pic of Laxmi Narayan</li>
@@ -71,7 +71,7 @@ public allImageList:ImageElement[]  =  [
                                                     </ul>`,
                         evolution: `<b>A 'use case' of glass trace and what I can relate to in software jargon - polymorphism<br/>
                                     - Glass traced from the (earlier here), Laxmi Narayan sketch - down sized, then modifying, adding the serpent, etc</b><br/>`,
-                        evolutionDate: `06-02-2021`,
+                        evolutionSequence: 1, evolutionDate: `06-02-2021`,
                         rating: 1,
                                                     iterations:[
                           {  fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/LaxmiNarsimhaJayanti526_fn_6022021.jpeg`, 

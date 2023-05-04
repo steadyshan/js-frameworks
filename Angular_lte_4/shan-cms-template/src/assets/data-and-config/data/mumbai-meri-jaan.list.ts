@@ -62,7 +62,7 @@ public allImageList:ImageElement[]  =  [
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                     // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
                     evolution: 'First non religious black and white sketch using 11x17 A3 sheet. The description below says it all',
-                    evolutionDate: '08-31-2022',
+                    evolutionSequence: 2, evolutionDate: '08-31-2022',
                     canvassSize: 'A3', content:'black-white',
                     fullFileName: `assets/all-images/mumbai-meri-jaan/marine-drive.jpeg`, 
                     description: 
@@ -119,7 +119,7 @@ public allImageList:ImageElement[]  =  [
                     evolution: `
                     The FIRST black and white sketch that I framed... this is an 11x14
                     `,
-                    evolutionDate: `11-26-2020`,
+                    evolutionSequence: 1, evolutionDate: `11-26-2020`,
                     footNote: '* Click to see each sub sketch of the collage',
                     description: `<ul>
                     <li>Photo print 11x14 of the previous and framed</li>

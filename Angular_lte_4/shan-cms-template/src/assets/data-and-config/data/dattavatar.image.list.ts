@@ -174,7 +174,7 @@ public allImageList:ImageElement[]  =  [
         fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoready-8x10-proto1.png`, 
         evolution: `<b> The first of my sketches to be viewed at a physical public place<br/>
                     What better settings than a Swami Samartha event in a temple!!?</b><br/>`,
-        evolutionDate: `11-13-222`,
+        evolutionSequence: 2, evolutionDate: `11-13-222`,
      
         description: 
         `<ul>

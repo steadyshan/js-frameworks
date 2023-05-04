@@ -75,7 +75,7 @@ public allImageList:ImageElement[]  =  [
             <li>Sketched and uploaded June 17 2022 ('Juneteenth')</li>
             </ul>`,
                            evolution: '<b>Description below says it all..</b><br/>',
-                           evolutionDate: '06-17-2022',
+                           evolutionSequence: 2, evolutionDate: '06-17-2022',
                            dateUploaded: '06-17-2022', iterations:[
                { 
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshJune172022_chaturthi.jpeg`, 
@@ -110,7 +110,7 @@ public allImageList:ImageElement[]  =  [
          dateUploaded: '02-01-2023',
           evolution: `<b>Combo of two forms of art, self created art of two forms</b><br/>
                      <b>a 'first submittal' to a competition</b><br/>`,
-          evolutionDate: '05-15-2022',
+          evolutionSequence: 2, evolutionDate: '05-15-2022',
           rating: 1,
         
          },
@@ -122,7 +122,7 @@ public allImageList:ImageElement[]  =  [
                               <li>Also a dedication to a very sad event - the passing of Lata Mangeshkar</li>
                            </ul>`,
                            evolution: '<b>Description below says it all..</b><br/>',
-                           evolutionDate: '02-06-2022',
+                           evolutionSequence: 2, evolutionDate: '02-06-2022',
                            dateUploaded: '02-06-2022', iterations:[
                { 
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshFeb52022SaraswatiPooja1.jpeg`, 
@@ -141,7 +141,7 @@ public allImageList:ImageElement[]  =  [
             rating: 1,
             canvassSize: 'A4', content:'color-crayon',
             evolution: `<b>a unique format where the original was without Shree Ganesh sketch and I chose to place that version under 'people' theme</b> `,
-            evolutionDate: '02-08-2022', iterations:[
+            evolutionSequence: 2, evolutionDate: '02-08-2022', iterations:[
                { 
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q4-2021/GaneshLataFeb7-8-2022.jpeg`, 
                   description: `<ul>

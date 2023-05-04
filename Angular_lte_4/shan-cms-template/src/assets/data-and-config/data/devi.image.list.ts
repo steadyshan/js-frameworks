@@ -15,7 +15,8 @@ public allImageList:ImageElement[]  =  [
         fullFileName: 
           `assets/all-images/religion/devi/EkviraAai-Q12021-1.jpg`, 
           evolution: `- <b> Most likely  First Devi sketch, and what was more appropriate than the Kuldaivat</b><br/>`,
-                evolutionDate: `12-27-2020`,
+          evolutionDate: `12-27-2020`,
+          evolutionSequence: 1, 
           description: `<ul><li>Our Family 'Kuldaivat' - Shree Ekvira Aai</li>
           <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across end 2020-start 2021</li></ul> `,
          },
@@ -30,7 +31,7 @@ public allImageList:ImageElement[]  =  [
             fullFileName: 
               `assets/all-images/religion/devi/EkviraAai08262022.jpeg`, 
               evolution: `- <b> Ekvira Aaai sketch,in color - been wanting to to Maa for a long time</b><br/>`,
-                    evolutionDate: `08-26-2022`,
+                    evolutionSequence: 2, evolutionDate: `08-26-2022`,
               description: `<ul><li>Our Family 'Kuldaivat' - Shree Ekvira Aai</li>
               <li>Temple at Karle Caves, Lonavla, Mumbai Pune. Sketched across Shravan 2022 - color</li></ul> ` ,
               rating: 1,
@@ -47,7 +48,7 @@ public allImageList:ImageElement[]  =  [
                 fullFileName: 
                   `assets/all-images/religion/devi/KolhapuriAmbabbai12-23-2022.jpeg`,
                   evolution: `- <b> Mahalaxmi of Kohlapur - Ambabai is a much worshipped deity </b><br/>`,
-                  evolutionDate: `12-23-2022`,
+                  evolutionSequence: 2, evolutionDate: `12-23-2022`,
             description: `<ul><li>Mahalaxmi Devi - Ambabai = of Kohlapur.</li></ul> ` ,
             rating: 1,
             dateUploaded: '01-25-2023',
@@ -60,7 +61,7 @@ public allImageList:ImageElement[]  =  [
         `assets/all-images/religion/devi/navratri-2020/NavDurgaNavratri2020.png`, 
 
         evolution: `- <b> Navratri collage</b><br/>`,
-                evolutionDate: `10-09-2020`,
+                evolutionSequence: 2, evolutionDate: `10-09-2020`,
           description: `<ul><li>An 'unplanned' sketch:</li>
         <li>One of my fellow devotees at Shirdi Sai Temple and I keep jesting, joking pulling each others leg.</li>
         <li>She posted the photo, on which this is based, I think, 1st Thursday of May 2021. I took a week and this was ready May 13th.</li>
@@ -98,7 +99,7 @@ public allImageList:ImageElement[]  =  [
             `assets/all-images/religion/devi/DeviMaaMay13-18-2021.jpeg`, 
 
         evolution: `- <b> First Devi full body sketch, first tiger sketch</b><br/>`,
-        evolutionDate: `05-13-2021`,
+        evolutionSequence: 1, evolutionDate: `05-13-2021`,
         dateUploaded: '05-13-2021',
         rating: 1,
             description: `<ul><li>An 'unplanned' sketch:</li>

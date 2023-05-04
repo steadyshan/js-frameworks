@@ -118,7 +118,7 @@ export class MahadevImageList {
                     </ul>`,
 
                 evolution: `<b>trying to get shading effect. Also one of, if not, the first 'pose and fingers splayed', full body sketch, Dec 27 2020</b>`,
-                evolutionDate: `12-27-2020`,
+                evolutionSequence: 1, evolutionDate: `12-27-2020`,
                 rating: 1,
                 iterations:[
                   {
@@ -193,7 +193,7 @@ export class MahadevImageList {
          dateUploaded: '02-01-2023',
          rating: 1,
          evolution: 'A first in landscape and a religious theme at that',
-         evolutionDate: `07-22-2022`,
+         evolutionSequence: 2, evolutionDate: `07-22-2022`,
 
          iterations:[
           {

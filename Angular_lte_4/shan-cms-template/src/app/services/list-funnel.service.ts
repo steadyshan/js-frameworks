@@ -17,6 +17,7 @@ import { ShirdiSaiPreQ32021ImageList} from '../../assets/data-and-config/data/sh
 import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q3-q4-2021.list';
 import { ShirdiSaiQ2Q32022ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-q3-2022.list';
 import { ShirdiSaiQ42022Q12023ImageList} from '../../assets/data-and-config/data/shirdi-sai-q4-2022-q1-2023.list';
+import { ShirdiSaiQ2Q32023ImageList} from '../../assets/data-and-config/data/shirdi-sai-q2-q3-2023.list';
 import { ShirdiSaiThemeList1} from '../../assets/data-and-config/data/baba-theme.images-list';
 
 import { TrainImageList } from '../../assets/data-and-config/data/trains.list';
@@ -92,6 +93,9 @@ export class ListFunnelService {
     return returnHTML ;
   }
   public techStatsSpan(fileDetail:any):string {
+    if (!fileDetail || !fileDetail.canvassSize) {
+      return `<p>..</p>`;
+    }
     let returnHTML = '';
     if ((fileDetail.canvassSize && fileDetail.canvassSize.trim() !== '') || 
         (fileDetail.content && fileDetail.content.trim() !== '')){
@@ -150,6 +154,8 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32022ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ42022Q12023ImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32023ImageList(), sketchStats.canvassSize,sketchStats.content));
+    
     sketchStats.themBasedCounts.push(this.getThemeCounts((new ShirdiSaiThemeList1()), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PeopleImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new TrainImageList(), sketchStats.canvassSize,sketchStats.content));
@@ -181,6 +187,7 @@ export class ListFunnelService {
     functionProto(new ShirdiSaiQ3Q42021ImageList()) ;
     functionProto(new ShirdiSaiQ2Q32022ImageList()) ;
     functionProto(new ShirdiSaiQ42022Q12023ImageList()) ;
+    functionProto(new ShirdiSaiQ2Q32023ImageList()) ;
     functionProto(new ShirdiSaiThemeList1()) ;
     functionProto(new PeopleImageList()) ;
     functionProto(new TrainImageList()) ;
@@ -207,7 +214,8 @@ export class ListFunnelService {
     imageList.push(new ShirdiSaiPreQ32021ImageList()) ;
     imageList.push(new ShirdiSaiQ3Q42021ImageList()) ;
     imageList.push(new ShirdiSaiQ2Q32022ImageList()) ;
-    ShirdiSaiQ42022Q12023ImageList
+    imageList.push(new ShirdiSaiQ42022Q12023ImageList()) ;
+    imageList.push(new ShirdiSaiQ2Q32023ImageList()) ;
     imageList.push(new ShirdiSaiThemeList1()) ;
     imageList.push(new PeopleImageList()) ;
     imageList.push(new TrainImageList()) ;
@@ -357,32 +365,70 @@ export class ListFunnelService {
               files: [],
             }
         ]} ;
-        const milestoneImageLists:any = [];
+        let milestoneImageLists:any = [];
         this.loadLists(milestoneImageLists) ;
         milestoneImageLists.forEach((milestoneImageList:any) => {
-          this.getMilestoneSketches(milestoneImageList);
+          this.getMilestoneSketches(milestoneImageList,1);
         })
-        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
         
-        this.getMilestoneSketches(new GaneshImageList()) ;
-        this.getMilestoneSketches(new GaneshGTEQ42021ImageList()) ;
-        this.getMilestoneSketches(new MahadevImageList()) ;
-        this.getMilestoneSketches(new PlanesImageList()) ;
-        this.getMilestoneSketches(new DeviImageList()) ;
-        this.getMilestoneSketches(new MahadevFamilyImageList()) ;
-        this.getMilestoneSketches(new LaxmiVishnuHanumanList()) ;
-        this.getMilestoneSketches(new DattavatarImageList()) ;
-        this.getMilestoneSketches(new SwamiSamarthaImageList()) ;
-        this.getMilestoneSketches(new ShirdiSaiPreQ32021ImageList()) ;
-        this.getMilestoneSketches(new ShirdiSaiQ3Q42021ImageList()) ;
-        this.getMilestoneSketches(new ShirdiSaiQ2Q32022ImageList()) ;
-        this.getMilestoneSketches(new ShirdiSaiThemeList1()) ;
-        this.getMilestoneSketches(new PeopleImageList()) ;
-        this.getMilestoneSketches(new TrainImageList()) ;
-        this.getMilestoneSketches(new MumbaiMeriJaanList());
-        this.getMilestoneSketches(new PlacesScenesObjectsImageList()) ;
-        this.getMilestoneSketches(new ThemesMisc());
-      */
+      this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+        const aDate = new Date(a.evolutionDate).getTime();
+        const bDate = new Date(b.evolutionDate).getTime();
+        let c = aDate  -  bDate ; // aDate - bDate ;
+        return  c ;
+      });
+     /* this.genImageList = new GeneralImageList();
+                         this.allImageList = this.genImageList.allImageList ;*/   
+      break;
+      case 'starters-x2': 
+      /* This page attempts to capture points 
+      in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
+      when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
+      this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'INTRODUCTION: Milestones in a Journey',
+              themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches, or maybe a special reason. 
+                              <i><u>These may not be my best efforts</u></i> but are a new element or entity that was introduced in these drawings.`,
+              files: [],
+            }
+        ]} ;
+        let milestoneImageLists2:any = [];
+        this.loadLists(milestoneImageLists2) ;
+        milestoneImageLists2.forEach((milestoneImageList:any) => {
+          this.getMilestoneSketches(milestoneImageList,2);
+        })
+        
+      this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+        const aDate = new Date(a.evolutionDate).getTime();
+        const bDate = new Date(b.evolutionDate).getTime();
+        let c = aDate  -  bDate ; // aDate - bDate ;
+        return  c ;
+      });
+     /* this.genImageList = new GeneralImageList();
+                         this.allImageList = this.genImageList.allImageList ;*/   
+      break;
+      case 'starters-x3': 
+      /* This page attempts to capture points 
+      in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
+      when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
+      this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'INTRODUCTION: Milestones in a Journey',
+              themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches, or maybe a special reason. 
+                              <i><u>These may not be my best efforts</u></i> but are a new element or entity that was introduced in these drawings.`,
+              files: [],
+            }
+        ]} ;
+        let milestoneImageLists3:any = [];
+        this.loadLists(milestoneImageLists3) ;
+        milestoneImageLists3.forEach((milestoneImageList:any) => {
+          this.getMilestoneSketches(milestoneImageList,3);
+        })
+     
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
         const aDate = new Date(a.evolutionDate).getTime();
         const bDate = new Date(b.evolutionDate).getTime();
@@ -448,6 +494,9 @@ export class ListFunnelService {
                           this.allImageList = this.genImageList.allImageList ;
                           break;
       case 'shirdi-sai-q4-2022-q1-2023': this.genImageList = new ShirdiSaiQ42022Q12023ImageList() ;
+                          this.allImageList = this.genImageList.allImageList ;
+                          break;
+      case 'shirdi-sai-q2-q3-2023': this.genImageList = new ShirdiSaiQ2Q32023ImageList() ;
                           this.allImageList = this.genImageList.allImageList ;
                           break;
       case 'baba-themes-1': this.genImageList = new ShirdiSaiThemeList1();
@@ -524,7 +573,7 @@ export class ListFunnelService {
      //   return latestUploadList ;
   }
   // 4. Load landmark sketches - not neccessarily the top sketches but a 'milestone' in my progress
-  getMilestoneSketches(currentList:any)  {
+  getMilestoneSketches(currentList:any, sequence=0)  {
     /*
     evolution: `<ul><li><b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.</li>
                                 <li>(as will be repeated later)My first color pencil sketch and, also duplicated with black and white sketch using 'glass trace'</li>`,
@@ -534,16 +583,18 @@ export class ListFunnelService {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
         // get evolution text
         if (fileItem.evolution ) {
-          if (fileItem.iterations && fileItem.iterations.length > 0) {
-            fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
-          } else {
-            fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
-           
+          if (fileItem.evolutionSequence && fileItem.evolutionSequence === sequence){
+              if (fileItem.iterations && fileItem.iterations.length > 0) {
+                fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
+              } else {
+                fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
+              
+              }
+              if(!fileItem.dateUploaded) {
+                fileItem.dateUploaded = fileItem.evolutionDate;
+              }
+              this.genImageList.allImageList[0].files.push(fileItem);
           }
-          if(!fileItem.dateUploaded) {
-            fileItem.dateUploaded = fileItem.evolutionDate;
-          }
-          this.genImageList.allImageList[0].files.push(fileItem);
         }
       });
     }

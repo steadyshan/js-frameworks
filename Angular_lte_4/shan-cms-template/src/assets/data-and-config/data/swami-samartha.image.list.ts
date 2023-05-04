@@ -48,7 +48,48 @@ export class SwamiSamarthaImageList { // SwamiSamarthaImageList
             themeSummary:
             `Swami Samartha the 4th Avatar of Shree Dattatreya (sequence include Lord Datta himself). `,
             files: [
-                {  
+                {
+
+                    // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-1-March1723.jpeg
+                   fullFileName: `assets/all-images/religion/swami-samartha/SwamiPunyatithi-04-18-20-2023.jpeg`,
+                   description: `Swami Samartha on His Pragat Din March 23 2023 <br/>
+                                final version - photo edited
+                                <p>Using the concept of surrounding the sketch with flowers, Swami's favorite are Chafa or Champa/p>
+                                 <p> probably do others e.g. use dolphins around a sailing ship sketch`,
+                   dateUploaded: '04-24-2023',
+                   canvassSize: 'A4', content:'color-pencil',
+                   rating: 1,},         
+         {
+
+            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-1-March1723.jpeg
+           fullFileName: `assets/all-images/religion/swami-samartha/SwamiPragatDin03222023-final.jpeg`,
+           description: `Swami Samartha on His Pragat Din March 23 2023 <br/>
+                        final version - photo edited
+                        <p>Using the concept of surrounding the sketch with flowers, Swami's favorite are Chafa or Champa/p>
+                         <p> probably do others e.g. use dolphins around a sailing ship sketch`,
+           dateUploaded: '03-23-2023',
+           canvassSize: 'A4', content:'color-pencil',
+           rating: 1,
+           /*iterations:[
+              { 
+                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-final-GudiPadwa-March22-2023.jpeg`,
+                 description: `Ganapati - Gudi Padwa 02/22/2023. <br/>
+                        final version - photo edited
+                        <p>A first of sorts - I have begun drawing flowers and chanced upon a theme of surrounding the main sketch with these</p>
+                         <p> probably do others e.g. use dolphins around a sailing ship sketch`,
+           },
+              { 
+                 fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-3-March17-22-2023.jpeg`,
+                 description: `Ganapati - Gudi Padwa 02/22/2023. <br/><ul><li>completion before photo edit</li></ul>`},
+              { 
+               fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-2-March17-22-2023.jpeg`,
+               description: `Ganapati - Gudi Padwa 02/22/2023. <br/><ul><li>Outline completion</li></ul>`},
+            { 
+               fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-1-March1723.jpeg`,
+               description: 'Ganapati - Gudi Padwa 02/22/2023. <br/><ul><li>03/17/2023  - initial iteration</li></ul>',
+            }
+               ] */
+          },{  
                     fullFileName: `assets/all-images/religion/swami-samartha/SwamiAndDattavatarsJuly122022.jpeg`, 
                     description: 
                     `<ul>

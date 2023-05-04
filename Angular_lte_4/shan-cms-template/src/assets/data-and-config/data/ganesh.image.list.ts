@@ -19,7 +19,7 @@ public allImageList:ImageElement[]  =  [
                 canvassSize: 'A4', content:'color-pencil black-white',
                 evolution: `- <b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.And also decent enough<br/>
                             - <b>My first color pencil sketch and</b>, also duplicated with black and white sketch using<b>'glass trace'</b>(as will be repeated later)<br/>`,
-                evolutionDate: `01-01-1990`,
+                evolutionSequence: 1, evolutionDate: `01-01-1990`,
                 iterations:[  
                 { 
                     fullFileName: `assets/all-images/religion/shree-ganesh/Ashtavinayak-color.jpg`, 
@@ -270,7 +270,7 @@ iterations:[{
             canvassSize: 'A4', content:'black-white',
         fullFileName: `assets/all-images/religion/shree-ganesh/intro-Ganesh.jpg`, 
             evolution: '<b>Not the best of sketches.. but carrying with the tradition of starting something with Lord Ganesh</b><br/>',
-            evolutionDate: '01-02-1990',
+            evolutionSequence: 1, evolutionDate: '01-02-1990',
                 
                    description: '<p>Quick Sketch Memorial Day weekend 2020</p>' },
                 {  
@@ -279,7 +279,7 @@ iterations:[{
                     <ul><li>One of my first 'properly, patiently' drawn sketches, Sept 2020</li></ul>
                     `,
                 evolution: `<b>One of my first 'properly, patiently' drawn sketches, Sept 2020</b>`,
-                evolutionDate: `09-01-2020`,
+                evolutionSequence: 1, evolutionDate: `09-01-2020`,
                 
                 iterations:[
                     
@@ -299,7 +299,7 @@ iterations:[{
                             </ul>
                             `,
                             evolution: `<b>As mentioned below - inspired by Shankar, and Katyar..</b>`,
-                            evolutionDate: `9-29-2020`,
+                            evolutionSequence: 1, evolutionDate: `9-29-2020`,
                             iterations:[  
                                 { fullFileName: `assets/all-images/religion/shree-ganesh/Aumkar-Ganesh-sur-niragas-ho-Nov2-2020FINAL.jpeg`, 
                             description: `<ul>
@@ -319,7 +319,7 @@ iterations:[{
                     { 
                         fullFileName: `assets/all-images/religion/shree-ganesh/ShreeSiddhivinayakQ42020.jpeg`, 
                         evolution: `<b>Landmark because of the theme, the iconic Ganesh Temple at Prabhadevi, Mumbai</b>`,
-                        evolutionDate: `12-01-2020`,
+                        evolutionSequence: 1, evolutionDate: `12-01-2020`,
                         description: 'Siddhivinayak Temple, Prabhadevi, Mumbai, India attempt to sketch',
                         evolutionary: true,
                     },

@@ -24,7 +24,7 @@ public allImageList:ImageElement[]  =  [
          {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh012323-Magh.jpeg`, 
             evolution: `<ul><li> Besides my 1st only Ganesh on 11x17, this is a new sub category Ganesh Q1 2023</li></ul>`,
-            evolutionDate: '01-23-2023',
+            evolutionSequence: 3, evolutionDate: '01-23-2023',
             description: `<ul>
             <li>My first 11x17 all exclusive Ganesh in color.. Maagh Month 2023 .. Completed Jan 23 </li>
             </ul>`,
