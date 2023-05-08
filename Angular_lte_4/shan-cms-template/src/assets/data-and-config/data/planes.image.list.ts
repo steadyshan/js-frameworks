@@ -15,7 +15,7 @@ export class PlanesImageList {
             { 
                 fullFileName:   `assets/all-images/planes/AI707BabaBirthdayDedicate07192022.jpeg`, 
                 evolution: `<b>Dedicated to my Dad who got me started on this hobby of mine (rest in description)<br/>`,
-                evolutionSequence: 1, evolutionDate: `07-19-2022`,
+                evolutionSequence: 2, evolutionDate: `07-19-2022`,
                 rating: 1,
                 canvassSize: 'A4',
                 content:'black-white',
@@ -38,7 +38,7 @@ export class PlanesImageList {
                 { 
                     fullFileName:   `assets/all-images/planes/migs-011823-scan.jpeg`, 
                     evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
-                    evolutionSequence: 1, evolutionDate: `01-18-2023`,
+                    evolutionSequence: 3, evolutionDate: `01-18-2023`,
                     rating: 1,
                     canvassSize: 'A4',
                     content:'color-pencil',
@@ -55,7 +55,7 @@ export class PlanesImageList {
                     iterations:[
                         {fullFileName:   `assets/all-images/planes/migs-011823-scan.jpeg`, 
                         evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
-                        evolutionSequence: 1, evolutionDate: `01-18-2023`,
+                        evolutionSequence: 3, evolutionDate: `01-18-2023`,
                         rating: 1,
                         description: `<ul><li>MiGs have been the mainstay of IAF since the 60s </li>
                         <li>Here an attempt to capture mig21 (upper aircraft ) and the mig29 </li>
@@ -68,7 +68,7 @@ export class PlanesImageList {
                         </ul> `,},
                         {fullFileName:   `assets/all-images/planes/migs-011823-photo.jpeg`, 
                         evolution: `<b>1st scan and photo. Also a glass trace from an 11x17 to an A4 size (larger one planned 01/26)</b><br/>`,
-                        evolutionSequence: 1, evolutionDate: `01-18-2023`,
+                        evolutionSequence: 3, evolutionDate: `01-18-2023`,
                         rating: 1,
                         description: `<ul><li>MiGs have been the mainstay of IAF since the 60s </li>
                         <li>Here an attempt to capture mig21 (upper aircraft ) and the mig29 </li>
@@ -82,7 +82,7 @@ export class PlanesImageList {
                     },{ 
                         fullFileName:   `assets/all-images/ships/ArjunMk2-09152022.jpeg`, 
                         evolution: `<b>First tank sketch</b><br/>`,
-                        evolutionSequence: 1, evolutionDate: `09-15-2022`,
+                        evolutionSequence: 2, evolutionDate: `09-15-2022`,
                         rating: 1,
                         canvassSize: 'A4', content:'color-pencil', description: `<ul><li>Arjun Main Battle Tank Mk1B or Mk2</li>
                         <li>Sept 15 2022</li></ul> `,
@@ -92,7 +92,7 @@ export class PlanesImageList {
                 { 
                     fullFileName:   `assets/all-images/ships/newINSVikrant09022022final.jpeg`, 
                     evolution: `<b>First sincere attempt to accurately follow the object. Also commemorative in the 1st indigenous carrier by India </b><br/>`,
-                    evolutionSequence: 1, evolutionDate: `09-08-2022`,
+                    evolutionSequence: 2, evolutionDate: `09-08-2022`,
                     rating: 1,
                     canvassSize: 'A3', content:'color-pencil', description: `<ul><li>Celebrating the commission of new INS Vikrant into the Indian Navy Sept 2 2022</li>
                     <li>Final sketch shows INS Kolkata accompanying, 4 Mig29 and Mumbai - Wandre - Worli skyline in back</li></ul> `,
