@@ -368,7 +368,7 @@ export class ListFunnelService {
         let milestoneImageLists:any = [];
         this.loadLists(milestoneImageLists) ;
         milestoneImageLists.forEach((milestoneImageList:any) => {
-          this.getMilestoneSketches(milestoneImageList,1);
+          this.getMilestoneSketches(milestoneImageList,0, 1);
         })
         
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
@@ -397,7 +397,7 @@ export class ListFunnelService {
         let milestoneImageLists2:any = [];
         this.loadLists(milestoneImageLists2) ;
         milestoneImageLists2.forEach((milestoneImageList:any) => {
-          this.getMilestoneSketches(milestoneImageList,2);
+          this.getMilestoneSketches(milestoneImageList,2022);
         })
         
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
@@ -426,7 +426,7 @@ export class ListFunnelService {
         let milestoneImageLists3:any = [];
         this.loadLists(milestoneImageLists3) ;
         milestoneImageLists3.forEach((milestoneImageList:any) => {
-          this.getMilestoneSketches(milestoneImageList,3);
+          this.getMilestoneSketches(milestoneImageList,2023);
         })
      
       this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
@@ -573,7 +573,8 @@ export class ListFunnelService {
      //   return latestUploadList ;
   }
   // 4. Load landmark sketches - not neccessarily the top sketches but a 'milestone' in my progress
-  getMilestoneSketches(currentList:any, sequence=0)  {
+  // May 2023 - breakup per year, part of reducing the list size per category
+  getMilestoneSketches(currentList:any, year=0, sequence=0, range=[] )  {
     /*
     evolution: `<ul><li><b>Not the first</b>, but traditionally, one starts something with Lord Ganesh.</li>
                                 <li>(as will be repeated later)My first color pencil sketch and, also duplicated with black and white sketch using 'glass trace'</li>`,
@@ -583,17 +584,35 @@ export class ListFunnelService {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
         // get evolution text
         if (fileItem.evolution ) {
-          if (fileItem.evolutionSequence && fileItem.evolutionSequence === sequence){
-              if (fileItem.iterations && fileItem.iterations.length > 0) {
-                fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
-              } else {
-                fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
-              
+          if (year !== 0) {
+            if (fileItem.evolutionDate) {
+              if (year === new Date(fileItem.evolutionDate).getFullYear()) {
+                if (fileItem.iterations && fileItem.iterations.length > 0) {
+                  fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
+                } else {
+                  fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
+                
+                }
+                if(!fileItem.dateUploaded) {
+                  fileItem.dateUploaded = fileItem.evolutionDate;
+                }
+                this.genImageList.allImageList[0].files.push(fileItem);
               }
-              if(!fileItem.dateUploaded) {
-                fileItem.dateUploaded = fileItem.evolutionDate;
-              }
-              this.genImageList.allImageList[0].files.push(fileItem);
+            }
+          } else if(range && range.length > 1) {
+          } else {
+            if (fileItem.evolutionSequence && fileItem.evolutionSequence === sequence){
+                if (fileItem.iterations && fileItem.iterations.length > 0) {
+                  fileItem.iterations[0].description = `${fileItem.evolution} ${fileItem.iterations[0].description}`;
+                } else {
+                  fileItem.description = `${fileItem.evolution} ${fileItem.description}`;
+                
+                }
+                if(!fileItem.dateUploaded) {
+                  fileItem.dateUploaded = fileItem.evolutionDate;
+                }
+                this.genImageList.allImageList[0].files.push(fileItem);
+            }
           }
         }
       });

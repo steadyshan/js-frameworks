@@ -16,11 +16,45 @@ public allImageList:ImageElement[]  =  [
    { 
      folder:'trains',
      files: [ 
-         
-        /*{ fullFileName:`assets/all-images/trains/frame1_IR_Emblem.jpeg`, 
-            description: `<ul><li>IR Emblem</li>
-            <li>On the left is the 'Fairy Queen' IR steam locomotive c.a 1853- 1855 said to be the oldest operational loco in the world
-            </li><li> On the right is a express locomotive concept WAP5 'Tejas' variant targetting 180 - 200 kph)</li></ul>`},*/
+        /*
+        Bold sketch to capture IR trainset generations
+Clockwise starting bottom right
+WG Steam hauling 'maal gadi' (Sholay :) )
+WP with Taj Exp, Frontier or Punjab Mail. (advantage of monochrome)
+WCM5 Central railway - can be Deccan Q, Indrayani or a Nasik sector train
+Double head WDM2 - Raj - the only one specifying a unique train
+WCAM1 with oil tanker goods train
+.....
+WAP1-4 series with passenger train
+WDG4 with goods
+WAP5 with Shatadbi/LHB type
+WAG12 double unit with two level stacked container and high pantograph
+Vande Bharat..
+Bold since ALL this was attempted on A4 with Black and white
+        */
+        { 
+            fullFileName:`assets/all-images/trains/IR-trainset-generations-may7-2023.jpeg`,
+            description: 
+                `IR trainset context across generations<br/>Clockwise starting bottom right
+                <ol><li>WG Steam hauling 'maal gadi' (Sholay :) )</li>
+                <li>WP with Taj Exp, Frontier or Punjab Mail. (advantage of sketching monochrome)</li>
+                <li>WCM5 Central railway - can be Deccan Q, Indrayani or a Nasik sector train</li>
+                <li>Double head WDM2 - Raj - the only one specifying a unique train</li>
+                <li>WCAM1 with oil tanker goods train<br/></li>
+                .....
+                <li>WAP1-4 series with passenger train</li>
+                <li>WDG4 with goods</li>
+                <li>WAP5 with Shatadbi/LHB type</li>
+                <li>WAG12 double unit with two level stacked container and high pantograph<br/>... and <br/></li>
+                <li>Vande Bharat..</li></ol>
+                <br/>May 7 2023`,
+            dateUploaded: '05-08-2023',
+            rating: 1,
+            canvassSize:'A4',
+            content: 'black-white',
+            evolution: `<b>Been able to carry off fitting all this detail into an A4 sheet without clutter.<br/>`,
+            evolutionSequence: 3, evolutionDate: `05-04-2023`,
+        }, 
             {   iterativeText: 'Components *',
                 fullFileName:'assets/all-images/trains/IRTrainCollageOCT2020.png', 
                 footNote: '* Click to see each sub sketch of the collage',
