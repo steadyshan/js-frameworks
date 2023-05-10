@@ -228,6 +228,21 @@ export class ListFunnelService {
     imageList.push(new ThemesMisc());
     imageList.push(new AnimateToBeOrganized1ImageList()) ;
   }
+  sortImageList() {
+     
+    this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
+      const aDate = a.dateUploaded ? 
+              new Date(a.dateUploaded).getTime():
+              new Date('01-01-1990').getTime();
+      const bDate = b.dateUploaded ? 
+              new Date(b.dateUploaded).getTime():
+              new Date('01-01-1990').getTime(); // new Date(b.dateUploaded).getTime();
+      console.log(`compared: A: ${a.dateUploaded ? new Date(a.dateUploaded) :  new Date('01-01-1990')}, ${a.fullFileName}`);
+      console.log(`compared: B: ${b.dateUploaded ? new Date(b.dateUploaded) :  new Date('01-01-1990')}, ${b.fullFileName}`);
+      let c = bDate  -  aDate ; // aDate - bDate ;
+      return  c ;
+    });
+  }
   loadSelectedContent(strParam:any):any {
     switch(strParam) {
       case 'showpiece': 
@@ -236,51 +251,61 @@ export class ListFunnelService {
         allImageList: [ 
             { 
               folder:'',
-              theme:'Showpiece',
+              theme:'Showpiece - before 2022',
               themeSummary: `&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
                              &nbsp;&nbsp;My attitude and approach to sketching have changed; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces..`,
               files: [],
             }
         ]} ; 
         // later this.loadMultipleThemes(this.loadTopUploads) ;
-        const imageLists:any = [];
+        let imageLists:any = [];
         this.loadLists(imageLists) ;
         imageLists.forEach((imageList:any) => {
           this.loadTopUploads(imageList);
         })
-        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
-        this.loadTopUploads(new GaneshImageList()) ;
-        this.loadTopUploads(new GaneshGTEQ42021ImageList()) ;
-        this.loadTopUploads(new DeviImageList()) ;
-        this.loadTopUploads(new MahadevImageList()) ;
-        this.loadTopUploads(new MahadevFamilyImageList()) ;
-        this.loadTopUploads(new LaxmiVishnuHanumanList()) ;
-        this.loadTopUploads(new DattavatarImageList()) ;
-        this.loadTopUploads(new SwamiSamarthaImageList()) ;
-        this.loadTopUploads(new ShirdiSaiPreQ32021ImageList()) ;
-        this.loadTopUploads(new ShirdiSaiQ3Q42021ImageList()) ;
-        this.loadTopUploads(new ShirdiSaiQ2Q32022ImageList()) ;
+        this.sortImageList() ;
+        break;
+        case 'showpiece-2022': 
+      
+        this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'Showpiece 2022',
+              themeSummary: `&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
+                             &nbsp;&nbsp;My attitude and approach to sketching have changed; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces..`,
+              files: [],
+            }
+        ]} ; 
+        // later this.loadMultipleThemes(this.loadTopUploads) ;
+        let imageLists2:any = [];
+        this.loadLists(imageLists2) ;
+        imageLists2.forEach((imageList:any) => {
+          this.loadTopUploads(imageList,2022);
+        })
         
-        this.loadTopUploads(new ShirdiSaiThemeList1()) ;
-        this.loadTopUploads(new PeopleImageList()) ;
-        this.loadTopUploads(new TrainImageList()) ;
-        this.loadTopUploads(new MumbaiMeriJaanList()) ;
-        this.loadTopUploads(new PlacesScenesObjectsImageList()) ;
-        this.loadTopUploads(new PlanesImageList()) ;
-        this.loadTopUploads(new ThemesMisc());
-        */
-        this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
-          const aDate = a.dateUploaded ? 
-                  new Date(a.dateUploaded).getTime():
-                  new Date('01-01-1990').getTime();
-          const bDate = b.dateUploaded ? 
-                  new Date(b.dateUploaded).getTime():
-                  new Date('01-01-1990').getTime(); // new Date(b.dateUploaded).getTime();
-          console.log(`compared: A: ${a.dateUploaded ? new Date(a.dateUploaded) :  new Date('01-01-1990')}, ${a.fullFileName}`);
-          console.log(`compared: B: ${b.dateUploaded ? new Date(b.dateUploaded) :  new Date('01-01-1990')}, ${b.fullFileName}`);
-          let c = bDate  -  aDate ; // aDate - bDate ;
-          return  c ;
-        });
+        this.sortImageList() ;
+        break;
+        case 'showpiece-2023': 
+      
+        this.genImageList = { 
+        allImageList: [ 
+            { 
+              folder:'',
+              theme:'Showpiece 2023',
+              themeSummary: `&nbsp;&nbsp;These are some which are, what I consider my best efforts. Almost all the better ones, I have taken my time over..<br/>
+                             &nbsp;&nbsp;My attitude and approach to sketching have changed; I RARELY try to finish a sketch at one sitting, but do it in bits and pieces..`,
+              files: [],
+            }
+        ]} ; 
+        // later this.loadMultipleThemes(this.loadTopUploads) ;
+        let imageLists3:any = [];
+        this.loadLists(imageLists3) ;
+        imageLists3.forEach((imageList:any) => {
+          this.loadTopUploads(imageList,2023);
+        })
+        
+        this.sortImageList() ;
         break;
       case 'latest-uploads': 
       this.genImageList = { 
@@ -297,49 +322,7 @@ export class ListFunnelService {
         latestImageLists.forEach((latestImageList:any) => {
           this.loadLatestUploads(latestImageList);
         })
-        /*
-        if(!this.genImageList.allImageList[0].files || this.genImageList.allImageList[0].files.length <  5) {
-          latestImageLists.forEach((latestImageList2:any) => {
-            if(latestImageList2.allImageList && latestImageList2.allImageList[0].files) {
-              latestImageList2.allImageList[0].files.sort(function(a:any, b:any) {
-                const aDate = new Date(a.dateUploaded).getTime();
-                const bDate = new Date(b.dateUploaded).getTime();
-                let c = bDate  -  aDate ; // aDate - bDate ;
-                return  c ;
-              });
-            }
-            latestImageList2.allImageList[0].files.forEach((element:any, index:number) => {
-              if (index < 2 && index < latestImageList2.allImageList[0].files.length){
-                this.genImageList.allImageList[0].files.push(latestImageList2.allImageList[0].files[index]);
-              }
-            });
-          });
-          this.sortImages();
-          this.genImageList.allImageList[0].themeSummary = 
-            `Latest Uploads - normally a collection of sketches uploaded 30 days or less. 
-             However this time around there arent so many, so this becomes (additionally) a collection of latest 2 sketches from the themes on the right` ;
-        }
-        */
-        /* optimized code - we can now simply add new themelists in the 'this.loadLists' function
-        this.loadLatestUploads(new GaneshImageList()) ;
-        this.loadLatestUploads(new GaneshGTEQ42021ImageList()) ;
-        this.loadLatestUploads(new DeviImageList()) ;
-        this.loadLatestUploads(new MahadevImageList()) ;
-        this.loadLatestUploads(new MahadevFamilyImageList()) ;
-        this.loadLatestUploads(new LaxmiVishnuHanumanList()) ;
-        this.loadLatestUploads(new DattavatarImageList()) ;
-        this.loadLatestUploads(new SwamiSamarthaImageList()) ;
-        this.loadLatestUploads(new ShirdiSaiPreQ32021ImageList()) ;
-        this.loadLatestUploads(new ShirdiSaiQ3Q42021ImageList()) ;
-        this.loadLatestUploads(new ShirdiSaiQ2Q32022ImageList()) ;
-        this.loadLatestUploads(new ShirdiSaiThemeList1()) ;
-        this.loadLatestUploads(new PeopleImageList()) ;
-        this.loadLatestUploads(new TrainImageList()) ;
-        this.loadLatestUploads(new MumbaiMeriJaanList());
-        this.loadLatestUploads(new PlacesScenesObjectsImageList()) ;
-        this.loadLatestUploads(new PlanesImageList()) ;
-        this.loadLatestUploads(new ThemesMisc());
-        */
+       
         console.log(`#### LATEST UPLOAD .. LOADED`);
         
         this.genImageList.allImageList[0].files.sort(function(a:any, b:any) {
@@ -351,7 +334,7 @@ export class ListFunnelService {
         console.log(`#### LATEST UPLOAD .. RETURN AFTER SORT`);
         
         break;
-      case 'starters-x': 
+      case 'changers-b4-2022': 
       /* This page attempts to capture points 
       in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
       when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
@@ -359,7 +342,7 @@ export class ListFunnelService {
         allImageList: [ 
             { 
               folder:'',
-              theme:'INTRODUCTION: Milestones in a Journey.. (Before 2021)',
+              theme:'INTRODUCTION: Milestones in a Journey.. (Before 2022)',
               themeSummary: `These are landmark sketches which I consider a significant change or turn in the progress of my sketches, or maybe a special reason. 
                               <i><u>These may not be my best efforts</u></i> but are a new element or entity that was introduced in these drawings.`,
               files: [],
@@ -380,7 +363,7 @@ export class ListFunnelService {
      /* this.genImageList = new GeneralImageList();
                          this.allImageList = this.genImageList.allImageList ;*/   
       break;
-      case 'starters-x2': 
+      case 'changers-2022': 
       /* This page attempts to capture points 
       in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
       when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
@@ -409,7 +392,7 @@ export class ListFunnelService {
      /* this.genImageList = new GeneralImageList();
                          this.allImageList = this.genImageList.allImageList ;*/   
       break;
-      case 'starters-x3': 
+      case 'changers-2023': 
       /* This page attempts to capture points 
       in my journey from third quarter 2020, when I started sketching, to approx June 2021, 
       when I finally got off my butt to put these up on a website in a sort of orderly manner*/ 
@@ -562,11 +545,22 @@ export class ListFunnelService {
  //   return latestUploadList ;
   }
   // 3. used to extract top rated uploads per theme 
-  loadTopUploads(currentList:any)  {
+  loadTopUploads(currentList:any, year=0)  {
     if(currentList.allImageList && currentList.allImageList[0].files) {
       currentList.allImageList[0].files.forEach((fileItem:any) => {
         if (fileItem.rating  && fileItem.rating === 1) {
-          this.genImageList.allImageList[0].files.push(fileItem);
+          let fileYear= fileItem.ratingYear ? fileItem.ratingYear : 
+            fileItem.dateUploaded ? new Date(fileItem.dateUploaded).getFullYear() : 1990 ;
+            let ratingYear = year === 0 ? 2021 : year ;
+            if (year === 0 ) {
+              if(fileYear <= ratingYear) {
+                this.genImageList.allImageList[0].files.push(fileItem);
+              }
+            } else {
+              if(fileYear === ratingYear) {
+                this.genImageList.allImageList[0].files.push(fileItem);
+              }
+            }
         }
       });
     }

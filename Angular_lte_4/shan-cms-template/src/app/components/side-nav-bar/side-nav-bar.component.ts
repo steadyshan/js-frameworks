@@ -147,7 +147,7 @@ export class SideNavBarComponent implements OnInit {
       }
     });
     // alert(JSON.st ringify(this.menus[this.smallScreenIndex].param));
-    // this.router.navigate(['view'], { queryParams: { key: 'starters-x' } });
+    // this.router.navigate(['view'], { queryParams: { key: 'changers-b4-2022' } });
       
   }
   

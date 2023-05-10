@@ -42,7 +42,7 @@ import { PicDescr, ImageElement } from './image.list'
    ]
    public allImageList:ImageElement[]  =  [
        { 
-        folder:'starters-x',
+        folder:'changers-b4-2022',
         theme:'INTRODUCTION: A Journey',
         themeSummary:
         `

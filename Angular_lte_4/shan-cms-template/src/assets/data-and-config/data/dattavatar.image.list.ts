@@ -29,6 +29,7 @@ public allImageList:ImageElement[]  =  [
             </ul>`,
             dateUploaded: '01-30-2023',
             rating: 1,
+            ratingYear:2022,
            
         },
         

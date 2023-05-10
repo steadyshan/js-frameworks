@@ -16,10 +16,12 @@ export interface MenuItem {
 // flat structure - use uniqueKey - parentKey as one to many relationsho[
 
 export const MenuTree: MenuItem[] = [
-    { label: 'Changers: before 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'starters-x', roles: ['all'] },
-    { label: ' - 2022', child: true, uniqueKey: '', parentKey: 'art', key: 'starters-x2', roles: ['all'] },
-    { label: ' - 2023', child: true, uniqueKey: '', parentKey: 'art', key: 'starters-x3', roles: ['all'] },
-    { label: 'The Best', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece', roles: ['all'] },
+    { label: 'Changers: before 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'changers-b4-2022', roles: ['all'] },
+    { label: ' - 2022', child: true, uniqueKey: '', parentKey: 'art', key: 'changers-2022', roles: ['all'] },
+    { label: ' - 2023', child: true, uniqueKey: '', parentKey: 'art', key: 'changers-2023', roles: ['all'] },
+    { label: 'The Best: before 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece', roles: ['all'] },
+    { label: '- 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece-2022', roles: ['all'] },
+    { label: '- 2023', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece-2023', roles: ['all'] },
     { label: 'Latest Uploads', child: false, uniqueKey: '', parentKey: 'art', key: 'latest-uploads', roles: ['relgion', 'all'] },
     { label: 'Shree Ganesh: pre Q42021 ', child: false, uniqueKey: '', parentKey: 'art', key: 'shree-ganesh', roles: ['relgion', 'all'], dateUploaded: '12-11-2021' },
     { label: '- Q4 2021 onward', child: true, uniqueKey: '', parentKey: 'Shree Ganesh', key: 'shree-ganesh-gte-q4-2021', roles: ['relgion', 'all'], dateUploaded: '01-31-2023' },
@@ -49,7 +51,7 @@ export const MenuTree: MenuItem[] = [
 @Injectable()
 export class MenuNav {
     _menuTree: MenuItem[] = [
-        { label: 'Evolution', child: false, uniqueKey: '', parentKey: 'art', key: 'starters-x', roles: ['all'] },
+        { label: 'Evolution', child: false, uniqueKey: '', parentKey: 'art', key: 'changers-b4-2022', roles: ['all'] },
         { label: 'The Best', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece', roles: ['all'] },
         { label: 'Latest Uploads', child: false, uniqueKey: '', parentKey: 'art', key: 'latest-uploads', roles: ['relgion', 'all'] },
         { label: 'Shree Ganesh ', child: false, uniqueKey: '', parentKey: 'art', key: 'shree-ganesh', roles: ['relgion', 'all'], dateUploaded: '12-11-2021' },

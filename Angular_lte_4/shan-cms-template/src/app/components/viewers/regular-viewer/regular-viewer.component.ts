@@ -170,7 +170,7 @@ import { GeneralImageList } from '../data/general.image.list';
           case 'latest-uploads': this.genImageList = new LatestUploadsImageList();
                                  this.allImageList = this.genImageList.allImageList ;
                                  break;
-          case 'starters-x': this.genImageList = new GeneralImageList();
+          case 'changers-b4-2022': this.genImageList = new GeneralImageList();
                              this.allImageList = this.genImageList.allImageList ;
                              break;
           case 'shree-ganesh': this.genImageList = new GaneshImageList();

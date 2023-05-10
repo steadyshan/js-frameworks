@@ -52,6 +52,7 @@ public allImageList:ImageElement[]  =  [
             dateUploaded: '03-23-2023',
             canvassSize: 'A4', content:'color-pencil',
                rating: 1,
+               ratingYear:2023,
             iterations:[
                { 
                   fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-final-GudiPadwa-March22-2023.jpeg`,
