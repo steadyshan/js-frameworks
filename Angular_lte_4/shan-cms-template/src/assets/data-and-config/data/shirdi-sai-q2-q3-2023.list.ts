@@ -18,8 +18,50 @@ public allImageList:ImageElement[]  =  [
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
-        //    /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2023/Baba-Milpitas-050423-1.jpeg
-        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/Baba-Milpitas-050423-3.jpeg`, 
+        //    /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg
+        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg`, 
+             
+        canvassSize:'A3',
+        content: 'black-white',
+        evolution: `<b>First Baba murthy based sketch, first Milpitas Baba (unplugged) main murthy sketch on A3<br/>`,
+        evolutionSequence: 3, evolutionDate: `05-04-2023`,
+        description: `<ul>
+        <li>Mekla rao, a 'Sai Bandhu' of Milpitas temple inspired</li>
+        <li>After seeing the face sketch (see next one under Baba Q2-Q3 2023), he said 'looks good.. continue'</li>
+
+        <li>I took that as the expectation ti draw the full figure</li>
+        <li>sketched (still in progress) May 7-11 2023</li>
+        <li>First hosting May 14 - Mothers Day</li>
+        </ul>`,
+        dateUploaded: '05-14-2023',
+        rating: 1,
+        iterations: [
+            {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg`, 
+                description: `<ul>
+                <li>Mekla rao, a 'Sai Bandhu' of Milpitas temple inspired</li>
+                <li>After seeing the face sketch (see next one under Baba Q2-Q3 2023), he said 'looks good.. continue'</li>
+        
+                <li>I took that as the expectation ti draw the full figure</li>
+                <li>sketched (still in progress) May 7-11 2023</li>
+                <li>First hosting May 14 - Mothers Day</li>
+                <li>This version (photographed as the previous) is hopefully followed by scan
+                </ul>`,
+            },
+            {
+                fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg`, 
+                description: `<ul>
+                <li>Mekla rao, a 'Sai Bandhu' of Milpitas temple inspired</li>
+                <li>After seeing the face sketch (see next one under Baba Q2-Q3 2023), he said 'looks good.. continue'</li>
+        
+                <li>I took that as the expectation ti draw the full figure</li>
+                <li>sketched (still in progress) May 7-11 2023</li>
+                <li>First hosting May 14 - Mothers Day</li>
+                <li>This version (photographed as the previous) is hopefully followed by scan
+                </ul>`,
+            }
+        ],}
+        ,{ fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/Baba-Milpitas-050423-3.jpeg`, 
              
         canvassSize:'A4',
         content: 'black-white',

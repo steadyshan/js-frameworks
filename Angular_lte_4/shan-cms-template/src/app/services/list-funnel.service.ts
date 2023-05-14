@@ -8,6 +8,7 @@ import { PlacesScenesObjectsImageList} from '../../assets/data-and-config/data/p
 import { ThemesMisc } from '../../assets/data-and-config/data/themes-misc.list';
 import { LatestUploadsImageList } from '../../assets/data-and-config/data/latest-uploads.list';
 import { PlanesImageList } from '../../assets/data-and-config/data/planes.image.list';
+import { PlanesQ22023ImageList } from '../../assets/data-and-config/data/planes-q2-2023.image.list';
 import { GaneshImageList } from '../../assets/data-and-config/data/ganesh.image.list';
 import { GaneshGTEQ42021ImageList } from '../../assets/data-and-config/data/ganesh-gte-q4-2021.image.list';
 import { GaneshGTEQ12023ImageList } from '../../assets/data-and-config/data/ganesh-gte-q1-2023.image.list';
@@ -165,6 +166,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts(new MumbaiMeriJaan2List(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlacesScenesObjectsImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new PlanesQ22023ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ThemesMisc(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.forEach((theme:any)=> {
       sketchStats.subjects++;
@@ -197,6 +199,7 @@ export class ListFunnelService {
     functionProto(new MumbaiMeriJaan2List()) ;
     functionProto(new PlacesScenesObjectsImageList()) ;
     functionProto(new PlanesImageList()) ;
+    functionProto(new PlanesQ22023ImageList()) ;
     functionProto(new ThemesMisc());
     functionProto(new AnimateToBeOrganized1ImageList());
   }
@@ -225,6 +228,7 @@ export class ListFunnelService {
     imageList.push(new MumbaiMeriJaan2List()) ;
     imageList.push(new PlacesScenesObjectsImageList()) ;
     imageList.push(new PlanesImageList()) ;
+    imageList.push(new PlanesQ22023ImageList()) ;
     imageList.push(new ThemesMisc());
     imageList.push(new AnimateToBeOrganized1ImageList()) ;
   }
@@ -450,6 +454,9 @@ export class ListFunnelService {
                          this.allImageList = this.genImageList.allImageList ;
                          break;
       case 'planes':  this.genImageList = new PlanesImageList();  
+      this.allImageList = this.genImageList.allImageList ;
+      break;        
+      case 'planesQ12023':  this.genImageList = new PlanesQ22023ImageList();  
       this.allImageList = this.genImageList.allImageList ;
       break;        
       case 'trains': this.genImageList = new TrainImageList();

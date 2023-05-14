@@ -12,6 +12,18 @@ public allImageList:ImageElement[]  =  [
              themeSummary: `Some theme sketches with components, some as-yet 'one-off' or uncategorized sketches'`,
              files: [   
                 { 
+                    fullFileName: `assets/all-images/themes-misc/MothersDay05142023.jpeg`,
+                    canvassSize: 'A4', content:'black-white',
+                evolution:
+                `<p>Uniqueness of sketch, perhaps</p>`,
+                  evolutionSequence: 3, evolutionDate: `05-14-2023`,
+                  
+                 description: `<ul>
+                <li>Mothers Day May 14 2023</li>
+                <li>Probably subconsciouslt inspired by the movie 'Ms Chatterjee vs Norway' One sitting in 40 minutes that Sunday morning/li>
+                </ul>`,
+                dateUploaded: '05-14-2023',
+                }, { 
                     fullFileName: `assets/all-images/themes-misc/chessCVS-PIPlann02-02-2023.jpeg`,
                     canvassSize: 'A4', content:'black-white',
                 evolution:
