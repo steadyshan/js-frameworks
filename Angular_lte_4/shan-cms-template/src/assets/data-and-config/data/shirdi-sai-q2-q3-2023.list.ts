@@ -33,7 +33,7 @@ public allImageList:ImageElement[]  =  [
         <li>sketched (still in progress) May 7-11 2023</li>
         <li>First hosting May 14 - Mothers Day</li>
         </ul>`,
-        dateUploaded: '05-14-2023',
+        dateUploaded: '05-16-2023',
         rating: 1,
         iterations: [
             {
@@ -45,11 +45,11 @@ public allImageList:ImageElement[]  =  [
                 <li>I took that as the expectation ti draw the full figure</li>
                 <li>sketched (still in progress) May 7-11 2023</li>
                 <li>First hosting May 14 - Mothers Day</li>
-                <li>This version (photographed as the previous) is hopefully followed by scan
+                <li>Initial outline - probably May 7-8 timeframe </li>
                 </ul>`,
             },
             {
-                fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg`, 
+                fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-1st.jpeg`, 
                 description: `<ul>
                 <li>Mekla rao, a 'Sai Bandhu' of Milpitas temple inspired</li>
                 <li>After seeing the face sketch (see next one under Baba Q2-Q3 2023), he said 'looks good.. continue'</li>
