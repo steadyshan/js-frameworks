@@ -19,6 +19,27 @@ public allImageList:ImageElement[]  =  [
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
         //    /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg
+        { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/Baba-Milpitas-060123.jpeg`, 
+             
+        canvassSize:'A4',
+        content: 'color-pencil',
+        description: `<ul>
+        <li>Baba 'unplugged' sketch - Milpitas temple - printed a previous A3 light and colored</li>
+        <li>These are typical night robes donned on Baba just before 'Shej' arti late evening until just after 'Kakad' aarti next morning </li>
+        <li> June 1 2023</li>
+        </ul>`,
+        dateUploaded: '06-02-2023', 
+        },
+         { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/Baba-Milpitas-052523.jpeg`, 
+             
+        canvassSize:'A4',
+        content: 'color-pencil',
+        description: `<ul>
+        <li>Baba 'unplugged' sketch - Milpitas temple - printed the previous A3 light and colored</li>
+        <li> May 25 2023</li>
+        </ul>`,
+        dateUploaded: '06-02-2023', 
+        },
         { fullFileName: `assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg`, 
              
         canvassSize:'A3',

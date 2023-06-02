@@ -38,8 +38,7 @@ float:left;
     overflow-y: auto;
     top:5px;
     right: 5px;
-position:fixed;
-    background-image: linear-gradient(to right, lightgreen, aliceblue, skyblue);
+   background-image: linear-gradient(to right, lightgreen, aliceblue, skyblue);
 }
 
 .full-size {
@@ -60,6 +59,14 @@ position:fixed;
 #smallScreenMenus {
     display:none;
 }
+@media screen and (min-width:790px) {
+    .right-nav {
+        position:fixed;
+ 
+    }
+    
+}
+
 @media screen and (max-width:700px) {
     .right-nav {
         width : 60%;
