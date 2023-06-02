@@ -20,7 +20,7 @@ export class MahadevFamilyImageList {
             {  
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
-               fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-May4-2023-1.jpeg`, 
+               fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-Narsimha-Laxmi-May31-2023-2.jpeg`, 
                canvassSize: 'A3', content:'color-pencil',
                description: 
                   `<ul>
@@ -30,11 +30,22 @@ export class MahadevFamilyImageList {
                      <li>Technically A3, but the captured part shown here is 3/4 the length of the canvass</li>
                      <li>(Will add to the '..narayan group once that is ready)</li>
                   </ul> `,
-                  evolution: `<b>Technically the reason of publishing a part sketch is trivial. But the content of Mahadev full family color on A3 wannabe is special</b>`,
-                  evolutionSequence: 3, evolutionDate: `05-04-2023`,
+                  evolution: `<b>Technically the reason of publishing a part sketch is trivial. But the content of Mahadev full family color on A3 wannabe is special<br/>
+                              ALSO, the inclusion of Narsimha (Vishnu avatar) and laxmi transgresses two themes</b>`,
+                  evolutionSequence: 3, evolutionDate: `05-31-2023`,
+                  dateUploaded: '06-01-2023',
                   rating: 1,
                   iterations:[
-                     {
+                    {
+                     fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-Narsimha-Laxmi-May31-2023-2.jpeg`, 
+                     description:   `<ul>
+                     <li>It had been in my mind to sketch the Full Shiva-Parvati family as famously depicted - the addition of Karthikeya</li>
+                     <li>To the left of Karthikeya, intended sketching Narsimha - Laxmi - (the 1st publish date 05-04-2023 was Narasimha Jayanti</li>
+                     <li>But this wasnt ready in time</li>
+                     <li>Technically A3, but the captured part shown here is 3/4 the length of the canvass</li>
+                     <li>Added Laxmi Narayan - Narayan in the form of Narsimha </li>
+                  </ul> `},
+                    {
                        fullFileName: `assets/all-images/religion/mahadev-family/Mahadev-family-May4-2023-1.jpeg`, 
                        description:   `<ul>
                        <li>It had been in my mind to sketch the Full Shiva-Parvati family as famously depicted - the addition of Karthikeya</li>
@@ -45,7 +56,6 @@ export class MahadevFamilyImageList {
                     </ul> `}
                      ],
                   
-            dateUploaded: '05-04-2023',
             },
             {  
                // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg

@@ -15,6 +15,9 @@ import { MenuItemsComponent } from './components/menu-items/menu-items.component
 // import { ViewerComponent } from './components/viewer/viewer.component';
 import { ContentManagementComponent } from './components/admin/content-management/content-management.component';
 import { CategoriesService } from './services/categories.service';
+import { TabbingContainerComponent } from './components/tabbing-and-layers/tabbing-container/tabbing-container.component';
+import { ThemeNavigationComponent } from './components/theme-navigation/theme-navigation.component';
+import { TechnicalDetailComponent } from './components/admin/technical-detail/technical-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,10 @@ import { CategoriesService } from './services/categories.service';
     // ViewerComponent,
     RegularViewerComponent,
     UnpluggedViewerComponent,
-    ContentManagementComponent
+    ContentManagementComponent,
+    TabbingContainerComponent,
+    ThemeNavigationComponent,
+    TechnicalDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -34,10 +40,13 @@ import { CategoriesService } from './services/categories.service';
     RouterModule.forRoot([{path:'', component:AreaSummaryPageComponent},
     {path:'intro/:index', component:AreaSummaryPageComponent},
     {path:'register', component:RegisterAddUserComponent},
+    {path: 'category/:theme', component: TabbingContainerComponent },
     {path: 'view/:theme', component: RegularViewerComponent },
     {path: 'unplugged-view/:theme', component: UnpluggedViewerComponent },
-    {path: 'content-manage', component: ContentManagementComponent }])
-    ],
+    {path: 'content-manage', component: ContentManagementComponent },
+    {path: 'technical', component: TechnicalDetailComponent },
+    {path: '#index', component: TechnicalDetailComponent }])
+  ],
     providers: [CategoriesService],
     bootstrap: [AppComponent]
 })

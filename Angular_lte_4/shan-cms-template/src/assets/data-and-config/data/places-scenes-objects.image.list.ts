@@ -13,6 +13,8 @@ export class PlacesScenesObjectsImageList {
                   { 
                         evolution: `Taj is iconic - a symbol of India`,
                         evolutionSequence: 1, evolutionDate: '11-23-2020',
+                        rating: 1,
+                        ratingYear:2023,
                        canvassSize: 'A3', content:'black-white',
                        fullFileName: `assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg`, 
                         description: `<ul>
@@ -23,7 +25,6 @@ export class PlacesScenesObjectsImageList {
                        <li>Nov 23 2020</li>
                        </ul>`,
                        dateUploaded: '02-09-2023',
-                       rating: 1,
                        iterations:[
                         {  fullFileName: `assets/all-images/places-scenes-objects/TajBasicFinalPlusTemplatePlatformNov232020.jpeg`, 
                         description: `<ul>
@@ -52,9 +53,10 @@ export class PlacesScenesObjectsImageList {
                         { 
                               evolution: `A real real challenge to draw - the complexities of the beams and trusses, in 3D - I found A3 insufficient, so added an A4 in portrait
                                           to handle the 'spill-over' - left section.. A first of sorts 1.2 * A3 canvass`,
-                              evolutionSequence: 3, evolutionDate: '03-02-2023',
+                              evolutionSequence: 3, evolutionDate: '06-01-2023',
                               canvassSize: 'A3', content:'color-pencil black-white',
-                             fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
+                              // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/places-scenes-objects/HowrahBridge-final-May31-2023.jpeg
+                             fullFileName: `assets/all-images/places-scenes-objects/HowrahBridge-final-May31-2023.jpeg`, 
                               description: `<ul>
                              <li>Horwah Bridge</li>
                              <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
@@ -64,18 +66,36 @@ export class PlacesScenesObjectsImageList {
                              <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
                              <li>March 3 2023</li>
                              </ul>`,
-                             dateUploaded: '03-02-2023',
+                             dateUploaded: '06-01-2023',
                              rating: 1,
                              iterations:[
-                              {  fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
+                              {  fullFileName: `assets/all-images/places-scenes-objects/HowrahBridge-final-May31-2023.jpeg`, 
                               description: `<ul>
-                             <li>Horwah Bridge</li>
+                             <li>Horwah Bridge FINAL - May 31 2023 - A3 + 1/4 A4 sheet color pencil</li>
                              <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
                              <li>Initial bare bones skectch having gotten the external facing beams and trusses network (sort of) right... </li>
                              <li>I realized that to make the complex network of trusses clear, even an A3 lengthwise was insufficient</li>
                              <li>So I kept the sketch to partial, 'leaving out' the left post pillar section</li>
                              <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
-                             <li>March 3 2023</li>
+                             <li>Started Feb 19, completed May 31 2023</li>
+                             </ul>`,}, {  fullFileName: `assets/all-images/places-scenes-objects/HowrahBridge-final-May31-2023-A4.jpeg`, 
+                             description: `<ul>
+                            <li>Horwah Bridge FINAL - May 31 2023 - Printed the scanned version above on A4, then scanned back</li>
+                            <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
+                            <li>Initial bare bones skectch having gotten the external facing beams and trusses network (sort of) right... </li>
+                            <li>I realized that to make the complex network of trusses clear, even an A3 lengthwise was insufficient</li>
+                            <li>So I kept the sketch to partial, 'leaving out' the left post pillar section</li>
+                            <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
+                            <li>Started Feb 19, completed May 31 2023</li>
+                             </ul>`,}, {  fullFileName: `assets/all-images/places-scenes-objects/howrahBridgeWIP-march2-2023.jpg`, 
+                              description: `<ul>
+                             <li>Horwah Bridge This is a copy onto A4 sheet March 3 2023</li>
+                             <li>Added a Durga Pooja scene where the Devi and Her children are being transported to a pandal in Kolkatta</li>
+                             <li>Initial bare bones skectch having gotten the external facing beams and trusses network (sort of) right... </li>
+                             <li>I realized that to make the complex network of trusses clear, even an A3 lengthwise was insufficient</li>
+                             <li>So I kept the sketch to partial, 'leaving out' the left post pillar section</li>
+                             <li>Got an idea, aligned an A4 to the left edge, in portrait mode, and sketched the missing part</li>
+                             <li>Started Feb 19, completed May 31 2023</li>
                              </ul>`,}],
       
                               }

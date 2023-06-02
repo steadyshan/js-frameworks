@@ -1,5 +1,6 @@
- 
+ <app-tabbing-container></app-tabbing-container>
 <div *ngIf="selectedImageList && selectedImageList.length > 0; else noPics">
+ 
   <span  id='thumbnails' *ngFor="let source of selectedImageList" >
     <img  [ngStyle]="thumbnailStyle(source)"
       *ngIf="source.thumbnail" src={{source.thumbnail}} (click)='showFullSize(source)' title={{source.title}}/>  
@@ -15,7 +16,7 @@
 <div *ngIf="selectedImageList && selectedImageList.length > 0; else noPic"> <!-- detail encircling -->
 <div id="summaryDiv" *ngIf="themeSummary !== ''|| themeHeader !== ''" [ngStyle]="headerStyle()" >
   <h5 *ngIf="themeHeader !== ''" style='font-size: larger;font-weight: 700;'>{{themeHeader}}</h5>
-  <div *ngIf="themeSummary !== ''" style='font-size: normal;font-weight: 400;width:100%;'>
+  <div *ngIf="themeSummary !== ''" style='font-size: normal;font-weight: 400;width:100%;margin-left: 1px;'>
      <span id="summaryspan" 
           style='border:none;background-color: inherit; padding: 0; margin:0;width: 100%;' [innerHTML]="themeSummary">
       </span> 

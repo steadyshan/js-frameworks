@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { tabs, MenuTree } from '../../assets/data-and-config/menus-and-other-contexts/menu-tree'
 import { DeviImageList } from '../../assets/data-and-config/data/devi.image.list' //'../assets/data-/../components/viewers/data/devi.image.list';
 import { MahadevImageList } from '../../assets/data-and-config/data/mahadev.image.list';
 import { MahadevFamilyImageList } from '../../assets/data-and-config/data/mahadev-family.image.list';
@@ -66,6 +67,18 @@ export class ListFunnelService {
     'color-pencil black-white',
     'poem black-white',
   ]
+  currentTab? = "";
+  get CurrentTab():string {
+    return this.currentTab? this.currentTab: '' ;
+  }
+  set CurrentTab(tabSelected:string) {
+    this.currentTab =  tabSelected? tabSelected: '' ;
+    let newSet = MenuTree.find( item => item.tab === tabSelected); 
+    
+  }
+  get tabs():string[] {
+    return tabs; 
+  }
   // show sketch stats
   public techStatsDiv(fileDetail:any):string {
     let returnHTML = '';
@@ -248,6 +261,8 @@ export class ListFunnelService {
     });
   }
   loadSelectedContent(strParam:any):any {
+    let a:any = MenuTree.find(item => item.key === strParam) ;
+    this.currentTab = a? a.tab: '';
     switch(strParam) {
       case 'showpiece': 
       
