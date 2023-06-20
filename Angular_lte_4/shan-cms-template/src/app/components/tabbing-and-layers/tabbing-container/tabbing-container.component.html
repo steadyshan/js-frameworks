@@ -1,11 +1,8 @@
 
-<div><ul > 
-    <li (click)="changeTab(tabItem)" [ngStyle]="selectedCat(tabItem)" class="tab" *ngFor="let tabItem of Tabs" style="float:left">{{tabItem}}</li>
+<div class="tab"><ul > 
+    <li (click)="changeTab(tabItem)" [ngStyle]="selectedCat(tabItem)" class="tab" *ngFor="let tabItem of Tabs" style="float:left;margin:1px;">{{tabItem}}</li>
 </ul>
-<!--app-theme-navigation [layout]="ly"></app-theme-navigation-->
 </div>
-<br/>
-<br/>
 <div>
-<!--app-regular-viewer></app-regular-viewer-->
+<app-top-nav-bar></app-top-nav-bar>
 </div>

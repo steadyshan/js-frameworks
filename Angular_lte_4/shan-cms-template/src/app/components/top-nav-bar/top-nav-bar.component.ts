@@ -1,8 +1,7 @@
 import { Router } from '@angular/router';
 /*eslint-disable */
 import { ThrowStmt } from '@angular/compiler';
-import { Component, OnInit } from '@angular/core';
-import { NumberLiteralType } from 'typescript';
+import { Component, OnInit, Input } from '@angular/core';
 import { CategoriesService } from '../../services/categories.service';
 import { ListFunnelService  } from '../../services/list-funnel.service';
 interface MenuItem {
@@ -13,11 +12,14 @@ interface MenuItem {
   
 }
 @Component({
-  selector: 'app-side-nav-bar',
-  templateUrl: './side-nav-bar.component.html',
-  styleUrls: ['./side-nav-bar.component.css']
+  selector: 'app-top-nav-bar',
+  templateUrl: './top-nav-bar.component.html',
+  styleUrls: ['./top-nav-bar.component.css']
 })
-export class SideNavBarComponent implements OnInit {
+export class TopNavBarComponent implements OnInit {
+  
+  currentTab = '';
+  previousTab = '';
   userNotLoggedIn:boolean;
   smallScreenIndex:number = 0;
   private  _userId:string = '';
@@ -33,10 +35,59 @@ export class SideNavBarComponent implements OnInit {
   private menus:any[] = [
     {path: '/', label:'Home page', param:[]}
   ]
+  // deprecate... 
   get ViewLink():string {
     return this._viewLink;
   }
+  
   get Menus():any[] {
+    if (this.listFunnelService.CurrentTab && this.listFunnelService.CurrentTab !== this.currentTab) {
+       this._categories = (this.categoryServices.Categories).filter(cat => cat.tab === this.listFunnelService.CurrentTab);
+       this.menus = [] ;
+       for (let i = 0; i < this._categories.length ; i++){
+        //this._unplugged === true ?
+        this.menus.push({
+           // path: this._viewLink, 
+            path: this._categories[i].parentKey === 'art'?this._viewLink: `/${this._categories[i].key}`, 
+            label:`${this._categories[i].label}`, 
+            uniqueKey: `${this._categories[i].uniqueKey}`, 
+            dateUploaded:  `${this._categories[i].dateUploaded? this._categories[i].dateUploaded: '01-01-1990' }`, 
+            parentKey: `${this._categories[i].parentKey}`, 
+            param:this._categories[i].key
+          }) ;
+        // this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key});
+      }
+      this.previousTab = this.currentTab ;
+      this.currentTab = this.listFunnelService.CurrentTab ;
+      console.log('menu change');
+      // alert(JSON.stringify(this.menus));
+      // WIP let viewLink = this._unplugged === true ? `/unplugged-view` : `/view`;
+      localStorage.setItem('categorizedMenus', JSON.stringify(this.menus));
+      let route =  ``; 
+      // cleam 
+      if (this.menus[0].parentKey === 'art') {
+        route =  `/view`; 
+          // WIP viewLink  ;
+          const params = this.menus[0].param ;
+          this.router.navigate([route, params]).then( (e) => {
+            if (e) {
+              console.log("Navigation is successful!");
+            } else {
+              console.log("Navigation has failed!");
+          }
+        });
+      } else { 
+        route = this.menus[0].param 
+        this.router.navigate([route ]).then( (e) => {
+          if (e) {
+            console.log("Navigation is successful!");
+          } else {
+            console.log("Navigation has failed!");
+        }
+      });
+      }
+
+    }
     return this.menus;
   }
   get userId():string {
@@ -82,7 +133,7 @@ export class SideNavBarComponent implements OnInit {
     a = localStorage.getItem('userId');
     if (a)this._userId = a;
     this.userNotLoggedIn = localStorage.getItem('userId') === null;
-    let storedMenus = localStorage.getItem('userMenu');
+    let storedMenus = localStorage.getItem('categorizedMenus');
     if (storedMenus !== null) {
       this.menus = JSON.parse(storedMenus);
     }
@@ -93,12 +144,16 @@ export class SideNavBarComponent implements OnInit {
     localStorage.setItem('context', contextNum) ;
   }
   ngOnInit() {
+
+  }
+  loadMenus() {
+
   }
   navigateStoragelogin() {
     
     localStorage.removeItem('context');
     localStorage.removeItem('userId');
-    localStorage.removeItem('userMenu');
+    localStorage.removeItem('categorizedMenus');
     localStorage.removeItem('categories');
     this.userNotLoggedIn = true ;
     this._viewLink  = `/view`;
@@ -114,7 +169,8 @@ export class SideNavBarComponent implements OnInit {
     for (let i = 0; i < this._categories.length ; i++){
       //this._unplugged === true ?
       this.menus.push({
-          path: this._viewLink, 
+         // path: this._viewLink, 
+          path: this._categories[i].parentKey === 'art'?this._viewLink: `/${this._categories[i].key}`, 
           label:`${this._categories[i].label}`, 
           uniqueKey: `${this._categories[i].uniqueKey}`, 
           dateUploaded:  `${this._categories[i].dateUploaded? this._categories[i].dateUploaded: '01-01-1990' }`, 
@@ -124,7 +180,7 @@ export class SideNavBarComponent implements OnInit {
       // this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key});
     }
     // alert(JSON.stringify(this.menus));
-    localStorage.setItem('userMenu', JSON.stringify(this.menus));
+    localStorage.setItem('categorizedMenus', JSON.stringify(this.menus));
     this.userNotLoggedIn = false ;
     
   }
@@ -165,7 +221,8 @@ export class SideNavBarComponent implements OnInit {
   navigateStoragelogout() {
     localStorage.removeItem('context');
     localStorage.removeItem('userId');
-    localStorage.removeItem('userMenu');
+    localStorage.removeItem('role') 
+    localStorage.removeItem('categorizedMenus');
     localStorage.removeItem('categories');
     this.router.navigate(['']);
     this.userNotLoggedIn = true ;

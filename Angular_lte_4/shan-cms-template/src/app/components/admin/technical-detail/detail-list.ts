@@ -16,18 +16,20 @@ export const TechDetail: any[] = [
         `<h5>History - sigificant changes in the application * </H5>
         <ul><li><p><strong>May 2023 - mid to end</strong>, began introducing a 'category' layer in the menus.<br/>
         - The number of menus has become large and the right nav bar has had to have scrolling introduced.<br/>
-        - Each menu record has a new field called 'tab' which is the name of a category in a many (menu) 2 one (category) mapping<br/>
-        - The categories would simulate a tabbed look<br/>
-        - When clicking a category, the 'leaf' menus would show - ONLY those menus grouped under this category    </p></li>
+        - Each menu record has a new field called 'tab' which is the name of a category in a many (menu) to one (category) mapping<br/>
+        - The categories would simulate a tabbed look
+        - When clicking a category, the 'leaf' menus would show - ONLY those menus grouped under this category<br/>
+        - renamed SideNavBarComponent to TopNavBarComponent.. included in the tabbing control TabbingContainerComponent<br/>
+        - (will use this for now for above, attempt top make 'ThemeNav' flexible, but that is likely to be low priority()   </p></li>
         <li>(code 'freeze -  <a href='https://art-is-worship-v52023.web.app/' target=_blank>https://art-is-worship-v52023.web.app//</a>)</li>
         <li>.....</li>
         <li>....</li>
-        <li>(code 'freeze -  <a href='https://art-is-worship-v52023.web.app/' target=_blank>https://art-is-worship-v52023.web.app//</a>)</li>
+        <li>(code 'freeze -  <a href='https://art-is-worship-and-peace.web.app/' target=_blank>https://art-is-worship-and-peace.web.app//</a>)</li>
         <li>   *   (not to be confused with changes in the content, like a new category, new field, etc)</li>
         ` },
         { header:"Component Tree", key:'componentTree',
         content: 
-        `<h5>Component Tree</H5>
+        `<h5>Component Tree / List</H5>
         <ul>
         <li>index.html which encloses app-root Root component<br/> 
         <li>app-root Root component encloses <br/>
@@ -37,56 +39,82 @@ export const TechDetail: any[] = [
         - The theme menu content. Started as a right nav bar kind of design, under a different class SideNavBarComponent (see next)<br/>
         - Copied at this point, used only in the context of the side nav. (see tabbingContainer later, below)<br/>
         - The menu options have become numerous - will need to widen this component and add scrolling<br/></li>
-        <li>SideNavBarComponent<br/> 
-        - Previous version of The theme menu content. Started as a right nav bar kind of design, under a different class SideNavBarComponent (see next)<br/>
-        </li>
-         <li>AreaSummaryPage<br/>
-        - the landing page with the content 'A Journey of Sketches'<br/>
-         </li>
-        </ul>
-        ` }, { header:"Component Summary", key:'componentSummary',
-        content: 
-        `<h5>Component Summary</H5>
-        <ul><li>ThemeNavigationComponent<br/> 
+        <li>ThemeNavigationComponent<br/>
         - The theme menu content. Started as a right nav bar kind of design, under a different class SideNavBarComponent (see next)<br/>
         - Copied at this point, used only in the context of the side nav. (see tabbingContainer later, below)<br/>
         - The menu options have become numerous - will need to widen this component and add scrolling<br/></li>
-        <li>SideNavBarComponent<br/> 
+       <li><strong> TabbingContainerComponent </strong><em>newly introduced June start 2023</em><br/>
+       - List of Categories under which the menu options(items) are grouped
+       - Horizontal, spanned across the header area - expected to evolve to a tabbed interface
+       - Talks to TopNavBarComponent (below) to select Menus to display </li>
+       <li>TopNavBarComponent <em>New - copied and mofied from SideNavBarComponent below</em>.. This shows only those (leaf) menu items which belong to the selected tab<br/>
+       </li>
+       <li>SideNavBarComponent<em> Defunct - renamed and modified to TopNavBarComponent above</em><br/> 
         - Previous version of The theme menu content. Started as a right nav bar kind of design, under a different class SideNavBarComponent (see next)<br/>
         </li>
          <li>AreaSummaryPage<br/>
         - the landing page with the content 'A Journey of Sketches'<br/>
          </li>
+         <li><strong> TechnicalDetailComponent</strong><em>newly introduced June start 2023</em><br/>
+        - This attempts to capture a Readme of this application 
+        - technical and semi technical<br/>
+         </li>
         </ul>
-        ` },
-    { tab:"Special Lists", label:  ' - 2023', child: true, uniqueKey: '', parentKey: 'art', key: 'changers-2023', roles: ['all'] },
-    { tab:"Special Lists", label:  'The Best: before 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece', roles: ['all'] },
-    { tab:"Special Lists", label:  '- 2022', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece-2022', roles: ['all'] },
-    { tab:"Special Lists", label:  '- 2023', child: false, uniqueKey: '', parentKey: 'art', key: 'showpiece-2023', roles: ['all'] },
-    { tab:"Special Lists", label:  'Latest Uploads', child: false, uniqueKey: '', parentKey: 'art', key: 'latest-uploads', roles: ['relgion', 'all'] },
-    { tab:"Gods, Goddesses", label:  'Shree Ganesh: pre Q42021 ', child: false, uniqueKey: '', parentKey: 'art', key: 'shree-ganesh', roles: ['relgion', 'all'], dateUploaded: '12-11-2021' },
-    { tab:"Gods, Goddesses", label:  '- Q4 2021 onward', child: true, uniqueKey: '', parentKey: 'Shree Ganesh', key: 'shree-ganesh-gte-q4-2021', roles: ['relgion', 'all'], dateUploaded: '01-31-2023' },
-    { tab:"Gods, Goddesses", label:  '- Q1 2023 onward', child: true, uniqueKey: '', parentKey: 'Shree Ganesh', key: 'shree-ganesh-gte-q1-2023', roles: ['relgion', 'all'], dateUploaded: '03-23-2023' },
-    { tab:"Gods, Goddesses", label:  'Goddesses', child: false, uniqueKey: '', parentKey: 'art', key: 'devi', roles: ['relgion', 'all'], dateUploaded: '01-29-2023' },
-    { tab:"Gods, Goddesses", label:  'Mahadev', child: false, uniqueKey: '', parentKey: 'art', key: 'mahadev', roles: ['relgion', 'all'], dateUploaded: '02-01-2023' },
-    { tab:"Gods, Goddesses", label:  'Mahadev and Family', child: false, uniqueKey: '', parentKey: 'art', key: 'mahadev-family', roles: ['relgion', 'all'], dateUploaded: '05-04-2023' },
-    { tab:"Gods, Goddesses", label:  'Laxmi, Narayan, Shree Ram, and family, Bajrangbali', child: false, uniqueKey: '', parentKey: 'art', dateUploaded: '02-05-2023', key: 'laxmi-vishnu-hanuman', roles: ['relgion', 'all'] },
-    { tab:"Gurus and Mystics", label:  'Spiritual Souls:Datta Lineage, Sikhs, East of India', child: false, uniqueKey: '', parentKey: 'art', dateUploaded: '02-13-2023', key: 'dattavatar', roles: ['relgion', 'all'] },
-    { tab:"Gurus and Mystics", label:  'Shree Swami Samartha', child: false, uniqueKey: '', parentKey: 'art', key: 'swami-samartha', roles: ['relgion', 'all'], dateUploaded: '04-24-2023' },
-    { tab:"Gurus and Mystics", label:  'Shirdi Sai: to  Q3 2021', child: false, uniqueKey: '', parentKey: 'art', parent: true, key: 'shirdi-sai-q1-q2-2021', roles: ['relgion', 'all'], dateUploaded: '02-07-2023'  },
-    { tab:"Gurus and Mystics", label:  '- Q3 2021 - Q1 2022', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'shirdi-sai-q3-q4-2021', roles: ['relgion', 'all'], dateUploaded: '03-31-2022' },
-    { tab:"Gurus and Mystics", label:  '- Q2 Q3 2022', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'shirdi-sai-q2-q3-2022', roles: ['relgion', 'all'], dateUploaded: '02-07-2023' },
-    { tab:"Gurus and Mystics", label:  '- Q3,Q4 2022 Q1 2023', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'shirdi-sai-q4-2022-q1-2023', roles: ['relgion', 'all'], dateUploaded: '03-02-2023' },
-    { tab:"Gurus and Mystics", label:  '- Q2 Q3 2023', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'shirdi-sai-q2-q3-2023', roles: ['relgion', 'all'], dateUploaded: '05-16-2023' },
-    { tab:"Gurus and Mystics", label:  '- Sai Satcharitra', child: true, uniqueKey: '', parentKey: 'Shirdi Sai', key: 'baba-themes-1', roles: ['relgion', 'all'], dateUploaded: '02-28-2022' },
-    { tab:"People, Places, Themes", label:  'People', child: false, uniqueKey: '', parentKey: 'art', key: 'people-places', roles: ['nonLiving', 'all'], dateUploaded: '02-02-2023' },
-    { tab:"People, Places, Themes", label:  'Places, Scenes and Objects', child: false, uniqueKey: '', parentKey: 'art', key: 'places-scenes-objects', roles: ['nonLiving', 'all'], dateUploaded: '03-02-2023' },
-    { tab:"People, Places, Themes", label:  'Misc, Themes', child: false, uniqueKey: '', parentKey: 'art', key: 'themes-misc', roles: ['nonLiving', 'all'], dateUploaded: '05-14-2023' },
-    { tab:"Misc", label:  'Anim Unorganized', child: false, uniqueKey: '', parentKey: 'art', key: 'animate-to-be-oragnized1', roles: ['nonLiving', 'all'], dateUploaded: '02-03-2022' },
-    { tab:"Transport and Machines", label:  'Rail', child: false, uniqueKey: '', parentKey: 'art', key: 'trains', roles: ['nonLiving', 'all'], dateUploaded: '02-08-2023' },
-    { tab:"Transport and Machines", label:  ' - IR WDM2', child: true, uniqueKey: '', parentKey: 'Rail', key: 'trains-ir-alcos', roles: ['nonLiving', 'all'], dateUploaded: '11-28-2022' },
-    { tab:"Transport and Machines", label:  ' - IR trains)', child: true, uniqueKey: '', parentKey: 'Rail', key: 'trains-ir-special-trains', roles: ['nonLiving', 'all'], dateUploaded: '02-02-2023' },
-    { tab:"Mumbai", label:  'Mumbai Meri Jaan', child: false, uniqueKey: '', parentKey: 'art', key: 'mumbai-meri-jaan', roles: ['nonLiving', 'all'], dateUploaded: '11-28-2022' },
-    { tab:"Mumbai", label:  ' - Q1 2023 onward', child: true, uniqueKey: '', parentKey: 'Mumbai Meri Jaan', key: 'mumbai-meri-jaan-2', roles: ['nonLiving', 'all'], dateUploaded: '01-29-2023' },
-    { tab:"Transport and Machines", label:  'Aircraft, Ships and Cars', child: false, uniqueKey: '', parentKey: 'art', key: 'planes', roles: ['nonLiving', 'all'], dateUploaded: '02-14-2023' },
-    { tab:"Transport and Machines", label:  '- Q2 2023 onward', child: false, uniqueKey: '', parentKey: 'art', key: 'planesQ12023', roles: ['nonLiving', 'all'], dateUploaded: '05-12-2023' }];
+        ` }, { header:"WIP & To Dos Automation", key:'todoautomation',
+        content: 
+        `<div>
+        <ol><li><h6>Brief explain of data storage </h6></li>
+       <li>>Raw data - images - is stored in a folder hierarchy under the assets folder of the angular app</li>
+       <li>These images are stored in folders named specific to the their theme. <br/>
+          e.g. a sketch of the GG bridge would go under a folder called 'places. scenes, objects'</li>
+       <li>The image file names including relative path, details and other demographics are stored in different arrays of JSON objects</li>
+       <li>These Arrays are stored in data lists - typescript files, as , imported into the relevant component file and subsequently rendered<br/>
+          (These typescript files content is exposed and exported as a class with a contexy relevant name)</li>
+       <li>A list of the different themes including special lists is maintained; here the date uploaded is updated for that theme reference in this list.</li>
+       <li>The source is saved, built and published to Google firebase (as on June 12, 2023)</li>
+       </ol>
+       </div>
+       <div>
+       <ul><li>Automation of the data maintenance process explained with context to my sketches</li>
+       <li>b. Typical data process steps:</li>
+       <li>b. i.   When the sketch is ready, it is scanned or photographed into a jpeg which is ultimately saved into the downloads folder</li>
+       <li>b. ii.  This downloaded image file is appropriately named (theme and date) and then moved to the appropriate folder as per the above(Point 4.)</li>
+       <li>b. iii. Information on the sketch - image name with relative path, and other demographics like description, rating, date compleyed and uploaded is 
+               entered as a JSON object into the corresponding data list file (manifest -??) as per 5. and 6. above </li>
+       <li>b. iv.  The list specified in 8.above is updated</li>
+       <li>b. v.   PERIODICALLY a new theme is generated - this involves adding a new data list, a new image folder, new entry in the index list and also 
+               importing and refering the new list in the service class</li>
+       <li> c. THE INTENT IS TO AUTOMATE THIS PROCESS</li>
+       </ul>
+       </div>
+        ` }, { header:"WIP & To Dos: Other", key:'todo',
+        content: 
+        `<h5>TO DO </H5>
+        <blockquote>The emphasis as upto mid 2023 was to get a website with clear rendition of my sketches, with some basic structuring and inoffensive, plain styling. 
+        Over time, the structuring has become increasingly unweildy, the data has increased <em>significantly</em><.<br/>
+        From filling out the cracks, to leveling bumps, to give this gallery a new new look and feel, there are also some undeniable 'medium priority bugs', 
+        some features to add, etc</blockquote>
+      
+        <ul>
+        <li>Role based visibility.. 
+        - To filter some pages based on user role. avoiding 'TMI' for some users, keeping some views visible for interested parties,<br/>
+        - Current implementation is for 'admin' and 'non admin' where this view is reachable only for the former role<br/>
+        - Using authguard/CanActivate, with hard coded users 'shantanu', 'technician' and 'admin', roles 'ADMIN' and 'TECHNICAL'<br/>
+        - I'd probably 'mask' some themes from some user roles..<br/>
+        - right now, some logical errors connected with technician
+        </li>
+        <li>Some logical and other errors<br/> 
+        - Sometimes this loads in card mode<br/>
+        - The 'Technical' view may not be reached<br/>
+        - Visibility of the newly added tabbing buttons at the header<br/>
+        - Using indexing on this page instead of the master detail - probably correct application of blocking event emission/bubbling
+        - others<br/>
+        - ...<br/></li>
+        <li>Automation of load (see 'To Dos Automation')</li>
+        <li>Styling, positioning, etc: reduction of mutiple scroll bars as much as can be done, trying to keep content visible and responsive, contemporary look and feel, etc 
+        </ul>
+        ` }, { header:"Build Milestones", key:'builds',
+        content: 
+        `<h5>Builds - randomly added, more for feature changes than content upload </H5>
+        <ul><li>June 12 2023.. in transit with UI styling changes connected with the tabbing and other enhancements</li></ul>
+        ` },];

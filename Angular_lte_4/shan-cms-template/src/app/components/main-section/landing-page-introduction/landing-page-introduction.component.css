@@ -28,11 +28,10 @@
         content: "";
     background-size: cover;
     background: rgba(245,245,220);
-    background-image: url("../../assets/all-images/saraswati_pooja.png");
-    background-size: cover;
+    background-image: url("../../../../assets/all-images/saraswati_pooja.png");
     position: absolute;
     height: 700px;
-    width: 83%;
+    width: 100%;
     padding:10px; 
     top: 0px;
       right: 0px;
@@ -55,6 +54,14 @@ span {
         top:5px;
         left: 5px;
         margin-right: 0px;
+       
+    }
+    
+}
+
+@media screen and (max-width:1280px) {
+    .sub-content {
+        background-size: contain;
        
     }
     

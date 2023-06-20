@@ -1,14 +1,14 @@
-import { introContentList } from './../../assets/data-and-config/menus-and-other-contexts/summary-page-content-list';
+import { introContentList } from '../../../../assets/data-and-config/menus-and-other-contexts/summary-page-content-list';
 import { Component, OnInit, ɵɵNgOnChangesFeature } from '@angular/core';
-import { ListFunnelService  } from '../services/list-funnel.service';
+import { ListFunnelService  } from '../../../services/list-funnel.service';
 // import { SideNavBarComponent } from  'compo / './components/side-nav-bar/side-nav-bar.component';
 
 @Component({
-  selector: 'area-summary-page',
-  templateUrl: './area-summary-page.component.html',
-  styleUrls: ['./area-summary-page.component.css']
+  selector: 'landing-page-introduction',
+  templateUrl: './landing-page-introduction.component.html',
+  styleUrls: ['./landing-page-introduction.component.css']
 })
-export class AreaSummaryPageComponent implements OnInit {
+export class LandingPageIntroduction implements OnInit {
   context:number =  0;
   introContent:string = '';
   constructor(private listFunnelService: ListFunnelService) {

@@ -1,3 +1,4 @@
+import { AuthService } from './../../services/auth.service';
 import { Router } from '@angular/router';
 /*eslint-disable */
 import { ThrowStmt } from '@angular/compiler';
@@ -45,6 +46,10 @@ export class ThemeNavigationComponent implements OnInit {
   get ViewLink():string {
     return this._viewLink;
   }
+  get UnPlugged():boolean {
+    return this._unplugged;
+  }
+  
   get Menus():any[] {
     return this.menus;
   }
@@ -89,7 +94,10 @@ export class ThemeNavigationComponent implements OnInit {
       {  'text-decoration': 'none',  'color': 'blue', 'font-weight': '600'}: 
         { 'list-style-type': "-", 'margin-left': '15px', 'text-decoration': 'none',  'color': 'blue', 'font-weight': '500'} ;
     }
-  constructor(private categoryServices: CategoriesService, private router: Router, private listFunnelService: ListFunnelService) { 
+  constructor(
+      private categoryServices: CategoriesService, 
+      private authService: AuthService,
+      private router: Router, private listFunnelService: ListFunnelService) { 
     let  a:any  = ''; //
     a = localStorage.getItem('userId');
     if (a)this._userId = a;
@@ -117,8 +125,7 @@ export class ThemeNavigationComponent implements OnInit {
     this._viewLink  = `/view`;
     this._categories = (this.categoryServices.Categories);
     console.log(`${this._categories}`)
-    localStorage.setItem('userId',this.userId);
-    localStorage.setItem('password',this.password);
+    this.authService.login(this.userId);
     this.menus = [ {path: '/', label:'Home page',parentKey:'art', param:[]}];
     /*
     as yet unused May 29 2023
@@ -131,7 +138,7 @@ export class ThemeNavigationComponent implements OnInit {
       //this._unplugged === true ?
       this.menus.push({
         tab: `${this._categories[i].tab}`,
-          path: this._viewLink, 
+          path: this._categories[i].parentKey === 'art'?this._viewLink: `/${this._categories[i].key}`, 
           label:`${this._categories[i].label}`, 
           uniqueKey: `${this._categories[i].uniqueKey}`, 
           dateUploaded:  `${this._categories[i].dateUploaded? this._categories[i].dateUploaded: '01-01-1990' }`, 
@@ -141,10 +148,12 @@ export class ThemeNavigationComponent implements OnInit {
       // this.menus.push({path: 'view', label:`${this._categories[i].label}`, param:this._categories[i].key});
     }
     /* New for technical details to 'show' interested parties May 29 2023*/
-    if (this.userId === 'technician' || this.userId === 'shantanu') {
-      this.menus.push({path: '/technical', label:'Technical', param:[]})
+  /*  if (this.userId === 'technician' || this.userId === 'shantanu' || this.userId === 'admin') {
+      this.menus.push({path: '/technical', label:'(Technical)', param:[]}); // at the end
+      this.menus.unshift({path: '/technical', label:'(Technical)', param:[]});// at the top 
+      
     }
-   
+  */
     
     // alert(JSON.stringify(this.menus));
     localStorage.setItem('userMenu', JSON.stringify(this.menus));
@@ -196,6 +205,7 @@ export class ThemeNavigationComponent implements OnInit {
   navigateStoragelogout() {
     localStorage.removeItem('context');
     localStorage.removeItem('userId');
+    localStorage.removeItem('role');
     localStorage.removeItem('userMenu');
     localStorage.removeItem('categories');
     this.router.navigate(['']);

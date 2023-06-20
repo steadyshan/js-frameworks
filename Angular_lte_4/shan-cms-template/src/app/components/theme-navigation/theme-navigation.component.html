@@ -17,8 +17,10 @@
     </div>
     <ng-template #elseBlock>
     <div >  
-    Welcome {{userId}} 
+    Welcome {{userId}}
     <div id='largeScreenMenus' >
+      <input type='button' value='logout' (click)='navigateStoragelogout()'>
+    
       <ul>
           <!--li> <a (click)="setContext('0')">Sketches</a></li>
           <li> <a (click)="setContext('0')">Blog</a></li-->

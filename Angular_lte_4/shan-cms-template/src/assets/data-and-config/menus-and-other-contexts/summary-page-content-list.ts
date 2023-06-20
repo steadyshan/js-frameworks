@@ -5,21 +5,21 @@
           <em> <h6>&nbsp;&nbsp;&nbsp;"I always have liked to draw."</h6></em><br/>
           Some things just stick in memory. I remember, when I was a kid, my father drawing me a plane. It was a pretty good drawing...
           I dont remember the circumstances, but that was what set me off. My brother and I always loved trains 
-          (our family has this perpetual love story with Indian Railways) and I had always been fascinated with aircraft. 
+          (our family has had this perpetual love story with Indian Railways) and I had always been fascinated with aircraft. 
           Drop in liking for World War 2 stories and Commando comics, making for themes involving anything to do with modes of transport = 
           from dogfights to train yards, the occasional ship and tank, sailing ship, ocean liner.. 
 
       </p>
       <p> .. AND the occasional human face and figure...</p> 
-      <p> <strong>Fast foward to Q3 2020...</strong><br/><em>We were (and still are, as I write these words at the start of <strong><u>Q3 2021</u></strong>) caught up in the grip f
+      <p> <strong>Fast foward to Q3 2020...</strong><br/><em>We were caught up in the grip of
       the COVID 19 Pandemic - <ul><li>Work remotely, blurring and fragmentation of work and non work times</li>
       <li>Social and people to people restrictions and, as a side effect, no outdoor/away from home event or entertainment</li>
       <li>Re-invention, application of imagination, finding means to stave off boredome, insanity and getting on each others nerves ,</li>
       <li>..... And as a result ---- <strong>SKETCHING</strong></li></ul></p>
       <p>Presenting humbly, my collection of sketches..<br>With time, attitudes, priorities, nature, liking and many other aspects change... <br/>This, I guess is pretty much reflected in the content here
       </br>Hope you will like them</p>
-      <p  style='{color:red}'> - Shantanu, July 2021</p>
-      </em>`,
+      <!-- <p  style='{color:red}'> - Shantanu, July 2021</p>
+      </em>-->`,
      
       `
       <H1>My Blog - resurrected!!  </H1>

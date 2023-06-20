@@ -1,23 +1,31 @@
 
 /* Style the tab */
 .tab {
-    overflow: hidden;
     border: 1px inset #ccc;
     background-color: #f1f1f1;
     text-decoration: none;
-    padding:5px;
+    padding:2px;
     margin: 5px 3px ;
+    display: flex;
+    flex-wrap: wrap;
+    width:81%
   }
-
+ul {
+  padding:0px;
+  width:95%;
+}
 /* Style the buttons inside the tab */
 .tab li {
     background-color: inherit;
+    max-width: 195px;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
+    padding: 4px 6px;
+    font-size: 15px;
+    background-color: #b8e8e8;
+    border:2px gray outset;
+    border-radius: 3px;
   }
   
