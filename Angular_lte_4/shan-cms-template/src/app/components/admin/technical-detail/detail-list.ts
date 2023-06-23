@@ -10,7 +10,8 @@ export const TechDetail: any[] = [
         <li>The current iteration named <a href='https://art-is-worship.web.app/' target=_blank>https://art-is-worship.web.app/</a></li>
         <li>Previous versions. Initial version was released somewhere in 2021 on the Angular2-4 platform.
         <br/> <a href='https://art-is-worship-v52023.web.app/' target=_blank>https://art-is-worship-v52023.web.app//</a>
-        <br/> <a href='https://art-is-worship-and-peace.firebaseapp.com/' target=_blank>https://art-is-worship-and-peace.firebaseapp.com/</a></li></ul>` },
+        <br/> <a href='https://art-is-worship-and-peace.firebaseapp.com/' target=_blank>https://art-is-worship-and-peace.firebaseapp.com/</a></li>
+        <li>ng build --prod; sync;sync;sync;sync;sync;firebase deploy</li></ul>` },
         { header:"History", key:'history',
         content: 
         `<h5>History - sigificant changes in the application * </H5>

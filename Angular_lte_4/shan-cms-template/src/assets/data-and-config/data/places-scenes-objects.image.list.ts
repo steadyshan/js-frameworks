@@ -113,7 +113,7 @@ export class PlacesScenesObjectsImageList {
                  */
                  { 
                   evolution: 'First non religious and 2nd sketch using 11x17 A3 sheet. The description below says it all',
-                  evolutionSequence: 1, evolutionDate: '08-31-2022',
+                  evolutionSequence: 2, evolutionDate: '08-31-2022',
                  canvassSize: 'A3', content:'color-pencil',
                  fullFileName: `assets/all-images/places-scenes-objects/GoldenGate11x17ColorAug312022-5.jpeg`, 
                   description: `<ul>

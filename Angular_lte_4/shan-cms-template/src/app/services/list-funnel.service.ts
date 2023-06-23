@@ -58,7 +58,7 @@ export class ListFunnelService {
     });
   }
   canvassSize = [
-    'A3', 'A4', 'soft'
+    'A3', 'A4', 'soft','other'
   ];
   content = [
     'color-pencil',
@@ -66,6 +66,8 @@ export class ListFunnelService {
     'color-crayon',
     'color-pencil black-white',
     'poem black-white',
+
+    'poem color'
   ]
   currentTab? = "";
   get CurrentTab():string {
