@@ -10,6 +10,18 @@ export class PlacesScenesObjectsImageList {
                 themeSummary:`</strong>Scenes, Objects, Structures, (some may be items containing mix modes of transport or something like an air dogfight)<br/>
                 Mumbai gets her due place and a dedicated theme; all Mumbai related sketches will be found in 'Mumbai Meri Jaan'`,
                 files: [ 
+{
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-06-2023',
+evolution:  `<b>My mom loved it.. she said she is proud of me<br/>A uniqueness in the scene and also the memory<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '07-04-2023',
+fullFileName: `assets/all-images//places-scenes-objects/Dolphin-from-MVSarita-july452023.jpeg`,
+description: `<ul><li> July 4 2023 special..An overdue, 'put a memory into sketch' theme </li><li> My father was transferred from Mumbai IOC to Vasco Goa in 1975-76 . We travelled by steamer the MV Sarita(later known as Konkan Sevak??) in December </li><li> I was on the deck watching the sunset and this dolphin / porpoise came out of the water and jumped really high .. with the level of the setting Sun, it gave the impression of jumping OVER it </li></ul>`,
+rating:  1,
+ratingYear:  2023,
+},
                   { 
                         evolution: `Taj is iconic - a symbol of India`,
                         evolutionSequence: 1, evolutionDate: '11-23-2020',
