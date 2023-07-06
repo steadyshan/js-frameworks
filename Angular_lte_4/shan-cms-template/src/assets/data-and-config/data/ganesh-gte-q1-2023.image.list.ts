@@ -41,6 +41,25 @@ public allImageList:ImageElement[]  =  [
         themeSummary:
         `Vigneshwar, Aumkar, Gamapati, Vignahartha - The Lord Ganesh, remover of Obstacles. Sketches Q1 2023 onward`,
         files: [
+{
+canvassSize:  'A4',
+content:  'color-pencil black-white',
+dateUploaded:  '07-06-2023',
+evolution:  `<b>The first sketch to be uploaded to the official website using the full stack automated tool<br/>Lot of refinement is still due, but this is a pretty good optimization<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '06-13-2023',
+fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-4.jpeg`,
+description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li></ul>`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-4.jpeg`, description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li></ul>` },
+{fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-3.jpeg`, description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li><li> .. Almost there </li></ul>` },
+{fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-2.jpeg`, description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li><li> .. Almost there </li></ul>` },
+{fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-1.jpeg`, description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li><li> outline </li></ul>` },
+{fullFileName: `assets/all-images//religion/shree-ganesh-gte-q1-2023/Ganesh06272023-bw.jpeg`, description: `<ul><li> A 'one sitting' sketch of Ganesh after a long time </li><li> Simple, basic pose </li><li> Photo edited to black and white for a collage </li></ul>` },
+]
+},
          {
 
              // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh-1-March1723.jpeg
@@ -84,13 +103,13 @@ public allImageList:ImageElement[]  =  [
          },
          {
             fullFileName: `assets/all-images/religion/shree-ganesh-gte-q1-2023/Ganesh012323-Magh.jpeg`, 
-            evolution: `<ul><li> Besides my 1st only Ganesh on 11x17, this is a new sub category Ganesh Q1 2023</li></ul>`,
-            evolutionSequence:3, 
-            evolutionDate: '01-23-2023',
             description: `<ul>
             <li>My first 11x17 all exclusive Ganesh in color.. Maagh Month 2023 .. Completed Jan 23 </li>
             </ul>`,
-            dateUploaded: '01-23-2023',
+            evolution: `<ul><li> Note :Besides my 1st only Ganesh on 11x17, this is a new sub category Ganesh Q1 2023</li></ul>`,
+            evolutionSequence:3, 
+            evolutionDate: '01-23-2023',
+           dateUploaded: '01-23-2023',
             
          },
       ], // all list
