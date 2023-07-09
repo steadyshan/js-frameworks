@@ -10,19 +10,6 @@ export class PlanesImageList {
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
-{
-canvassSize:  'A4',
-content:  'black-white',
-dateUploaded:  '07-07-2023',
-fullFileName: `assets/all-images//planes/BattleOfBritanJun252023-photoEdit.jpeg`,
-description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li></ul>`,
-rating:  1,
-ratingYear:  2023,
-iterations: [
-{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023-photoEdit.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li></ul>` },
-{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Original </li></ul>` },
-]
-},
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg
             ,
             { 
