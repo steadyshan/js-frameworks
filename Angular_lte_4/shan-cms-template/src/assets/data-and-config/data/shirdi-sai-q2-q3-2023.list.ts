@@ -18,6 +18,18 @@ public allImageList:ImageElement[]  =  [
         `<p> <em><strong>Soo many sketches of Shirdi Sai!!!</strong> that I needed to make a separate section with specific period for the last Datta Avatar, Sadguru Shree Sai Samartha</em><br/>
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
+{
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-09-2023',
+fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/Baba1221CACircle-June1523-3.jpeg`,
+description: `<ul><li> SSP Milpitas Temple (1221 CA Circle) anniversary being June 18-20, this theme was in mind when sketching </li><li> Attempted showing Baba making (rolling) ladoos outside Milpitas Temple and giving a kid </li><li> final versiob </li><li> June 13-15 2023 </li></ul>`,
+iterations: [
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/Baba1221CACircle-June1523-3.jpeg`, description: `<ul><li> SSP Milpitas Temple (1221 CA Circle) anniversary being June 18-20, this theme was in mind when sketching </li><li> Attempted showing Baba making (rolling) ladoos outside Milpitas Temple and giving a kid </li><li> final versiob </li><li> June 13-15 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/Baba1221CACircle-June1523-2.jpeg`, description: `<ul><li> SSP Milpitas Temple (1221 CA Circle) anniversary being June 18-20, this theme was in mind when sketching </li><li> Attempted showing Baba making (rolling) ladoos outside Milpitas Temple and giving a kid </li><li> WIP </li><li> June 13-15 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/Baba1221CACircle-June1523-1.jpeg`, description: `<ul><li> SSP Milpitas Temple (1221 CA Circle) anniversary being June 18-20, this theme was in mind when sketching </li><li> Attempted showing Baba making (rolling) ladoos outside Milpitas Temple and giving a kid </li><li> start </li><li> June 13-15 2023 </li></ul>` },
+]
+},
         //    /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/shirdi-sai-q2-q3-2023/MilpitasBabaA3-May11-2023-2.jpeg
         {
             canvassSize:  'A4',

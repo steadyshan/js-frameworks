@@ -6,6 +6,13 @@ public allImageList:ImageElement[]  =  [
                 theme:'Salaam Mumbai',
                 themeSummary: `This long overdue dedication to the City that is part of me that I am part of.. How could I have waited soooo long. <br/><b>Posts Q1 2023 onward</b>`,
                 files: [
+{
+canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-09-2023',
+fullFileName: `assets/all-images//mumbai-meri-jaan-2/taraporewala-juneend-july1.jpeg`,
+description: `<ul><li> Attempt to sketch Taraporewalla Aquarium, one of Mumbai's iconic structures. The Aquarium, on Marine drive, is India's oldest and hosts both marine and fresh water life. </li><li> The aquarium has a 12-foot long and 180 degree acrylic glass tunnel.. The fish are kept in large glass tanks, which will be lit with LED lights </li><li> Sketched ca June 29 - July 1 2023  </li></ul>`,
+},
                
                   // assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-V1.jpeg
                   // assets/all-images/mumbai-meri-jaan-2/RepublicDayOverMumbai01262023-B&W-0128.jpeg
