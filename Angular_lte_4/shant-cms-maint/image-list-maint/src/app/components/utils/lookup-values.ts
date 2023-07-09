@@ -22,9 +22,39 @@ export class LookupValues {
     
         'poem color'
       ];
+      keys = [
+      'shree-ganesh', 
+      'shree-ganesh-gte-q4-2021',
+      'shree-ganesh-gte-q1-2023', 
+      'devi',
+       'mahadev',
+       'mahadev-family',
+        'laxmi-vishnu-hanuman',
+        'dattavatar',
+        'swami-samartha',
+        'shirdi-sai-q1-q2-2021',
+        'shirdi-sai-q3-q4-2021',
+         'shirdi-sai-q2-q3-2022',
+         'shirdi-sai-q4-2022-q1-2023', 
+         'shirdi-sai-q2-q3-2023', 
+         'baba-themes-1', 
+         'people-places', 
+          'places-scenes-objects', 
+          'themes-misc',
+           'animate-to-be-oragnized1', 
+           'trains',
+           'trains-ir-alcos', 
+            'trains-ir-special-trains', 
+            'mumbai-meri-jaan', 
+            'mumbai-meri-jaan-2', 
+            'planes', 
+            'planesQ12023', 
+            'technical',
+      ]
     currentEvolutionSequence = 3;
-    rootImageSourceFolder = `/Users/shantanu/Downloads/`
-    rootImageDestinationFolder = `/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/`
-    rootConfigFolder = `/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/data-and-config/`
-
+    rootImageSourceFolder = `/Users/shantanu/Downloads/Sketches-transit`
+    galleryRoot = `/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template` ;
+    rootImageDestinationFolder = `${this.galleryRoot}/src/assets/all-images/`
+    rootConfigFolder = `${this.galleryRoot}/src/assets/data-and-config/`
+/// Ganesh07262023-forautoTest-2.jpeg
 };

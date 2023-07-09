@@ -23,7 +23,7 @@ import { Observable } from  'rxjs';
             <li>And this is a candidate for an 8x10 frame (11/17)</li>
              </ul>`,
             dateUploaded: '11-17-2022',
-            iterations:[  {
+    118        iterations:[  {
                 fullFileName: `assets/all-images/religion/dattavatar/SwamiDatta-photoready-8x10-proto1.png`, 
         description: 
         `<ul>
@@ -114,7 +114,7 @@ export class ListUpdateOComponent implements OnInit {
    alert('aa');
      /*
      /processImage
-     */
+    
      this.listService.addListing(imageDetail)
      .subscribe(
        (response:any)=> { 
@@ -123,6 +123,7 @@ export class ListUpdateOComponent implements OnInit {
        (err:any)=>console.log(`ERROR ${err}`),
        () => console.log('complete'),
      )
+      */
   }
   getSubFolder(event:any, level:number){
     switch(level) {

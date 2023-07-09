@@ -1,8 +1,13 @@
 <div>
-    
-    <H3>Image Folders:</H3>
+    <!---  later to add from reusables
+    <app-folder-tree-expand [rootFolder]="destinationStart"></app-folder-tree-expand>
+    -->
+    <H5>Moving the images:</H5>
     <div>
-        <label >Source Folder:</label>   <label >{{rootImageSourceFolder}}</label>
+        <label>Folders -- Source:</label>   <label >{{rootImageSourceFolder}}</label>
+    </div>
+    <div>
+        <label>Destination:</label>{{currentParentFolder}}..
     </div>
     <label >Set Destination Folders:</label>
     <div>

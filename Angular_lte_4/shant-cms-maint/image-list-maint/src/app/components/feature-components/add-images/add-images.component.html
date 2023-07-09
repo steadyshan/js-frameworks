@@ -1,0 +1,46 @@
+<div  style="height:200px; overflow-y: scroll;">
+<button (click)="postJSONUpdate()">Submit</button>
+<ul>
+    <li *ngFor="let imageFile of imageList">{{imageFile}}</li>
+</ul>
+<br/>
+{{jsonListingFile}}
+<ul>
+    <li *ngFor="let jj of jsonListing">{{jj}}</li>
+</ul>
+
+</div>
+<table>
+    <tr>
+        <td colspan="2"> <button (click)="displayToggle('imageMoveRow', false)">Hide Image Move</button>
+            <button (click)="displayToggle('imageMoveRow')">Show Image Move</button>
+        </td>
+    </tr>
+    <tr id="imageMoveRow" >
+        <td>
+            <div>
+                <!--<button (click)="displayToggle('imageMove', false)">Hide Image Move</button>
+                <button (click)="displayToggle('imageMove')">Show Image Move</button>
+                -->
+                <div id="imageMove" [ngStyle]="ComponentDivStyle"  style="height:305px" >
+                    <app-image-move (imageVersionsDone)="passImageFolders($event)"></app-image-move>
+                </div>
+            </div>
+        </td>
+        <td>
+
+<div style="height:275px" [ngStyle]="ComponentDivStyle" >
+    <app-set-list-folder (configFileFound)="jsonFileToUpdate($event)"></app-set-list-folder>
+    </div>
+        </td>
+    </tr>
+</table>
+
+<div>
+
+    <button (click)="displayToggle('compileJSON', false)">Hide JSON generator</button>
+    <button (click)="displayToggle('compileJSON')">Show  JSON generator</button>
+<div  id="compileJSON" [ngStyle]="ComponentDivStyle" style="height:400px" >
+<app-compile-json-content *ngIf="imagesMoved==true" (jsonReady)="jsonToUpdate($event)" [imageFileList]="imageList"></app-compile-json-content>
+</div>
+</div>

@@ -14,7 +14,7 @@ export class CreateJsonContentComponent implements OnInit {
   @Input() imageFiles:string[] = ["A","B","C"];
   /* RIGHT NOW config files are only one level deep, so dont need the 'rippling' logic for images */
   lookups: LookupValues = new LookupValues();
-  rootImageListFolder = this.lookups.rootImageListFolder;
+  rootImageFolder = this.lookups.rootImageSourceFolder
   canvassSizes = this.lookups.canvassSizes ;
   contentTypes = this.lookups.contentTypes ;
   level1Files = ["",""] ;
@@ -57,7 +57,7 @@ export class CreateJsonContentComponent implements OnInit {
     public String  duplicate;
   */
   ngOnInit(): void {
-      this.getImageListFiles(this.rootImageListFolder);
+      this.getImageListFiles(this.rootImageFolder);
       const iterationsArray = this.imageListJSON.controls.iterations as FormArray;
       this.imageFiles.forEach((file:string, index:number) =>{
         const imageDetail =this.fb.group( {

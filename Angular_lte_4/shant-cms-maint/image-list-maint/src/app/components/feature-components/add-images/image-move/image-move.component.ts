@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LookupValues } from '../utils/lookup-values';
-import { ListService } from './../../services/list.service';
+import { LookupValues } from '../../../utils/lookup-values';
+import { ListService } from '../../../../services/list.service';
 import { Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-image-move',
@@ -8,10 +8,11 @@ import { Output, EventEmitter } from '@angular/core';
   styleUrls: ['./image-move.component.css']
 })
 export class ImageMoveComponent implements OnInit {
-
+  mockdata = true; 
   @Output() imageVersionsDone = new EventEmitter<string[]>();
   
   lookups: LookupValues = new LookupValues();
+  destinationStart = this.lookups.rootImageDestinationFolder ;
   rootImageSourceFolder = this.lookups.rootImageSourceFolder ;
   rootImageDestinationFolder = this.lookups.rootImageDestinationFolder ;
   currentParentFolder = this.lookups.rootImageDestinationFolder ;
@@ -83,18 +84,18 @@ export class ImageMoveComponent implements OnInit {
           (response:any)=> { 
             console.log('success') ;
             let assetInd = this.currentParentFolder.indexOf('asset') ;
-            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd)}${this.imageFileName}`);
+            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd).replace(`//`,`/`)}/${this.imageFileName}`);
             
           },
           (err:any)=> { 
             let assetInd = this.currentParentFolder.indexOf('asset') ;
-            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd)}${this.imageFileName}`);
+            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd).replace(`//`,`/`)}/${this.imageFileName}`);
             console.log(`ERROR ${err}`)
           },
           () => {
             console.log('complete');
             let assetInd = this.currentParentFolder.indexOf('asset') ;
-            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd).replace(`//`,`/`)}${this.imageFileName}`);
+            this.imageFiles.push(`${this.currentParentFolder.substring(assetInd).replace(`//`,`/`)}/${this.imageFileName}`);
             
           }
         )

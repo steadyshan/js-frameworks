@@ -13,10 +13,10 @@ div form {
     padding:  14px;
     max-width: 700px;
 }
-input, select, label {
+input, select, label, h5 {
     min-width: 300px;
-    font-size: larger;
-    height:30px;
+    font-size: large;
+    height:22px;
     margin-bottom: 7px;
    
 }

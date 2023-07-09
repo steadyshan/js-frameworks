@@ -1,4 +1,4 @@
-import { LookupValues } from './lookup-values';
+import { LookupValues } from './lookup-values-todelete';
 import { ListService } from '../../../services/list.service';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, FormArray } from '@angular/forms';
