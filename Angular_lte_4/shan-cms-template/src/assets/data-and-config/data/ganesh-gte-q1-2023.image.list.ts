@@ -43,6 +43,23 @@ public allImageList:ImageElement[]  =  [
         files: [
 {
 canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-07-2023',
+evolution:  `<b>Probably 1st Sai Ganesh combo<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '06-13-2023',
+fullFileName: `assets/all-images//GaneshSai4June2223-3.jpeg`,
+description: `<ul><li> June 22 2023 - thursday pradosh </li><li> Hadnt done Ganesh for a while </li><li> Also 1st Ganesh Sai combo </li><li> Final - with 'Bel leave' on Baba forehead (Mahadev likes Bel leaves).. sort of Dwarkamai effect </li></ul>`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//GaneshSai4June2223-3.jpeg`, description: `<ul><li> June 22 2023 - thursday pradosh </li><li> Hadnt done Ganesh for a while </li><li> Also 1st Ganesh Sai combo </li><li> Final - with 'Bel leave' on Baba forehead (Mahadev likes Bel leaves).. sort of Dwarkamai effect </li></ul>` },
+{fullFileName: `assets/all-images//GaneshSai4June2223-2.jpeg`, description: `<ul><li> June 22 2023 - thursday pradosh </li><li> Hadnt done Ganesh for a while </li><li> Also 1st Ganesh Sai combo </li><li> Almost done </li></ul>` },
+{fullFileName: `assets/all-images//GaneshSai4June2223-1.jpeg`, description: `<ul><li> June 22 2023 - thursday pradosh </li><li> Hadnt done Ganesh for a while </li><li> Also 1st Ganesh Sai combo </li><li> initial outline </li></ul>` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'color-pencil black-white',
 dateUploaded:  '07-06-2023',
 evolution:  `<b>The first sketch to be uploaded to the official website using the full stack automated tool<br/>Lot of refinement is still due, but this is a pretty good optimization<br/></B>`,

@@ -14,6 +14,7 @@ import { GaneshImageList } from '../../assets/data-and-config/data/ganesh.image.
 import { GaneshGTEQ42021ImageList } from '../../assets/data-and-config/data/ganesh-gte-q4-2021.image.list';
 import { GaneshGTEQ12023ImageList } from '../../assets/data-and-config/data/ganesh-gte-q1-2023.image.list';
 import { SwamiSamarthaImageList } from '../../assets/data-and-config/data/swami-samartha.image.list'
+import { SwamiSamarthaQ22023ImageList } from '../../assets/data-and-config/data/swami-samartha-q2-2023.image.list'
 import { DattavatarImageList } from '../../assets/data-and-config/data/dattavatar.image.list';
 import { ShirdiSaiPreQ32021ImageList} from '../../assets/data-and-config/data/shirdi-sai-pre-q3-2021.list';
 import { ShirdiSaiQ3Q42021ImageList} from '../../assets/data-and-config/data/shirdi-sai-q3-q4-2021.list';
@@ -166,6 +167,7 @@ export class ListFunnelService {
     sketchStats.themBasedCounts.push(this.getThemeCounts(new LaxmiVishnuHanumanList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new DattavatarImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaImageList(), sketchStats.canvassSize,sketchStats.content));
+    sketchStats.themBasedCounts.push(this.getThemeCounts(new SwamiSamarthaQ22023ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiPreQ32021ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ3Q42021ImageList(), sketchStats.canvassSize,sketchStats.content));
     sketchStats.themBasedCounts.push(this.getThemeCounts(new ShirdiSaiQ2Q32022ImageList(), sketchStats.canvassSize,sketchStats.content));
@@ -200,6 +202,7 @@ export class ListFunnelService {
     functionProto(new LaxmiVishnuHanumanList()) ;
     functionProto(new DattavatarImageList()) ;
     functionProto(new SwamiSamarthaImageList()) ;
+    functionProto(new SwamiSamarthaQ22023ImageList()) ;
     functionProto(new ShirdiSaiPreQ32021ImageList()) ;
     functionProto(new ShirdiSaiQ3Q42021ImageList()) ;
     functionProto(new ShirdiSaiQ2Q32022ImageList()) ;
@@ -229,6 +232,7 @@ export class ListFunnelService {
     imageList.push(new LaxmiVishnuHanumanList()) ;
     imageList.push(new DattavatarImageList()) ;
     imageList.push(new SwamiSamarthaImageList()) ;
+    imageList.push(new SwamiSamarthaQ22023ImageList()) ;
     imageList.push(new ShirdiSaiPreQ32021ImageList()) ;
     imageList.push(new ShirdiSaiQ3Q42021ImageList()) ;
     imageList.push(new ShirdiSaiQ2Q32022ImageList()) ;
@@ -470,7 +474,10 @@ export class ListFunnelService {
       case 'swami-samartha': this.genImageList = new SwamiSamarthaImageList();
                          this.allImageList = this.genImageList.allImageList ;
                          break;
-      case 'planes':  this.genImageList = new PlanesImageList();  
+       case 'swami-samartha-q2-2023': this.genImageList = new SwamiSamarthaQ22023ImageList();
+                         this.allImageList = this.genImageList.allImageList ;
+                         break;
+       case 'planes':  this.genImageList = new PlanesImageList();  
       this.allImageList = this.genImageList.allImageList ;
       break;        
       case 'planesQ12023':  this.genImageList = new PlanesQ22023ImageList();  

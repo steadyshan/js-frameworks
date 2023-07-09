@@ -10,6 +10,13 @@ export class PlanesQ22023ImageList {
         themeSummary: `My first steps, my first love in this passion for sketching these are planes which I started drawing as a kid. <br/>
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
+{
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-07-2023',
+fullFileName: `assets/all-images//planes/Canberras07042023.jpeg`,
+description: `<ul><li> Another of 'inspired by friends and groups on social media' drawing </li><li> Attempt to show IAF canberra bombers </li><li> Tongue in cheek - flying over (3rd) Canberra - capital of Australia </li></ul>`,
+},
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg
            
        // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/Yamato-May-9-2023.jpeg   
