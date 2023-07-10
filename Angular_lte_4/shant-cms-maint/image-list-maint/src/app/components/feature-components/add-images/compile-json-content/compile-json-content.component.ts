@@ -81,6 +81,7 @@ export class CompileJsonContentComponent implements OnInit {
  get FormValues():string {
   return JSON.stringify(this.imageListJSON.value);
 }
+// /Volumes/Macintosh HD-1/Users/SonicUser/Public/reads/Solar Subordination Checklist.pdf
 getIterationnMutipleText(textLines:string[]) {
   let fileName = `fullFileName: \`${this.ImageFiles[this.currentIteration]}\`,`;
   let fileDescription = `description: \`<ul>`

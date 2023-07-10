@@ -19,7 +19,13 @@ export class ListService {
     return this.http.post<any>(`${this.webServiceURL}/move`,moveDetail)
     .pipe(catchError(this.handleError));
   }
+  addAlbumEntry(nameAndEntries:string[]):Observable<HttpResponse<any>> {
+    return this.http.post<any>(`${this.webServiceURL}/append`,nameAndEntries)
+    .pipe(catchError(this.handleError));
+ 
+  }
   updateListFile(stringsToAddParan:string[], fileToUpdateParam:string):Observable<HttpResponse<any>> {
+
     let newImageList = {
       stringsToAdd:stringsToAddParan ,
       fileToUpdate: fileToUpdateParam

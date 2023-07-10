@@ -8,12 +8,16 @@ import { Input, Output, EventEmitter } from '@angular/core';
 })
 export class MultilineComponent implements OnInit {
   @Input() entityName = "" ;
+  @Input() passedTextList = ["none"];
   textLines = ["","","","","","",""] ;
   @Output() multiTextDone = new EventEmitter<string[]>();
   
   constructor() { }
 
   ngOnInit(): void {
+    if (this.passedTextList !== null && this.passedTextList[0] !== "none") {
+      this.textLines = JSON.parse(JSON.stringify(this.passedTextList));
+    }
   }
   addLine() {
     this.textLines.push("") ;

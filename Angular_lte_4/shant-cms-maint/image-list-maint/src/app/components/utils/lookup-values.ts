@@ -58,5 +58,6 @@ export class LookupValues {
     rootConfigFolder = `${this.galleryRoot}/src/assets/data-and-config/`
     downloadedImageRootFile2 = `../../../../../../../../../../../../Downloads/Sketches-transit/` ;
     downloadedImageRootFile = `../../../../../../..//../../../../../../shantanu/Downloads/Sketches-transit/`
+    albumsInsertTextFile = `/Users/shantanu/Downloads/Sketches-transit/AlbumEntry.txt`;
 /// Ganesh07262023-forautoTest-2.jpeg
 };

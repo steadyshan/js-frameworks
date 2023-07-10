@@ -13,8 +13,13 @@
 </div>
 <table>
     <tr>
-        <td colspan="2"> <button (click)="displayToggle('imageMoveRow', false)">Hide Image Move</button>
+        <td > <button (click)="displayToggle('imageMoveRow', false)">Hide Image Move</button>
             <button (click)="displayToggle('imageMoveRow')">Show Image Move</button>
+        </td>
+        <td>
+            <div >
+                <app-multiline [passedTextList]= "albumEntryTextList" (multiTextDone)="addAlbumEntry($event)"></app-multiline>
+            </div>
         </td>
     </tr>
     <tr id="imageMoveRow" >

@@ -1,3 +1,4 @@
+import { LookupValues } from './../../utils/lookup-values';
 import { Component, OnInit } from '@angular/core';
 import { ListService } from '../../../services/list.service';
 
@@ -11,6 +12,7 @@ export class AddImagesComponent implements OnInit {
   imagesMoved = true ;
   jsonListingFile =""
   jsonListing=[""];
+  lookupValues = new LookupValues();
   constructor(private listService: ListService, ) { }
 
   ngOnInit(): void {
@@ -55,6 +57,24 @@ export class AddImagesComponent implements OnInit {
   }
   postJSONUpdate() {
     this.listService.updateListFile(this.jsonListing, this.jsonListingFile)
+     .subscribe(
+      (response:any)=> { 
+        console.log('success') ;
+        this.imageList = [""];
+      },
+      (err:any)=> { 
+         console.log(`ERROR ${err}`)
+      },
+      () => {
+        if (confirm("Data Submitted; clear it?")) this.reset() ;
+        console.log('complete');      
+      }
+    )
+  }
+
+  albumEntryTextList=[this.lookupValues.albumsInsertTextFile,"","","",""];
+  addAlbumEntry(textLines:string[]) {
+    this.listService.addAlbumEntry(textLines)
      .subscribe(
       (response:any)=> { 
         console.log('success') ;

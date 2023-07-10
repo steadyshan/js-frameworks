@@ -16,7 +16,8 @@ import { MultilineComponent } from './components/optimizations/multiline/multili
 import { ListUpdateComponent } from './components/list-update/list-update.component';
 import { AddImagesComponent } from './components/feature-components/add-images/add-images.component';
 import { FolderTreeExpandComponent } from './components/reusables/folder-tree-expand/folder-tree-expand.component';
-import { SetListFolderComponent } from './components/feature-components/add-images/set-list-folder/set-list-folder.component'
+import { SetListFolderComponent } from './components/feature-components/add-images/set-list-folder/set-list-folder.component';
+import { UpdateAlbumEntriesComponent } from './components/feature-components/add-images/update-album-entries/update-album-entries.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { SetListFolderComponent } from './components/feature-components/add-imag
     AddImagesComponent,
     FolderTreeExpandComponent,
     SetListFolderComponent,
+    UpdateAlbumEntriesComponent,
   ],
   imports: [
     BrowserModule,
