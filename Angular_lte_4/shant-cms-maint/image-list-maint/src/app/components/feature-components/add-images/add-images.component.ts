@@ -43,6 +43,16 @@ export class AddImagesComponent implements OnInit {
   showComponent(whichDiv:any)  {
    
   }
+  reset() {
+    this.imageList = ["A","B"];
+    this.imagesMoved = true;
+    this.jsonListing = [] ;
+    this.jsonListingFile = '';
+    
+  }
+  isPostDataReady() {
+    return this.jsonListing.length === 0 || this.jsonListingFile === '';
+  }
   postJSONUpdate() {
     this.listService.updateListFile(this.jsonListing, this.jsonListingFile)
      .subscribe(
@@ -54,6 +64,7 @@ export class AddImagesComponent implements OnInit {
          console.log(`ERROR ${err}`)
       },
       () => {
+        if (confirm("Data Submitted; clear it?")) this.reset() ;
         console.log('complete');      
       }
     )

@@ -10,7 +10,8 @@ import { Output, EventEmitter } from '@angular/core';
 export class ImageMoveComponent implements OnInit {
   mockdata = true; 
   @Output() imageVersionsDone = new EventEmitter<string[]>();
-  
+  /// 
+   currentFile =  '/Users/shantanu/Downloads/TaraporewallaJune282023.jpeg';
   lookups: LookupValues = new LookupValues();
   destinationStart = this.lookups.rootImageDestinationFolder ;
   rootImageSourceFolder = this.lookups.rootImageSourceFolder ;

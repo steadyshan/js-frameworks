@@ -32,6 +32,7 @@
         <label>FileName</label>
        <input type="text" [(ngModel)]="imageFileName" #ctrl="ngModel">
     </div>  
+    <img [src]="currentFile">
     <button (click)="moveFile()">Move</button>
     <button (click)="moveFileReverse()">Revert</button>
     <button (click)="moveFileComplete()">Done</button>

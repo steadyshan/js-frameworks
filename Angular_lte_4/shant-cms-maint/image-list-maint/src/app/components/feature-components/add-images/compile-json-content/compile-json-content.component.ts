@@ -12,7 +12,9 @@ import { Observable } from  'rxjs';
 export class CompileJsonContentComponent implements OnInit {
 
   @Input() imageFileList:string[] =[];
+  @Input() listingContent:string[] =[];
 
+  // listingContent =[""];
   @Output() jsonReady = new EventEmitter<string[]>();
   /* /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/data-and-config/data/religious/ganesh-gte-q1-2023.image.list.ts */
   /* RIGHT NOW config files are only one level deep, so dont need the 'rippling' logic for images */
@@ -141,7 +143,6 @@ getEvolutionMutipleText(textLines:string[]) {
 changeEvolutionState() {
   this.showEvolution = !this.showEvolution ;
 }
-listingContent =[""];
 get ListingContent():string[] {
   return this.listingContent ;
 }

@@ -56,5 +56,7 @@ export class LookupValues {
     galleryRoot = `/Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template` ;
     rootImageDestinationFolder = `${this.galleryRoot}/src/assets/all-images/`
     rootConfigFolder = `${this.galleryRoot}/src/assets/data-and-config/`
+    downloadedImageRootFile2 = `../../../../../../../../../../../../Downloads/Sketches-transit/` ;
+    downloadedImageRootFile = `../../../../../../..//../../../../../../shantanu/Downloads/Sketches-transit/`
 /// Ganesh07262023-forautoTest-2.jpeg
 };

@@ -1,5 +1,6 @@
 <div  style="height:200px; overflow-y: scroll;">
-<button (click)="postJSONUpdate()">Submit</button>
+<button [disabled]="isPostDataReady()" (click)="postJSONUpdate()">Submit</button>
+<button (click)="reset()">RESET</button>
 <ul>
     <li *ngFor="let imageFile of imageList">{{imageFile}}</li>
 </ul>
@@ -41,6 +42,6 @@
     <button (click)="displayToggle('compileJSON', false)">Hide JSON generator</button>
     <button (click)="displayToggle('compileJSON')">Show  JSON generator</button>
 <div  id="compileJSON" [ngStyle]="ComponentDivStyle" style="height:400px" >
-<app-compile-json-content *ngIf="imagesMoved==true" (jsonReady)="jsonToUpdate($event)" [imageFileList]="imageList"></app-compile-json-content>
+<app-compile-json-content [listingContent]="jsonListing" *ngIf="imagesMoved==true" (jsonReady)="jsonToUpdate($event)" [imageFileList]="imageList"></app-compile-json-content>
 </div>
 </div>
