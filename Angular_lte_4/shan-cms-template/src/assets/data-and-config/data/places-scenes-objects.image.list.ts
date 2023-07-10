@@ -12,6 +12,17 @@ export class PlacesScenesObjectsImageList {
                 files: [ 
 {
 canvassSize:  'A4',
+content:  'color-crayon',
+dateUploaded:  '07-09-2023',
+fullFileName: `assets/all-images//places-scenes-objects/TajTemplateJune72023-final.jpeg`,
+description: `<ul><li> I have been using a 'template' of the Taj Mahal sketch originally End 2020 </li><li> Here is one color pencil version </li><li> Photographed version - better than scanned </li><li>June 6-7 2023</li></ul>`,
+iterations: [
+{fullFileName: `assets/all-images//places-scenes-objects/TajTemplateJune72023-final.jpeg`, description: `<ul><li> I have been using a 'template' of the Taj Mahal sketch originally End 2020 </li><li> Here is one color pencil version </li><li> Photographed version - better than scanned </li><li>June 6-7 2023</li></ul>` },
+{fullFileName: `assets/all-images//places-scenes-objects/TajTemplateJune72023-scan.jpeg`, description: `<ul><li> I have been using a 'template' of the Taj Mahal sketch originally End 2020 </li><li> Here is one color pencil version </li><li> Scan version  see why I feel photo was better </li><li>June 6-7 2023</li></ul>` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'color-pencil',
 dateUploaded:  '07-06-2023',
 evolution:  `<b>My mom loved it.. she said she is proud of me<br/>A uniqueness in the scene and also the memory<br/></B>`,

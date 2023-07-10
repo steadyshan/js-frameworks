@@ -12,6 +12,13 @@ export class PeopleImageList {
          Some off the spur of the moment, spontaneous, others due to their deaths (and we have had a lot of that!!)
          Some, in fact, many are <em><strong>pretty out of shape</strong></em>, but <em>still</em> included because of the significance`,
      files: [
+{
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-09-2023',
+fullFileName: `assets/all-images//people-places/SachinJUne232023.jpeg`,
+description: `<ul><li> Old Bombay Friday sketch June 23 2023 </li><li> Attempt to sketch SRT... </li><li> Coming just on the eve of 40th anniv of India's 1983 Cricket World Cup Triumph (June 25) which inspired Sachin to take up cricket </li></ul>`,
+},
       {  
          fullFileName: `assets/all-images/religion/dattavatar/SwamiRamdasApril16HanumanJayanti22.jpeg`, 
          description: 
