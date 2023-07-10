@@ -34,13 +34,17 @@ canvassSize:  'A4',
 content:  'black-white',
 dateUploaded:  '07-09-2023',
 fullFileName: `assets/all-images//planes/An12-June162023-3.jpeg`,
-description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> Slight touch up, making the terrain below the nose lighter - final versiob </li></ul>`,
+description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> Slight touch up, making the terrain below the nose lighter - final versiob </li>
+            <li>June 16 -20 2023 for OB group</li></ul>`,
 rating:  1,
 ratingYear:  2023,
 iterations: [
-{fullFileName: `assets/all-images//planes/An12-June162023-3.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> Slight touch up, making the terrain below the nose lighter - final versiob </li></ul>` },
-{fullFileName: `assets/all-images//planes/An12-June162023-2.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> last but one version </li></ul>` },
-{fullFileName: `assets/all-images//planes/An12-June162023-1.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> initial outline </li></ul>` },
+{fullFileName: `assets/all-images//planes/An12-June162023-3.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> Slight touch up, making the terrain below the nose lighter - final versiob </li>
+<li>June 16 -20 2023 for OB group</li></ul>` },
+{fullFileName: `assets/all-images//planes/An12-June162023-2.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> last but one version </li>
+<li>June 16 -20 2023 for OB group</li></ul>` },
+{fullFileName: `assets/all-images//planes/An12-June162023-1.jpeg`, description: `<ul><li> A friend from FB Old Bombay Group asked me to sketch an An-12 his father flew </li><li> Attempt to sketch this Himalayan Goose of IAF44 squadron  over Karakoram range .. The planes used to ply to Daulat Beg Oldi in Ladakh, one of the highest air strips in the World </li><li> Based off a photo he send - tail number would be Bl533 </li><li> One sitting - 90 minutes..  </li><li> initial outline </li>
+<li>June 16 -20 2023 for OB group</li></ul>` },
 ]
 },
 {
@@ -48,19 +52,19 @@ canvassSize:  'A4',
 content:  'color-pencil',
 dateUploaded:  '07-07-2023',
 fullFileName: `assets/all-images//planes/Canberras07042023.jpeg`,
-description: `<ul><li> Another of 'inspired by friends and groups on social media' drawing </li><li> Attempt to show IAF canberra bombers </li><li> Tongue in cheek - flying over (3rd) Canberra - capital of Australia </li></ul>`,
+description: `<ul><li> Another of 'inspired by friends and groups on social media' drawing </li><li> Attempt to show IAF canberra bombers </li><li> Tongue in cheek - flying over (3rd) Canberra - capital of Australia </li><li>July 3 2023</li></ul>`,
 },
 {
 canvassSize:  'A4',
 content:  'black-white',
 dateUploaded:  '07-07-2023',
 fullFileName: `assets/all-images//planes/BattleOfBritanJun252023-photoEdit.jpeg`,
-description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li><li>June end 2023</li></ul>`,
+description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li><li>June 25-27 2023</li></ul>`,
 rating:  1,
 ratingYear:  2023,
 iterations: [
-{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023-photoEdit.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li></ul>` },
-{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Original </li><li>June end 2023</li></ul>` },
+{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023-photoEdit.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Photo edited version </li><li>June 25-27 2023</li></ul>` },
+{fullFileName: `assets/all-images//planes/BattleOfBritanJun252023.jpeg`, description: `<ul><li> A 'mature' version of my childhood sketches..  </li><li> I used to sketch lot of dogfights based on Commando comics  </li><li> He 111 heading to Bomb London (see Dover cliffs) </li><li> Spitfire coming from the clouds from above </li><li> Original </li><li>June 25-27 2023</li></ul>` },
 ]
 },
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/ships/QueenElizabethApril10-1620222_1.jpeg

@@ -19,6 +19,33 @@ public allImageList:ImageElement[]  =  [
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
 {
+canvassSize:  '',
+content:  'black-white',
+dateUploaded:  '07-10-2023',
+evolution:  `<b>A first: Baba Milpitas on A3<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '06-13-2023',
+fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-4b.jpeg`,
+description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> One of the 2  captures of final version  </li><li> May 12 2023 </li></ul>`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-4b.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> One of the 2  captures of final version  </li><li> May 12 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-4a.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> One of the 2  captures of final version  </li><li> May 12 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-3.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> WIP </li><li> May 10-2 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-2.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> WIP </li><li> May 10-12 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-1.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> WIP </li><li> May 10-12 2023 </li></ul>` },
+{fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaMay10-12-A3-UnpluggedMilpitas-0.jpeg`, description: `<ul><li> Hadnt done Baba Unpliugged Milpitas on A3 </li><li> Initial </li><li> May 10-12 2023 </li></ul>` },
+]
+},
+{
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-10-2023',
+fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/BabaJune82023.jpeg`,
+description: `<ul><li> Baba Thursday Jun 8 2023 Pradosh sketch </li></ul>`,
+},
+{
 canvassSize:  'A4',
 content:  'color-pencil',
 dateUploaded:  '07-09-2023',

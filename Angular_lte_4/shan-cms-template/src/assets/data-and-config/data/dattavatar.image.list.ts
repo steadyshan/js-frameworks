@@ -29,7 +29,7 @@ evolution:  `<b>1st sketch of Shankar Maharaj<br/>Also (see gurupoornima 2023 co
 evolutionSequence:  2,
 evolutionDate:  '06-13-2023',
 fullFileName: `assets/all-images//religion/dattavatar/YogeshwarShankarJuly423.jpeg`,
-description: `<ul><li> Yog Yogeshwar Shankar  </li><li> Guru and Mystic - contemporary of Shirdi Sai and Gajanan Maharaj </li><li> 1800 - c.a. 1947 </li><li> Disciple of Shree Swami Samartha </li></ul>`,
+description: `<ul><li> Yog Yogeshwar Shankar  </li><li> Guru and Mystic - contemporary of Shirdi Sai and Gajanan Maharaj </li><li> 1800 - c.a. 1947 </li><li> Disciple of Shree Swami Samartha </li><li>July 3 2023</li></ul>`,
 },
 {
 canvassSize:  'soft',
