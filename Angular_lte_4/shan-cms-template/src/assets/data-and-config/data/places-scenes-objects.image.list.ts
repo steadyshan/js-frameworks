@@ -12,6 +12,19 @@ export class PlacesScenesObjectsImageList {
                 files: [ 
 {
 canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-10-2023',
+evolution:  `<b>A rarely sketched theme<br/>Sketched at Hyatt SFO near Ferry building</B>`,
+evolutionSequence:  2,
+evolutionDate:  '06-13-2023',
+fullFileName: `assets/all-images//places-scenes-objects/NewBayBridgeEastSectionJune12023.jpeg`,
+description: `<ul><li> Sketched Span of New SFO Bay Bridge East section </li>
+      <LI>Memorial Day weekend ->June 1 </li> <LI>Sketched at Hyatt SFO near Ferry building</li></ul>`,
+rating:  1,
+ratingYear:  2023,
+},
+{
+canvassSize:  'A4',
 content:  'color-crayon',
 dateUploaded:  '07-09-2023',
 fullFileName: `assets/all-images//places-scenes-objects/TajTemplateJune72023-final.jpeg`,

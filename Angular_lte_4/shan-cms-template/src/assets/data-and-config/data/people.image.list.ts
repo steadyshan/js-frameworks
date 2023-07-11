@@ -15,6 +15,13 @@ export class PeopleImageList {
 {
 canvassSize:  'A4',
 content:  'color-pencil',
+dateUploaded:  '07-10-2023',
+fullFileName: `assets/all-images//people-places/SunilGavaskar74thJuly10-2023.jpeg`,
+description: `<ul><li> Attempt to sketch Sunil Gavaskar on his 74th birthday (dob: July 10 1949) </li><li> July 10 2023 </li></ul>`,
+},
+{
+canvassSize:  'A4',
+content:  'color-pencil',
 dateUploaded:  '07-09-2023',
 fullFileName: `assets/all-images//people-places/SachinJUne232023.jpeg`,
 description: `<ul><li> Old Bombay Friday sketch June 23 2023 </li><li> Attempt to sketch SRT... </li><li> Coming just on the eve of 40th anniv of India's 1983 Cricket World Cup Triumph (June 25) which inspired Sachin to take up cricket </li></ul>`,

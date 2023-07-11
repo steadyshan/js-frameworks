@@ -8,6 +8,19 @@ public allImageList:ImageElement[]  =  [
                 files: [
 {
 canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-10-2023',
+fullFileName: `assets/all-images//mumbai-meri-jaan-2/GatewayTemplateColorJune202023.jpeg`,
+description: `<ul><li> Based off earlier template, color pencilled version </li><li> Final vers June 20 2023 </li></ul>`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//mumbai-meri-jaan-2/GatewayTemplateColorJune202023.jpeg`, description: `<ul><li> Based off earlier template, color pencilled version </li><li> Final vers June 20 2023 </li></ul>` },
+{fullFileName: `assets/all-images//mumbai-meri-jaan-2/GatewayTemplateColorJune162023.jpeg`, description: `<ul><li> Based off earlier template, color pencilled version </li><li> pre-Final vers June 16 2023 </li></ul>` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'black-white',
 dateUploaded:  '07-09-2023',
 fullFileName: `assets/all-images//mumbai-meri-jaan-2/taraporewala-juneend-july1.jpeg`,

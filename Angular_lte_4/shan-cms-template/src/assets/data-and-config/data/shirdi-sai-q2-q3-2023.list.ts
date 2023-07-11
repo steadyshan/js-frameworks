@@ -19,6 +19,13 @@ public allImageList:ImageElement[]  =  [
         &nbsp;&nnbsp; * Of late (June 2021) I have been attempting on sketch every Thursday. Let's see how far this sustains... `,
         files: [ 
 {
+canvassSize:  'A4',
+content:  'color-pencil black-white',
+dateUploaded:  '07-10-2023',
+fullFileName: `assets/all-images//religion/shirdi-sai-q2-q3-2023/SaiVithalAshadiEkadashi06292023.jpeg`,
+description: `<ul><li> Ashadi Ekadashi Thu June 29 2023 </li><li> Sai With Vithal theme </li></ul>`,
+},
+{
 canvassSize:  '',
 content:  'black-white',
 dateUploaded:  '07-10-2023',

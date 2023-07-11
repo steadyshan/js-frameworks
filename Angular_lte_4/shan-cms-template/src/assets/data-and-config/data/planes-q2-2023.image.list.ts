@@ -11,6 +11,19 @@ export class PlanesQ22023ImageList {
                        * At this point, due to few items, this includes 'non-rail' modes of transport but will branch off each as and when the need comes up `,
         files: [
 {
+canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-10-2023',
+fullFileName: `assets/all-images//AirIndia-DC3-June92023-f.jpeg`,
+description: `<ul><li> Air India DC3  </li><li> June 9 2023 </li></ul>`,
+iterations: [
+{fullFileName: `assets/all-images//AirIndia-DC3-June92023-f.jpeg`, description: `<ul><li> Air India DC3  </li><li> June 9 2023 </li></ul>` },
+{fullFileName: `assets/all-images//AirIndia-DC3-June92023-f-1.jpeg`, description: `<ul><li> Air India DC3  </li><li> June 9 2023 </li></ul>` },
+{fullFileName: `assets/all-images//AirIndia-DC3-June92023-f-2.jpeg`, description: `<ul><li> Air India DC3  </li><li> June 9 2023 </li></ul>` },
+{fullFileName: `assets/all-images//AirIndia-DC3-June92023-f-3.jpeg`, description: `<ul><li> Air India DC3  </li><li> June 9 2023 </li></ul>` },
+]
+},
+{
 canvassSize:  'other',
 content:  '',
 dateUploaded:  '07-09-2023',
