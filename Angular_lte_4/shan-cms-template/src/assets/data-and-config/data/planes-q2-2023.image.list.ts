@@ -12,6 +12,40 @@ export class PlanesQ22023ImageList {
         files: [
 {
 canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-12-2023',
+fullFileName: `assets/all-images//Lancasters617-July12-2023-PhotoEdit.jpeg`
+,
+description: `<ul><li> Attempt to sketch two variants/phases of Lancaster bombers used by 'The Dam Busters' -617 squadron WW2: </li>
+<li> Bottom - probably the origin and cause of the 617 Lancaster squadron during WW2 - guy called Barnes Wallis came up applying the 'stone skipping over water' to a bomb - the barrel shaped object is a bomb which was given a backspin before being dropped so it would skip OVER the water avoiding mines and anti torpedo nets before hitting the target - the dams of Industrial Germany </li>
+<li> Top: Bomber with a Grand Slam - forefather of the MOAB. At 22,000 lb (10,000 kg) total weight, these earthquake bombs were larger and heavier than the MOAB </li>
+<li> Photo edited iPhone camera - Vignette, and Dramatic cool </li>
+<li> Sketched July 11-12 - it's coincidential that we recently stayed in a hotel room no 716 :)  </li>
+</ul>
+`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//Lancasters617-July12-2023-PhotoEdit.jpeg`
+, description: `<ul><li> Attempt to sketch two variants/phases of Lancaster bombers used by 'The Dam Busters' -617 squadron WW2: </li>
+<li> Bottom - probably the origin and cause of the 617 Lancaster squadron during WW2 - guy called Barnes Wallis came up applying the 'stone skipping over water' to a bomb - the barrel shaped object is a bomb which was given a backspin before being dropped so it would skip OVER the water avoiding mines and anti torpedo nets before hitting the target - the dams of Industrial Germany </li>
+<li> Top: Bomber with a Grand Slam - forefather of the MOAB. At 22,000 lb (10,000 kg) total weight, these earthquake bombs were larger and heavier than the MOAB </li>
+<li> Photo edited iPhone camera - Vignette, and Dramatic cool </li>
+<li> Sketched July 11-12 - it's coincidential that we recently stayed in a hotel room no 716 :)  </li>
+</ul>
+` },
+{fullFileName: `assets/all-images//Lancasters617-July12-2023-Original.jpeg`
+, description: `<ul><li> Attempt to sketch two variants/phases of Lancaster bombers used by 'The Dam Busters' -617 squadron WW2: </li>
+<li> Bottom - probably the origin and cause of the 617 Lancaster squadron during WW2 - guy called Barnes Wallis came up applying the 'stone skipping over water' to a bomb - the barrel shaped object is a bomb which was given a backspin before being dropped so it would skip OVER the water avoiding mines and anti torpedo nets before hitting the target - the dams of Industrial Germany </li>
+<li> Top: Bomber with a Grand Slam - forefather of the MOAB. At 22,000 lb (10,000 kg) total weight, these earthquake bombs were larger and heavier than the MOAB </li>
+<li> original (scanned) </li>
+<li> Sketched July 11-12 - it's coincidential that we recently stayed in a hotel room no 716 :)  </li>
+</ul>
+` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'color-pencil',
 dateUploaded:  '07-10-2023',
 fullFileName: `assets/all-images//AirIndia-DC3-June92023-f.jpeg`,

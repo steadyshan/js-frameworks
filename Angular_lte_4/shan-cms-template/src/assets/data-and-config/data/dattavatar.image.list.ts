@@ -24,6 +24,28 @@ public allImageList:ImageElement[]  =  [
 {
 canvassSize:  'A4',
 content:  'black-white',
+dateUploaded:  '07-13-2023',
+fullFileName: `assets/all-images//religion/dattavatar/SaiSwamiShankar-complete07132023.jpeg`
+,
+description: `<ul><li> Sketch completed July 13 2023 </li>
+<li> Sai and Shankar sketches were there; added Shankar Maharaj </li>
+</ul>
+`,
+},
+{
+canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-13-2023',
+fullFileName: `assets/all-images//religion/dattavatar/SaiGanananMaraharaj0706-132023.jpeg`
+,
+description: `<ul><li> Sketch of Shirdi Sai Sharing Chillum with Gajanan Maharaj </li>
+<li> Started 0706, ended 0713 2023 </li>
+</ul>
+`,
+},
+{
+canvassSize:  'A4',
+content:  'black-white',
 dateUploaded:  '07-06-2023',
 evolution:  `<b>1st sketch of Shankar Maharaj<br/>Also (see gurupoornima 2023 collage). was added to the collage before completion<br/></B>`,
 evolutionSequence:  2,

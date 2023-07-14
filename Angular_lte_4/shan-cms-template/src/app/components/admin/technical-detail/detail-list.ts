@@ -85,7 +85,13 @@ export const TechDetail: any[] = [
        <li>b. iv.  The list specified in 8.above is updated</li>
        <li>b. v.   PERIODICALLY a new theme is generated - this involves adding a new data list, a new image folder, new entry in the index list and also 
                importing and refering the new list in the service class</li>
-       <li> c. THE INTENT IS TO AUTOMATE THIS PROCESS</li>
+       <li>b. vi. The physical sketch is added to an album 'scrap book' with plastic pockets, and a one line description is added to a text file.</li>
+       <li>b. vii. Once the album is filled up, the text file is printed and inserted in the back of the cover page</li>
+       <li> c.<strong>As of July 10 2023, automation functionality is more or less achieved<br/>
+                <ol><li> items 'b ii' - the move through 'b iv' automated</li>
+                    <li> One line descriptor for items 'b vi - vii' entry into a single text dump file, from which it can be cut and pasted into the correct list</li>
+                </ol>
+                </strong></li>
        </ul>
        </div>
         ` }, { header:"WIP & To Dos: Other", key:'todo',

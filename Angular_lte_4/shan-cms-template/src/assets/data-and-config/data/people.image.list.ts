@@ -14,10 +14,38 @@ export class PeopleImageList {
      files: [
 {
 canvassSize:  'A4',
+content:  'color-pencil black-white',
+dateUploaded:  '07-11-2023',
+fullFileName: `assets/all-images//people-places/SMG-June2021-Color.jpeg`
+,
+description: `<ul><li> Along with Sunil Gavaskar's 2023 Birthday sketch, I pulled this one out of the archives </li>
+<li> The Original black and white sketch June 2021, this color update on July 10-11 2023 </li>
+</ul>
+`,
+iterations: [
+{fullFileName: `assets/all-images//people-places/SMG-June2021-Color.jpeg`
+, description: `<ul><li> Along with Sunil Gavaskar's 2023 Birthday sketch, I pulled this one out of the archives </li>
+<li> The Original black and white sketch June 2021, this color update on July 10-11 2023 </li>
+</ul>
+` },
+{fullFileName: `assets/all-images//people-places/SMG-June2021-BW.jpeg`
+, description: `<ul><li> Along with Sunil Gavaskar's 2023 Birthday sketch, I pulled this one out of the archives </li>
+<li> The Original black and white sketch June 2021 </li>
+</ul>
+` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'color-pencil',
 dateUploaded:  '07-10-2023',
 fullFileName: `assets/all-images//people-places/SunilGavaskar74thJuly10-2023.jpeg`,
-description: `<ul><li> Attempt to sketch Sunil Gavaskar on his 74th birthday (dob: July 10 1949) </li><li> July 10 2023 </li></ul>`,
+description: `<ul><li>ना Baby Doll सोने दी , ना ढाई किलो डा हाथ 
+10000 run club की िह्नोने की शुरुवात 
+ Days Sunny थे, करी बल्ले से बात 
+  Malcolm.. Andy.. Michael.. Joel..छूती कर एक साथ 
+   Calypso बनाये इनके नाम पेय कीर्ति थी विराट 
+    Opening बल्लेबाज़ की आपने सबको मात</li><li> Attempt to sketch Sunil Gavaskar on his 74th birthday (dob: July 10 1949) </li><li> July 10 2023 </li></ul>`,
 },
 {
 canvassSize:  'A4',
