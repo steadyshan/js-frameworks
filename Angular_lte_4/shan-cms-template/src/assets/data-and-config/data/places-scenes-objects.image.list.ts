@@ -12,6 +12,40 @@ export class PlacesScenesObjectsImageList {
                 files: [ 
 {
 canvassSize:  'A4',
+content:  'color-pencil',
+dateUploaded:  '07-14-2023',
+evolution:  `<b>The greatness of the event<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '07-14-2023',
+rating:  1,
+ratingYear:  2023,
+fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-3-07142023-2.jpeg`
+,
+description: `<ul><li> A MILESTONE OF PRIDE for India and ISRO </li>
+<li> Attempt to sketch Chandrayaan 3 Lunar rocket to the Moon </li>
+<li> July 3 2023 - Targetted Moon landing Aug 23 </li>
+<li> Final update - 'lowered' moon, darker shading </li>
+</ul>
+`,
+iterations: [
+{fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-3-07142023-2.jpeg`
+, description: `<ul><li> A MILESTONE OF PRIDE for India and ISRO </li>
+<li> Attempt to sketch Chandrayaan 3 Lunar rocket to the Moon </li>
+<li> July 3 2023 - Targetted Moon landing Aug 23 </li>
+<li> Final update - 'lowered' moon, darker shading </li>
+</ul>
+` },
+{fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-3-07142023-1.jpeg`
+, description: `<ul><li> A MILESTONE OF PRIDE for India and ISRO </li>
+<li> Attempt to sketch Chandrayaan 3 Lunar rocket to the Moon </li>
+<li> July 3 2023 - Targetted Moon landing Aug 23 </li>
+<li> Initial version </li>
+</ul>
+` },
+]
+},
+{
+canvassSize:  'A4',
 content:  'black-white',
 dateUploaded:  '07-10-2023',
 evolution:  `<b>A rarely sketched theme<br/>Sketched at Hyatt SFO near Ferry building</B>`,
