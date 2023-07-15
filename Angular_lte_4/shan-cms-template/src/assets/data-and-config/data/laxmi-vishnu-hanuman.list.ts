@@ -70,6 +70,51 @@ public allImageList:ImageElement[]  =  [
     dateUploaded: '11-19-2022',
     rating: 1,
                 },
+                {
+                canvassSize:  'A4',
+                content:  'color-pencil',
+                dateUploaded:  '07-15-2023',
+                fullFileName: `assets/all-images//religion/laxmi-vishnu-hanuman/MarutiBW080622ToColorApril22023.jpeg`
+                ,
+                description: `<ul><li> Light copy of Hanuman Sketch of Aug 6 2022  </li>
+                <li> Redone in color </li>
+                <li> Completed around April 3 2023 </li>
+                </ul>
+                `,
+                rating:  1,
+                ratingYear:  2023,
+                },
+                {
+                canvassSize:  'A4',
+                content:  'color-pencil',
+                dateUploaded:  '07-15-2023',
+                fullFileName: `assets/all-images//religion/laxmi-vishnu-hanuman/HanumanJayantiApril62023.jpeg`
+                ,
+                description: `<ul><li> For Hanuman Jayanti 2023 </li>
+                <li> April 4-6 2023 </li>
+                <li> Complete with Ramayan </li>
+                <li> Sort of look similar to the Maruti 'Arnold' sketches </li>
+                </ul>
+                `,
+                rating:  1,
+                ratingYear:  2023,
+                iterations: [
+                {fullFileName: `assets/all-images//religion/laxmi-vishnu-hanuman/HanumanJayantiApril62023.jpeg`
+                , description: `<ul><li> For Hanuman Jayanti 2023 </li>
+                <li> April 4-6 2023 </li>
+                <li> Complete with Ramayan </li>
+                <li> Sort of look similar to the Maruti 'Arnold' sketches </li>
+                </ul>
+                ` },
+                {fullFileName: `assets/all-images//religion/laxmi-vishnu-hanuman/HanumanJayantiApril42023.jpeg`
+                , description: `<ul><li> For Hanuman Jayanti 2023 </li>
+                <li> April 4-6 2023 </li>
+                <li> Almost done </li>
+                <li> Sort of look similar to the Maruti 'Arnold' sketches </li>
+                </ul>
+                ` },
+                ]
+                },
                 {  
                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/Hanuman1Jan1stWeek2022.jpeg`, 
                     description: `<ul>
