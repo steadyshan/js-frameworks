@@ -65,7 +65,8 @@ public allImageList:ImageElement[]  =  [
                     fullFileName: `assets/all-images/religion/laxmi-vishnu-hanuman/HanumanAugust62022.jpeg`, 
                     description: `<ul>   <li>Hamuman Sketch with a different kind of poses</li>
                     <li>Used Arnold Schwarzenegger's body builder poses for sketching as a reference</li>
-                    </ul>`,
+                    <li>Aug 6 2022</li>
+                   </ul>`,
     dateUploaded: '11-19-2022',
     rating: 1,
                 },

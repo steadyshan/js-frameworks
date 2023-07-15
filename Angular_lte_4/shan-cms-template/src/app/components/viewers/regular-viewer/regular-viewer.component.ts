@@ -87,6 +87,12 @@ export class RegularViewerComponent implements OnInit {
       { 
         themed = param; console.log(param.get('theme'));
         let strParam = (param.get('theme'));
+        console.log(`OPTION ${strParam}`);
+        // Saving option 'optionSelect' - this is to preserve the selection if a tab change is encountered..
+        // See *-viewer component where it is set in the ngOnInit
+        // See tabbing container component where it will be reset if tab is clicked
+        // See top nav bar component where its value is checked
+        localStorage.setItem('optionSelect', strParam? strParam:'') ;
         this.genImageList =  null;
         console.log(themed);
         const dataReturned = this.listFunnelService.loadSelectedContent(strParam);

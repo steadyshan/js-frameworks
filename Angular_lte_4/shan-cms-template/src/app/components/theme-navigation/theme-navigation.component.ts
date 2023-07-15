@@ -113,6 +113,12 @@ export class ThemeNavigationComponent implements OnInit {
   setContext(contextNum:string) {
     localStorage.setItem('context', contextNum) ;
   }
+  // Saving option - this is to preserve the selection if a tab change is encountered..
+  // See tabbing container component
+  setCurrentLink(item:any) {
+    console.log(`OPTION ${item}`);
+    localStorage.setItem('optionSelect', item) ;
+  }
   ngOnInit() {
   }
   navigateStoragelogin() {

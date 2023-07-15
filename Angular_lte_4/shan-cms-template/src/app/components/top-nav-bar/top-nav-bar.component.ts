@@ -64,11 +64,18 @@ export class TopNavBarComponent implements OnInit {
       // WIP let viewLink = this._unplugged === true ? `/unplugged-view` : `/view`;
       localStorage.setItem('categorizedMenus', JSON.stringify(this.menus));
       let route =  ``; 
+      let cachedmenu = localStorage.getItem('optionSelect');
       // cleam 
+
+      // Saving option 'optionSelect' - this is to preserve the selection if a tab change is encountered..
+      // See *-viewer component where it is set in the ngOnInit
+      // See tabbing container component where it will be reset if tab is clicked
+      // See top nav bar component where its value is checked
+      console.log(`Cache menu ${localStorage.getItem('optionSelect')}`) ;
       if (this.menus[0].parentKey === 'art') {
         route =  `/view`; 
           // WIP viewLink  ;
-          const params = this.menus[0].param ;
+          const params = cachedmenu !== null? cachedmenu :this.menus[0].param ;
           this.router.navigate([route, params]).then( (e) => {
             if (e) {
               console.log("Navigation is successful!");
@@ -77,7 +84,7 @@ export class TopNavBarComponent implements OnInit {
           }
         });
       } else { 
-        route = this.menus[0].param 
+        route =  this.menus[0].param 
         this.router.navigate([route ]).then( (e) => {
           if (e) {
             console.log("Navigation is successful!");

@@ -13,6 +13,14 @@ export class TabbingContainerComponent implements OnInit {
     return tab === this.CurrentTab ? {'background':'aliceblue', 'color': 'darkslateblue', 'border':'2px blue inset;'}: {};
   }
   changeTab(tabItem:string) {
+    // Saving option 'optionSelect' - this is to preserve the selection if a tab change is encountered..
+    // See *-viewer component where it is set in the ngOnInit
+    // See tabbing container component where it will be reset if tab is clicked
+    // See top nav bar component where its value is checked
+    console.log(`##### Cache menu ${localStorage.getItem('optionSelect')}`) ;
+    localStorage.removeItem('optionSelect');
+    console.log(`##### Cache menu ${localStorage.getItem('optionSelect')}`) ;
+    
     this.listFunnelService.CurrentTab = tabItem ;
     console.log( this.listFunnelService.CurrentTab) ;
   //  this.listFunnelService.loadSelectedContent('showpiece');
