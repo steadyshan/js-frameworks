@@ -17,6 +17,16 @@ export class MahadevImageList {
          themeSummary:
          ``,
          files: [
+{
+canvassSize:  'A4',
+content:  'black-white',
+dateUploaded:  '07-25-2023',
+fullFileName: `assets/all-images//religion/mahadev/Mahadev-July24-2023.jpeg`
+,
+description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
+</ul>
+`,
+},
           {  
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg

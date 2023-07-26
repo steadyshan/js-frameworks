@@ -67,6 +67,7 @@ export class ListFunnelService {
     'color-crayon',
     'color-pencil black-white',
     'poem black-white',
+    'other-combo',
 
     'poem color'
   ]
@@ -140,6 +141,7 @@ export class ListFunnelService {
           case 'color-crayon': returnHTML = `${returnHTML}Color Crayons`; break ;
           case 'color-pencil black-white': returnHTML = `${returnHTML}Combination of color + B&W`; break ;
           case 'poem black-white': returnHTML = `${returnHTML}Drawing + poetry`; break ;
+          case 'other-combo': returnHTML = `${returnHTML} Mix of different types, like sketch + photo`; break ;
           default: returnHTML = `${returnHTML}Other`; break ;
         }
       }

@@ -13,6 +13,50 @@ export class PlacesScenesObjectsImageList {
 {
 canvassSize:  'A4',
 content:  'color-pencil',
+dateUploaded:  '07-25-2023',
+fullFileName: `assets/all-images//places-scenes-objects/BahaiTempleJuly212023.jpeg`
+,
+description: `<ul><li> New Delhi Bahai Temple, sketch of July 21 2023 </li>
+<li> Was fun drawing this.. A Sort of complex Geometric/ Trigonometric pattern (of 9s?) </li>
+</ul>
+`,
+rating:  1,
+ratingYear:  2023,
+},
+{
+canvassSize:  'A4', 
+content:  'other-combo',
+dateUploaded:  '07-18-2023',
+evolution:  `<b>A first combination of photo + sketch<br/>What better theme than India's pride and the status of the Indian Woman!!?<br/></B>`,
+evolutionSequence:  2,
+evolutionDate:  '06-13-2023',
+fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-July-18-women-scientists.jpg`
+,
+description: `<ul><li> Collage of July 18 </li>
+<li> Continuation of the Chandrayaan theme </li>
+<li> Final composition which shows the ladies behind the project </li>
+</ul>
+`,
+rating:  1,
+ratingYear:  2023,
+iterations: [
+{fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-July-18-women-scientists.jpg`
+, description: `<ul><li> Collage of July 18 </li>
+<li> Continuation of the Chandrayaan theme </li>
+<li> Final composition which shows the ladies behind the project </li>
+</ul>
+` },
+{fullFileName: `assets/all-images//places-scenes-objects/Chandrayaan-July-18-touchup.jpg`
+, description: `<ul><li> Collage of July 18 </li>
+<li> Continuation of the Chandrayaan theme </li>
+<li> preparing the sketch </li>
+</ul>
+` },
+]
+},
+{
+canvassSize:  'A4',
+content:  'color-pencil',
 dateUploaded:  '07-14-2023',
 evolution:  `<b>The greatness of the event<br/></B>`,
 evolutionSequence:  2,
