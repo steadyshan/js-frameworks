@@ -31,7 +31,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
             // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Shivji2022ShravanMonday_1.jpeg
             fullFileName: `assets/all-images/religion/mahadev/Shivji2022ShravanMonday_final.png`, 
-            description: 
+            canvassSize:  'A4',
+              content:  'black-white',
+              description: 
                `<ul>
                  <li>Mahadev 'Shravani Somwar' sketch</li>
                   <li>Aug 1s 2022</li>
@@ -54,7 +56,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
               </ul>`,
             }]
           },{
-            fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-08-08-22-3.jpeg`, 
+            canvassSize:  'A4',
+content:  'black-white',
+fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-08-08-22-3.jpeg`, 
             description: 
                `<ul>
                  <li>Mahadev 'Shravani Somwar' sketch.. Dancing Shiva</li>
@@ -62,7 +66,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
                  </ul>`,
            dateUploaded: '02-01-2023',
           },{
-            fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-amarnath-08-22-22-1.jpeg`, 
+            canvassSize:  'A4',
+content:  'black-white',
+fullFileName: `assets/all-images/religion/mahadev/Mahadev-Shrawani-Somar-amarnath-08-22-22-1.jpeg`, 
             description: 
                `<ul>
                  <li>Mahadev 'Shravani Somwar' sketch.. Amarnath ice shivling Shiva</li>
@@ -71,7 +77,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
            dateUploaded: '02-01-2023',
           },
            {
-            fullFileName: `assets/all-images/religion/mahadev/KedarnathTemple03012022.jpeg`,
+            canvassSize:  'A4',
+content:  'black-white',
+fullFileName: `assets/all-images/religion/mahadev/KedarnathTemple03012022.jpeg`,
             description: 
             `<ul>
               <li>kedarnath Temple, Uttarakhand, North India </li>
@@ -82,7 +90,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
            },  // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg
            {  
              // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
-             fullFileName: `assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg`,
+              canvassSize:  'A4',
+              content:  'black-white',
+              fullFileName: `assets/all-images/religion/mahadev/Markandeshwar-0923-2022.jpeg`,
              description: 
              `<ul>
                <li>Markandeshwar Temple Worli Mumbai </li>
@@ -91,8 +101,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
          dateUploaded: '02-16-2023',
            },
           {  
-            // /Users/shantanu/Documents/GitHub/js-frameworks/Angular_lte_4/shan-cms-template/src/assets/all-images/religion/mahadev/MahadevJan102022.jpeg
-            fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
+            canvassSize:  'A4',
+              content:  'black-white',
+              fullFileName: `assets/all-images/religion/mahadev/MahadevJan102022.jpeg`, 
             description: 
                `<ul>
                  <li>Hadn't done a sketch of Lord Shiva for a looong time</li>
@@ -118,7 +129,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
             }]
           },
              {  
-                 fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
+              canvassSize:  'A4',
+              content:  'black-white',
+              fullFileName: `assets/all-images/religion/mahadev/unsignedShivVeena12272020.jpeg`, 
                  description: 
                     `<ul>
                       <li>Watching a Lord Shiv song an YouTube, I chanced upon the original sketch that inspired me to draw this</li>
@@ -165,25 +178,33 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
          },
          
          {  
-            fullFileName: `assets/all-images/religion/mahadev/MahadevMeditateFeb22021.jpeg`, 
+          canvassSize:  'A4',
+          content:  'black-white',
+          fullFileName: `assets/all-images/religion/mahadev/MahadevMeditateFeb22021.jpeg`, 
             description: 
                `<ul>
                  <li>Feb 2 2021</li>
                </ul>`
     },  {  
-      fullFileName: `assets/all-images/religion/mahadev/Mahadev-color-Q1.jpg`, 
+      canvassSize:  'A4',
+              content:  'color-pencil',
+              fullFileName: `assets/all-images/religion/mahadev/Mahadev-color-Q1.jpg`, 
       description: 
          `<ul>
            <li>Q1 2021 - color </li>
          </ul>`
 }, {  
-            fullFileName: `assets/all-images/religion/shirdi-sai-q1-q2-2021/SaiTemplateKhanderaya-May2021-Sai.jpeg`, 
+  canvassSize:  'A4',
+  content:  'black-white',
+  fullFileName: `assets/all-images/religion/shirdi-sai-pre-q3-2021/SaiTemplateKhanderaya-May2021-Sai.jpeg`, 
             description: `
                 <ul>
                 <li>Khanderaya sketched based off sketch based off one of the three Sai templates I created</li>
                 <li>Probably April 29 2021</li></ul>
                ` }, {  
-                fullFileName: `assets/all-images/religion/mahadev/GeneralShivlingRamNavmi2021.jpg`, 
+                canvassSize:  'A4',
+              content:  'black-white',
+              fullFileName: `assets/all-images/religion/mahadev/GeneralShivlingRamNavmi2021.jpg`, 
                 description: 
                    `<ul>
                      <li>Searching a theme for Ramnavmi 2021, I had contemplated the one of Shree Ram doing abhishek</li>
@@ -204,7 +225,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
          rating: 1,
          evolution: 'A first in landscape and a religious theme at that',
          evolutionSequence: 2, evolutionDate: `07-22-2022`,
-
+           
+         canvassSize:  'A4',
+         content:  'color-pencil',
          iterations:[
           {
             fullFileName: `assets/all-images/religion/mahadev/Kailash-final-july22-2022.jpeg`, 
@@ -226,7 +249,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
               </ul>`,
           }]
         }, {  
-          fullFileName: `assets/all-images/religion/mahadev/Kailash-photo-print-30x20-07302022.jpeg`, 
+          canvassSize:  'A4',
+          content:  'other',
+fullFileName: `assets/all-images/religion/mahadev/Kailash-photo-print-30x20-07302022.jpeg`, 
           description: 
              `<ul>
                <li>Mt Kailash picture of a photo (see previous original sketch)</li>
@@ -234,7 +259,9 @@ description: `<ul><li> Mahadev sketch after a long time July 24 2023 </li>
              </ul>`,
              dateUploaded: '02-01-2023',
           }, {  
-            fullFileName: `assets/all-images/religion/mahadev/Shivling-aug2-2022.jpeg`, 
+            canvassSize:  'A4',
+              content:  'black-white',
+              fullFileName: `assets/all-images/religion/mahadev/Shivling-aug2-2022.jpeg`, 
             description: 
                `<ul>
                  <li>Shivling August 2 2022</li>
