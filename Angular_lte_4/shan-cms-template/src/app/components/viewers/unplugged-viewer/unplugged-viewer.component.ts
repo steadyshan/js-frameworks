@@ -28,6 +28,7 @@ export class UnpluggedViewerComponent implements OnInit {
   currentIndex:number = 0 ;
   _actualSize:boolean = false;
   _iterations:boolean = false ;
+  newLook=true ;
   constructor(private activatedRoute:ActivatedRoute, private listFunnelService: ListFunnelService) { }
   get ActualSize():boolean {
     return this._actualSize;
@@ -82,16 +83,30 @@ export class UnpluggedViewerComponent implements OnInit {
               .files
               .forEach( (fileData:any) => {
                 let groupImages:any[] = [] ;
+                let stats = '';
+                stats = this.techStats(fileData) ;
+                console.log(`STATS for single file ${stats} ${fileData.fullFileName}`);
+                  if(stats.indexOf('Canvass') >= 0) {
+                    fileData.description = `${fileData.description}<br/>(<em> ${stats}}</em>)`;
+                  }    
+                  
                 if(fileData.iterations !== undefined && fileData.iterations.length > 0) {
-                  fileData.iterations.forEach((element:any) => {
-                    groupImages.push({ image: element.fullFileName, description: element.description});
+                  fileData.iterations.forEach((element:any, index:number) => {
+                    let descrAndStats = index === 0 ?
+                    stats.indexOf('Canvass') >= 0? element.description: `${element.description}<br/>(<em> ${stats}}</em>)` :  element.description;
+                    groupImages.push(
+                        { image: element.fullFileName, 
+              //            description:   element.description  });
+                          description:  index === 0 ? fileData.description:  element.description});
                   });
                 } else {
                   fileData.fullFileName? 
                     groupImages.push({ image: fileData.fullFileName, 
                       description: fileData.description}): 
                     groupImages.push({ image: `assets/all-images/${foundFolder}/${fileData.fileName}`, 
-                          description: fileData.description});
+               //           description: fileData.description });
+               //  
+                          description: stats === ''? fileData.description: `${fileData.description}<br/>(<em> ${stats}}</em>)`});
                 }
                 this.imageGroups.push({ imageList:groupImages} );
                 fileData.fullFileName? 
@@ -120,6 +135,9 @@ export class UnpluggedViewerComponent implements OnInit {
       });
     
   
+  }
+  public techStats(currentImage:any) {
+    return this.listFunnelService.techStatsSpan(currentImage);
   }
   /*
 #### All data content imported shifted to list-funnel service .. 

@@ -1,12 +1,32 @@
- 
-<div id='larger'   style='border:3px outset gray; padding: 5px 0;'   *ngFor="let imageGroup of imageGroups">
+<!-- Testing:
+  <div>
+<input type="checkbox" [(ngModel)]="newLook"> New styling?{{newLook}}
+</div>
+--->
+<div  *ngIf="newLook==true" >
+  <div id='larger'  style='border:3px outset gray; padding: 5px 0;'   *ngFor="let imageGroup of imageGroups">
+   <div class="card-reader">
+    <div class="card" *ngFor = "let grpImag of imageGroup.imageList">
+      <img  src={{grpImag.image}}  alt="Image 1">
+      <div class="caption" [innerHTML]="grpImag.description"> </div>
+    </div>
+  </div> 
+  </div>
+    <!-- Add more cards with images and captions here -->
+  </div>
+  <!--
+  <div  *ngHide="newLook==true" >
+
+  <div id='larger'   style='border:3px outset gray; padding: 5px 0;'   *ngFor="let imageGroup of imageGroups">
   <div *ngFor = "let grpImag of imageGroup.imageList">
     <img  
     style='width:100%; height:auto;' src={{grpImag.image}}  />
     <span [innerHTML]="grpImag.description"></span>
   </div>
-  <!--alt={{source.fileName.substring(35)}}x/-->
+  <! --alt={{source.fileName.substring(35)}}x/ -- >
 </div>
+</div>
+-->
 <!--div  id='larger'  *ngFor="let source of selectedImageList">
     
     <img style='width:100%; height:auto;' src={{source.image}} (click)='showFullSize(source)' title={{source.title}}/> 

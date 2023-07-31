@@ -1,3 +1,32 @@
+/* July 29 changes WIP */
+.card-reader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+/* ... end JULY 29 CHANGES */
 div {
     float: inline-end;
     padding:2px;
