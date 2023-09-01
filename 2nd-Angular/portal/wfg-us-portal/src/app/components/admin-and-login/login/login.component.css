@@ -1,0 +1,25 @@
+.header-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .login-container 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        box-shadow: 100px 5px 5px black;
+        
+      }
+      mat-card {
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .full-width {
+        width: 100%;
+      }

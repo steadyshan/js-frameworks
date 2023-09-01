@@ -1,0 +1,31 @@
+<div *ngIf="IsLoggedIn" class="header-container"><!--</div> [@fadeInOut]="fade" (@fadeInOut.done)="animationDone($event)">-->
+    <mat-card>
+        <mat-card-header>
+          <mat-card-title>Login</mat-card-title>
+        </mat-card-header>
+    <mat-card-content>
+        <form>
+        
+          <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+    </div>
+{{isLoggedIn}}
+<div id="loginDiv" *ngIf="!isLoggedIn"class="login-container" [@fadeInOut]="fade" (@fadeInOut.done)="animationDone($event)">
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+<mat-card-content>
+       <mat-form-field>
+        <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="password" [(ngModel)]="password" placeholder="Password"  name="password" required>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="login()">Login</button>
+   
+  </mat-card-content>
+</mat-card>
+</div>
