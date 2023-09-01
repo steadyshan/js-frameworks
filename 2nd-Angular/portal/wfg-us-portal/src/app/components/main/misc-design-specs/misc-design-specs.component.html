@@ -1,0 +1,11 @@
+
+<header>
+    <h1>Your Website</h1>
+</header>
+<ul>
+    <li *ngFor="let toDoItem of toDoItemList"> 
+        <a [href]="'#' + toDoItem.id"> {{toDoItem.summary}}</a><br/>
+        {{toDoItem.detail}}
+        <button id="backToTopBtn">Back to Top</button>
+    </li>
+</ul>>
